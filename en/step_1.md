@@ -53,9 +53,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use `random`{:class="block3operators"} numbers to change costumes
-+ How to generate and delete `clones`{:class="block3control"} 
-+ How to use `random`{:class="block3operators"} numbers to alter the behaviour of `clones`{:class="block3control"}
++ How to control the `Pen`{:class="block3extensions"} extension using `variables`{:class="block3variables"} and `procedures`{:class="block3myblocks"}
++ How to design an interface for user interaction
++ How to turn real world data (numbers) into an animated data visualisation
 
 --- /collapse ---
 
