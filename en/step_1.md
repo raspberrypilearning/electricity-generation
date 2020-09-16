@@ -1,59 +1,71 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Use Scratch to input real data on the range of natural resources, and the amount used, to generate electricity. Then compare the results across countries using an animated data visualisation. 
+
+Electricity is important. After all, it powers computers. Electricity is generated from various natural resources which impact on the environment in different ways.
+
+Non-renewable energy refers to energy produced through finite resources such as fossil fuels (oil and coal). Fossil fuels can never be replaced and are burnt to generate electricity which produces unsustainable amounts of carbon dioxide into the earth's atmosphere. 
+
+Renewable energy (also referred to as clean energy) can be produced through alternative types of natural resources such as hydro (water), wind, geothermal (ground), bioenergy (organic material such as wood and crops) and solar (sun). 
+
+Many counties are trying to decrease the non-renewable energy that they use and increase the percentage of renewable energy. 
+
+This animated data visualisation engages with three of the United Nations Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html), [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html), 
+
 
 ### What you will make
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
+
+Click to the left and right of the shark to move it. Try to eat the fish and avoid the plastic pollution.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+<iframe src="https://scratch.mit.edu/projects/416171540/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+![Complete project](images/complete.png)
+
 --- /print-only ---
 
 --- collapse ---
+
 ---
 title: What you will need
 ---
-### Hardware
+#### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ A computer or tablet capable of running Scratch
 
-### Software
+#### Software
 
 + Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
 
 --- /collapse ---
 
 --- collapse ---
+
 ---
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ How to use `random`{:class="block3operators"} numbers to change costumes
++ How to generate and delete `clones`{:class="block3control"} 
++ How to use `random`{:class="block3operators"} numbers to alter the behaviour of `clones`{:class="block3control"}
 
 --- /collapse ---
 
 --- collapse ---
+
 ---
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+You can [find the completed project here](http://rpf.io/p/en/save-the-shark-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/save-the-shark/print){:target="_blank"}.
 
 --- /collapse ---
