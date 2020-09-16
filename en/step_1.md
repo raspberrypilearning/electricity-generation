@@ -10,7 +10,7 @@ Renewable energy (also referred to as clean energy) can be produced through alte
 
 Many counties are trying to decrease the non-renewable energy that they use and increase the percentage of renewable energy. 
 
-This animated data visualisation engages with three of the United Nations Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html), [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html), 
+This animated data visualisation engages with three of the United Nations Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
 
 
 ### What you will make
@@ -20,7 +20,7 @@ This animated data visualisation engages with three of the United Nations Sustai
 Click to the left and right of the shark to move it. Try to eat the fish and avoid the plastic pollution.
 
 <div class="scratch-preview">
-<iframe src="https://scratch.mit.edu/projects/416171540/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch.mit.edu/projects/426082053/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
 --- /no-print ---
