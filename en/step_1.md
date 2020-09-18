@@ -10,10 +10,10 @@ This animated data visualisation engages with three of the United Nations' Susta
 
 o make this project mobile-friendly, you’re going to use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of t
 
-Column 1 | Column 2 | Column 3
---- | --- | ---
-**Things** | _Don't_ | [Need](http://makeuseof.com)
-To | *__Look__* | `Pretty`
+**Resource Type | UK | Norway | Indonesia**
+--- | --- | ---  | ---
+
+**Non-renewables** | 100 | 100 | 100 
 
 ### What you will make
 
