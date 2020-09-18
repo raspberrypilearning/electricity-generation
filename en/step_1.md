@@ -10,7 +10,7 @@ This animated data visualisation engages with three of the United Nations' Susta
 
 o make this project mobile-friendly, you’re going to use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of t
 
-**Resource Type | UK | Norway | Indonesia**
+Resource Type | UK | Norway | Indonesia
 --- | --- | ---  | ---
 
 **Non-renewables** | 100 | 100 | 100 
