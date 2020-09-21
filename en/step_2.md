@@ -129,22 +129,17 @@ set [bioenergy v] to (10)
 ```
 
 The below also shows the same figures you need to input but this time in table form:
-Resource Type | UK 
---- | --- |
-**Non-renewables** | 64 
-**Wind** | 20 
-**Solar** | 0 
-**Hydro** | 2 
-**Geothermal** | 0 
-**Bioenergy** | 10 
 
---- /task ---
 Resource Type | UK |
 --- | --- |
-**Non-renewables** | 100 |
-**Hydro** | 100 |
-**Marine** | 100 |
-**Geothermal** | 100 |
+**Non-renewables** | 64 |
+**Wind** | 20 |
+**Solar** | 0 | 
+**Hydro** | 2 |
+**Geothermal** | 0 |
+**Bioenergy** | 10 |
+
+--- /task ---
 
 --- task ---
 
