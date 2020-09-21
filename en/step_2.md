@@ -111,10 +111,12 @@ Thegraphs look the same because the **UK** sprite is still showing the energy va
 
 --- task ---
 
---- /task ---
+
 
 Change the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
 
 Step content...
+
+--- /task ---
 
 --- save ---
