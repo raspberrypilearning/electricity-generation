@@ -44,7 +44,9 @@ Go to the**Code** tab of the **UK** sprite.
 
 --- /task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block which will have the values x: `-200` and y: `-140`. Change only the x value to `-20`
+--- task ---
+
+Search for the `go to x: y:`{:class="block3motion"} block at the very top of the script which will have the values x: `-200` and y: `-140`. Change only the x value to `-20`:
 
 ```blocks3
 go to x: (-20)y: (-140)
@@ -91,12 +93,13 @@ Click the green flag. You should be able to see the **UK** sprite title above th
 You need to change the text in the `say`{:class="block3looks"} block. 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"}`-20``y:`{:class="block3motion"} `70`,   add a `say`{:class="block3looks"} block and type in `UK`.
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"}`-20``y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
 
 ```blocks3
 go to x: (-20)y: (70)
 say (UK)
 ```
+--- /task ---
 
 --- task ---
 
