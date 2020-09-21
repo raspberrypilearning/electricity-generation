@@ -1,5 +1,7 @@
 ## Step title
 
+A data visualisation is information presented visually in order to understand data. It's easier to understand data presented in this way, especially when you need to understand how numbers relate to one another. In this project you will create an animated data visualisation. Rather than 
+
 Resource Type | UK | Norway | Indonesia
 --- | --- | --- | --- 
 **Non-renewables** | 100 | 100 | 100 
