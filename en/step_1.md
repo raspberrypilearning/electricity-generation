@@ -62,7 +62,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can [find the completed project here](http://rpf.io/p/en/electricity-generation){:target="_blank"}.
+You can [find the completed project here](http://rpf.io/electricity-generation){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/electricity-generation/print){:target="_blank"}.
 
