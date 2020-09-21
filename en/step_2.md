@@ -12,13 +12,29 @@ Add an introductory sentence. What will learners achieve by the end of this step
 
 --- /task ---
 
-You should see a plain background with "Electricity genegration % 2019" and a horizontal line.
+You should see a plain background titled "Electricity generation % 2019" and a horizontal line.
 
-![image of background](images/electricity-starter.png)
-
-First, you will make the tree change its size.
+![image of background](images/electricity-starter.png){:width="300px"}
 
 --- task ---
+
+Run the project by clicking the green flag. An animation of a graph is drawn by an invisible pen showing New Zealand's use of resources used to generate electricity. You can then investigate the graph using your mouse.
+
+New Zealand produce a lot of their electricity using hydro power with the result that there's a lot of blue in the graph drawn by the **New Zealand** sprite.
+
+--- /task ---
+
+You are now going to create a graph for another country. 
+
+--- task ---
+
+![image of background](images/electricity-copy-sprite.png){:width="300px"}
+
+To copy the code for the **New Zealand** sprite, click on it in the Sprite list pressing the option key. sprites in the  project **Green goals**.
+
+--- task ---
+
+Change the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
 
 Step content...
 
