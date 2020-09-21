@@ -1,5 +1,13 @@
 ## Step title
 
+Resource Type | UK | Norway | Indonesia
+--- | --- | --- | --- 
+**Non-renewables** | 100 | 100 | 100 
+**Hydro** | 100 | 100 | 100 
+**Marine** | 100 | 100 | 100 
+**Geothermal** | 100 | 100 | 100 
+
+
 Add an introductory sentence. What will learners achieve by the end of this step?
 
 --- task ---
