@@ -18,7 +18,7 @@ This animated data visualisation engages with three of the United Nations Sustai
 Click on the green flag to start the animation. Once it has finished drawing a series of colours, use your mouse or touch screen to explore what resources the colours represent. Then compare the use of renewable and non-renewable energy across the three countries.
 
 <div class="scratch-preview">
-<iframe src="https://scratch.mit.edu/projects/426082053/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch.mit.edu/projects/427656475/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
 --- /no-print ---
@@ -50,7 +50,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to organise your program with `procedures`{:class="block3myblocks"}
++ How to organise your program using `procedures`{:class="block3myblocks"}
 + How to draw with the `Pen`{:class="block3extensions"} extension block using `variables`{:class="block3variables"} and `procedures`{:class="block3myblocks"}
 + How to turn real world data (numbers) into an animated data visualisation
 
