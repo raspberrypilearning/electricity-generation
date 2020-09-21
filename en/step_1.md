@@ -10,13 +10,12 @@ To help the environment, many countries are trying to utilise their natural reso
 
 This animated data visualisation engages with three of the United Nations Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
 
-o make this project mobile-friendly, you’re going to use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of t
 
 ### What you will make
 
 --- no-print ---
 
-Click ont the green flag tos tart the animation. Once it has finished use the key to explore the the left and right of the shark to move it. Try to eat the fish and avoid the plastic pollution.
+Click on the green flag to start the animation. Once it has finished drawing a series of colours, use your mouse or touch screen to explore what resources the colours represent. Then compare the use of renewable and non-renewable energy across the three countries.
 
 <div class="scratch-preview">
 <iframe src="https://scratch.mit.edu/projects/426082053/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -51,8 +50,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to draw with the `Pen`{:class="block3extensions"} extension using `variables`{:class="block3variables"} and `procedures`{:class="block3myblocks"}
-+ How to design an interface for user interaction
++ How to organise your program with `procedures`{:class="block3myblocks"}
++ How to draw with the `Pen`{:class="block3extensions"} extension block using `variables`{:class="block3variables"} and `procedures`{:class="block3myblocks"}
 + How to turn real world data (numbers) into an animated data visualisation
 
 --- /collapse ---
@@ -63,8 +62,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can [find the completed project here](http://rpf.io/p/en/energy-generation){:target="_blank"}.
+You can [find the completed project here](http://rpf.io/p/en/electricity-generation){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/energy-generation/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/electricity-generation/print){:target="_blank"}.
 
 --- /collapse ---
