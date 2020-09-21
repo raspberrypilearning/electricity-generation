@@ -117,14 +117,16 @@ Go to the **Code** tab of the **UK** sprite.
 
 --- task ---
 
-You will find a series of `set`{:class="block3variables"} blocks. The value in each block represents the percentage (%) contribution of that resources to the overall total. The currect data is from New Zealand. You need to replace the current figures usingthe table below:
+You will find a series of `set`{:class="block3variables"} blocks which give the value to the variables. The value in each block represents the percentage (%) contribution of the listed resource to the overall total of 100. The current data is still from the **New Zealand** sprite. You need to replace the figures that are in the **UK** sprite program with the following figures in the table below:
 
-set [nonrenewable v] to ()
-set [wind v] to ()
-set [solar v] to ()
-set [hydro v] to ()
-set [geothermal v] to ()
-set [bioenergy v] to ()
+```blocks3
+set [nonrenewable v] to +(64)
+set [wind v] to (20)
+set [solar v] to (0)
+set [hydro v] to (2)
+set [geothermal v] to (0)
+set [bioenergy v] to (10)
+```
 
 Resource Type | UK |
 --- | --- | --- | --- 
