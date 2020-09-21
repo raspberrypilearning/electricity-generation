@@ -139,6 +139,12 @@ Resource Type | UK
 **Bioenergy** | 10 
 
 --- /task ---
+Resource Type | UK |
+--- | --- |
+**Non-renewables** | 100 |
+**Hydro** | 100 |
+**Marine** | 100 |
+**Geothermal** | 100 |
 
 --- task ---
 
