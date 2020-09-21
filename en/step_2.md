@@ -117,7 +117,7 @@ Go to the **Code** tab of the **UK** sprite.
 
 --- task ---
 
-You will find a series of `set`{:class="block3variables"} blocks which give the value to the variables. The value in each block represents the percentage (%) contribution of the listed resource to the overall total of 100. The current data is still from the **New Zealand** sprite. You need to replace the figures that are in the **UK** sprite program with the following figures in the table below:
+You will find a series of `set`{:class="block3variables"} blocks which give a value to each variable. The value in each block represents the percentage (%) contribution of the listed resource to the overall total of 100. The current data is still from the **New Zealand** sprite. You need to replace the figures that are in the **UK** sprite program with the following figures. See the blocks below:
 
 ```blocks3
 set [nonrenewable v] to +(64)
@@ -128,6 +128,7 @@ set [geothermal v] to (0)
 set [bioenergy v] to (10)
 ```
 
+The table below also shows the figures you need to change the resources to:
 Resource Type | UK |
 --- | --- | --- | --- 
 **Non-renewables** | 64 | 
@@ -137,9 +138,12 @@ Resource Type | UK |
 **Geothermal** | 0 |
 **Bioenergy** | 10 |
 
-
 --- /task ---
 
-the top of the the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
+--- task ---
+
+Run the program to compare what resourse the UK use to generate energy. You will notice the county UK uses less hydro and more bioenergy to generate electricity than the county New Zealand. The grey shows you how much non-renewable energy they use. How do the countries compare on the use of this resource?
+
+--- /task ---
 
 --- save ---
