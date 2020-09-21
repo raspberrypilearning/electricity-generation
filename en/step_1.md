@@ -1,10 +1,12 @@
 ## Introduction
 
-Use Scratch to input real data on the range of natural resources, and the amount used, to generate electricity. Then compare the results across countries using an animated data visualisation. 
+Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then compare the results using an animated data visualisation. 
 
-Electricity is important. After all, it powers computers. Electricity is generated from various natural resources which impact on the environment in different ways. Renewable energy (also referred to as clean energy) can be produced through natural resources such as hydro (water), wind, geothermal (ground), bioenergy (organic material such as wood and crops) and solar (sun). Many counties are trying to increase the amount of renewable energy that they generate.
+Electricity is important. After all, it powers the computer you are using! Electricity is generated from various natural resources which impact on the environment in different ways. Renewable energy (also referred to as clean energy) is produced from natural resources such as hydro and tide (water), wind, geothermal (ground), bioenergy (organic material such as wood and crops) and solar (sun).
 
-Non-renewable energy refers to energy produced through finite resources such as fossil fuels (oil and coal). Fossil fuels can never be replaced and are burnt to generate electricity which produces unsustainable amounts of carbon dioxide into the earth's atmosphere. 
+Non-renewable energy is produced using finite resources such as fossil fuels (coal,  gas and oil). Fossil fuels are finite i.e. they can never be replaced and they are burnt to generate electricity which produces unsustainable amounts of carbon dioxide into the earth's atmosphere. Nuclear energy, even though it's clean, uses the finite resource uranium and is therefore also non-renewable. 
+
+To help the environment, many counties are trying to increase the amount of renewable energy that they generate.
 
 This animated data visualisation engages with three of the United Nations' Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
 
