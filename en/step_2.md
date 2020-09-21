@@ -6,15 +6,17 @@ Add an introductory sentence. What will learners achieve by the end of this step
 
 --- task ---
 
-If working **online**, open the [starter project](http://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
+**Online:** open the [starter project](http://rpf.io/electricity-generation-on){:target="_blank"} in Scratch.
  
-If working **offline**, open the project [starter file](http://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
-
-You should see...
- 
-![starter project](images/starter_project.png)
+**Offline:** open the [project starter file](http://rpf.io/p/en/serene-scene-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
+
+You should see a plain background with "Electricity genegration % 2019" and a horizontal line.
+
+![image of background](images/electricity-starter.png)
+
+First, you will make the tree change its size.
 
 --- task ---
 
