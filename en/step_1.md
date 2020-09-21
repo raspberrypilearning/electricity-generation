@@ -8,22 +8,15 @@ Non-renewable energy is produced using finite resources such as fossil fuels (co
 
 To help the environment, many countries are trying to utilise their natural resources to increase the amount of renewable energy used to generate electricity.
 
-This animated data visualisation engages with three of the United Nations' Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
+This animated data visualisation engages with three of the United Nations Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
 
 o make this project mobile-friendly, you’re going to use the location of the cursor when the left mouse button is pressed, or when a finger touches the screen, to control the movement of t
-
-Resource Type | UK | Norway | Indonesia
---- | --- | --- | --- 
-**Non-renewables** | 100 | 100 | 100 
-**Hydro** | 100 | 100 | 100 
-**Marine** | 100 | 100 | 100 
-**Geothermal** | 100 | 100 | 100 
 
 ### What you will make
 
 --- no-print ---
 
-Click ont he green flag tos tart the animation. Once it has finished use the key to explore the the left and right of the shark to move it. Try to eat the fish and avoid the plastic pollution.
+Click ont the green flag tos tart the animation. Once it has finished use the key to explore the the left and right of the shark to move it. Try to eat the fish and avoid the plastic pollution.
 
 <div class="scratch-preview">
 <iframe src="https://scratch.mit.edu/projects/426082053/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
