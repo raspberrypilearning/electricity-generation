@@ -4,9 +4,9 @@ Use Scratch to input real data on the type and amount of natural resources used 
 
 Electricity is important. After all, it powers the computer you are using! Electricity is generated from various natural resources which impact on the environment in different ways. Renewable energy (also referred to as clean energy) is produced from natural resources such as hydro and tide (water), wind, geothermal (ground), bioenergy (organic material such as wood and crops) and solar (sun).
 
-Non-renewable energy is produced using finite resources such as fossil fuels (coal,  gas and oil). Fossil fuels are finite i.e. they can never be replaced and they are burnt to generate electricity which produces unsustainable amounts of carbon dioxide into the earth's atmosphere. Nuclear energy, even though it's clean, uses the finite resource uranium and is therefore also non-renewable. 
+Non-renewable energy is produced using finite resources such as fossil fuels (coal, gas and oil). Fossil fuels are finite i.e. they can never be replaced and they are burnt to generate electricity which produces unsustainable amounts of carbon dioxide into the earth's atmosphere. Nuclear energy, even though it's clean, uses the finite resource uranium and is therefore also non-renewable. 
 
-To help the environment, many counties are trying to increase the amount of renewable energy that they generate.
+To help the environment, many countries are trying to utilise their natural resources to increase the amount of renewable energy used to generate electricity.
 
 This animated data visualisation engages with three of the United Nations' Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, [Responsible consumption and production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
 
