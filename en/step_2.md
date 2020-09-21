@@ -1,4 +1,4 @@
-## Making graphs
+## Making a graph about the UK
 
 For this project you will be making an animated and interactive data visualisation. It's often easier to understand data, especially lots of numbers, when they are represented visually. That why pie charts and graphs can be so informative. They also help you compare bits of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project is both!
 
@@ -111,10 +111,33 @@ The graphs look the same because the **UK** sprite is still showing the energy v
 
 --- task ---
 
-Change the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
-
-Step content...
+Go to the **Code** tab of the **UK** sprite. 
 
 --- /task ---
+
+--- task ---
+
+You will find a series of `set`{:class="block3variables"} blocks. The value in each block represents the percentage (%) contribution of that resources to the overall total. The currect data is from New Zealand. You need to replace the current figures usingthe table below:
+
+set [nonrenewable v] to ()
+set [wind v] to ()
+set [solar v] to ()
+set [hydro v] to ()
+set [geothermal v] to ()
+set [bioenergy v] to ()
+
+Resource Type | UK |
+--- | --- | --- | --- 
+**Non-renewables** | 64 | 
+**Wind** | 20 |
+**Solar** | 0 |
+**Hydro** | 2 |
+**Geothermal** | 0 |
+**Bioenergy** | 10 |
+
+
+--- /task ---
+
+the top of the the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
 
 --- save ---
