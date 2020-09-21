@@ -130,6 +130,7 @@ Resource Type | UK |
 **Geothermal** | 0 |
 **Bioenergy** | 10 |
 
+
 The `set`{:class="block3variables"} blocks in your program should now look like the below:
 
 ```blocks3
