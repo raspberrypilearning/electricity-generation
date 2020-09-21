@@ -32,6 +32,8 @@ To copy the code for the **New Zealand** sprite, click on the **New Zealand** sp
 
 ![image of background](images/electricity-copy-sprite.png){:width="300px"}
 
+--- /task ---
+
 --- task ---
 
 Change the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
