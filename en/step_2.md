@@ -69,7 +69,7 @@ You won't know it's a graph about the UK because the title is still hidden behin
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"}`-200``y:`{:class="block3motion"} `70` and change only the x value to `-20`:
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200``y:`{:class="block3motion"} `70` and change only the x value to `-20`:
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -93,7 +93,7 @@ You need to change the text in the `say`{:class="block3looks"} block.
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"}`-20``y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"} `-20``y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -117,7 +117,7 @@ Go to the **Code** tab of the **UK** sprite.
 
 --- task ---
 
-You will find a series of `set`{:class="block3variables"} blocks which give a value to each variable. The value in each block represents the percentage (%) contribution of the listed resource to the overall total of 100. The current data is still from the **New Zealand** sprite. You need to replace the figures that are in the **UK** sprite program with the following figures. See the blocks below:
+You will find a series of `set`{:class="block3variables"} blocks which give a value to each variable. The value in each block represents the percentage (%) contribution of the listed resource to the overall total of 100. The current data is still from the **New Zealand** sprite. You need to replace the figures that are in the **UK** sprite program with the following figures in the blocks below:
 
 ```blocks3
 set [nonrenewable v] to +(64)
@@ -128,7 +128,7 @@ set [geothermal v] to (0)
 set [bioenergy v] to (10)
 ```
 
-The table below also shows the figures you need to change the resources to:
+The below also shows the same figures you need to input but this time in table form:
 Resource Type | UK |
 --- | --- | --- | --- 
 **Non-renewables** | 64 | 
