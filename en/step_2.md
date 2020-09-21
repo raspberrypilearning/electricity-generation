@@ -69,7 +69,7 @@ You won't know it's a graph about the UK because the title is still hidden behin
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200``y:`{:class="block3motion"} `70` and change only the x value to `-20`:
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` and change only the x value to `-20`:
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -93,7 +93,7 @@ You need to change the text in the `say`{:class="block3looks"} block.
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"} `-20``y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
 
 ```blocks3
 go to x: (-20)y: (70)
