@@ -1,14 +1,6 @@
 ## Step title
 
-You will be making an interactive data visualisation project. Data visualisation is information presented visually (rather than in numbers) in order to understand data. It's easier to understand data presented in this way, especially when you need to understand how numbers relate to one another. In this project you will create an animated data visualisation. Rather than 
-
-Resource Type | UK | Norway | Indonesia
---- | --- | --- | --- 
-**Non-renewables** | 100 | 100 | 100 
-**Hydro** | 100 | 100 | 100 
-**Marine** | 100 | 100 | 100 
-**Geothermal** | 100 | 100 | 100 
-
+For this project you will be making an animated and interactive data visualisation. It's often easier to understand data, such as numbers, visually. That why graphs and pie charts can be so informative. They help you understand how the peices of information relate to one another. With computers, you can create exciting data  data visualisations which are animated or interactive. This project is both!
 
 Add an introductory sentence. What will learners achieve by the end of this step?
 
