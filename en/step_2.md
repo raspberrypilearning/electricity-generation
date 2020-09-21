@@ -14,11 +14,13 @@ You'll create an animated and interactive data vsualistation, comparing electric
 
 You should see a plain background titled "Electricity generation % 2019" and a horizontal line.
 
-![image of background](images/electricity-starter.png){:width="300px"}
+![image of background](images/electricity-starter.png){:width="400px"}
 
 --- task ---
 
 Run the project by clicking the green flag. An animation of a graph is drawn by an invisible pen showing New Zealand's use of resources used to generate electricity. You can then investigate the graph using your mouse.
+
+![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
 New Zealand produce a lot of their electricity using hydro power with the result that there's a lot of blue in the graph drawn by the **New Zealand** sprite.
 
