@@ -22,26 +22,96 @@ Run the project by clicking the green flag. An animation of a graph is drawn by 
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
-New Zealand produce a lot of their electricity using hydro power with the result that there's a lot of blue in the graph drawn by the **New Zealand** sprite.
+New Zealand produces a lot of their electricity using hydro power with the result that there's a lot of blue in the graph drawn by the **New Zealand** sprite.
 
 --- /task ---
 
-You are now going to create a graph for another country. 
+You are now going to create a graph for another country, starting with copying the **New Zealand** sprite.  
 
 --- task ---
 
-To copy the code for the **New Zealand** sprite, click on the **New Zealand** sprite whilst pressing the option key. sprites in the  project **Green goals**.
+Click on the **New Zealand** sprite whilst pressing the option key. Rename the new **New Zealand2** sprite to **UK**.
 
 ![image of background](images/electricity-copy-sprite.png){:width="300px"}
 
 --- /task ---
 
+If you run the project the **UK** sprite code will seem as it is not running even though it is. This is because it is running on top of the **New Zealand2** sprite. If you move the position of the **UK** sprite you will be able to see it working.
+
 --- task ---
+
+Go to the**Code** tab of the **UK** sprite.
+
+--- /task ---
+
+Search for the `go to x: y:`{:class="block3motion"} block which will have the values x: `-200` and y: `-140`. Change only the x value to `-20`
+
+```blocks3
+go to x: (-20)y: (-140)
+```
+
+--- /task ---
+
+--- task ---
+
+Save your project.
+
+--- /task ---
+
+--- task ---
+
+Click the green flag. You should be able to see the **UK** sprite graph now on the right-hand side.
+
+--- /task ---
+
+You won't know it's a graph about the UK because the title is still hidden behind the **New Zealand** sprite. You now need to move the title so you can see it.
+
+--- task ---
+
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"}`-200``y:`{:class="block3motion"} `70` and change only the x value to `-20`:
+
+```blocks3
+go to x: (-20)y: (70)
+```
+
+--- /task ---
+
+--- task ---
+
+Save your project.
+
+--- /task ---
+
+--- task ---
+
+Click the green flag. You should be able to see the **UK** sprite title above the second graph. On no! It says "New Zealand".
+
+--- /task ---
+
+You need to change the text in the `say`{:class="block3looks"} block. 
+--- task ---
+
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"}`-20``y:`{:class="block3motion"} `70`,   add a `say`{:class="block3looks"} block and type in `UK`.
+
+```blocks3
+go to x: (-20)y: (70)
+say (UK)
+```
+
+--- task ---
+
+Click the green flag. You should be able to see the **UK** sprite title now above the second graph. Did you save your program?
+
+--- /task ---
+
+Thegraphs look the same because the **UK** sprite is still showing the energy values for the **New Zealand** sprite.
+
+--- task ---
+
+--- /task ---
 
 Change the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
 
 Step content...
-
---- /task ---
 
 --- save ---
