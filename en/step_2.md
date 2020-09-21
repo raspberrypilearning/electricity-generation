@@ -51,7 +51,6 @@ Search for the `go to x: y:`{:class="block3motion"} block at the very top of the
 ```blocks3
 go to x: (-20)y: (-140)
 ```
-
 --- /task ---
 
 --- task ---
@@ -90,7 +89,8 @@ Click the green flag. You should be able to see the **UK** sprite title above th
 
 --- /task ---
 
-You need to change the text in the `say`{:class="block3looks"} block. 
+You need to change the text in the `say`{:class="block3looks"} block.
+
 --- task ---
 
 Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"}`-20``y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
@@ -110,8 +110,6 @@ Click the green flag. You should be able to see the **UK** sprite title now abov
 The graphs look the same because the **UK** sprite is still showing the energy values for the **New Zealand** sprite.
 
 --- task ---
-
-
 
 Change the value for hydro from 57 to 10. You will notice the amount of blue has reduced. It's these values whicha ffect the visuals in the graph.
 
