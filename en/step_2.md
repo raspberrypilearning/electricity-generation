@@ -130,7 +130,7 @@ set [bioenergy v] to (10)
 
 The below also shows the same figures you need to input but this time in table form:
 Resource Type | UK 
---- | --- 
+--- | --- |
 **Non-renewables** | 64 
 **Wind** | 20 
 **Solar** | 0 
