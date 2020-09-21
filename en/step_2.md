@@ -30,13 +30,13 @@ You are now going to create a graph for another country, starting with copying t
 
 --- task ---
 
-Click on the **New Zealand** sprite whilst pressing the option key. Rename the new **New Zealand2** sprite to **UK**.
+Click on the **New Zealand** sprite and right-click to select **duplicate**. Rename the new sprite **UK**. 
 
 ![image of background](images/electricity-copy-sprite.png){:width="300px"}
 
 --- /task ---
 
-If you run the project the **UK** sprite code will seem as it is not running even though it is. This is because it is running on top of the **New Zealand2** sprite. If you move the position of the **UK** sprite you will be able to see it working.
+If you run the project the **UK** sprite code will appear to not run even though it is. This is because it is appearing on top of the **New Zealand** sprite in the Stage. You need to you move the position of where the **UK** sprite's graph is drawn on the Stage to be able to see it working.
 
 --- task ---
 
@@ -46,7 +46,7 @@ Go to the**Code** tab of the **UK** sprite.
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the very top of the script which will have the values x: `-200` and y: `-140`. Change only the x value to `-20`:
+Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It will have the values x: `-200` and y: `-140`. **Change only** the x value to `-20`:
 
 ```blocks3
 go to x: (-20)y: (-140)
@@ -65,11 +65,11 @@ Click the green flag. You should be able to see the **UK** sprite graph now on t
 
 --- /task ---
 
-You won't know it's a graph about the UK because the title is still hidden behind the **New Zealand** sprite. You now need to move the title so you can see it.
+However noone won't know it's a graph about the UK because the title is still hidden behind the **New Zealand** sprite. You now need to move the position of where the title appears on the stage so you can see it.
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` and change only the x value to `-20`:
+Go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70`. **Change only** the x value to `-20`:
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -85,15 +85,15 @@ Save your project.
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title above the second graph. On no! It says "New Zealand".
+Click the green flag. You should be able to see the **UK** sprite title above the second graph. On no! It also says "New Zealand".
 
 --- /task ---
 
-You need to change the text in the `say`{:class="block3looks"} block.
+You now need to change the text in the `say`{:class="block3looks"} block.
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite. At the very end of the long script, below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
+Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -103,23 +103,15 @@ say (UK)
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title now above the second graph. Did you save your program?
+Click the green flag. You should be able to see the **UK** sprite title now above the second graph. Have you saved your program?
 
 --- /task ---
 
-The graphs look the same because the **UK** sprite is still showing the energy values for the **New Zealand** sprite.
+The graphs look identical because the **UK** sprite graph is still showing the energy values for the **New Zealand** sprite.
 
---- task ---
+In the **Code** tab of the **UK** sprite, you will find a series of blocks which `set`{:class="block3variables"} a value for each resource variable. The value in each block represents the percentage (%) contribution of the listed resource to the overall total (100%). The `set`{:class="block3variables"} blocks currently show the data for **New Zealand**. 
 
-Go to the **Code** tab of the **UK** sprite. 
-
---- /task ---
-
---- task ---
-
-You will find a series of `set`{:class="block3variables"} blocks which give a value to each variable. The value in each block represents the percentage (%) contribution of the listed resource to the overall total of 100. The current data is still from the **New Zealand** sprite. 
-
-In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table:
+In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table. 
 
 Resource Type | UK |
 --- | --- |
@@ -130,8 +122,18 @@ Resource Type | UK |
 **Geothermal** | 0 |
 **Bioenergy** | 10 |
 
+--- task ---
 
-The `set`{:class="block3variables"} blocks in your program should now look like the below:
+In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64% of the resources used to generate electricity in the UK.
+
+```blocks3
+set [nonrenewable v] to (64)
+```
+--- /task ---
+
+--- task ---
+
+Now complete the value for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -141,6 +143,11 @@ set [hydro v] to (2)
 set [geothermal v] to (0)
 set [bioenergy v] to (10)
 ```
+--- /task ---
+
+--- task ---
+
+Check you have inputted the values correctly and, as a cross-check, add them up. Tnhey should total 100!.
 
 --- /task ---
 
