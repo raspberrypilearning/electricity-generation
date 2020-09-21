@@ -107,7 +107,7 @@ Click the green flag. You should be able to see the **UK** sprite title now abov
 
 --- /task ---
 
-Thegraphs look the same because the **UK** sprite is still showing the energy values for the **New Zealand** sprite.
+The graphs look the same because the **UK** sprite is still showing the energy values for the **New Zealand** sprite.
 
 --- task ---
 
