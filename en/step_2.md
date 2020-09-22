@@ -131,7 +131,6 @@ The graphs look the same because the **UK** sprite graph is still showing the en
 
 ![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
 
-
 --- task ---
 
 In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). 
