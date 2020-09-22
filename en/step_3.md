@@ -1,6 +1,6 @@
 ## Making a third graph
 
-In the next few steps you are going to create your own graph. Creating variables, using the colour picker and creating a `procedure`{:class="block3myblocks"} to organise your program.
+In the this step you are going to start to create your own graph. 
 
 --- task ---
 
