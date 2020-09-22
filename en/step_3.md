@@ -36,8 +36,8 @@ Brightness = 85
 
 Now select the **Rectangle** tool and draw a very small square at the centre. Notice from the screen shot how small your rectangle needs to be. The grey square needs to be as small as the cross in the centre of the **Paint** editor. You may need to use the magnifying tool to change the scale so you can see the whole of the editor.
 
-![Image showing rectangle took](images/electricity-paint-editor-rectangle-tool.png){:width="250px"}
-![Image showing grey rectangle](images/electricity-paint-editor-grey-rectangle.png){:width="400px"}
+![Image showing rectangle took](images/electricity-paint-editor-rectangle-tool.png){:width="200px"}
+![Image showing grey rectangle](images/electricity-painteditor-grey-rectangle.png){:width="400px"}
 
 --- /task ---
 
