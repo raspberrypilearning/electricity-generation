@@ -45,4 +45,15 @@ Now that your new sprite is a grey square let's give it a name. Below is a table
 
 --- task ---
 
-Investigate the table below, decide on which country you will create a graph for, and rename **Sprite1** with the name of the country you have chosen.
+Investigate the table below, decide on which country you will now create a graph for, and rename **Sprite1** with the name of the country you have chosen.
+
+Resource Type | UK | Norway | Indonesia
+--- | --- | --- | --- 
+**Non-renewables** | 100 | 100 | 100 
+**Hydro** | 100 | 100 | 100 
+**Marine** | 100 | 100 | 100 
+**Geothermal** | 100 | 100 | 100 
+
+![Image showing rename Sprite1](images/electricity-rename-Sprite1.png){:width="300px"}
+
+--- /task ---
