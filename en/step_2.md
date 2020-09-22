@@ -121,7 +121,7 @@ Click the green flag. You should be able to see the **UK** sprite title now abov
 
 --- task ---
 
-So that the title "UK" is in the centre of the speech bubble, you can add three spaces and then type 'UK'.
+So that the title "UK" is in the centre of the speech bubble, you can type three spaces on your keyboard and then type 'UK'.
 
 ![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
 
@@ -173,7 +173,7 @@ set [bioenergy v] to (10)
 
 --- task ---
 
-Check you have inputted the values correctly? As a cross-check, add them up  - 64 +  20 + 4 + 2 + 0 + 10 = 100. The total has to be 100. Remember, the value in each block represents the percentage (%) contribution of the resource to the overall total (100%). 
+Check you have inputted the values correctly? Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total which is 100%. 
 
 --- /task ---
 
