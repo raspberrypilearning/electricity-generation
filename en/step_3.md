@@ -41,7 +41,7 @@ Now select the **Rectangle** tool and draw a very small square at the centre.
 
 --- /task ---
 
-Now that your new sprite is a grey square let's give it a name. Below is a table listing a number of countries and the percentage contribution of resources they  use to generate electricity. Choose a country to create a graph for. You could choose any country: one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or what about a country which has uses a lot of one resource?
+Now that your new sprite is a grey square let's give it a name. Below is a table listing a number of countries and the percentage contribution of resources they  use to generate electricity. Choose a country to create a graph for. You could choose any country: one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or what about a country which uses a large amount of one of the resource?
 
 --- task ---
 
