@@ -75,3 +75,5 @@ Add the following blocks: `when green flag clicked`{:class="block3events"}, `go 
 when green flag clicked
 go to x: (150 )y: (-140)
 say  () ::looks
+
+--- /task ---
