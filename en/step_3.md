@@ -70,11 +70,11 @@ When the program is run we want the **3rd Country** spriteto go to a position on
 
 Go to the **Code** editor for the **3rd Country** sprite.
 
-Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `150`{:class="block3motion"} `y:`{:class="block3motion"} `-140` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen.
+Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `150`{:class="block3motion"} `y:`{:class="block3motion"} `70` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen.
 
 ```blocks3
 when green flag clicked
-go to x: (150 )y: (-140)
+go to x: (150 )y: (70)
 say  () ::looks
 ```
 
@@ -82,4 +82,6 @@ say  () ::looks
 
 --- task ---
 
-Run your program. The sprite should be invisible and it should say its title in the top right-hand side of the Stage.
+Run your program. The sprite should be invisible and it should say its title in the top right-hand side of the Stage. The example says "3rd Country".
+
+--- /task ---
