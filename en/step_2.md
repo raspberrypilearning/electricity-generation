@@ -137,6 +137,15 @@ In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:c
 
 Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**. 
 
+```blocks3
+set [nonrenewable v] to (18)
+set [wind v] to (5)
+set [solar v] to (0)
+set [hydro v] to (57)
+set [geothermal v] to (19)
+set [bioenergy v] to (1)
+```
+
 --- /task ---
 
 In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table. 
@@ -181,11 +190,11 @@ Check you have inputted the values correctly? Add the values up to double-check:
 
 --- task ---
 
-Run the program to compare what resourse the UK use to generate energy. You will notice the county UK uses less hydro and more bioenergy to generate electricity than the county New Zealand. 
+Run the program to compare what resourse the UK use to generate energy. You will notice the UK uses less hydro and more bioenergy to generate electricity than New Zealand. 
 
 ![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
 
-The grey shows you how much non-renewable energy each country use. How do the countries compare on their use of non-renewable resources?
+The grey shows you how much non-renewable energy each country uses to generate electricity. How do the countries compare on their use of non-renewable resources?
 
 --- /task ---
 
