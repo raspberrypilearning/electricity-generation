@@ -1,1 +1,1 @@
-
+## Making the resource variables
