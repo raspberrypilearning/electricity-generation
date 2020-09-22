@@ -167,7 +167,7 @@ Check you have inputted the values correctly? As a cross-check, add them up. The
 
 Run the program to compare what resourse the UK use to generate energy. You will notice the county UK uses less hydro and more bioenergy to generate electricity than the county New Zealand. 
 
-![image of background](images/electricity-compare-two-graphs.png){:width="300px"}
+![image of background](images/electricity-compare-two-graphs.png){:width="400px"}
 
 The grey shows you how much non-renewable energy each country use. How do the countries compare on the use of non-renewable resource?
 
