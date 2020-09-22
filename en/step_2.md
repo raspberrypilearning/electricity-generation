@@ -95,6 +95,8 @@ Save your project.
 
 Click the green flag. You should be able to see the **UK** sprite title above the right-hand graph. On no! It still says "New Zealand".
 
+![image of two graphs with the same name](images/electricity-two-graphs-same-name.png){:width="400px"}
+
 --- /task ---
 
 You now need to change the text in the `say`{:class="block3looks"} block so that it says "UK".
@@ -169,7 +171,7 @@ Check you have inputted the values correctly? As a cross-check, add them up  - 6
 
 Run the program to compare what resourse the UK use to generate energy. You will notice the county UK uses less hydro and more bioenergy to generate electricity than the county New Zealand. 
 
-![image of background](images/electricity-compare-two-graphs.png){:width="400px"}
+![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
 
 The grey shows you how much non-renewable energy each country use. How do the countries compare on their use of non-renewable resources?
 
