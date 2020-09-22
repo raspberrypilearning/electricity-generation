@@ -39,6 +39,10 @@ Now select the **Rectangle** tool and draw a small square.
 ![Image showing rectanble took](images/electricity-paint-editor-rectangle-tool.png){:width="250px"}
 ![Image showing grey rectanble](images/electricity-paint-editor-grey-rectangle.png){:width="400px"}
 
-
 --- /task ---
 
+Now that your new sprite is a grey square let's give it a name. Below is a table listing a number of countries and the percentage contribution of resources they  use to generate electricity. Choose a country to create a graph for. You could choose any country: one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or what about a country which has uses a lot of one resource?
+
+--- task ---
+
+Investigate the table below, decide on which country you will create a graph for, and rename **Sprite1** with the name of the country you have chosen.
