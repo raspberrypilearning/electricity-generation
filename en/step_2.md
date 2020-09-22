@@ -127,7 +127,10 @@ So that the title "UK" is in the centre of the speech bubble, you can type three
 
 --- /task ---
 
-The graphs look identical because the **UK** sprite graph is still showing the energy values for the **New Zealand** sprite.
+The graphs look the same because the **UK** sprite graph is still showing the energy values for the **New Zealand** sprite.
+
+![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
+
 
 --- task ---
 
