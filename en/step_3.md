@@ -72,8 +72,14 @@ Go to the **Code** editor for the **3rd Country** sprite.
 
 Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `150`{:class="block3motion"} `y:`{:class="block3motion"} `-140` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen.
 
+```blocks3
 when green flag clicked
 go to x: (150 )y: (-140)
 say  () ::looks
+```
 
 --- /task ---
+
+--- task ---
+
+Run your program. The sprite should be invisible and it should say its title in the top right-hand side of the Stage.
