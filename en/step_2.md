@@ -133,9 +133,7 @@ The graphs look the same because the **UK** sprite graph is still showing the en
 
 --- task ---
 
-In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). 
-
-Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**. 
+In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**. 
 
 ```blocks3
 set [nonrenewable v] to (18)
@@ -145,7 +143,6 @@ set [hydro v] to (57)
 set [geothermal v] to (19)
 set [bioenergy v] to (1)
 ```
-
 --- /task ---
 
 In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table. 
