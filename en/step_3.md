@@ -6,11 +6,32 @@ In the next few steps you are going to create your own graph. Creating variables
 
 Go to **Choose a Sprite** and select the **Paint** editor.
 
-![Image showing sprite paint tool](images/electricity-paint-editor.gif)
+![Image showing sprite paint tool](images/electricity-paint-editor.png)
 
 --- /task ---
 
-You may have noticed how the sprites seem invisible. The sprites use the `say`{:class="block3lookss"} block as a title but you cannot see the sprite itself. This is because the sprites are the same colour grey as the backdrop.
+You may have noticed how the sprites seem invisible. The sprites use the `say`{:class="block3lookss"} block as a title but you cannot see the sprite itself. This is because the sprites are the same colour grey as the backdrop. You now need to create a sprite which is a grey square.
 
 --- task ---
-Create a sprite which is a grey square.
+
+Go to the **Outline** tool and click the square with a red line through it to turn the **Outline** tool off.
+
+![Image showing outline off](images/electricity-paint-editor-outline-off.png)
+
+--- /task ---
+
+--- task ---
+
+Now add the following values in the **Fill** tool.
+
+Color = 0
+Saturation = 0
+Brightness = 85
+
+![Image showing grey square values](images/electricity-paint-editor-grey-square.png)
+
+--- /task ---
+
+Now select the **Rectangle** tool and draw a small square.
+
+![Image showing rectable took](images/electricity-paint-editor-rectangle-tool.png)
