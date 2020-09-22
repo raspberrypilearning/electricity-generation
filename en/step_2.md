@@ -123,7 +123,7 @@ Click the green flag. You should be able to see the **UK** sprite title now abov
 
 So that the title "UK" is in the centre of the speech bubble, you can add three spaces and then type 'UK'.
 
-![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="400px"}
+![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
 
 --- /task ---
 
