@@ -107,13 +107,15 @@ Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `7
 
 ```blocks3
 go to x: (-20)y: (70)
-say (UK)
+say ()
 ```
 --- /task ---
 
 --- task ---
 
 Click the green flag. You should be able to see the **UK** sprite title now above the right-hand graph. Have you saved your program?
+
+![image of two graphs with different titles](images/electricity-two-graphs-different-titles.png){:width="400px"}
 
 --- /task ---
 
