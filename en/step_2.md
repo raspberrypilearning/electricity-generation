@@ -69,6 +69,8 @@ Save your project.
 
 Click the green flag. You should be able to see the **UK** sprite graph now on the right-hand side of the **New Zealand** sprite graph.
 
+![image of background](images/electricity-second-graph-no-title.png){:width="400px"}
+
 --- /task ---
 
 Noone will know it's a graph about the UK though because the title is still hidden behind the **New Zealand** sprite. You now need to move the position of where the title appears on the stage so you can see it.
@@ -159,7 +161,7 @@ set [bioenergy v] to (10)
 
 --- task ---
 
-Check you have inputted the values correctly? As a cross-check, add them up. They should total 100!.
+Check you have inputted the values correctly? As a cross-check, add them up  - 64 +  20 + 4 + 2 + 0 + 10 = 100. The total has to be 100. Remember, the value in each block represents the percentage (%) contribution of the resource to the overall total (100%). 
 
 --- /task ---
 
@@ -169,7 +171,7 @@ Run the program to compare what resourse the UK use to generate energy. You will
 
 ![image of background](images/electricity-compare-two-graphs.png){:width="400px"}
 
-The grey shows you how much non-renewable energy each country use. How do the countries compare on the use of non-renewable resource?
+The grey shows you how much non-renewable energy each country use. How do the countries compare on their use of non-renewable resources?
 
 --- /task ---
 
