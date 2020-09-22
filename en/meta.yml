@@ -7,7 +7,7 @@ copyedit: false
 last_tested: "2020-09-16"
 steps:
   - title: Introduction
-  - title: Making a second graph
+  - title: Duplicate a second graph
   - title: Making a third graph
   - title: Making a pen
   - title: Making the resources variables
