@@ -84,4 +84,8 @@ say  () ::looks
 
 Run your program. The sprite should be invisible and it should say its title in the top right-hand side of the Stage. The example says "3rd Country".
 
+![Image showing say 3rd Country](images/electricity-say-3rdCountry.png){:width="300px"}
+
+If the **3rd Country** sprites's `say`{:class="block3looks"} block is not in line with the `say`{:class="block3looks"} blocks saying "New Zealand" and the "UK" then you need to check in the **Paint** editor of the **3rd Country** sprite - the square needs to be very small and in the centre.
+
 --- /task ---
