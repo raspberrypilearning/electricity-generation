@@ -45,7 +45,7 @@ Now that your new sprite is a grey square let's give it a name. Below is a table
 
 --- task ---
 
-Investigate the table below, decide on which country you will now create a graph for, and rename **Sprite1** with the name of the country you have chosen.
+Investigate the table below and decide on which country you will now create a graph for.
 
 Resource Type | UK | Norway | Indonesia
 --- | --- | --- | --- 
@@ -54,6 +54,24 @@ Resource Type | UK | Norway | Indonesia
 **Marine** | 100 | 100 | 100 
 **Geothermal** | 100 | 100 | 100 
 
+--- /task ---
+
+--- task ---
+
+Rename **Sprite1** with the name of the country you have chosen. In this resource, we will refer to this sprite as the **3rd Country** sprite.
+
 ![Image showing rename Sprite1](images/electricity-rename-Sprite1.png){:width="300px"}
 
 --- /task ---
+
+When the program is run we want the **3rd Country** spriteto go to a position on the Stage and say its name, just like the **New Zealand** and the **UK** sprites do.
+
+--- task ---
+
+Go to the **Code** editor for the **3rd Country** sprite.
+
+Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `150` and `y:`{:class="block3motion"} `-140` and a `say`{:class="block3motion"} block where you will type in the name of the country you have chosen.
+
+when green flag clicked
+go to x: (150 )y: (-140)
+say  () ::looks
