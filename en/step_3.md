@@ -34,7 +34,7 @@ Brightness = 85
 
 --- task ---
 
-Now select the **Rectangle** tool and draw a small square.
+Now select the **Rectangle** tool and draw a very small square at the centre.
 
 ![Image showing rectanble took](images/electricity-paint-editor-rectangle-tool.png){:width="250px"}
 ![Image showing grey rectanble](images/electricity-paint-editor-grey-rectangle.png){:width="400px"}
@@ -70,11 +70,11 @@ When the program is run we want the **3rd Country** spriteto go to a position on
 
 Go to the **Code** editor for the **3rd Country** sprite.
 
-Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `150`{:class="block3motion"} `y:`{:class="block3motion"} `70` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen.
+Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `200`{:class="block3motion"} `y:`{:class="block3motion"} `70` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen.
 
 ```blocks3
 when green flag clicked
-go to x: (150 )y: (70)
+go to x: (200 )y: (70)
 say  () ::looks
 ```
 
