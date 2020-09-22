@@ -86,6 +86,6 @@ Run your program. The sprite should be invisible and it should say its title in 
 
 ![Image showing say 3rd Country](images/electricity-say-3rdCountry.png){:width="300px"}
 
-If the **3rd Country** sprites's `say`{:class="block3looks"} block is not in line with the `say`{:class="block3looks"} blocks saying "New Zealand" and the "UK" then you need to check in the **Paint** editor of the **3rd Country** sprite - the square needs to be very small and in the centre.
+If the **3rd Country** sprite's `say`{:class="block3looks"} block is not in line with the speech bubbles saying "New Zealand" and the "UK" then you need to check in the grey costume square. To do this, go to the **Paint** editor of the **3rd Country** sprite and check that the square needs is very small and in the centre.
 
 --- /task ---
