@@ -6,7 +6,7 @@ In the next few steps you are going to create your own graph. Creating variables
 
 Go to **Choose a Sprite** and select the **Paint** editor.
 
-![Image showing sprite paint tool](images/electricity-paint-editor.png)
+![Image showing sprite paint tool](images/electricity-paint-editor.png){:width="200px"}
 
 --- /task ---
 
@@ -16,7 +16,7 @@ You may have noticed how the sprites seem invisible. The sprites use the `say`{:
 
 Go to the **Outline** tool and click the square with a red line through it to turn the **Outline** tool off.
 
-![Image showing outline off](images/electricity-paint-editor-outline-off.png)
+![Image showing outline off](images/electricity-paint-editor-outline-off.png){:width="200px"}
 
 --- /task ---
 
@@ -28,10 +28,17 @@ Color = 0
 Saturation = 0
 Brightness = 85
 
-![Image showing grey square values](images/electricity-paint-editor-grey-square.png)
+![Image showing grey square values](images/electricity-paint-editor-grey-square.png){:width="200px"}
 
 --- /task ---
 
+--- task ---
+
 Now select the **Rectangle** tool and draw a small square.
 
-![Image showing rectable took](images/electricity-paint-editor-rectangle-tool.png)
+![Image showing rectanble took](images/electricity-paint-editor-rectangle-tool.png){:width="200px"}
+![Image showing grey rectanble](images/electricity-paint-editor-grey-rectangle.png){:width="200px"}
+
+
+--- /task ---
+
