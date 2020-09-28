@@ -56,7 +56,9 @@ The pen colour will change as it draws each electricity category, set the colour
 
 --- task ---
 
-Add eight `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the seven categories plus an additional colour to represent the background. Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the last step if you need more help about how to change them. 
+Add eight `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the seven categories plus an additional colour to represent the background. 
+
+Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the last step if you need more help about how to change them. 
 
 ![image of colour chart](images/colour-chart.png)
 
