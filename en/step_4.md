@@ -18,7 +18,7 @@ Move your pen to the correct starting position making sure the pen is up so that
 
 Pen up , goto x y, set rotation style , point in direction
 
-Underneath your `when flag clicked`{:class="block3events"} block add a `pen up`{:class="block3pen"} block. To move to the correct position add a `go to x: y:`{:class="block3motion"} block clanging the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting **don't rotate** from the drop down, and a `point in direction 90`{:class="block3motion"} block. 
+Underneath your `when flag clicked`{:class="block3events"} block add a `pen up`{:class="block3extensions"} block. To move to the correct position add a `go to x: y:`{:class="block3motion"} block clanging the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting **don't rotate** from the drop down, and a `point in direction 90`{:class="block3motion"} block. 
 
 ```blocks3
 when flag clicked
@@ -36,7 +36,7 @@ Prepare the pen and set its size.
 
 --- task ---
 
-Add a `set pen size to 1`{:class="block3pen"} block changing the value to `2` so it is slightly thicker. Insert a `pen down`{:class="block3pen"} block to get ready to draw. 
+Add a `set pen size to 1`{:class="block3extensions"} block changing the value to `2` so it is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw. 
 
 ```blocks3
 when flag clicked
@@ -56,7 +56,7 @@ The pen colour will change as it draws each electricity category, set the colour
 
 --- task ---
 
-Add eight `set pen colour to`{:class="block3pen"} blocks into your code. These will represent the seven categories plus an additional colour to represent the background. Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the last step if you need more help about how to change them. 
+Add eight `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the seven categories plus an additional colour to represent the background. Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the last step if you need more help about how to change them. 
 
 ![image of colour chart](images/colour-chart.png)
 
@@ -86,7 +86,7 @@ Lift the pen when the column has finished drawing.
 
 --- task ---
 
-Add a `pen up` block to your code.
+Add a `pen up`{:class="block3extensions"} block to your code.
 
 ```blocks3
 when flag clicked
@@ -115,7 +115,7 @@ Reset the stage everytime you run the program.
 
 --- task ---
 
-Add an `erase all`{:class="block3pen"} block at the top of your code underneath `when flag clicked`{:class="block3events"}
+Add an `erase all`{:class="block3extensions"} block at the top of your code underneath `when flag clicked`{:class="block3events"}
 
 ```blocks3
 when flag clicked
