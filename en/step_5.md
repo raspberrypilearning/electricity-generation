@@ -1,1 +1,108 @@
 ## Draw the column
+
+In this step you are going to set energy variable for this sprite only then use those values to draw the stacked column.
+
+Set the values of already created variables for each energy category. 
+
+--- task ---
+
+Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of energy. Set the values to be any numbers as long as they all add up to 100.
+
+```blocks3
+when flag clicked
+erase all
++set (nonrenewable) to (17)
++set (wind) to (17)
++set (solar) to (17)
++set (hydro) to (17)
++set (geothermal) to (17)
++set (bioenergy) to (15)
+pen up
+go to x:(120) y: (-140)
+set rotation style [don't rotate v]
+point in direction (90)
+set pen size to (2)
+pen down
+set pen color to [#5e6766]
+set pen color to [#e4e7e2]
+set pen color to [#37e4db]
+set pen color to [#e4d748]
+set pen color to [#169bb0]
+set pen color to [#ab7519]
+set pen color to [#00a42c]
+set pen color to [#dadada]
+pen up
+go to x: (160) y: (70)
+say [3rd Country]
+```
+
+--- /task ---
+
+In Scratch, you can define your own blocks. This is extremely useful when setting up a series of instructions you want to use in different places throughout your program. 
+
+--- task ---
+
+Go to the My Blocks menu and click on **Make a block**. Set the block name to "draw" and click on **Add an input number or text**. Change the value `number or text` to `amount` then click ok. 
+
+You'll see a new header block has been created in the Code area.
+
+```blocks3
+define draw (amount)
+```
+
+--- /task ---
+
+Insert a repeat loop to your code to repeat the instructions for the number of times held in `amount`
+
+--- task ---
+
+Add a repeat block underneath your new define block. Drag an `amount` block from your define block into your repeat loop.
+
+![gif of dragging amount](images/drag-amount.gif)
+
+```blocks3
+define draw (amount)
++repeat (amount)
+end
+```
+
+--- /task ---
+
+The column will be created by moving the **3rd Country** sprite 50 steps with the pen down before turning it round 180 degrees then moving up the stage slightly.
+
+--- task ---
+
+Add Motion blocks inside your repeat loop: a `move 50 steps` block, a `turn right 180 degrees` block and a `change y by 2` block.
+
+```blocks3
+define draw (amount)
+repeat (amount)
++move (50) steps
++turn right (180) degrees
++change y by (2)
+end
+```
+
+--- /task ---
+
+Now the draw code is defined we need to insert the newly defined blocks into the `when flag clicked` script. 
+
+--- task ---
+
+draw categories
+
+
+--- /task ---
+
+--- task ---
+
+draw 1
+
+--- /task ---
+
+--- task ---
+
+test
+
+--- /task ---
+
