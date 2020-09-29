@@ -52,7 +52,7 @@ Go to the **Code** tab of the **UK** sprite.
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It will have the values x: `-200` and y: `-140`. Only change the x value to `-20`. The value can stay at -140.:
+Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It will have the values x: `-200` and y: `-140`. Only change the x value to `-20`. The y value can stay at -140.:
 
 ```blocks3
 go to x: (-20)y: (-140)
@@ -73,7 +73,7 @@ Click the green flag. You should be able to see the **UK** sprite's column now o
 
 --- /task ---
 
-Noone will know it's a column about the UK though because the title is still hidden behind the **New Zealand** sprite's column. You now need to move the position of where the title appears on the stage so you can see it.
+It won't be clear that it is a column about the UK though because the title is still hidden behind the **New Zealand** sprite's column. You now need to move the position of where the title appears on the stage so you can see it.
 
 --- task ---
 
@@ -87,19 +87,13 @@ go to x: (-20)y: (70)
 
 --- task ---
 
-Save your project.
-
---- /task ---
-
---- task ---
-
-Click the green flag. You should be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
+Click the green flag. You should now be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
 
 ![image of two graphs with the same name](images/electricity-two-graphs-same-name.png){:width="400px"}
 
 --- /task ---
 
-You now need to change the text in the `say`{:class="block3looks"} block so that it says "UK".
+You need to change the text in the `say`{:class="block3looks"} block so that it says "UK".
 
 --- task ---
 
@@ -113,7 +107,7 @@ say ()
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title now above the right-hand column. Have you saved your program?
+Click the green flag. You should be able to see the **UK** sprite title now above the right-hand column.
 
 ![image of two graphs with different titles](images/electricity-two-graphs-different-titles.png){:width="400px"}
 
@@ -121,7 +115,7 @@ Click the green flag. You should be able to see the **UK** sprite title now abov
 
 --- task ---
 
-So that the title "UK" is in the centre of the speech bubble, you can type three spaces on your keyboard and then type 'UK'.
+So that the title "UK" is in the centre of the speech bubble, you can click the spacebar on your keyboard three times first and then type 'UK'.
 
 ![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
 
@@ -148,7 +142,7 @@ set [bioenergy v] to (1)
 In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table. 
 
 Resource Type | UK |
---- | --- |
+- | - |
 **Non-renewables** | 64 |
 **Wind** | 20 |
 **Solar** | 4 | 
