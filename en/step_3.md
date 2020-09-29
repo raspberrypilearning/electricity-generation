@@ -1,4 +1,4 @@
-## Making a third graph
+## Making a third column
 
 In the this step you are going to start to create your own graph. 
 
