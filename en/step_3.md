@@ -47,14 +47,14 @@ Now that your new sprite is a grey square let's give it a name. Below is a table
 
 Investigate the table below and decide on which country you will now create a graph for.
 
-Resource Type | Australia | Canada | China | India | Ireland | Norway | Singapore | S.Africa | USA | Norway | Indonesia
+Resource Type | Australia | Canada | China | India | Ireland | Norway | Singapore | S.Africa | USA |
 | --- | --- | --- | --- | --- | --- | --- | --- 
-**Non-renewable** | 80  | 34 | 73 | 81 | 65 | 2 | 99 | 94 | 80 | 100 | 100 
-**Wind** | 7 | 5 | 5 | 4 | 32 | 4 | 0 | 3 | 7 | 100 | 100 
-**Solar** | 6 | 1 | 3 | 3 | 0 | 0 | 1 | 1 | 2 | 100 | 100 
-**Hydro** | 6 | 58 | 17 | 11 | 4 | 93 | 0 | 2 | 7 | 100 | 100 
-**Geothermal** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 100 | 100 
-**Bioenergy** | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 100 | 100 
+**Non-renewable** | 80  | 34 | 73 | 81 | 65 | 2 | 99 | 94 | 80 |
+**Wind** | 7 | 5 | 5 | 4 | 32 | 4 | 0 | 3 | 7 |
+**Solar** | 6 | 1 | 3 | 3 | 0 | 0 | 1 | 1 | 2 |
+**Hydro** | 6 | 58 | 17 | 11 | 4 | 93 | 0 | 2 | 7 |
+**Geothermal** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+**Bioenergy** | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 --- /task ---
 
 --- task ---
