@@ -1,10 +1,10 @@
 ## Build a pen
 
-In this step, you will learn how to use the Pen extension blocks to draw on the Stage. 
+In this step, you will learn how to use the **Pen** extension blocks to draw on the Stage. 
 
 --- task ---
 
-Click on the Code tab for your **3rd Country** sprite, and then click the **Add Extension** button in the bottom left-hand corner of the screen.
+Click on the **Code** tab for your **3rd Country** sprite, and then click the **Add Extension** button in the bottom left-hand corner of the screen.
 
 Select the **Pen** extension.
 
@@ -16,7 +16,7 @@ Move your pen to the correct starting position.
 
 --- task ---
 
-Underneath your `when flag clicked`{:class="block3events"} block add three Motion blocks. Add a `go to x: y:`{:class="block3motion"} block changing the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting **don't rotate** from the drop down, and a `point in direction 90`{:class="block3motion"} block. 
+Underneath your `when flag clicked`{:class="block3events"} block add three `Motion`{:class="block3motion"} blocks. Add a `go to x: y:`{:class="block3motion"} block and change the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting `don't rotate` from the drop down, and a `point in direction 90`{:class="block3motion"} block. 
 
 ```blocks3
 when flag clicked
@@ -33,7 +33,7 @@ Prepare the pen and set its size.
 
 --- task ---
 
-Add a `set pen size to 1`{:class="block3extensions"} block changing the value to `2` so it is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw. 
+Add a `set pen size to 1`{:class="block3extensions"} block changing the value to `2` so the pen is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw. 
 
 ```blocks3
 when flag clicked
@@ -48,15 +48,17 @@ say [3rd Country]
 
 --- /task ---
 
+At the moment you haven't entered any data for the **3rd country** sprite but you can still test that the pen works using the default colour purple.
+
 --- task ---
 
-Test your project. The pen will draw as the **3rd Country** sprite moves into place. 
+Run your project. The pen will draw a line as the **3rd Country** sprite moves into place. 
 
 ![image of starting line](images/starting-line.png)
 
 --- /task ---
 
-Reset the stage and move to the starting position without drawing a line everytime you begin your program. 
+You need to make sure that the program clears the pen marks from the stage and lifts the pen up `when flag clicked`{:class="block3events"}.
 
 --- task ---
 
@@ -77,13 +79,13 @@ say [3rd Country]
 
 --- /task ---
 
-The pen colour will change as it draws each electricity category, set the colours to match those used for the example countries. After the pen has finished drawing the categories it will turn to the colour of te background.
+The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour representing each resource needs to match. After the pen has finished drawing the categories it will turn to the colour of the background.
 
 --- task ---
 
-Add eight `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the seven categories plus an additional colour to represent the background. 
+Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories plus an additional colour to represent the background. 
 
-Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the last step if you need more help about how to change them. 
+Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the previous step if you need a reminder about how to change them. 
 
 ![image of colour chart](images/colour-chart.png)
 
@@ -96,7 +98,6 @@ point in direction (90)
 set pen size to (2)
 pen down
 + set pen color to [#5e6766]
-+ set pen color to [#e4e7e2]
 + set pen color to [#37e4db]
 + set pen color to [#e4d748]
 + set pen color to [#169bb0]
@@ -140,6 +141,6 @@ say [3rd Country]
 
 --- task ---
 
-Test your project by clicking on the green flag. Though the **3rd Country** sprite is set up it doesn't draw a graph as we haven't yet told it how to move or by what amount. 
+Test your project by clicking on the green flag. Though the **3rd Country** sprite is set up it doesn't draw a graph as you haven't inputted any data yet.
 
 --- /task ---
