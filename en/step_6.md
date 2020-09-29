@@ -63,10 +63,8 @@ pen down
 hide
 set pen color to [#5e6766]
 +draw (nonrenewable)
-set pen color to [#e4e7e2]
-+draw (wind)
 set pen color to [#37e4db]
-+draw (tide)
++draw (wind)
 set pen color to [#e4d748]
 +draw (solar)
 set pen color to [#169bb0]
@@ -132,10 +130,8 @@ pen down
 +hide
 set pen color to [#5e6766]
 draw (nonrenewable)
-set pen color to [#e4e7e2]
-draw (wind)
 set pen color to [#37e4db]
-draw (tide)
+draw (wind)
 set pen color to [#e4d748]
 draw (solar)
 set pen color to [#169bb0]
