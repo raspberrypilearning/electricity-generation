@@ -12,17 +12,14 @@ Select the **Pen** extension.
 
 --- /task ---
 
-Move your pen to the correct starting position making sure the pen is up so that it doesn't draw as it moves.
+Move your pen to the correct starting position.
 
 --- task ---
 
-Pen up , goto x y, set rotation style , point in direction
-
-Underneath your `when flag clicked`{:class="block3events"} block add a `pen up`{:class="block3extensions"} block. To move to the correct position add a `go to x: y:`{:class="block3motion"} block clanging the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting **don't rotate** from the drop down, and a `point in direction 90`{:class="block3motion"} block. 
+Underneath your `when flag clicked`{:class="block3events"} block add three Motion blocks. Add a `go to x: y:`{:class="block3motion"} block changing the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting **don't rotate** from the drop down, and a `point in direction 90`{:class="block3motion"} block. 
 
 ```blocks3
 when flag clicked
-+ pen up
 + go to x:(120) y: (-140)
 + set rotation style [don't rotate v]
 + point in direction (90)
@@ -40,12 +37,40 @@ Add a `set pen size to 1`{:class="block3extensions"} block changing the value to
 
 ```blocks3
 when flag clicked
-pen up
 go to x:(120) y: (-140)
 set rotation style [don't rotate v]
 point in direction (90)
 +set pen size to (2)
 +pen down
+go to x: (160) y: (70)
+say [3rd Country]
+```
+
+--- /task ---
+
+--- task ---
+
+Test your project. The pen will draw as the **3rd Country** sprite moves into place. 
+
+![image of starting line](images/starting-line.png)
+
+--- /task ---
+
+Reset the stage and move to the starting position without drawing a line everytime you begin your program. 
+
+--- task ---
+
+Add an `erase all`{:class="block3extensions"} block and a `pen up`{:class="block3extensions"} block at the top of your code underneath `when flag clicked`{:class="block3events"}
+
+```blocks3
+when flag clicked
++ erase all
++ pen up
+go to x:(120) y: (-140)
+set rotation style [don't rotate v]
+point in direction (90)
+set pen size to (2)
+pen down
 go to x: (160) y: (70)
 say [3rd Country]
 ```
@@ -107,36 +132,6 @@ set pen color to [#ab7519]
 set pen color to [#00a42c]
 set pen color to [#dadada]
 +pen up
-go to x: (160) y: (70)
-say [3rd Country]
-```
-
---- /task ---
-
-Reset the stage everytime you run the program.
-
---- task ---
-
-Add an `erase all`{:class="block3extensions"} block at the top of your code underneath `when flag clicked`{:class="block3events"}
-
-```blocks3
-when flag clicked
-+erase all
-pen up
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-set pen size to (2)
-pen down
-set pen color to [#5e6766]
-set pen color to [#e4e7e2]
-set pen color to [#37e4db]
-set pen color to [#e4d748]
-set pen color to [#169bb0]
-set pen color to [#ab7519]
-set pen color to [#00a42c]
-set pen color to [#dadada]
-pen up
 go to x: (160) y: (70)
 say [3rd Country]
 ```
