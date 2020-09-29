@@ -1,4 +1,4 @@
-## Making a third column
+## Choose a third country
 
 In the this step you are going to start to create your own graph. 
 
