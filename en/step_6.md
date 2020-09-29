@@ -8,7 +8,7 @@ In Scratch, you can **Make a Block** that starts a new script and can add any Sc
 
 Go to the **My Blocks** menu and click on **Make a Block**. Title the block name "draw" and click on **Add an input number or text**. Change the value `number or text` to "amount" and then click ok.
 
-You'll see a new **define** block has been created in the **Code** area of the **3rd Country** sprite.
+You'll see a new **define** block has been created in the **Code** area of the **3rd Country** sprite:
 
 ```blocks3
 define draw (amount)
@@ -20,7 +20,7 @@ The first line in the column will be created by moving the **3rd Country** sprit
 
 --- task ---
 
-Add three `Motion`{:class="block3motion"} blocks: `move 50 steps`{:class="block3motion"} block; `turn right 180 degrees`{:class="block3motion"} block; and `change y by 2`{:class="block3motion"}.
+Add three `Motion`{:class="block3motion"} blocks: `move 50 steps`{:class="block3motion"} block; `turn right 180 degrees`{:class="block3motion"} block; and `change y by 2`{:class="block3motion"}:
 
 ```blocks3
 define draw (amount)
@@ -43,7 +43,7 @@ From the **My Blocks** menu insert a `draw`{:class="block3myblocks"} block after
 + `geothermal`{:class="block3variables"}
 + `bioenergy`{:class="block3variables"}. 
 
-In the last remaining `draw`{:class="block3myblocks"} block type the value `1`. This will add a line the same colour as the backdrop and appear to clean up the end of the column.
+In the last remaining `draw`{:class="block3myblocks"} block type the value `1`. This will add a line the same colour as the backdrop and appear to clean up the end of the column:
 
 ```blocks3
 when flag clicked
@@ -93,7 +93,7 @@ Run your program. In the **3rd Country** sprite, you should see the pen draws ju
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block in to the repeat loop.
+Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block in to the repeat loop:
 
 ![gif of dragging amount](images/drag-amount.gif)
 
@@ -112,7 +112,7 @@ So that the speech bubble only shows at the very end of the drawn column you nee
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to the **3rd Country** sprite before it draws the column. Add a `show`{:class="block3looks"} block to make the **3rd Counry** sprite visible at the end of the drawn column.
+Add a `hide`{:class="block3looks"} block to the **3rd Country** sprite before it draws the column. Add a `show`{:class="block3looks"} block to make the **3rd Counry** sprite visible at the end of the drawn column:
 
 ```blocks3
 when flag clicked
