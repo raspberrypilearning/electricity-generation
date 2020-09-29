@@ -20,7 +20,7 @@ The first line in the column will be created by moving the **3rd Country** sprit
 
 --- task ---
 
-Add three `Motion`{:class="block3motion"} blocks: `move 50 steps`{:class="block3motion"} block; `turn right 180 degrees`{:class="block3motion"} block; and `change y by 2`{:class="block3motion"}:
+Add to your new `draw`{:class="block3extensions"} block three `Motion`{:class="block3motion"} blocks: `move 50 steps`{:class="block3motion"} block; `turn right 180 degrees`{:class="block3motion"} block; and `change y by 2`{:class="block3motion"}:
 
 ```blocks3
 define draw (amount)
@@ -31,7 +31,11 @@ define draw (amount)
 
 --- /task ---
 
-Now the draw code is defined we need to insert the newly defined blocks into the `when flag clicked`{:class="block3events"} script. 
+--- task ---
+
+Use your newly defined `draw`{:class="block3extensions"} block to draw the correct amount of line for each resource.
+
+--- /task ---
 
 --- task ---
 
