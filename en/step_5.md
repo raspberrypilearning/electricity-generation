@@ -72,7 +72,6 @@ point in direction (90)
 set pen size to (2)
 pen down
 set pen color to [#5e6766]
-set pen color to [#e4e7e2]
 set pen color to [#37e4db]
 set pen color to [#e4d748]
 set pen color to [#169bb0]
