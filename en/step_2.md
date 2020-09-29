@@ -1,4 +1,4 @@
-## Duplicate a second graph
+## Duplicate a second column
 
 For this project you will be making an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it's lots of numbers. That's why pie charts and graphs can be so informative. They help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project does both!
 
@@ -22,11 +22,11 @@ Run the project by clicking the green flag. An animation of a column is drawn by
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
-New Zealand produces a lot of their electricity using hydro power which is why there's a lot of blue on the graph.
+New Zealand produces a lot of their electricity using hydro power which is why there's a lot of blue on the column graph.
 
 --- /task ---
 
-You are now going to create a graph for another country. To do this you will copy the **New Zealand** sprite.  
+You are now going to create a column for another country. To do this you will copy the **New Zealand** sprite.  
 
 --- task ---
 
