@@ -7,10 +7,10 @@ copyedit: false
 last_tested: "2020-09-16"
 steps:
   - title: Introduction
-  - title: Duplicate a second graph
-  - title: Make a third graph
+  - title: Duplicate a second column
+  - title: Make a third column
   - title: Build a pen
   - title: Create the resource variables
-  - title: Draw the column
+  - title: Draw the third column
   - title: Share your project
   - title: What next?
