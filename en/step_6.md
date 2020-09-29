@@ -16,7 +16,7 @@ define draw (amount)
 
 --- /task ---
 
-The first line in the column will be created by moving the **3rd Country** sprite 50 steps with the pen down before turning it round 180 degrees and then moving up the stage slightly.
+The first line in the column will be created by moving the **3rd Country** sprite with the pen down before turning it round and then moving up the stage slightly.
 
 --- task ---
 
