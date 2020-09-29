@@ -1,8 +1,8 @@
 ## Duplicate a second graph
 
-For this project you will be making an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it's lots of numbers. That's why pie charts and graphs can be so informative. They help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project is both!
+For this project you will be making an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it's lots of numbers. That's why pie charts and graphs can be so informative. They help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project does both!
 
-You'll create an animated and interactive data vsualistation, comparing the resources used by three countries to generate electricity.
+You'll create an animated and interactive data vsualistation using a stacked column graph to compare the resources used by three countries to generate electricity.
 
 --- task ---
 
@@ -18,7 +18,7 @@ You should see a plain background titled "Electricity generation % 2019" and, be
 
 --- task ---
 
-Run the project by clicking the green flag. An animation of a graph is drawn by an invisible pen showing New Zealand's use of resources used to generate electricity. You can then investigate the interactive graph using your mouse.
+Run the project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources used to generate electricity. You can then investigate the interactive column using your mouse.
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
@@ -42,7 +42,7 @@ Rename the new sprite **UK**.
 
 --- /task ---
 
-If you run the program the **UK** sprite program will appear as if it's not running even though it is. This is because the **UK** sprite's drawn graph is appearing below the **New Zealand** sprite in the Stage. You will need to you move the position of where the **UK** sprite's graph starts to draw on the Stage to be able to see the **UK** sprite.
+If you run the program, the **UK** sprite program will appear as if it's not running even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You will need to you move the position of where the **UK** sprite's column starts to draw on the Stage to be able to see the **UK** sprite.
 
 --- task ---
 
@@ -67,13 +67,13 @@ Save your project.
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite graph now on the right-hand side of the **New Zealand** sprite graph.
+Click the green flag. You should be able to see the **UK** sprite's column now on the right-hand side of the **New Zealand** sprite's column.
 
 ![image of background](images/electricity-second-graph-no-title.png){:width="400px"}
 
 --- /task ---
 
-Noone will know it's a graph about the UK though because the title is still hidden behind the **New Zealand** sprite. You now need to move the position of where the title appears on the stage so you can see it.
+Noone will know it's a column about the UK though because the title is still hidden behind the **New Zealand** sprite's column. You now need to move the position of where the title appears on the stage so you can see it.
 
 --- task ---
 
@@ -93,7 +93,7 @@ Save your project.
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title above the right-hand graph. On no! It still says "New Zealand".
+Click the green flag. You should be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
 
 ![image of two graphs with the same name](images/electricity-two-graphs-same-name.png){:width="400px"}
 
@@ -113,7 +113,7 @@ say ()
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title now above the right-hand graph. Have you saved your program?
+Click the green flag. You should be able to see the **UK** sprite title now above the right-hand column. Have you saved your program?
 
 ![image of two graphs with different titles](images/electricity-two-graphs-different-titles.png){:width="400px"}
 
@@ -127,7 +127,7 @@ So that the title "UK" is in the centre of the speech bubble, you can type three
 
 --- /task ---
 
-The graphs look the same because the **UK** sprite graph is still showing the energy values for the **New Zealand** sprite.
+The columns look the same because the **UK** sprite's column is still showing the energy values for the **New Zealand** sprite.
 
 ![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
 
