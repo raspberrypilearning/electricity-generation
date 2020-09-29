@@ -2,7 +2,7 @@
 
 In this step you are going to use the resource variables which you created inthe previous step to draw the column for your chosen **3rd Country** sprite.
 
-In Scratch, you can **Make a Block** that starts a new script and can add any Scratch blocks into this new script. This is extremely useful when you want to reuse the script elsewhere in your program.
+In Scratch, you can **Make a Block** that starts a new script and can add any Scratch blocks into this new script. You can reuse the script elsewhere in your program.
 
 --- task ---
 
