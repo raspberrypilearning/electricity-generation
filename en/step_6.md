@@ -6,7 +6,7 @@ In Scratch, you can **Make a Block** that starts a new script and can add any Sc
 
 --- task ---
 
-Go to the **My Blocks** menu and click on **Make a Block**. Set the block name to "draw" and click on **Add an input number or text**. Change the value `number or text` to `amount` and then click `ok`. 
+Go to the **My Blocks** menu and click on **Make a Block**. Title the block name "draw" and click on **Add an input number or text**. Change the value `number or text` to `amount` and then click `ok`. 
 
 You'll see a new **define** block has been created in the **Code** area of the **3rd Country** sprite.
 
