@@ -1,6 +1,6 @@
 ## Draw the third column
 
-In this step you are going to use the resource variables to draw the column for your chosen **3rd Country** sprite.
+In this step you are going to use the resource variables which you created inthe previous step to draw the column for your chosen **3rd Country** sprite.
 
 In Scratch, you can **Make a Block** and add any Scratch blocks into this new script. This is extremely useful when you want to reuse a script elsewhere in your program.
 
