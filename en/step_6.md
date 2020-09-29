@@ -31,15 +31,11 @@ define draw (amount)
 
 --- /task ---
 
---- task ---
-
-Use your newly defined `draw`{:class="block3extensions"} block to draw the correct amount of line for each resource.
-
---- /task ---
+Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct amount of lines for each resource.
 
 --- task ---
 
-From the **My Blocks** menu insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag your variables across to the draw blocks in turn in the following order:
+From the **My Blocks** menu insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the draw blocks in the following order:
 + `nonrenewable`{:class="block3variables"}
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
@@ -91,7 +87,7 @@ say [3rd Country]
 
 --- task ---
 
-Run your program. In the **3rd Country** sprite, you should see the pen draws just one thin line for each resource. In order for the pen to draw the full column you need to repeat the number of lines the pen is instructed to draw so it draws the correct amount for each resource.
+Run your program. In the **3rd Country** sprite, you should see the pen draws just one thin line for each resource. In order for the pen to draw the correct amount for each resource you need to repeat the number of lines the pen is instructed to draw.
 
 --- /task ---
 
@@ -104,15 +100,15 @@ Add a `repeat`{:class="block3control"} block underneath the `define`{:class="blo
 ```blocks3
 define draw (amount)
 +repeat (amount)
-+move (50) steps
-+turn right (180) degrees
-+change y by (2)
+move (50) steps
+turn right (180) degrees
+change y by (2)
 end
 ```
 
 --- /task ---
 
-So that the speech bubble only shows at the very end of the drawn column you need to hide the **3rd Country** sprite. The **3rd Country** sprite won't show because it's the same colour as the backdrop but the speech bubble will show unless you hide it until the pen has finished drawing the column. This will create a smooth animation.
+So that the speech bubble only shows at the very end of the drawn column you need to hide the **3rd Country** sprite. The **3rd Country** sprite won't show because it's the same colour as the backdrop but its speech bubble will show unless you hide it until the pen has finished drawing the column. This will create a smooth animation.
 
 --- task ---
 
@@ -135,13 +131,21 @@ set pen size to (2)
 pen down
 +hide
 set pen color to [#5e6766]
+draw (nonrenewable)
 set pen color to [#e4e7e2]
+draw (wind)
 set pen color to [#37e4db]
+draw (tide)
 set pen color to [#e4d748]
+draw (solar)
 set pen color to [#169bb0]
+draw (hydro)
 set pen color to [#ab7519]
+draw (geothermal)
 set pen color to [#00a42c]
+draw (bioenergy)
 set pen color to [#dadada]
+draw (1)
 pen up
 +show
 go to x: (160) y: (70)
