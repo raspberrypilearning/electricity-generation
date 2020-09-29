@@ -1,6 +1,6 @@
 ## Draw the column
 
-In this step you are going to use the energy variable for this sprite to draw the stacked column.
+In this step you are going to use the energy variables for this sprite to draw the stacked column.
 
 In Scratch, you can define your own blocks. This is extremely useful when setting up a series of instructions you want to use in different places throughout your program. 
 
@@ -49,7 +49,13 @@ end
 
 --- /task ---
 
-Now the draw code is defined we need to insert the newly defined blocks into the `when flag clicked` script. 
+Now the draw code is defined we need to insert the newly defined blocks into the `when flag clicked` script. To create a smooth animation add a `hide` block to the **3rd Country** sprite before it draws the column. To position your column header in the right place add a `show` block to make the **3rd Counry** sprite visible at the end.
+
+--- task ---
+
+hide and show
+
+--- /task ---
 
 --- task ---
 
