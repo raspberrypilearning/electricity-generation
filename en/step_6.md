@@ -1,4 +1,4 @@
-## Draw the column
+## Draw the third column
 
 In this step you are going to use the energy variables for this sprite to draw the stacked column.
 
