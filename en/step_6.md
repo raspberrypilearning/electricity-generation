@@ -156,7 +156,7 @@ say [3rd Country]
 
 --- task ---
 
-Test your project. The column for the **3rd Country** will now complete showing the values you have chosen. When you hover over each resource their label will show.
+Test your project. The column for the **3rd Country** will now complete drawing, showing the values you have chosen. When you hover over each resource their label will show.
 
 --- /task ---
 
