@@ -47,13 +47,14 @@ Now that your new sprite is a grey square let's give it a name. Below is a table
 
 Investigate the table below and decide on which country you will now create a graph for.
 
-Resource Type | UK | Norway | Indonesia
---- | --- | --- | --- 
-**Non-renewables** | 100 | 100 | 100 
-**Hydro** | 100 | 100 | 100 
-**Marine** | 100 | 100 | 100 
-**Geothermal** | 100 | 100 | 100 
-
+Resource Type | India | Norway | USA | Norway | Indonesia
+--- | --- | --- | --- | --- 
+**Non-renewable** | 2 | 90 | 80 | 100 | 100 
+**Wind** | 4 | 90 | 7 | 100 | 100 
+**Solar** | 0 | 90 | 2 | 100 | 100 
+**Hydro** | 93 | 90 | 7 | 100 | 100 
+**Geothermal** | 0 | 90 | 0 | 100 | 100 
+**Bioenergy** | 0 | 90 | 1 | 100 | 100 
 --- /task ---
 
 --- task ---
