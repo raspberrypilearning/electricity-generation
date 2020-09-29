@@ -49,12 +49,12 @@ Investigate the table below and decide on which country you will now create a gr
 
 Resource Type | Canada | China | India | Norway | Singapore | S.Africa | USA | Norway | Indonesia
 | --- | --- | --- | --- | --- | --- | --- | --- 
-**Non-renewable** | 34 | 73 | 2 | 90 | 99 | 94 | 80 | 100 | 100 
-**Wind** | 5 | 5 | 4 | 90 | 0 | 3 | 7 | 100 | 100 
-**Solar** | 1 | 3 | 0 | 90 | 1 | 1 | 2 | 100 | 100 
-**Hydro** | 58 | 17 | 93 | 90 | 0 | 2 | 7 | 100 | 100 
-**Geothermal** | 0 | 0 | 0 | 90 | 0 | 0 | 0 | 100 | 100 
-**Bioenergy** | 2 | 1 | 0 | 90 | 0 | 0 | 1 | 100 | 100 
+**Non-renewable** | 34 | 73 | 81 | 2 | 99 | 94 | 80 | 100 | 100 
+**Wind** | 5 | 5 | 4 | 4 | 0 | 3 | 7 | 100 | 100 
+**Solar** | 1 | 3 | 3 | 0 | 1 | 1 | 2 | 100 | 100 
+**Hydro** | 58 | 17 | 11 | 93 | 0 | 2 | 7 | 100 | 100 
+**Geothermal** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 100 | 100 
+**Bioenergy** | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 100 | 100 
 --- /task ---
 
 --- task ---
