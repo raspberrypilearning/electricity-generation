@@ -48,7 +48,7 @@ say [3rd Country]
 
 --- /task ---
 
-At the moment you haven't entered any data for the **3rd country** sprite but you can still test that the pen works using the default colour purple.
+At the moment you haven't entered any data for the **3rd country** sprite but you can still test that the pen works using the default colour.
 
 --- task ---
 
