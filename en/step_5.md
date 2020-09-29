@@ -41,11 +41,20 @@ Click on the tickboxes next to each variable to hide them from view.
 
 --- /task ---
 
-Set your variables to the resources amounts for your chosen country.
+You are now going to input the resources data for your chosen country. Below is the table again so you can easily identify the values.
+
+Resource Type | Australia | Canada | China | India | Ireland | Norway | Singapore | S.Africa | USA |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+**Non-renewable** | 80  | 34 | 73 | 81 | 65 | 2 | 99 | 94 | 80 |
+**Wind** | 7 | 5 | 5 | 4 | 32 | 4 | 0 | 3 | 7 |
+**Solar** | 6 | 1 | 3 | 3 | 0 | 0 | 1 | 1 | 2 |
+**Hydro** | 6 | 58 | 17 | 11 | 4 | 93 | 0 | 2 | 7 |
+**Geothermal** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+**Bioenergy** | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of energy. Set the values to be the energy levels for your chosen country, remember to double-check that they all add up to 100.
+Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses example data for the **3rd Country** but you'll input figures for your chosen country. 
 
 ```blocks3
 when flag clicked
@@ -77,3 +86,10 @@ say [3rd Country]
 
 --- /task ---
 
+--- task ---
+
+Double-check that the values for the resources all add up to 100.
+
+--- /task ---
+
+--- save ---
