@@ -36,12 +36,12 @@ Now the draw code is defined we need to insert the newly defined blocks into the
 --- task ---
 
 From the **My Blocks** menu insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag your variables across to the draw blocks in turn in the following order:
-+`nonrenewable`{:class="block3variables"}
-+`wind`{:class="block3variables"}
-+`solar`{:class="block3variables"}
-+`hydro`{:class="block3variables"}
-+`geothermal`{:class="block3variables"}
-+`bioenergy`{:class="block3variables"}. 
++ `nonrenewable`{:class="block3variables"}
++ `wind`{:class="block3variables"}
++ `solar`{:class="block3variables"}
++ `hydro`{:class="block3variables"}
++ `geothermal`{:class="block3variables"}
++ `bioenergy`{:class="block3variables"}. 
 
 In the last remaining `draw`{:class="block3myblocks"} block type the value `1`. This will add a line the same colour as the backdrop and appear to clean up the end of the column.
 
