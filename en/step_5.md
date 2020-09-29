@@ -1,28 +1,31 @@
 ## Create the resource variables
 
-In this step you are going to set energy variables for this sprite only then use those values to draw the stacked column. By making variables unique to individual sprites you can reuse the same names throughout the project but enter different numbers into them for each different country sprite. Updating the value for one sprite will not change it for the others.
+In this step you are going to create new resource variables for the **3rd Country** sprite. You will then add values to the variables and then use those values to draw the column for the **3rd Country** sprite. You need to use a local variables so that updating the value for one sprite will not change it for the others.
 
-Create a variable for non-renewable energy. 
+First you will create a variable for non-renewable energy.
 
 --- task ---
 
-Create a new variable by clicking on the `Variables`{:class="block3variables"} blocks menu.
+Create a new variable by clicking on the `Variables`{:class="block3variables"} block menu.
 
 Then click on the **Make a Variable** button.
 
-You can give your variable a name. Call this variable nonrenewable.
+Title this variable `nonrenewable`.
 
 Select **For this sprite only** then click **ok**.
 
 --- /task ---
 
-Create the remaining energy variables.
+Create the remaining resource variables.
 
 --- task ---
 
-Create new variables for `wind`{:class="block3variables"}, `tide`{:class="block3variables"}, `solar`{:class="block3variables"}, `hydro`{:class="block3variables"}, `geothermal`{:class="block3variables"} and `bioenergy`{:class="block3variables"} in the same way. 
-
-Make sure to select **For this sprite only**.
+Create new variables in the same way remembering to select **For this sprite only** for each new variable: 
++`wind`{:class="block3variables"}
++`solar`{:class="block3variables"}
++`hydro`{:class="block3variables"}
++`geothermal`{:class="block3variables"}
++`bioenergy`{:class="block3variables"} 
 
 --- /task ---
 
@@ -30,15 +33,15 @@ Hide the variables from view.
 
 --- task ---
 
-All the new energy variables are listed in the Variables menu. They are also shown on screen but we don't need to see them. 
+All the new energy variables are listed in the **Variables** menu. They are also automatically shown on the stage but you don't need them shown there for this project.
 
-Click on the tickboxes next to each variable to hide it from view. 
+Click on the tickboxes next to each variable to hide them from view. 
 
 ![gif of hiding variables](images/hiding-variables.gif)
 
 --- /task ---
 
-Set your variables to the energy amounts for your chosen country.
+Set your variables to the resources amounts for your chosen country.
 
 --- task ---
 
