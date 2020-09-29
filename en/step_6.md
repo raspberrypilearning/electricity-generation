@@ -16,11 +16,11 @@ define draw (amount)
 
 --- /task ---
 
-Insert a repeat loop to your code to repeat the instructions for the number of times held in `amount`
+Insert a repeat loop to your code to repeat the instructions for the number of times held in `amount`{:class="block3myblocks"}
 
 --- task ---
 
-Add a repeat block underneath your new define block. Drag an `amount` block from your define block into your repeat loop.
+Add a `repeat`{:class="block3control"} block underneath your new `define`{:class="block3myblocks"} block. Drag an `amount`{:class="block3myblocks"} block from your `define`{:class="block3myblocks"} block into your repeat loop.
 
 ![gif of dragging amount](images/drag-amount.gif)
 
@@ -36,7 +36,7 @@ The column will be created by moving the **3rd Country** sprite 50 steps with th
 
 --- task ---
 
-Add Motion blocks inside your repeat loop: a `move 50 steps` block, a `turn right 180 degrees` block and a `change y by 2` block.
+Add `Motion`{:class="block3motion"} blocks inside your repeat loop: a `move 50 steps`{:class="block3motion"} block, a `turn right 180 degrees`{:class="block3motion"} block and a `change y by 2`{:class="block3motion"} block.
 
 ```blocks3
 define draw (amount)
@@ -49,29 +49,92 @@ end
 
 --- /task ---
 
-Now the draw code is defined we need to insert the newly defined blocks into the `when flag clicked` script. To create a smooth animation add a `hide` block to the **3rd Country** sprite before it draws the column. To position your column header in the right place add a `show` block to make the **3rd Counry** sprite visible at the end.
+Create a smooth animation by hiding the **3rd Country** sprite before it draws the column and showing it again once the column is complete.
 
 --- task ---
 
-hide and show
+Add a `hide`{:class="block3looks"} block to the **3rd Country** sprite before it draws the column. Add a `show`{:class="block3looks"} block to make the **3rd Counry** sprite visible at the end of the column build.
+
+```blocks3
+when flag clicked
+erase all
+set (nonrenewable) to (17)
+set (wind) to (17)
+set (solar) to (17)
+set (hydro) to (17)
+set (geothermal) to (17)
+set (bioenergy) to (15)
+pen up
+go to x:(120) y: (-140)
+set rotation style [don't rotate v]
+point in direction (90)
+set pen size to (2)
+pen down
++hide
+set pen color to [#5e6766]
+set pen color to [#e4e7e2]
+set pen color to [#37e4db]
+set pen color to [#e4d748]
+set pen color to [#169bb0]
+set pen color to [#ab7519]
+set pen color to [#00a42c]
+set pen color to [#dadada]
+pen up
++show
+go to x: (160) y: (70)
+say [3rd Country]
+```
+
+--- /task ---
+
+Now the draw code is defined we need to insert the newly defined blocks into the `when flag clicked`{:class="block3events"} script. 
+
+--- task ---
+
+From the My Blocks menu insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag your variables across to the draw blocks in turn in the following order `nonrenewable`{:class="block3variables"}, `wind`{:class="block3variables"}, `solar`{:class="block3variables"}, `hydro`{:class="block3variables"}, `geothermal`{:class="block3variables"}, `bioenergy`{:class="block3variables"}. In the last remaining `draw`{:class="block3myblocks"} block type the value `1`to add a line the same colour as the background to the top of the column.
+
+```blocks3
+when flag clicked
+erase all
+set (nonrenewable) to (17)
+set (wind) to (17)
+set (solar) to (17)
+set (hydro) to (17)
+set (geothermal) to (17)
+set (bioenergy) to (15)
+pen up
+go to x:(120) y: (-140)
+set rotation style [don't rotate v]
+point in direction (90)
+set pen size to (2)
+pen down
+hide
+set pen color to [#5e6766]
++draw (nonrenewable)
+set pen color to [#e4e7e2]
++draw (wind)
+set pen color to [#37e4db]
++draw (tide)
+set pen color to [#e4d748]
++draw (solar)
+set pen color to [#169bb0]
++draw (hydro)
+set pen color to [#ab7519]
++draw (geothermal)
+set pen color to [#00a42c]
++draw (bioenergy)
+set pen color to [#dadada]
++draw (1)
+pen up
+show
+go to x: (160) y: (70)
+say [3rd Country]
+```
 
 --- /task ---
 
 --- task ---
 
-draw categories
-
-
---- /task ---
-
---- task ---
-
-draw 1
-
---- /task ---
-
---- task ---
-
-test
+Test your project the column for the **3rd Country** will now complete showing the values you have chosen. When you hover over each category the energy label will show.
 
 --- /task ---
