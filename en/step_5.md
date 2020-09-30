@@ -21,11 +21,11 @@ Create the remaining resource variables.
 --- task ---
 
 Create new variables in the same way remembering to select **For this sprite only** for each new variable: 
-+`wind`{:class="block3variables"}
-+`solar`{:class="block3variables"}
-+`hydro`{:class="block3variables"}
-+`geothermal`{:class="block3variables"}
-+`bioenergy`{:class="block3variables"} 
++ `wind`{:class="block3variables"}
++ `solar`{:class="block3variables"}
++ `hydro`{:class="block3variables"}
++ `geothermal`{:class="block3variables"}
++ `bioenergy`{:class="block3variables"} 
 
 --- /task ---
 
