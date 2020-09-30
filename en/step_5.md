@@ -43,14 +43,14 @@ Click on the tickboxes next to each variable to hide them from view.
 
 You are now going to input the resources data for your chosen country. Below is the table again so you can easily identify the values.
 
-Resource Type | Australia | Canada | China | India | Ireland | Norway | Singapore | S.Africa | USA |
+Resource Type | Australia | Brazil | Canada | India | Ireland | Norway | Singapore | S.Africa | USA |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-**Non-renewable** | 80  | 34 | 73 | 81 | 65 | 2 | 99 | 94 | 80 |
-**Wind** | 7 | 5 | 5 | 4 | 32 | 4 | 0 | 3 | 7 |
-**Solar** | 6 | 1 | 3 | 3 | 0 | 0 | 1 | 1 | 2 |
-**Hydro** | 6 | 58 | 17 | 11 | 4 | 93 | 0 | 2 | 7 |
+**Non-renewable** | 80 | 18 | 34 | 81 | 64 | 2 | 99 | 94 | 83 |
+**Wind** | 7 | 9 | 5 | 5 | 32 | 4 | 0 | 3 | 7 |
+**Solar** | 6 | 1 | 1 | 3 | 0 | 0 | 1 | 1 | 2 |
+**Hydro** | 6 | 63 | 58 | 11 | 4 | 94 | 0 | 2 | 7 |
 **Geothermal** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-**Bioenergy** | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 1 |
+**Bioenergy** | 1 | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 1 |
 
 --- task ---
 
