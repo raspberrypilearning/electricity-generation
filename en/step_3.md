@@ -52,7 +52,7 @@ Resource Type | Australia | Brazil | Canada | India | Ireland | Norway | Singapo
 **Non-renewable** | 80 | 18 | 34 | 81 | 65 | 2 | 99 | 94 | 80 |
 **Wind** | 7 | 9 | 5 | 4 | 32 | 4 | 0 | 3 | 7 |
 **Solar** | 6 | 1 | 1 | 3 | 0 | 0 | 1 | 1 | 2 |
-**Hydro** | 6 | 64 | 58 | 11 | 4 | 93 | 0 | 2 | 7 |
+**Hydro** | 6 | 63 | 58 | 11 | 4 | 93 | 0 | 2 | 7 |
 **Geothermal** | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 **Bioenergy** | 1 | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 1 |
 --- /task ---
