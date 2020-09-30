@@ -49,7 +49,7 @@ Investigate the table below and decide on which country you will now create a gr
 
 Resource Type | Australia | Brazil | Canada | India | Ireland | Norway | Singapore | S.Africa | USA |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
-**Non-renewable** | 80 | 18 | 34 | 81 | 64 | 2 | 99 | 94 | 80 |
+**Non-renewable** | 80 | 18 | 34 | 81 | 64 | 2 | 99 | 94 | 83 |
 **Wind** | 7 | 9 | 5 | 5 | 32 | 4 | 0 | 3 | 7 |
 **Solar** | 6 | 1 | 1 | 3 | 0 | 0 | 1 | 1 | 2 |
 **Hydro** | 6 | 63 | 58 | 11 | 4 | 94 | 0 | 2 | 7 |
