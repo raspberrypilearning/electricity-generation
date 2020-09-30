@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+If you are following the [Protect our planet](https://projects.raspberrypi.org/en/raspberrypi/protect-our-planet) pathway, you can move on to the [Turtle tracker](https://projects.raspberrypi.org/en/projects/turtle-tracker) project. In this project, you will make a (add description here).
 
 ![ProjectName project](images/projectname-project.png)
 
