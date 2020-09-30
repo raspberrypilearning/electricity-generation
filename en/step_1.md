@@ -2,14 +2,12 @@
 
 Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then compare the results using an animated data visualisation. 
 
-Electricity is important. After all, it powers the computer you are using! Electricity is generated from various natural resources which impact on the environment in different ways. Renewable energy (also referred to as clean energy) is produced from natural resources such as hydro and tide (water), wind, geothermal (ground), bioenergy (organic material such as wood and crops) and solar (sun).
+Electricity is important. After all, it powers the computer you are using! Electricity is generated from various natural resources which impact on the environment in different ways. Non-renewable energy is produced using finite resources such as fossil fuels (coal, gas and oil) and nuclear energy. Renewable energy is produced from wind, solar (sun), hydro (water), geothermal (ground) and bioenergy (organic material including wood and crops). To help the environment, many countries are trying to increase the amount of renewable energy they use to generate electricity.
 
-Non-renewable energy is produced using finite resources such as fossil fuels (coal, gas and oil). Fossil fuels are finite i.e. they can never be replaced and they are burnt to generate electricity which produces unsustainable amounts of carbon dioxide into the earth's atmosphere. Nuclear energy does not emit carbon dioxide so is clean but does use the finite resource uranium and is therefore also non-renewable.
-
-To help the environment, many countries are trying to utilise their natural resources to increase the amount of renewable energy used to generate electricity.
-
-This animated data visualisation engages with three of the United Nations Sustainable Development Goals: [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}, [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"} and [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
-
+This project engages with three of the United Nations Sustainable Development Goals: 
++ [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
++ [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"}
++ [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}. 
 
 ### What you will make
 
