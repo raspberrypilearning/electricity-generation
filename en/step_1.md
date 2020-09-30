@@ -1,8 +1,8 @@
 ## Introduction
 
-Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then compare the results using an animated data visualisation. 
+Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then compare the results using an animated data visualisation. Electricity is important. After all, it powers the computer you are using! 
 
-Electricity is important. After all, it powers the computer you are using! Electricity is generated from various natural resources which impact on the environment in different ways. Non-renewable energy is produced using finite resources such as fossil fuels (coal, gas and oil) and nuclear energy. Renewable energy is produced from wind, solar (sun), hydro (water), geothermal (ground) and bioenergy (organic material including wood and crops). To help the environment, many countries are trying to increase the amount of renewable energy they use to generate electricity.
+Electricity is generated from various natural resources which impact on the environment in different ways. Non-renewable energy is produced using finite resources such as fossil fuels (coal, gas and oil) and nuclear energy. Renewable energy is produced from wind, solar (sun), hydro (water), geothermal (ground) and bioenergy (organic material including wood and crops).
 
 This project engages with three of the United Nations Sustainable Development Goals: 
 + [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
