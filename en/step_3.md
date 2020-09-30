@@ -48,7 +48,7 @@ Now that your new sprite is a grey square let's give it a name. Below is a table
 Investigate the table below and decide on which country you will now create a graph for.
 
 Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 **Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 |
 **Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 |
 **Solar** | 1 | 1 | 0 | 3 | 0 | 0 | 1 | 1 | 2 |
