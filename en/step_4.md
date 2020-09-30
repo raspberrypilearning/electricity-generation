@@ -1,145 +1,94 @@
-## Build a pen
+## Choose a third country
 
-In this step, you will learn how to use the **Pen** extension blocks to draw on the Stage. 
+In this step you are going to start to create your own column. 
 
 --- task ---
 
-Click on the **Code** tab for your **3rd Country** sprite, and then click the **Add Extension** button in the bottom left-hand corner of the screen.
+Go to **Choose a Sprite** and select the **Paint** editor.
 
-Select the **Pen** extension.
-
-![gif of adding the pen extension](images/pen-extension.gif)
+![Image showing sprite paint tool](images/electricity-paint-editor.png){:width="300px"}
 
 --- /task ---
 
-Move your pen to the correct starting position.
+You may have noticed how the sprites seem invisible. The sprites use the `say`{:class="block3lookss"} block as a title but you cannot see the sprite itself. This is because the sprites are the same colour grey as the backdrop. You now need to create a sprite which is a grey square.
 
 --- task ---
 
-Underneath your `when flag clicked`{:class="block3events"} block add three `Motion`{:class="block3motion"} blocks. Add a `go to x: y:`{:class="block3motion"} block and change the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting `don't rotate` from the drop down, and a `point in direction 90`{:class="block3motion"} block. 
+Go to the **Outline** tool and click the square with a red line through it to turn the **Outline** tool off.
+
+![Image showing outline off](images/electricity-paint-editor-outline-off.png){:width="250px"}
+
+--- /task ---
+
+--- task ---
+
+Now add the following values in the **Fill** tool.
+
+Color = 0
+Saturation = 0
+Brightness = 85
+
+![Image showing grey square values](images/electricity-paint-editor-grey-square.png){:width="250px"}
+
+--- /task ---
+
+--- task ---
+
+Select the **Rectangle** tool and draw a very small square at the centre. Notice from the image below how small your rectangle needs to be. The grey square needs to be as small as the cross in the centre of the **Paint** editor. You may need to use the magnifying tool to change the scale so you can see the whole of the editor.
+
+![Image showing rectangle took](images/electricity-paint-editor-rectangle-tool.png){:width="200px"}
+![Image showing grey rectangle](images/electricity-painteditor-grey-rectangle.png){:width="400px"}
+
+--- /task ---
+
+Now that your new sprite is a grey square let's give it a name. Below is a table listing a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or even a country which uses a large amount of one of the resources?
+
+--- task ---
+
+Investigate the table below and decide on which country you will now create a graph for.
+
+Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+**Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 |
+**Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 |
+**Solar** | 1 | 1 | 0 | 3 | 0 | 0 | 1 | 1 | 2 |
+**Hydro** | 63 | 58 | 70 | 11 | 4 | 94 | 0 | 2 | 7 |
+**Geothermal** | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 | 0 |
+**Bioenergy** | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+--- /task ---
+
+--- task ---
+
+Rename **Sprite1** with the name of the country you have chosen. In this resource, we will refer to this sprite as the **3rd Country** sprite.
+
+![Image showing rename Sprite1](images/electricity-rename-Sprite1.png){:width="300px"}
+
+--- /task ---
+
+When the program is run we want the **3rd Country** sprite to go to a position on the Stage and, using a speech bubble, say its name, just like the **New Zealand** and the **UK** sprites do.
+
+--- task ---
+
+Go to the **Code** editor for the **3rd Country** sprite.
+
+Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `200`{:class="block3motion"} `y:`{:class="block3motion"} `70` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen.
 
 ```blocks3
-when flag clicked
-+ go to x:(120) y: (-140)
-+ set rotation style [don't rotate v]
-+ point in direction (90)
-go to x: (160) y: (70)
-say [3rd Country]
-```
-
---- /task ---
-
-Prepare the pen and set its size. 
-
---- task ---
-
-Add a `set pen size to 1`{:class="block3extensions"} block changing the value to `2` so the pen is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw. 
-
-```blocks3
-when flag clicked
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-+set pen size to (2)
-+pen down
-go to x: (160) y: (70)
-say [3rd Country]
-```
-
---- /task ---
-
-At the moment you haven't entered any data for the **3rd country** sprite but you can still test that the pen works using the default colour.
-
---- task ---
-
-Run your project. The pen will draw a line as the **3rd Country** sprite moves into place. 
-
-![image of starting line](images/starting-line.png)
-
---- /task ---
-
-You need to make sure that the program clears the pen marks from the stage and lifts the pen up `when flag clicked`{:class="block3events"}.
-
---- task ---
-
-Add an `erase all`{:class="block3extensions"} block and a `pen up`{:class="block3extensions"} block at the top of your code underneath `when flag clicked`{:class="block3events"}
-
-```blocks3
-when flag clicked
-+ erase all
-+ pen up
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-set pen size to (2)
-pen down
-go to x: (160) y: (70)
-say [3rd Country]
-```
-
---- /task ---
-
-The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour representing each resource needs to match. After the pen has finished drawing the categories it will turn to the colour of the background.
-
---- task ---
-
-Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories plus an additional colour to represent the background. 
-
-Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the previous step if you need a reminder about how to change them. 
-
-![image of colour chart](images/colour-chart.png)
-
-```blocks3
-when flag clicked
-pen up
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-set pen size to (2)
-pen down
-+ set pen color to [#5e6766]
-+ set pen color to [#37e4db]
-+ set pen color to [#e4d748]
-+ set pen color to [#169bb0]
-+ set pen color to [#ab7519]
-+ set pen color to [#00a42c]
-+ set pen color to [#dadada]
-go to x: (160) y: (70)
-say [3rd Country]
-```
-
---- /task ---
-
-Lift the pen when the column has finished drawing.
-
---- task ---
-
-Add a `pen up`{:class="block3extensions"} block to your code.
-
-```blocks3
-when flag clicked
-pen up
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-set pen size to (2)
-pen down
-set pen color to [#5e6766]
-set pen color to [#37e4db]
-set pen color to [#e4d748]
-set pen color to [#169bb0]
-set pen color to [#ab7519]
-set pen color to [#00a42c]
-set pen color to [#dadada]
-+pen up
-go to x: (160) y: (70)
-say [3rd Country]
+when green flag clicked
+go to x: (200 )y: (70)
+say () ::looks
 ```
 
 --- /task ---
 
 --- task ---
 
-Test your project by clicking on the green flag. Though the **3rd Country** sprite is set up it doesn't draw a graph as you haven't inputted any resource data yet.
+Run your program. The sprite should be invisible and it should say its title in the top right-hand side of the Stage. The example says "3rd Country".
+
+![Image showing say 3rd Country](images/electricity-say-3rdCountry.png){:width="300px"}
+
+Check that the **3rd Country** sprite's `say`{:class="block3looks"} block in line with the speech bubbles saying "New Zealand" and the "UK"? If not, you need to go to the **3rd Country** sprite's **Costume** tab and check that the grey square costume is very small and that it is at the very centre of the editor (use the **magnifer** tool).
 
 --- /task ---
+
+--- save ---

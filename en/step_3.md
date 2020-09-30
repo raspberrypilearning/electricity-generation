@@ -1,93 +1,156 @@
-## Choose a third country
+## Duplicate a second column
 
-In this step you are going to start to create your own column. 
 
 --- task ---
 
-Go to **Choose a Sprite** and select the **Paint** editor.
-
-![Image showing sprite paint tool](images/electricity-paint-editor.png){:width="300px"}
+Rename the new sprite **UK**.
 
 --- /task ---
 
-You may have noticed how the sprites seem invisible. The sprites use the `say`{:class="block3lookss"} block as a title but you cannot see the sprite itself. This is because the sprites are the same colour grey as the backdrop. You now need to create a sprite which is a grey square.
+If you run the program, the **UK** sprite program will appear as if it's not running even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You will need to you move the position of where the **UK** sprite's column starts to draw on the Stage to be able to see the **UK** sprite.
 
 --- task ---
 
-Go to the **Outline** tool and click the square with a red line through it to turn the **Outline** tool off.
-
-![Image showing outline off](images/electricity-paint-editor-outline-off.png){:width="250px"}
+Go to the **Code** tab of the **UK** sprite.
 
 --- /task ---
 
 --- task ---
 
-Now add the following values in the **Fill** tool.
-
-Color = 0
-Saturation = 0
-Brightness = 85
-
-![Image showing grey square values](images/electricity-paint-editor-grey-square.png){:width="250px"}
-
---- /task ---
-
---- task ---
-
-Select the **Rectangle** tool and draw a very small square at the centre. Notice from the image below how small your rectangle needs to be. The grey square needs to be as small as the cross in the centre of the **Paint** editor. You may need to use the magnifying tool to change the scale so you can see the whole of the editor.
-
-![Image showing rectangle took](images/electricity-paint-editor-rectangle-tool.png){:width="200px"}
-![Image showing grey rectangle](images/electricity-painteditor-grey-rectangle.png){:width="400px"}
-
---- /task ---
-
-Now that your new sprite is a grey square let's give it a name. Below is a table listing a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or even a country which uses a large amount of one of the resources?
-
---- task ---
-
-Investigate the table below and decide on which country you will now create a graph for.
-
-Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
-| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-**Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 |
-**Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 |
-**Solar** | 1 | 1 | 0 | 3 | 0 | 0 | 1 | 1 | 2 |
-**Hydro** | 63 | 58 | 70 | 11 | 4 | 94 | 0 | 2 | 7 |
-**Geothermal** | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 | 0 |
-**Bioenergy** | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
---- /task ---
-
---- task ---
-
-Rename **Sprite1** with the name of the country you have chosen. In this resource, we will refer to this sprite as the **3rd Country** sprite.
-
-![Image showing rename Sprite1](images/electricity-rename-Sprite1.png){:width="300px"}
-
---- /task ---
-
-When the program is run we want the **3rd Country** sprite to go to a position on the Stage and, using a speech bubble, say its name, just like the **New Zealand** and the **UK** sprites do.
-
---- task ---
-
-Go to the **Code** editor for the **3rd Country** sprite.
-
-Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `200`{:class="block3motion"} `y:`{:class="block3motion"} `70` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen.
+Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It will have the values x: `-200` and y: `-140`. Only change the x value to `-20`. The y value can stay at -140.:
 
 ```blocks3
-when green flag clicked
-go to x: (200 )y: (70)
-say () ::looks
+go to x: (-20)y: (-140)
+```
+--- /task ---
+
+--- task ---
+
+Save your project.
+
+--- /task ---
+
+--- task ---
+
+Click the green flag. You should be able to see the **UK** sprite's column now on the right-hand side of the **New Zealand** sprite's column.
+
+![image of background](images/electricity-second-graph-no-title.png){:width="400px"}
+
+--- /task ---
+
+It won't be clear that it is a column about the UK though because the title is still hidden behind the **New Zealand** sprite's column. You now need to move the position of where the title appears on the stage so you can see it.
+
+--- task ---
+
+Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70`. Only change the x value to `-20`. The y value can stay at 70:
+
+```blocks3
+go to x: (-20)y: (70)
 ```
 
 --- /task ---
 
 --- task ---
 
-Run your program. The sprite should be invisible and it should say its title in the top right-hand side of the Stage. The example says "3rd Country".
+Click the green flag. You should now be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
 
-![Image showing say 3rd Country](images/electricity-say-3rdCountry.png){:width="300px"}
+![image of two graphs with the same name](images/electricity-two-graphs-same-name.png){:width="400px"}
 
-Check that the **3rd Country** sprite's `say`{:class="block3looks"} block in line with the speech bubbles saying "New Zealand" and the "UK"? If not, you need to go to the **3rd Country** sprite's **Costume** tab and check that the grey square costume is very small and that it is at the very centre of the editor (use the **magnifer** tool).
+--- /task ---
+
+You need to change the text in the `say`{:class="block3looks"} block so that it says "UK".
+
+--- task ---
+
+Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`:
+
+```blocks3
+go to x: (-20)y: (70)
+say ()
+```
+--- /task ---
+
+--- task ---
+
+Click the green flag. You should be able to see the **UK** sprite title now above the right-hand column.
+
+![image of two graphs with different titles](images/electricity-two-graphs-different-titles.png){:width="400px"}
+
+--- /task ---
+
+--- task ---
+
+So that the title "UK" is in the centre of the speech bubble, you can click the spacebar on your keyboard three times first and then type 'UK'.
+
+![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
+
+--- /task ---
+
+The columns look the same because the **UK** sprite's column is still showing the energy values for the **New Zealand** sprite.
+
+![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
+
+--- task ---
+
+In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**.
+
+```blocks3
+set [nonrenewable v] to (18)
+set [wind v] to (5)
+set [solar v] to (0)
+set [hydro v] to (57)
+set [geothermal v] to (19)
+set [bioenergy v] to (1)
+```
+--- /task ---
+
+In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table.
+
+Resource Type | UK |
+- | - |
+**Non-renewables** | 64 |
+**Wind** | 20 |
+**Solar** | 4 |
+**Hydro** | 2 |
+**Geothermal** | 0 |
+**Bioenergy** | 10 |
+
+--- task ---
+
+In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64% of the resources used to generate electricity in the UK.
+
+```blocks3
+set [nonrenewable v] to (64)
+```
+--- /task ---
+
+--- task ---
+
+Now complete the value for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
+
+```blocks3
+set [nonrenewable v] to (64)
+set [wind v] to (20)
+set [solar v] to (4)
+set [hydro v] to (2)
+set [geothermal v] to (0)
+set [bioenergy v] to (10)
+```
+--- /task ---
+
+--- task ---
+
+Check you have inputted the values correctly? Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total which is 100%.
+
+--- /task ---
+
+--- task ---
+
+Run the program to compare what resources New Zealand and the UK use to generate energy. You will notice the UK uses more bioenergy than New Zealand. you will also notice that New Zealand uses far more hydro to generate electricity.
+
+![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
+
+The grey shows you how much non-renewable energy each country uses to generate electricity. How do the countries compare on their use of non-renewable resources?
 
 --- /task ---
 
