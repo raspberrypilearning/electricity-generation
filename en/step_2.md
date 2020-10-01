@@ -35,17 +35,17 @@ Click on the **Code** tab of the **New Zealand** sprite to view the code. Find t
 ```blocks3
 
 set pen color to [#5e6766]
-draw (nonrenewable)
++draw (nonrenewable) ::custom
 set pen color to [#37e4db]
-draw (wind)
++draw (wind) ::custom
 set pen color to [#e4d748]
-draw (solar)
++draw (solar) ::custom
 set pen color to [#169bb0]
-draw (hydro)
++draw (hydro) ::custom
 set pen color to [#ab7519]
-draw (geothermal)
++draw (geothermal) ::custom
 set pen color to [#00a42c]
-draw (bioenergy)
++draw (bioenergy) ::custom
 
 ```
 
