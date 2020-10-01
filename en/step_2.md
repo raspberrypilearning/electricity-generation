@@ -61,7 +61,7 @@ Go to the "set pen color to [#5e6766]"{:class="block3myblocks"} block and click 
 
 --- /task ---
 
-You are now going to create a column for another country. To do this you will copy the **New Zealand** sprite.  
+You are now going to create a column for the UK. To do this you will copy the **New Zealand** sprite.  
 
 --- task ---
 
