@@ -55,7 +55,7 @@ You will now choose your own colours to represent each resource. Think about how
 
 --- task ---
 
-Go to the `set pen color to`{:class="block3extensions"} blocks and click on the colour for each resource, changing them to your choice of colours.
+Go to the `set pen color to`{:class="block3extensions"} blocks and click on the colours for each resource, changing them to your choice of colours.
 
 ![image of how to change pen colour](images/how-to-change-pen-colour.png)
 
