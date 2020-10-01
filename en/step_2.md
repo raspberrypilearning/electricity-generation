@@ -41,6 +41,7 @@ Click on the **New Zealand** sprite to view the code. Find the section of code w
 ```blocks3
 
 set pen color to [#5e6766]
+blah
 draw (nonrenewable)
 set pen color to [#37e4db]
 draw (wind)
