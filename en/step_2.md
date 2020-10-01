@@ -43,10 +43,15 @@ Click on the **New Zealand** sprite to view the code. Find the section of code w
 set pen color to [#5e6766]
 draw (nonrenewable)
 set pen color to [#37e4db]
+draw (wind)
 set pen color to [#e4d748]
+draw (solar)
 set pen color to [#169bb0]
+draw (hydro)
 set pen color to [#ab7519]
+draw (geothermal)
 set pen color to [#00a42c]
+draw (bioenergy)
 
 ```
 
