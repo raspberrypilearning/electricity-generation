@@ -61,7 +61,7 @@ say [   UK]
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title now in the centre of thee speech bubble and above the right-hand column.
+Click the green flag. You should be able to see the **UK** sprite title now in the centre of the speech bubble and above the right-hand column.
 
 ![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
 
