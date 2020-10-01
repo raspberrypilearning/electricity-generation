@@ -51,7 +51,7 @@ draw (bioenergy)
 
 --- /task ---
 
-You will now choose your own colours to represent each resource. Think about how you want the visualisation to represent the data with colour. For example, do you want all the renewable energy sources to be different shades of one colour and the nonrenewable sources to be a different colour? Or do you want each energy source to be a different colour to show all the distinctions?
+You will now choose your own colours to represent each resource. Think about how you want the visualisation to represent the data with colour. For example, do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour? Or do you want each energy source to be a different colour to show all the distinctions?
 
 --- task ---
 
