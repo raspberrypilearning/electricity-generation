@@ -8,7 +8,7 @@ You'll create an animated and interactive data visualistation using a stacked co
 
 **Online:** open the [starter project](http://rpf.io/electricity-generation-on){:target="_blank"} in Scratch.
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/serene-scene-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the [project starter file](http://rpf.io/p/en/electricity-generation-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
 
