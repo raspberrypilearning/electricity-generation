@@ -31,7 +31,7 @@ It won't be clear that it is a column about the UK though because the title is s
 
 --- task ---
 
-Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70`. Only change the x value to `-20`. The y value can stay at 70:
+Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the x value to `-20`. The y value can stay at 70:
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -55,7 +55,7 @@ Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `7
 
 ```blocks3
 go to x: (-20)y: (70)
-say ()
+say (UK)
 ```
 --- /task ---
 
