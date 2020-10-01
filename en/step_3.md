@@ -96,6 +96,7 @@ Resource Type | UK |
 **Geothermal** | 0 |
 **Bioenergy** | 10 |
 
+<br/><br/>
 
 --- task ---
 
