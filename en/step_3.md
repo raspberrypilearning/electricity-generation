@@ -67,14 +67,6 @@ Click the green flag. You should be able to see the **UK** sprite title now abov
 
 --- /task ---
 
---- task ---
-
-So that the title "UK" is in the centre of the speech bubble, you can click the spacebar on your keyboard three times first and then type 'UK'.
-
-![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
-
---- /task ---
-
 The columns look the same because the **UK** sprite's column is still showing the energy values for the **New Zealand** sprite.
 
 ![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
