@@ -40,6 +40,33 @@ Click on the **New Zealand** sprite to view the code. Find the section of code w
 
 ![image of the code where the colours are set](images/code-where-colours-set.png)
 
+```blocks3
+when flag clicked
+erase all
+set (nonrenewable) to (17)
+set (wind) to (17)
+set (solar) to (17)
+set (hydro) to (17)
+set (geothermal) to (17)
+set (bioenergy) to (15)
+pen up
+go to x:(120) y: (-140)
+set rotation style [don't rotate v]
+point in direction (90)
+set pen size to (2)
+pen down
++set pen color to [#5e6766]
++set pen color to [#37e4db]
++set pen color to [#e4d748]
++set pen color to [#169bb0]
++set pen color to [#ab7519]
++set pen color to [#00a42c]
+set pen color to [#dadada]
+pen up
+go to x: (160) y: (70)
+say [3rd Country]
+```
+
 --- /task ---
 
 You will now choose your own colours to represent the types of resources. Think about how you want the visualisation to show the data with colour. For example, do you want all the renewable energy sources to be different shades of one colour and the nonrenewable sources to be a different colour? Or do you want each energy source to be a different colour to show all the distinctions?
