@@ -1,5 +1,7 @@
 ## Add data to the UK column
 
+In this step you are going to add data to the UK column so you can see a comparison of New Zealand and the UK.
+
 --- task ---
 
 Rename the new sprite **UK**.
