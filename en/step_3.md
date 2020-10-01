@@ -107,7 +107,7 @@ set [nonrenewable v] to (64)
 
 --- task ---
 
-Now complete the value for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
+Refer to the table above to complete the values for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
 
 ```blocks3
 set [nonrenewable v] to (64)
