@@ -55,7 +55,7 @@ Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `7
 
 ```blocks3
 go to x: (-20) y: (70)
-say [   UK]
+say [ ][  UK]
 ```
 --- /task ---
 
