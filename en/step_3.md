@@ -96,6 +96,7 @@ Resource Type | UK |
 **Geothermal** | 0 |
 **Bioenergy** | 10 |
 
+
 --- task ---
 
 In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64% of the resources used to generate electricity in the UK.
