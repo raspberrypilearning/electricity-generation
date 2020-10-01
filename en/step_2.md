@@ -77,3 +77,5 @@ Click on the **New Zealand** sprite and right-click to select **duplicate**.
 ![image of background](images/electricity-copy-sprite.png){:width="300px"}
 
 --- /task ---
+
+--- save ---

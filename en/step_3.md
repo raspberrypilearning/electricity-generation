@@ -27,12 +27,6 @@ go to x: (-20)y: (-140)
 
 --- task ---
 
-Save your project.
-
---- /task ---
-
---- task ---
-
 Click the green flag. You should be able to see the **UK** sprite's column now on the right-hand side of the **New Zealand** sprite's column.
 
 ![image of background](images/electricity-second-graph-no-title.png){:width="400px"}
