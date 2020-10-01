@@ -50,9 +50,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to organise your program using `procedures`{:class="block3myblocks"}
-+ How to draw with the `Pen`{:class="block3extensions"} extension block using `variables`{:class="block3variables"} and `procedures`{:class="block3myblocks"}
-+ How to turn real world data (numbers) into an animated data visualisation
++ How to organise your program using `my blocks`{:class="block3myblocks"}
++ How to draw stacked bar graphs with the `Pen`{:class="block3extensions"} extension block
++ How to turn real world data (numbers) into an animated and interactive data visualisation
 
 --- /collapse ---
 
