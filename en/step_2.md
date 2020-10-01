@@ -2,7 +2,7 @@
 
 For this project you will be making an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it's lots of numbers. That's why pie charts and graphs can be so informative. They help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project does both!
 
-You'll create an animated and interactive data vsualistation using a stacked column graph to compare the resources used by three countries to generate electricity.
+You'll create an animated and interactive data visualistation using a stacked column graph to compare the resources used by three countries to generate electricity.
 
 --- task ---
 
@@ -16,13 +16,35 @@ You should see a plain background titled "Electricity generation % 2019" and, be
 
 ![image of background](images/electricity-starter.png){:width="400px"}
 
+Choose the colours that will represent each of the following types of energy:
+- nonrenewable
+- wind
+- solar
+- hydro
+- geothermal
+- bioenergy
+
 --- task ---
 
-Run the project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources used to generate electricity. You can then investigate the interactive column using your mouse.
+Click on the **New Zealand** sprite to view the code. Find the section of code where the colours of the bar graph are set:
+
+![image of the code where the colours are set](images/code-where-colours-set.png)
+
+--- /task ---
+
+Choose your own colours to represent the type of energy. Think about how you want the visualisation to show the data with colour. For example, do you want all the renewable energy sources to be different shades of colour and the nonrenewable sources to be a different colour? Or do you want each energy source to be a different colour to show the distinction?
+
+--- task ---
+
+
+
+--- task ---
+
+Run your project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources to generate electricity. You can then investigate the interactive column using your mouse. Your colours will be different than those in the image below:
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
-New Zealand produces a lot of their electricity using hydro power which is why there's a lot of blue on the column graph.
+New Zealand produces a lot of their electricity using hydro power which is why there's a lot of blue in the example column graph above.
 
 --- /task ---
 

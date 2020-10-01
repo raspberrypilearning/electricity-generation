@@ -1,6 +1,6 @@
 ## Choose a third country
 
-In this step you are going to start to create your own column. 
+In this step you are going to start to create your own column.
 
 --- task ---
 
