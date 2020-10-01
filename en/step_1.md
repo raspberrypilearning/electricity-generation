@@ -18,7 +18,7 @@ Using data compiled by the International Energy Agency, guidance was kindly give
 Click on the green flag to start the animation. Once it has finished drawing a series of colours, use your mouse or touch screen to explore what resources the colours represent. Then compare the use of renewable and non-renewable energy across the three countries.
 
 <div class="scratch-preview">
-<iframe src="https://scratch.mit.edu/projects/427656475/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://scratch.mit.edu/projects/427746039/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
 
 --- /no-print ---
@@ -62,7 +62,7 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can [find the completed project here](http://rpf.io/electricity-generation){:target="_blank"}.
+You can [find the completed project here](http://rpf.io/p/en/electricity-generation-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/electricity-generation/print){:target="_blank"}.
 
