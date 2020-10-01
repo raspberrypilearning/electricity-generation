@@ -25,7 +25,7 @@ Click on the green flag to start the animation. Once it has finished drawing a s
 
 --- print-only ---
 
-![Complete project](images/complete.png){:width="400px"}
+![Complete project](images/complete.png){:width="450px"}
 
 --- /print-only ---
 
