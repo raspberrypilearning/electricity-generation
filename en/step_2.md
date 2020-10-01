@@ -32,7 +32,7 @@ Click on the **New Zealand** sprite to view the code. Find the section of code w
 
 --- /task ---
 
-Choose your own colours to represent the type of energy. Think about how you want the visualisation to show the data with colour. For example, do you want all the renewable energy sources to be different shades of colour and the nonrenewable sources to be a different colour? Or do you want each energy source to be a different colour to show the distinction?
+Choose your own colours to represent the type of energy. Think about how you want the visualisation to show the data with colour. For example, do you want all the renewable energy sources to be different shades of one colour and the nonrenewable sources to be a different colour? Or do you want each energy source to be a different colour to show all the distinctions?
 
 --- task ---
 
