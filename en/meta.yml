@@ -7,8 +7,8 @@ copyedit: false
 last_tested: "2020-09-16"
 steps:
   - title: Introduction
-  - title: 
-  - title: Duplicate a second column
+  - title: Set up the columns
+  - title: Add data to the second column
   - title: Choose a third country
   - title: Build a pen
   - title: Create the resource variables
