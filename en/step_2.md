@@ -26,13 +26,7 @@ New Zealand produces a lot of their electricity using hydro power which is why t
 
 --- /task ---
 
-You are now going to choose the colours that will represent each of the following types of resources:
-- nonrenewable
-- wind
-- solar
-- hydro
-- geothermal
-- bioenergy
+You are now going to choose the colours that will represent each of the resources
 
 --- task ---
 
@@ -41,7 +35,6 @@ Click on the **New Zealand** sprite to view the code. Find the section of code w
 ```blocks3
 
 set pen color to [#5e6766]
-blah
 draw (nonrenewable)
 set pen color to [#37e4db]
 draw (wind)
