@@ -1,5 +1,7 @@
 # energy-generation
 
+This project uses data compiled by the [International Energy Agency](https://www.iea.org) with guidance kindly given by the [Renewable Energy Foundation](https://www.ref.org.uk).
+
 ![energy-generation](banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/energy-generation](https://projects.raspberrypi.org/en/projects/energy-generation)
