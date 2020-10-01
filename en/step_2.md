@@ -30,7 +30,7 @@ You are now going to choose the colours that will represent each of the resource
 
 --- task ---
 
-Click on the **New Zealand** sprite to view the code. Find the section of code where the colours of the bar graph are set:
+Click on **Code** the **New Zealand** sprite to view the code. Find the section of code where the colours of the bar graph are set:
 
 ```blocks3
 
