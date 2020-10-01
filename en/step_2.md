@@ -38,8 +38,6 @@ You are now going to choose the colours that will represent each of the followin
 
 Click on the **New Zealand** sprite to view the code. Find the section of code where the colours of the bar graph are set:
 
-![image of the code where the colours are set](images/code-where-colours-set.png)
-
 ```blocks3
 when flag clicked
 erase all
