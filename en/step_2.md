@@ -18,7 +18,7 @@ You should see a plain background titled "Electricity generation % 2019" and, be
 
 --- task ---
 
-Run your project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources to generate electricity. You can then investigate the interactive column using your mouse. Your colours will be different than those in the image below:
+Run your project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources to generate electricity. You can then investigate the interactive column using your mouse.
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
@@ -26,7 +26,7 @@ New Zealand produces a lot of their electricity using hydro power which is why t
 
 --- /task ---
 
-Choose the colours that will represent each of the following types of energy:
+You are now going to choose the colours that will represent each of the following types of resources:
 - nonrenewable
 - wind
 - solar
@@ -42,7 +42,7 @@ Click on the **New Zealand** sprite to view the code. Find the section of code w
 
 --- /task ---
 
-Choose your own colours to represent the type of energy. Think about how you want the visualisation to show the data with colour. For example, do you want all the renewable energy sources to be different shades of one colour and the nonrenewable sources to be a different colour? Or do you want each energy source to be a different colour to show all the distinctions?
+Choose your own colours to represent the type of resources. Think about how you want the visualisation to show the data with colour. For example, do you want all the renewable energy sources to be different shades of one colour and the nonrenewable sources to be a different colour? Or do you want each energy source to be a different colour to show all the distinctions?
 
 --- task ---
 
