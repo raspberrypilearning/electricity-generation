@@ -39,30 +39,15 @@ You are now going to choose the colours that will represent each of the followin
 Click on the **New Zealand** sprite to view the code. Find the section of code where the colours of the bar graph are set:
 
 ```blocks3
-when flag clicked
-erase all
-set (nonrenewable) to (17)
-set (wind) to (17)
-set (solar) to (17)
-set (hydro) to (17)
-set (geothermal) to (17)
-set (bioenergy) to (15)
-pen up
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-set pen size to (2)
-pen down
-+set pen color to [#5e6766]
-+set pen color to [#37e4db]
-+set pen color to [#e4d748]
-+set pen color to [#169bb0]
-+set pen color to [#ab7519]
-+set pen color to [#00a42c]
-set pen color to [#dadada]
-pen up
-go to x: (160) y: (70)
-say [3rd Country]
+
+set pen color to [#5e6766]
+draw (nonrenewable)
+set pen color to [#37e4db]
+set pen color to [#e4d748]
+set pen color to [#169bb0]
+set pen color to [#ab7519]
+set pen color to [#00a42c]
+
 ```
 
 --- /task ---
