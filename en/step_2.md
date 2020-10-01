@@ -78,4 +78,10 @@ Click on the **New Zealand** sprite and right-click to select **duplicate**.
 
 --- /task ---
 
+--- task ---
+
+Rename the new sprite `UK`.
+
+--- /task ---
+
 --- save ---
