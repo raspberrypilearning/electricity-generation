@@ -67,13 +67,13 @@ say [3rd Country]
 
 --- /task ---
 
-The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour representing each resource needs to match. After the pen has finished drawing the categories it will turn to the colour of the background.
+The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour representing each resource needs to match. After the pen has finished drawing the categories it will turn to the colour of the backdrop i.e. grey.
 
 --- task ---
 
 Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories plus an additional colour to represent the background.
 
-Change the colours of each block in turn to represent a different colour, the values are in the table below and you can look back to making the grey square on the previous step if you need a reminder about how to change them.
+Change the colours of each block in turn to represent the different colours you chose for the resources. Go to either the **Code** tab for **New Zealand** OR **UK** sprites to remind yourself about the colours you selected. In the **Code** tab for **New Zealand** OR **UK** sprites, click on the colour to find out the **Color**, **Saturation** and **Brightness** or each resource. In turn with each resource, take values from either the **New Zealand** OR **UK** sprites and then go to the **3rd Country** sprites to type in the correct values - you may need a pen and paper!
 
 ![image of colour chart](images/colour-chart.png)
 
@@ -95,6 +95,8 @@ pen down
 go to x: (160) y: (70)
 say [3rd Country]
 ```
+
+Don't forget to add in the colour for the grey backdrop.
 
 --- /task ---
 
