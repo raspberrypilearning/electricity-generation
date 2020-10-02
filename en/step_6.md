@@ -2,7 +2,7 @@
 
 In this step you are going to create new resource variables for the **3rd Country** sprite. You will then add values to the variables and then use those values to draw the column for the **3rd Country** sprite. You need to use local variables so that updating the value for one sprite will not change it for the others.
 
-First you will create a variable for non-renewable energy.
+First you will create a variable for non-renewable resources.
 
 --- task ---
 
@@ -12,13 +12,13 @@ Then click on the **Make a Variable** button.
 
 --- /task ---
 
-You will title the variable `nonrenewable`. 
+You will need to title the variable. In order to create a variable which contains a value specific to the country you have chosen, you will also need to ensure the variable you are creating is for this sprite only. Even though the other sprites also have a variable titled 'nonrenewable't hey are also unique to those countries. The **3rd Country** nonrenewable variable will hold its own unique value for that resource for your chosen country.
 
 --- task ---
 
 Title this variable `nonrenewable`.
 
-**Important**: in order to create variables which contain values specific to the **3rd County**, click **For this sprite only**.
+**Important**: click **For this sprite only**.
 
 Then click **ok**. 
 
