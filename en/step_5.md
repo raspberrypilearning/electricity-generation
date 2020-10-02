@@ -8,7 +8,7 @@ Click on the **Code** tab for your **3rd Country** sprite, and then click the **
 
 Select the `Pen`{:class="block3extensions"} extension.
 
-![gif of adding the pen extension](images/pen-extension.gif)
+![gif of adding the pen extension](images/pen-extension.png)
 
 --- /task ---
 
