@@ -81,28 +81,36 @@ set rotation style [don't rotate v]
 point in direction (90)
 set pen size to (2)
 pen down
-+ set pen color to [#5e6766]
-+ set pen color to [#37e4db]
-+ set pen color to [#e4d748]
-+ set pen color to [#169bb0]
-+ set pen color to [#ab7519]
-+ set pen color to [#00a42c]
-+ set pen color to [#dadada]
++ set pen color to []
++ set pen color to []
++ set pen color to []
++ set pen color to []
++ set pen color to []
++ set pen color to []
++ set pen color to []
 go to x: (160) y: (70)
 say [3rd Country]
 ```
 
 --- /task ---
 
+You now need to change the colours of each block in turn to represent the different colours you have chosen to represent the resources. 
+
 --- task ---
 
-Change the colours of each block in turn to represent the different colours you chose for the resources. Go to the **New Zealand** OR **UK** sprites to get the values for the colours you selected. Click on the **Code** tab for **New Zealand** OR **UK** sprites, and then click on the related `set pen colour to`{:class="block3extensions"} blocks colour to find out the **Color**, **Saturation** and **Brightness** or each resource. 
+To get the values for the colours you selected, click on the **Code** tab for the **New Zealand** sprite.
 
-In turn with each resource, take the three values from either the **New Zealand** OR **UK** sprites and then go to the **3rd Country** sprites to type in the correct values - you may need a pen and paper!
+Click on the related `set pen colour to`{:class="block3extensions"} blocks colour to find out the **Color**, **Saturation** and **Brightness** of each resource. Do the following in turn for each resource colour..
 
 ![png of electricity-colour-values](images/electricity-colour-values.png){:width="400px"}
 
-Don't forget to add in the colour for the grey backdrop.
+--- /task ---
+
+--- task ---
+
+Take the three values from the **New Zealand** sprite - you may need to write them on a piece of pen and paper! Then go to the **3rd Country** sprites to type in the correct values in the relevant `set pen colour to`{:class="block3extensions"} block.
+
+Don't forget to use the backdrop colour for the 7th `set pen colour to`{:class="block3extensions"} block.
 
 --- /task ---
 
