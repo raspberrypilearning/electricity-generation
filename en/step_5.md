@@ -73,9 +73,9 @@ The pen colour will change as it draws each resource. In order to compare the re
 
 Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories plus an additional colour to represent the background.
 
-Change the colours of each block in turn to represent the different colours you chose for the resources. Go to either the **Code** tab for **New Zealand** OR **UK** sprites to remind yourself about the colours you selected. In the **Code** tab for **New Zealand** OR **UK** sprites, click on the colour to find out the **Color**, **Saturation** and **Brightness** or each resource. In turn with each resource, take values from either the **New Zealand** OR **UK** sprites and then go to the **3rd Country** sprites to type in the correct values - you may need a pen and paper!
+Change the colours of each block in turn to represent the different colours you chose for the resources. Go to the **Code** tab for either the **New Zealand** OR **UK** sprites to get the values for the colours you selected. In the **Code** tab for **New Zealand** OR **UK** sprites, click on the related `set pen colour to`{:class="block3extensions"} blocks colour to find out the **Color**, **Saturation** and **Brightness** or each resource. 
 
-![image of colour chart](images/colour-chart.png)
+In turn with each resource, take the three values from either the **New Zealand** OR **UK** sprites and then go to the **3rd Country** sprites to type in the correct values - you may need a pen and paper!
 
 ```blocks3
 when flag clicked
