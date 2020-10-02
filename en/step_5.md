@@ -144,7 +144,7 @@ say [3rd Country]
 
 --- task ---
 
-Test your project by clicking on the green flag. Though the **3rd Country** sprite is set up it doesn't draw a graph as you haven't inputted any resource data yet.
+You cannot usefully check your code. Although the **3rd Country** sprite is set up it doesn't draw a graph as you haven't inputted any resource data yet.
 
 --- /task ---
 
