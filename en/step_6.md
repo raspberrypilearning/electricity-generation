@@ -69,12 +69,12 @@ Add in six `set my variable to`{:class="block3variables"} blocks, one for each t
 ```blocks3
 when flag clicked
 erase all
-+set (nonrenewable) to (17)
-+set (wind) to (17)
-+set (solar) to (17)
-+set (hydro) to (17)
-+set (geothermal) to (17)
-+set (bioenergy) to (15)
++set (nonrenewable) to (94)
++set (wind) to (3)
++set (solar) to (1)
++set (hydro) to (2)
++set (geothermal) to (0)
++set (bioenergy) to (0)
 pen up
 go to x:(120) y: (-140)
 set rotation style [don't rotate v]
