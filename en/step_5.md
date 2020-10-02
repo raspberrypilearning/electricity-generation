@@ -98,11 +98,29 @@ You now need to change the colours of each block in turn to represent the differ
 
 --- task ---
 
-To get the values for the colours you selected, click on the `set pen colour to`{:class="block3extensions"} blocks that you have created. Do the following in turn so you don't get the order of the colours muddled up:
+Do the colours for the `set pen colour to`{:class="block3extensions"} blocks in turn so you don't get the order of the resource colours muddled up. You will need to use both of these methods: **eye dropper** AND **Color**, **Saturation** and **Brightness** values for the resources. 
 
-With the **eye dropper** go to the related resource colour in either of the **New Zealand** or **UK** sprites columns on the Stage. The resource colours will be the same. Click. The **eye dropper** will have picked up the related colour and added it to  the `set pen colour to`{:class="block3extensions"} block which will now show the correct colour for that resource. Do this process seven times.
+**eye dropper**:
+Click on the first `set pen colour to`{:class="block3extensions"} block that you have created. 
+
+With the **eye dropper** go to the related resource colour in either of the **New Zealand** or **UK** sprites columns on the Stage. Click. The **eye dropper** will pick up the related colour and added it to  the `set pen colour to`{:class="block3extensions"} block which will now show the correct colour for that resource. 
+
+**Color**, **Saturation** and **Brightness** value:
+Some of the resources are not represented in the columns. That's because countries tend not to use all the resources available to them to generate their electricity. Take the three values of the missing resource colours from the **New Zealand** sprite by going to its **Code** tab. Click on the related `set pen colour to`{:class="block3extensions"} block to find out the **Color**, **Saturation** and **Brightness** of the colour.
+
+You may need to write the values of the  **Color**, **Saturation** and **Brightness** on a piece of pen and paper! Now go to the **3rd Country** sprite to type in the correct values in the relevant set pen colour to block.
+
+![png of colour values](images/electricity-colour-values.png){:width="400px"}
+
+Using the methods above, complete each colour in turn.
 
 Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block.
+
+--- /task ---
+
+--- task ---
+
+
 
 --- /task ---
 
