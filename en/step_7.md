@@ -8,6 +8,8 @@ In Scratch, you can **Make a Block** that starts a new script and can add any Sc
 
 Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Make a Block**. Title the block name 'draw' and click on **Add an input number or text**. Change the value `number or text` to 'amount' and then click ok.
 
+![gif of make a block with input](images/electricity-make-a-block-add-input.gif)
+
 You'll see a new **define** block has been created in the **Code** area of the **3rd Country** sprite:
 
 ```blocks3
