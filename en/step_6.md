@@ -10,9 +10,22 @@ Create a new variable by clicking on the `Variables`{:class="block3variables"} b
 
 Then click on the **Make a Variable** button.
 
+--- /task ---
+
+You will title the variable `nonrenewable`. 
+
+--- task ---
+
 Title this variable `nonrenewable`.
 
-Select **For this sprite only** then click **ok**.
+**Important**: in order to create variables which contain values specific to the **3rd County**, click **For this sprite only**.
+
+Then click **ok**. 
+
+![png of electricity naming variables](images/electricity-naming-variables.png){:width="400px"}
+
+--- task ---
+
 
 --- /task ---
 
