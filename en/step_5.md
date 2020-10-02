@@ -46,16 +46,6 @@ say [3rd Country]
 
 --- /task ---
 
-At the moment you haven't entered any data for the **3rd country** sprite but you can still test that the pen works using the default colour.
-
---- task ---
-
-Run your project. The pen will draw a line as the **3rd Country** sprite moves into place.
-
-![image of starting line](images/starting-line.png)
-
---- /task ---
-
 You need to make sure that the program clears the pen marks from the stage and lifts the pen up `when flag clicked`{:class="block3events"}.
 
 --- task ---
