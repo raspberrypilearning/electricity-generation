@@ -64,7 +64,7 @@ Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses example data for the **3rd Country** but you'll input figures for your chosen country.
+Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses South Africa as example data for the **3rd Country** but you'll input figures for your chosen country.
 
 ```blocks3
 when flag clicked
