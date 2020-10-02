@@ -8,7 +8,11 @@ In Scratch, you can **Make a Block** that starts a new script and can add any Sc
 
 Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Make a Block**. Title the block name 'draw' and click on **Add an input number or text**. Change the value `number or text` to 'amount' and then click ok.
 
+--- no-print ---
+
 ![gif of make a block with input](images/electricity-make-a-block-add-input.gif)
+
+--- /no-print ---
 
 You'll see a new **define** block has been created in the **Code** area of the **3rd Country** sprite:
 
@@ -95,7 +99,11 @@ Run your program. In the **3rd Country** sprite, you should see the pen draws ju
 
 Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block in to the repeat loop:
 
+--- no-print ---
+
 ![gif of dragging amount](images/electricity-drag-amount.gif)
+
+--- /no-print ---
 
 ```blocks3
 define draw (amount)
