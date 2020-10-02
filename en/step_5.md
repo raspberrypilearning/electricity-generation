@@ -1,12 +1,12 @@
 ## Build a pen
 
-In this step, you will learn how to use the **Pen** extension blocks to draw on the Stage.
+In this step, you will learn how to use the `Pen`{:class="block3extensions"} extension blocks to draw on the Stage.
 
 --- task ---
 
 Click on the **Code** tab for your **3rd Country** sprite, and then click the **Add Extension** button in the bottom left-hand corner of the screen.
 
-Select the **Pen** extension.
+Select the `Pen`{:class="block3extensions"} extension.
 
 ![gif of adding the pen extension](images/pen-extension.gif)
 

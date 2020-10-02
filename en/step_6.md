@@ -1,6 +1,6 @@
 ## Create the resource variables
 
-In this step you are going to create new resource variables for the **3rd Country** sprite. You will then add values to the variables and then use those values to draw the column for the **3rd Country** sprite. You need to use a local variables so that updating the value for one sprite will not change it for the others.
+In this step you are going to create new resource variables for the **3rd Country** sprite. You will then add values to the variables and then use those values to draw the column for the **3rd Country** sprite. You need to use local variables so that updating the value for one sprite will not change it for the others.
 
 First you will create a variable for non-renewable energy.
 
@@ -20,12 +20,12 @@ Create the remaining resource variables.
 
 --- task ---
 
-Create new variables in the same way remembering to select **For this sprite only** for each new variable: 
+Create new variables in the same way remembering to select **For this sprite only** for each new variable:
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
 + `hydro`{:class="block3variables"}
 + `geothermal`{:class="block3variables"}
-+ `bioenergy`{:class="block3variables"} 
++ `bioenergy`{:class="block3variables"}
 
 --- /task ---
 
@@ -35,7 +35,7 @@ Hide the variables from view.
 
 All the new energy variables are listed in the **Variables** menu. They are also automatically shown on the stage but you don't need them shown there for this project.
 
-Click on the tickboxes next to each variable to hide them from view. 
+Click on the tickboxes next to each variable to hide them from view.
 
 ![gif of hiding variables](images/hiding-variables.gif)
 
@@ -54,7 +54,7 @@ Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses example data for the **3rd Country** but you'll input figures for your chosen country. 
+Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses example data for the **3rd Country** but you'll input figures for your chosen country.
 
 ```blocks3
 when flag clicked
