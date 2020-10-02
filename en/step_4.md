@@ -92,6 +92,8 @@ Run your program. The sprite should be invisible and it should say its title in 
 
 Check that the **3rd Country** sprite's `say`{:class="block3looks"} block is in line with the speech bubbles saying "New Zealand" and the "UK"? If not, you need to go to the **3rd Country** sprite's **Costume** tab and check that the grey square costume is very small and that it is at the very centre of the editor (use the **magnifer** tool). It doesn't matter how small the square is as long as it is small enough.
 
+![Image showing say 3rd Country](images/electricity-maginifier-tool){:width="300px"}
+
 --- /task ---
 
 --- save ---
