@@ -23,7 +23,7 @@ go to x: (-20)y: (-140)
 
 Click the green flag. You should be able to see the **UK** sprite's column now on the right-hand side of the **New Zealand** sprite's column.
 
-![image of background](images/electricity-second-column-no-title.png){:width="400px"}
+![image of second column with no title](images/electricity-second-column-no-title.png){:width="400px"}
 
 --- /task ---
 
@@ -43,7 +43,7 @@ go to x: (-20)y: (70)
 
 Click the green flag. You should now be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
 
-![image of two graphs with the same name](images/electricity-two-graphs-same-name.png){:width="400px"}
+![image of two columns with the same name](images/electricity-two-columns-same-name.png){:width="400px"}
 
 --- /task ---
 
