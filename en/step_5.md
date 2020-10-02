@@ -6,7 +6,7 @@ In this step, you will learn how to use the `Pen`{:class="block3extensions"} ext
 
 Click on the **Code** tab for your **3rd Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
 
-![gif of pen extension block](images/pen-extension.png)
+![gif of pen extension block](images/pen-extension.png){:width="400px"}
 
 --- /task ---
 
