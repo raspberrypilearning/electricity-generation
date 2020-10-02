@@ -1,12 +1,12 @@
 ## Draw the third column
 
-In this step you are going to use the resource variables which you created inthe previous step to draw the column for your chosen **3rd Country** sprite.
+In this step you are going to use the resource variables which you created in the previous step to draw the column for your chosen **3rd Country** sprite.
 
 In Scratch, you can **Make a Block** that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
 
 --- task ---
 
-Go to the **My Blocks** menu and click on **Make a Block**. Title the block name "draw" and click on **Add an input number or text**. Change the value `number or text` to "amount" and then click ok.
+Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Make a Block**. Title the block name 'draw' and click on **Add an input number or text**. Change the value `number or text` to "amount" and then click ok.
 
 You'll see a new **define** block has been created in the **Code** area of the **3rd Country** sprite:
 
