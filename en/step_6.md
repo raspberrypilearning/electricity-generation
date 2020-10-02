@@ -24,9 +24,6 @@ Then click **ok**.
 
 ![png of electricity naming variables](images/electricity-naming-variables.png){:width="400px"}
 
---- task ---
-
-
 --- /task ---
 
 Create the remaining resource variables.
