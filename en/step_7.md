@@ -95,7 +95,7 @@ Run your program. In the **3rd Country** sprite, you should see the pen draws ju
 
 Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block in to the repeat loop:
 
-![gif of dragging amount](images/drag-amount.gif)
+![gif of dragging amount](images/electricity-drag-amount.gif)
 
 ```blocks3
 define draw (amount)
