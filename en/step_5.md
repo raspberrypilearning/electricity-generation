@@ -4,11 +4,9 @@ In this step, you will learn how to use the `Pen`{:class="block3extensions"} ext
 
 --- task ---
 
-Click on the **Code** tab for your **3rd Country** sprite, and then click the **Add Extension** button in the bottom left-hand corner of the screen.
+Click on the **Code** tab for your **3rd Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
 
-Select the `Pen`{:class="block3extensions"} extension.
-
-![gif of adding the pen extension](images/pen-extension.png)
+![gif of pen extension block](images/pen-extension.png)
 
 --- /task ---
 
