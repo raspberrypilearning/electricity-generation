@@ -6,7 +6,7 @@ In this step, you will learn how to use the `Pen`{:class="block3extensions"} ext
 
 Click on the **Code** tab for your **3rd Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
 
-![gif of pen extension block](images/pen-extension.png){:width="400px"}
+![png of pen extension block](images/pen-extension.png){:width="400px"}
 
 --- /task ---
 
@@ -73,10 +73,6 @@ The pen colour will change as it draws each resource. In order to compare the re
 
 Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories plus an additional colour to represent the background.
 
-Change the colours of each block in turn to represent the different colours you chose for the resources. Go to the **Code** tab for either the **New Zealand** OR **UK** sprites to get the values for the colours you selected. In the **Code** tab for **New Zealand** OR **UK** sprites, click on the related `set pen colour to`{:class="block3extensions"} blocks colour to find out the **Color**, **Saturation** and **Brightness** or each resource. 
-
-In turn with each resource, take the three values from either the **New Zealand** OR **UK** sprites and then go to the **3rd Country** sprites to type in the correct values - you may need a pen and paper!
-
 ```blocks3
 when flag clicked
 pen up
@@ -95,6 +91,16 @@ pen down
 go to x: (160) y: (70)
 say [3rd Country]
 ```
+
+--- /task ---
+
+--- task ---
+
+Change the colours of each block in turn to represent the different colours you chose for the resources. Go to the **New Zealand** OR **UK** sprites to get the values for the colours you selected. Click on the **Code** tab for **New Zealand** OR **UK** sprites, and then click on the related `set pen colour to`{:class="block3extensions"} blocks colour to find out the **Color**, **Saturation** and **Brightness** or each resource. 
+
+In turn with each resource, take the three values from either the **New Zealand** OR **UK** sprites and then go to the **3rd Country** sprites to type in the correct values - you may need a pen and paper!
+
+![png of electricity-colour-values](images/electricity-colour-values.png){:width="400px"}
 
 Don't forget to add in the colour for the grey backdrop.
 
