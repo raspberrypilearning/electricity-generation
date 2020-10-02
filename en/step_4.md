@@ -10,7 +10,7 @@ Go to **Choose a Sprite** and select the **Paint** editor.
 
 --- /task ---
 
-You may have noticed how the sprites seem invisible. The sprites use the `say`{:class="block3lookss"} block as a title but you cannot see the sprite itself. This is because the sprites are the same colour grey as the backdrop. You now need to create a sprite which is a grey square.
+You may have noticed how the sprites seem invisible. The sprites use the `say`{:class="block3looks"} block as titles but you cannot see the sprite itself. This is because the sprites are the same colour grey as the backdrop. You now need to create a sprite which is a grey square.
 
 --- task ---
 

@@ -63,7 +63,7 @@ Do not change this block:
 
 ```blocks3
 + set pen color to [#dadada]
-draw (1)
+draw (1) ::custom
 ```
 
 --- /task ---
