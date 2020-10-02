@@ -47,7 +47,11 @@ All the new energy variables are listed in the **Variables** menu. They are also
 
 Click on the tickboxes next to each variable to hide them from view.
 
+--- no-print ---
+
 ![gif of hiding variables](images/hiding-variables.gif)
+
+--- /no-print ---
 
 --- /task ---
 
