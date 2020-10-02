@@ -98,19 +98,11 @@ You now need to change the colours of each block in turn to represent the differ
 
 --- task ---
 
-To get the values for the colours you selected, click on the **Code** tab for the **New Zealand** sprite.
+To get the values for the colours you selected, click on the `set pen colour to`{:class="block3extensions"} blocks that you have created. Do the following in turn so you don't get the order of the colours muddled up:
 
-Click on the related `set pen colour to`{:class="block3extensions"} blocks colour to find out the **Color**, **Saturation** and **Brightness** of each resource. Do the following in turn for each resource colour..
+With the **eye dropper** go to the related resource colour in either of the **New Zealand** or **UK** sprites columns on the Stage. The resource colours will be the same. Click. The **eye dropper** will have picked up the related colour and added it to  the `set pen colour to`{:class="block3extensions"} block which will now show the correct colour for that resource. Do this process seven times.
 
-![png of electricity-colour-values](images/electricity-colour-values.png){:width="400px"}
-
---- /task ---
-
---- task ---
-
-Take the three values from the **New Zealand** sprite - you may need to write them on a piece of pen and paper! Then go to the **3rd Country** sprites to type in the correct values in the relevant `set pen colour to`{:class="block3extensions"} block.
-
-Don't forget to use the backdrop colour for the 7th `set pen colour to`{:class="block3extensions"} block.
+Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block.
 
 --- /task ---
 
