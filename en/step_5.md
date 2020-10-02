@@ -14,7 +14,7 @@ Move your pen to the correct starting position.
 
 --- task ---
 
-Underneath your `when flag clicked`{:class="block3events"} block add three `Motion`{:class="block3motion"} blocks. Add a `go to x: y:`{:class="block3motion"} block and change the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting `don't rotate` from the drop down, and a `point in direction 90`{:class="block3motion"} block.
+Underneath your `when flag clicked`{:class="block3events"} block add three `Motion`{:class="block3motion"} blocks. Add a `go to x: y:`{:class="block3motion"} block and change the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting `don't rotate`{:class="block3motion"} from the drop down, and a `point in direction 90`{:class="block3motion"} block.
 
 ```blocks3
 when flag clicked
