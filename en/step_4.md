@@ -10,7 +10,10 @@ Go to **Choose a Sprite** and select the **Paint** editor.
 
 --- /task ---
 
-You may have noticed how the sprites seem invisible. The sprites use the `say`{:class="block3looks"} block as titles but you cannot see the sprites themselves. This is because the sprites are the same colour grey as the backdrop. You now need to create a sprite which is a grey square.
+You may have noticed how the sprites do not appear to have a graphic. This is because the graphic is a small grey square, the same colour as the backdrop.
+
+Because the sprites’ graphics are invisible, when the sprites moves in the program you only see their related actions of the `Pen`{:class="block3extensions"} and the speech bubble and not the sprite itself.
+You now need to create an invisible sprite graphic which is a grey square, the same colour as the backdrop.
 
 --- task ---
 
@@ -87,7 +90,7 @@ Run your program. The sprite should be invisible and it should say its title in 
 
 ![Image showing say 3rd Country](images/electricity-say-3rdCountry.png){:width="300px"}
 
-Check that the **3rd Country** sprite's `say`{:class="block3looks"} block is in line with the speech bubbles saying "New Zealand" and the "UK"? If not, you need to go to the **3rd Country** sprite's **Costume** tab and check that the grey square costume is very small and that it is at the very centre of the editor (use the **magnifer** tool).
+Check that the **3rd Country** sprite's `say`{:class="block3looks"} block is in line with the speech bubbles saying "New Zealand" and the "UK"? If not, you need to go to the **3rd Country** sprite's **Costume** tab and check that the grey square costume is very small and that it is at the very centre of the editor (use the **magnifer** tool). It doesn't matter how small the square is as long as it is small enough.
 
 --- /task ---
 
