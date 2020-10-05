@@ -20,7 +20,7 @@ Give your new sprite a name. Below is a table that lists a number of countries a
 
 Investigate the table below and decide on which country you want to use for the graph.
 
-Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
+Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 **Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 |
 **Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 |
