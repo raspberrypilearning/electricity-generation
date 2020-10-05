@@ -12,7 +12,7 @@ Then click on the **Make a Variable** button.
 
 --- /task ---
 
-You will need to title the variable. In order to create a variable which contains a value specific to the country you have chosen, you will also need to ensure the variable you are creating is for this sprite only. Even though the other sprites also have a variable titled 'nonrenewable't hey are also unique to those countries. The **3rd Country** nonrenewable variable will hold its own unique value for that resource for your chosen country.
+You will need to title the variable. In order to create a variable which contains a value specific to the country you have chosen, you will also need to ensure the variable you are creating is for this sprite only. Even though the other sprites also have a variable titled 'nonrenewable' they are also unique to those countries. The **3rd Country** nonrenewable variable will hold its own unique value for that resource for your chosen country.
 
 --- task ---
 
