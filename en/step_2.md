@@ -26,13 +26,15 @@ New Zealand produces a lot of their electricity using hydro power which is why t
 
 --- /task ---
 
-At the bottom of the Stage you'll see a key. The key will show all the colours even if they are not currently used in the graph. Some countries will have values for every resource but others will only have a couple of different sources - this doesn't mean the country will always stay that way as there is a drive towards using more renewable energy in future. 
+At the bottom of the Stage you'll see an empty key. The key will show all the resources even if they are not currently used in the graph - countries are always changing how they produce electricity and there is a move towards using more renewable resources in future. 
 
-You are now going to choose the colours in the key that will represent each of the resources. 
+Choose the colours that will represent each of the resources on your graph. 
 
 --- task ---
 
-Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the Paint editor is a square that is not currently filled with colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation and Brightness sliders.
+Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the **Paint editor** is a square that has o fill colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation and Brightness sliders.
+
+![image of Non-renewable sprite](images/non-renewable-sprite.png)
 
 ![image of how to change colour](images/electricity-paint-editor-grey-square.png)
 
@@ -42,8 +44,6 @@ Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of 
 
 Select the **Paint can** tool and click inside the square costume. You'll see that the first square in the key changes to the new colour. 
 
-![image of selecting colour](images/selecting-colour.png)
-
 ![image of first colour](images/first-colour.png)
 
 --- /task ---
@@ -52,7 +52,7 @@ You have chosen a new colour to represent non-renewable energy in the graph. Nex
 
 --- task ---
 
-Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the `set pen color to`{:class="block3extensions"} block `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block in the section of code where the colours of the bar graph are set. 
+Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the first `set pen color to`{:class="block3extensions"} block and `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block in the section of code where the colours of the bar graph are set. 
 
 ![image of the New-Zealand sprite](images/new-zealand-sprite.png)
 
@@ -77,11 +77,11 @@ draw (bioenergy) ::custom
 
 --- task ---
 
-Click on the coloured cirle of the `set pen colour`{:class="block3extensions"} block that sits above the `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block. Select the **Colour Picker** tool, which you will find below the three colour sliders and move the mouse pointer until you are hovering over the **Non-renewable** sprite in the key. Click the mouse button and your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
+Click on the coloured cirle of the first `set pen colour`{:class="block3extensions"} block. Select the **Colour Picker** tool, which you will find below the three colour sliders and move the mouse pointer until you are hovering over the **Non-renewable** sprite in the key. Click the mouse button and your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
 
+![image of selecting colour](images/selecting-colour.png)
 
 ![image of the New-Zealand sprite](images/new-zealand-sprite.png)
-
 
 ```blocks3
 
@@ -105,6 +105,8 @@ draw (bioenergy) ::custom
 --- task ---
 
 Run your project again. You'll notice that the non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no non-renewable speech bubble when you hover over the new colour - it keeps the text from the last resource it hovered over. 
+
+![image of testing first colour](images/test-first-colour.png)
 
 --- /task ---
 
