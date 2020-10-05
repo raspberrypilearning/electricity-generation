@@ -55,7 +55,7 @@ Click on the checkboxes next to each variable to hide them from view.
 
 --- /task ---
 
-Now you can input the resources data for your chosen country. Below is the table to help you identify the values.
+Now you can input the resources data for your chosen country. Below is the table again to help you input the data.
 
 Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
