@@ -14,7 +14,7 @@ Go to **Choose a Sprite** and select the **Paint** editor.
 
 --- /task ---
 
-Give your new sprite a name. Below is a table that lists a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited, or even a country which uses a large amount of one of the resources. 
+Give your new sprite a name. Below is a table that lists a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited, or even a country that uses a large amount of one of the resources. 
 
 --- task ---
 
