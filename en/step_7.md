@@ -22,7 +22,7 @@ define draw (amount)
 
 --- /task ---
 
-The first line in the column will be created by moving the **3rd Country** sprite with the pen down, before turning it round and then moving up the stage slightly.
+To create the first line in the column, move the **3rd Country** sprite with the pen down, before turning it round and then moving up the Stage slightly.
 
 --- task ---
 
