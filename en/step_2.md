@@ -12,7 +12,7 @@ You'll use a stacked column graph to create an animated and interactive data vis
 
 --- /task ---
 
-You should see a background titled "Electricity generation % 2019" and, below, it a horizontal line.
+You should see a background titled "Electricity generation % 2019". At the bottom of the page is a horizontal line.
 
 ![image of background](images/electricity-starter.png){:width="400px"}
 
