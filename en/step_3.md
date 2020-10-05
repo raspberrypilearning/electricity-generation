@@ -28,7 +28,7 @@ Go to the **Code** tab of the **UK** sprite.
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values x: `-200` and y: `-140`. Only change the x value to `-20`. The y value can stay at -140:
+Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values x: `-200` and y: `-140`. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at -140:
 
 ![image of UK sprite](images/UK-sprite.png)
 
@@ -49,7 +49,7 @@ However, it won't be clear that it is a column about the UK, because the title i
 
 --- task ---
 
-Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the x value to `-20`. The y value can stay at 70:
+Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at 70:
 
 ![image of UK sprite](images/UK-sprite.png)
 
