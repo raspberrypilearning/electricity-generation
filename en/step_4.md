@@ -32,7 +32,7 @@ Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Rename **Sprite1** with the name of the country you have chosen. In this resource, you will refer to this sprite as the **3rd Country** sprite.
+Rename **Sprite1** with the name of the country you have chosen. In this resource, this sprite will be referred to as the **3rd Country** sprite.
 
 ![Image showing rename Sprite1](images/electricity-rename-Sprite1.png){:width="300px"}
 
