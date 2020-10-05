@@ -44,7 +44,7 @@ When the program is run we want the **3rd Country** sprite to go to a position o
 
 Go to the **Code** editor for the **3rd Country** sprite.
 
-Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:` `200`{:class="block3motion"} `y:`{:class="block3motion"} `70` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen:
+Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:`{:class="block3motion"} `200` `y:`{:class="block3motion"} `70` and a `say`{:class="block3looks"} block where you will type in the name of the country you have chosen:
 
 ```blocks3
 when green flag clicked
