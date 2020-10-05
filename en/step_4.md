@@ -2,6 +2,10 @@
 
 In this step you are going to start to create your own column.
 
+You may have noticed how the country sprites do not have a graphic. This is because when the sprites moves in the program you only need to see their related actions of the `Pen`{:class="block3extensions"} and the speech bubble and not the sprite itself.
+
+You now need to create a new sprite with no costume.
+
 --- task ---
 
 Go to **Choose a Sprite** and select the **Paint** editor.
@@ -10,39 +14,7 @@ Go to **Choose a Sprite** and select the **Paint** editor.
 
 --- /task ---
 
-You may have noticed how the sprites do not appear to have a graphic. This is because the graphic is a small grey square, the same colour as the backdrop.
 
-Because the sprites’ graphics are invisible, when the sprites moves in the program you only see their related actions of the `Pen`{:class="block3extensions"} and the speech bubble and not the sprite itself.
-You now need to create an invisible sprite graphic which is a grey square, the same colour as the backdrop.
-
---- task ---
-
-Go to the **Outline** tool and click the square with a red line through it to turn the **Outline** tool off.
-
-![Image showing outline off](images/electricity-paint-editor-outline-off.png){:width="250px"}
-
---- /task ---
-
---- task ---
-
-Now add the following values in the **Fill** tool.
-
-Color = 0
-Saturation = 0
-Brightness = 85
-
-![Image showing grey square values](images/electricity-paint-editor-grey-square.png){:width="250px"}
-
---- /task ---
-
---- task ---
-
-Select the **Rectangle** tool and draw a very small square at the centre. Notice from the image below how small your rectangle needs to be. The grey square needs to be at least as small as the cross in the centre of the **Paint** editor. You may need to use the magnifying tool to change the scale so you can see the whole of the editor or draw the square small enough.
-
-![Image showing rectangle took](images/electricity-paint-editor-rectangle-tool.png){:width="200px"}
-![Image showing grey rectangle](images/electricity-painteditor-grey-rectangle.png){:width="400px"}
-
---- /task ---
 
 Now that your new sprite is a grey square let's give it a name. Below is a table listing a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or even a country which uses a large amount of one of the resources?
 
