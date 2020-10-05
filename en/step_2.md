@@ -77,7 +77,7 @@ draw (bioenergy) ::custom
 
 --- task ---
 
-Click on the coloured cirle of the first `set pen colour`{:class="block3extensions"} block and select the **Colour Picker** tool, which is below the three colour sliders. Move the mouse pointer until you hover over the **Non-renewable** sprite in the key to select that colour.
+Click on the coloured circle of the first `set pen colour`{:class="block3extensions"} block and select the **Colour Picker** tool, which is below the three colour sliders. Move the mouse pointer until you hover over the **Non-renewable** sprite in the key to select that colour.
 
 Your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
 
