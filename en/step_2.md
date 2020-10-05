@@ -42,28 +42,34 @@ Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of 
 
 Select the **Paint can** tool and click inside the square costume. You'll see that the first square in the key changes to the new colour. 
 
+![image of selecting colour](images/selecting-colour.png)
+
+![image of first colour](images/first-colour.png)
+
 --- /task ---
 
 You have chosen a new colour to represent non-renewable energy in the graph. Next you need to change the resource in the **New Zealand** sprite.
 
 --- task ---
 
-Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block in the section of code where the colours of the bar graph are set. 
+Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the `set pen color to`{:class="block3extensions"} block `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block in the section of code where the colours of the bar graph are set. 
+
+![image of the New-Zealand sprite](images/new-zealand-sprite.png)
 
 ```blocks3
 
-set pen color to [#5e6766]
++set pen color to [#5e6766]
 +draw (nonrenewable) ::custom
 set pen color to [#37e4db]
-+draw (wind) ::custom
+draw (wind) ::custom
 set pen color to [#e4d748]
-+draw (solar) ::custom
+draw (solar) ::custom
 set pen color to [#169bb0]
-+draw (hydro) ::custom
+draw (hydro) ::custom
 set pen color to [#ab7519]
-+draw (geothermal) ::custom
+draw (geothermal) ::custom
 set pen color to [#00a42c]
-+draw (bioenergy) ::custom
+draw (bioenergy) ::custom
 
 ```
 
@@ -73,20 +79,24 @@ set pen color to [#00a42c]
 
 Click on the coloured cirle of the `set pen colour`{:class="block3extensions"} block that sits above the `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block. Select the **Colour Picker** tool, which you will find below the three colour sliders and move the mouse pointer until you are hovering over the **Non-renewable** sprite in the key. Click the mouse button and your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
 
+
+![image of the New-Zealand sprite](images/new-zealand-sprite.png)
+
+
 ```blocks3
 
-set pen color to [#FF0000]
-+draw (nonrenewable) ::custom
++set pen color to [#FF0000]
+draw (nonrenewable) ::custom
 set pen color to [#37e4db]
-+draw (wind) ::custom
+draw (wind) ::custom
 set pen color to [#e4d748]
-+draw (solar) ::custom
+draw (solar) ::custom
 set pen color to [#169bb0]
-+draw (hydro) ::custom
+draw (hydro) ::custom
 set pen color to [#ab7519]
-+draw (geothermal) ::custom
+draw (geothermal) ::custom
 set pen color to [#00a42c]
-+draw (bioenergy) ::custom
+draw (bioenergy) ::custom
 
 ```
 
@@ -102,7 +112,36 @@ To create the interactive label for the non-renewable resource change the colour
 
 --- task ---
 
-Click on the **Pointer** sprite and locate the `touching color` block above the `say Non-renewable` block. Click on the circle and use the **Color picker** tool to select the new colour from the key.
+Click on the **Pointer** sprite and find section of code when the colours are set. In the `touching color` block above the `say Non-renewable` block, click on the circle and use the **Color picker** tool to select the new colour from the key:
+
+![image of the Pointer sprite](images/pointer-sprite.png)
+
+
+```blocks3
++if {touching color (#5e6766)?} then
+say [Non-renewable]
+end
+if {touching color (#37e4db)?} then
+say [Wind]
+end
+if {touching color (#e4d748)?} then
+say [Solar]
+end
+if {touching color (#169bb0)?} then
+say [Hydro]
+end
+if {touching color (#ab7519)?} then
+say [Geothermal]
+end
+if {touching color (#00a42c)?} then
+say [Bioenergy]
+end
+if {touching color ()?} then
+say ()
+end
+
+```
+
 
 --- /task ---
 
