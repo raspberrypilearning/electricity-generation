@@ -98,7 +98,7 @@ You now need to change the colours of each block to represent the different colo
 
 --- task ---
 
-Click on the first `set pen colour to`{:class="block3extensions"} block and select the **Color dropper** tool. Click on the first resource in your key. The circle will then turn to your chosen colour. 
+Click on the first `set pen colour to`{:class="block3extensions"} block and select the **Colour picker** tool. Click on the first resource in your key. The circle will then turn to your chosen colour. 
 
 Repeat this for each of the resources in turn, so you don't get the order of the resource colours muddled up. 
 
