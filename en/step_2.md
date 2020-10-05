@@ -2,7 +2,7 @@
 
 For this project, you will make an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it involves lots of numbers. That's why pie charts and graphs can be so informative. They can help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project does both!
 
-You'll create an animated and interactive data visualistation using a stacked column graph to compare the resources used by three countries to generate electricity.
+You'll use a stacked column graph to create an animated and interactive data visualistation which compares the resources used by three countries to generate electricity.
 
 --- task ---
 
