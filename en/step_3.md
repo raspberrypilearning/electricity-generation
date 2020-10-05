@@ -18,7 +18,7 @@ Rename the new sprite `UK`.
 
 --- /task ---
 
-Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You need to you move the position of where the **UK** sprite's column starts to draw on the Stage to be able to see the **UK** sprite.
+Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You need to move the position of where the **UK** sprite's column starts to draw on the Stage, to be able to see the **UK** sprite.
 
 --- task ---
 
