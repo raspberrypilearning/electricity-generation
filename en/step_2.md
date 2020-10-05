@@ -26,7 +26,7 @@ New Zealand produces a lot of their electricity using hydropower, which is why t
 
 --- /task ---
 
-At the bottom of the Stage, you'll see an empty key. The key shows all the resources, even if they are not currently used in the graph. This is because countries are always changing how they produce electricity, and there is a move towards renewable resources in future. 
+At the bottom of the Stage, you'll see an empty key. The key shows all the resources, even if they are not currently used in the graph. This is because countries are always changing how they produce electricity, and there has been a move towards renewable resources. 
 
 Choose the colours to represent each of the resources on your graph. 
 
