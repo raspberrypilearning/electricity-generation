@@ -105,7 +105,7 @@ To create the interactive label for the non-renewable resource, change the colou
 
 --- task ---
 
-Click on the **Pointer** sprite and find section of code when the colours are set. In the `touching color`{:class="block3sensing"} block above the `say Non-renewable`{:class="block3looks"} block, click on the circle and use the **Color picker** tool to select the new colour from the key:
+Click on the **Pointer** sprite and find section of code when the colours are set. In the `touching color`{:class="block3sensing"} block above the `say Non-renewable`{:class="block3looks"} block, click on the circle and use the **Colour picker** tool to select the new colour from the key:
 
 ![image of the Pointer sprite](images/pointer-sprite.png)
 
