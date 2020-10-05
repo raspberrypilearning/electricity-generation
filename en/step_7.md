@@ -41,7 +41,7 @@ Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct
 
 --- task ---
 
-From the **My Blocks** menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the draw blocks in the following order:
+From the **My Blocks** menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the `draw`{:class="block3myblocks"} blocks in the following order:
 + `nonrenewable`{:class="block3variables"}
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
