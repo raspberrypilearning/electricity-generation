@@ -71,7 +71,7 @@ You need to change the text in the `say`{:class="block3looks"} block so that it 
 
 --- task ---
 
-Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`. So that the title "UK" is in the centre of the speech bubble, press the spacebar on your keyboard four times first and then type 'UK':
+Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`. So that the title "UK" is in the centre of the speech bubble, press the space bar on your keyboard four times first and then type `UK`:
 
 ![image of UK sprite](images/UK-sprite.png)
 
