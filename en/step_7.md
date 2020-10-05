@@ -66,7 +66,6 @@ set rotation style [don't rotate v]
 point in direction (90)
 set pen size to (2)
 pen down
-hide
 set pen color to [#5e6766]
 +draw (nonrenewable)
 set pen color to [#37e4db]
@@ -82,7 +81,6 @@ set pen color to [#00a42c]
 set pen color to [#dadada]
 +draw (1)
 pen up
-show
 go to x: (160) y: (70)
 say [3rd Country]
 ```
