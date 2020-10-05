@@ -160,7 +160,7 @@ say [3rd Country]
 
 --- task ---
 
-Test your project. The column for the **3rd Country** should now complete drawing, and show the values you have chosen. When you hover over each resource, the label appears.
+Test your project. The column for the **3rd Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
 
 --- /task ---
 
