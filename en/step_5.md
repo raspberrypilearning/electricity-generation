@@ -14,7 +14,7 @@ Move your pen to the correct starting position.
 
 --- task ---
 
-Underneath your `when flag clicked`{:class="block3events"} block insert three `Motion`{:class="block3motion"} blocks. Add a `go to x: y:`{:class="block3motion"} block and change the values to x: `120` and y: `-140`. Add a `set rotation style`{:class="block3motion"} block, selecting `don't rotate`{:class="block3motion"} from the drop down, and a `point in direction 90`{:class="block3motion"} block.
+Underneath your `when flag clicked`{:class="block3events"} block, insert three `Motion`{:class="block3motion"} blocks. Add a `go to x: y:`{:class="block3motion"} block and change the values to `x:`{:class="block3motion"} `120` and `y:`{:class="block3motion"} `-140`. Add a `set rotation style`{:class="block3motion"} block, and select `don't rotate`{:class="block3motion"} from the drop-down menu, and a `point in direction 90`{:class="block3motion"} block.
 
 ```blocks3
 when flag clicked
@@ -31,7 +31,7 @@ Prepare the pen and set its size.
 
 --- task ---
 
-Add a `set pen size to 1`{:class="block3extensions"} block changing the value to `2` so the pen is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw.
+Add a `set pen size to 1`{:class="block3extensions"} block, and change the value to `2` so the pen is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw.
 
 ```blocks3
 when flag clicked
@@ -46,11 +46,11 @@ say [3rd Country]
 
 --- /task ---
 
-You need to make sure that the program clears the pen marks from the stage and lifts the pen up `when flag clicked`{:class="block3events"}.
+You need to make sure that the program clears the pen marks from the Stage and lifts the pen up `when flag clicked`{:class="block3events"}.
 
 --- task ---
 
-Add an `erase all`{:class="block3extensions"} block and a `pen up`{:class="block3extensions"} block at the top of your code underneath `when flag clicked`{:class="block3events"}
+Add an `erase all`{:class="block3extensions"} block, and a `pen up`{:class="block3extensions"} block at the top of your code underneath the `when flag clicked`{:class="block3events"} block.  
 
 ```blocks3
 when flag clicked
@@ -67,11 +67,11 @@ say [3rd Country]
 
 --- /task ---
 
-The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour representing each resource needs to match. After the pen has finished drawing the categories it will turn to the colour of the backdrop i.e. grey.
+The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour that represents each resource needs to be the same for each country. After the pen has finished drawing the categories, it will turn to the colour of the backdrop i.e. grey.
 
 --- task ---
 
-Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories plus an additional colour to represent the background.
+Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories, plus an additional colour to represent the background.
 
 ```blocks3
 when flag clicked
@@ -100,7 +100,7 @@ You now need to change the colours of each block in turn to represent the differ
 
 Click on the first `set pen colour to`{:class="block3extensions"} block and select the **Color dropper** tool. Click on the first resource in your key. The circle will then turn to your chosen colour. 
 
-Repeat this for each of the resources in turn so you don't get the order of the resource colours muddled up. 
+Repeat this for each of the resources in turn, so you don't get the order of the resource colours muddled up. 
 
 Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere in the background of the Stage.
 
@@ -136,7 +136,7 @@ say [3rd Country]
 
 --- task ---
 
-You cannot usefully check your code. Although the **3rd Country** sprite is set up it doesn't draw a graph as you haven't inputted any resource data yet.
+You cannot usefully check your code. Although the **3rd Country** sprite is set up, it doesn't draw a graph as you haven't inputted any resource data yet.
 
 --- /task ---
 
