@@ -18,7 +18,7 @@ Give your new sprite a name. Below is a table that lists a number of countries a
 
 --- task ---
 
-Investigate the table below and decide on which country you want to use to create a graph.
+Investigate the table below and decide on which country you want to use for the graph.
 
 Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
