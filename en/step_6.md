@@ -16,7 +16,7 @@ You need a title for the variable. To create a variable that contains a value sp
 
 --- task ---
 
-Title this variable `nonrenewable`.
+Call this variable `nonrenewable`.
 
 **Important**: Click **For this sprite only**.
 
