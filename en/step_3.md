@@ -109,7 +109,7 @@ set [bioenergy v] to (1)
 ```
 --- /task ---
 
-In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table.
+In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the table below.
 
 ![image of UK sprite](images/UK-sprite.png)
 
@@ -153,7 +153,7 @@ set [bioenergy v] to (10)
 
 --- task ---
 
-Check you have inputted the values correctly. Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total which is 100 percent.
+Check you have inputted the values correctly. Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total, which is 100 percent.
 
 --- /task ---
 
