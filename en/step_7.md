@@ -14,7 +14,7 @@ Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Mak
 
 --- /no-print ---
 
-You'll see a new **define** block has been created in the **Code** area of the **3rd Country** sprite:
+You'll see a new **define** block has been created in the Code area of the **3rd Country** sprite:
 
 ```blocks3
 define draw (amount)
