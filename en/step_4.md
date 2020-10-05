@@ -2,7 +2,7 @@
 
 In this step, you are going to start to create your own column.
 
-You may have noticed that the country sprites do not have a graphic. This is because when the sprites moves in the program, you only need to see their related actions of the `Pen`{:class="block3extensions"} extension block and the speech bubble, not the sprite itself.
+You may have noticed that the country sprites do not have a graphic. This is because when the sprites moves in the program, you only need to see their related actions of the `Pen`{:class="block3extensions"} and the speech bubble, not the sprite itself.
 
 Now you need to create a new sprite with no costume.
 
