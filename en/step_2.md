@@ -22,17 +22,17 @@ Run your project by clicking the green flag. An animation of a column is drawn b
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
-New Zealand produces a lot of their electricity using hydro power which is why there's a lot of blue in the example column graph above.
+New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of blue in the column above.
 
 --- /task ---
 
-At the bottom of the Stage you'll see an empty key. The key will show all the resources even if they are not currently used in the graph. This is because countries are always changing how they produce electricity and there is a move towards using more renewable resources in future. 
+At the bottom of the Stage, you'll see an empty key. The key shows all the resources, even if they are not currently used in the graph. This is because countries are always changing how they produce electricity, and there is a move towards renewable resources in future. 
 
-Choose the colours that will represent each of the resources on your graph. 
+Choose the colours to represent each of the resources on your graph. 
 
 --- task ---
 
-Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the **Paint editor** is a square that has no fill colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation and Brightness sliders.
+Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the **Paint editor**, is a square that has no fill colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation, and Brightness sliders.
 
 ![image of Non-renewable sprite](images/non-renewable-sprite.png)
 
@@ -48,7 +48,7 @@ Select the **Paint can** tool and click inside the square costume. You'll see on
 
 --- /task ---
 
-You have chosen a new colour to represent non-renewable energy in the graph. Next you need to change the resource in the **New Zealand** sprite.
+You have chosen a new colour to represent non-renewable energy in the graph. Next, you need to change the resource in the **New Zealand** sprite.
 
 --- task ---
 
@@ -77,7 +77,7 @@ draw (bioenergy) ::custom
 
 --- task ---
 
-Click on the coloured cirle of the first `set pen colour`{:class="block3extensions"} block and select the **Colour Picker** tool, which you will find below the three colour sliders. Move the mouse pointer until you are hovering over the **Non-renewable** sprite in the key to select that colour.
+Click on the coloured cirle of the first `set pen colour`{:class="block3extensions"} block and select the **Colour Picker** tool, which is below the three colour sliders. Move the mouse pointer until you hover over the **Non-renewable** sprite in the key to select that colour.
 
 Your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
 
@@ -101,7 +101,7 @@ Run your project again. The non-renewable resource for New Zealand is now drawn 
 
 --- /task ---
 
-To create the interactive label for the non-renewable resource change the colour in the **Pointer** sprite.
+To create the interactive label for the non-renewable resource, change the colour in the **Pointer** sprite.
 
 --- task ---
 
@@ -144,11 +144,11 @@ Run your project again. The interactive label will say "Non-renewable" when you 
 
 --- /task ---
 
-You will now choose your own colours to represent the other resources. Think about how you want the visualisation to represent the data with colour. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
+Now choose your own colours to represent the other resources. Think about how you want the visualisation to represent the data with colour. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
 
 --- task ---
 
-Repeat the steps above for resource sprites: **Wind**, **Solar**, **Hydro**, **Geothermal** and **Bioenergy**. Remember to change the colour in your resource sprite first then find that resource code in the **New Zealand** sprite and **Pointer** sprite to update it there too.
+Repeat the steps above for resource sprites: **Wind**, **Solar**, **Hydro**, **Geothermal**, and **Bioenergy**. Remember to change the colour in your resource sprite first, then find that resource code in the **New Zealand** sprite and **Pointer** sprite to update it there too.
 
 ![image of how to change pen colour](images/new-colours-chart.png)
 
