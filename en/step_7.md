@@ -26,7 +26,7 @@ To create the first line in the column, move the **3rd Country** sprite with the
 
 --- task ---
 
-Add three `Motion`{:class="block3motion"} blocks to your new `draw`{:class="block3extensions"} block: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"} block, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"} block, and `change y by`{:class="block3motion"} `2`:
+Add three `Motion`{:class="block3motion"} blocks to your new `draw`{:class="block3extensions"} block: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"}, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"}, and `change y by`{:class="block3motion"} `2`:
 
 ```blocks3
 define draw (amount)
