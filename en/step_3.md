@@ -1,6 +1,6 @@
 ## Add a UK column
 
-In this step, you are going to add a UK column and populate it with data so you can see a comparison of New Zealand and the UK.
+In this step, you are going to add a UK column and populate it with data so you can compare the results from New Zealand with the UK.
 
 You are going to create a column for the UK. To do this, you will copy the **New Zealand** sprite.  
 
