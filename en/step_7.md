@@ -2,7 +2,7 @@
 
 Now it's time to use the resource variables that you created in the previous step to draw the column for your chosen **3rd Country** sprite.
 
-In Scratch, you can **Make a Block** that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
+In Scratch, you can make a block that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
 
 --- task ---
 
@@ -14,7 +14,7 @@ Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Mak
 
 --- /no-print ---
 
-You'll see a new **define** block has been created in the Code area of the **3rd Country** sprite:
+You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **3rd Country** sprite:
 
 ```blocks3
 define draw (amount)
