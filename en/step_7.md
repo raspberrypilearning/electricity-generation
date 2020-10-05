@@ -89,7 +89,7 @@ say [3rd Country]
 
 --- task ---
 
-Run your program. In the **3rd Country** sprite, you should see that the pen draws just one thin line for each resource. To make sure the pen to draws the correct amount for each resource, you need to repeat the number of lines the pen is instructed to draw.
+Run your program. In the **3rd Country** sprite, you should see that the pen draws just one thin line for each resource. To make sure the pen draws the correct amount for each resource, you need to repeat the number of lines the pen is instructed to draw.
 
 --- /task ---
 
