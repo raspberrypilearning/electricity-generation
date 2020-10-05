@@ -38,8 +38,6 @@ Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of 
 
 ![image of no fill colour](images/no-fill-colour.png)
 
-![image of how to change colour](images/electricity-paint-editor-grey-square.png)
-
 --- /task ---
 
 --- task ---
