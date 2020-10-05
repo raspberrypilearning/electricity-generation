@@ -14,9 +14,7 @@ Go to **Choose a Sprite** and select the **Paint** editor.
 
 --- /task ---
 
-
-
-Now that your new sprite is a grey square let's give it a name. Below is a table listing a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or even a country which uses a large amount of one of the resources?
+Now give your new sprite a name. Below is a table listing a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited or even a country which uses a large amount of one of the resources?
 
 --- task ---
 
@@ -61,10 +59,6 @@ say () ::looks
 Run your program. The sprite should be invisible and it should say its title in the top right-hand side of the Stage. The example says "3rd Country".
 
 ![Image showing say 3rd Country](images/electricity-say-3rdCountry.png){:width="300px"}
-
-Check that the **3rd Country** sprite's `say`{:class="block3looks"} block is in line with the speech bubbles saying "New Zealand" and the "UK"? If not, you need to go to the **3rd Country** sprite's **Costume** tab and check that the grey square costume is very small and that it is at the very centre of the editor (use the **magnifer** tool). It doesn't matter how small the square is as long as it is small enough.
-
-![Image showing maginifier tool](images/electricity-maginifier-tool.png){:width="300px"}
 
 --- /task ---
 
