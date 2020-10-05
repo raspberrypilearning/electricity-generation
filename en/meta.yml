@@ -1,4 +1,4 @@
-ivtitle: Electricity generation
+title: Electricity generation
 hero_image: images/banner.png
 description: Create a program to input real data on the range of natural resources used by various countries to generate electricity. Then compare the results using data visualisation.
 version: 4
