@@ -50,7 +50,7 @@ You need to make sure that the program clears the pen marks from the Stage and l
 
 --- task ---
 
-Add an `erase all`{:class="block3extensions"} block, and a `pen up`{:class="block3extensions"} block at the top of your code underneath the `when flag clicked`{:class="block3events"} block.  
+Add an `erase all`{:class="block3extensions"} block and a `pen up`{:class="block3extensions"} block at the top of your code, underneath the `when green flag clicked`{:class="block3events"} block.  
 
 ```blocks3
 when flag clicked
