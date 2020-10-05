@@ -51,7 +51,7 @@ title: What you will learn
 ---
 
 + How to organise your program using `my blocks`{:class="block3myblocks"}
-+ How to draw stacked bar graphs with the `Pen`{:class="block3extensions"} extension block
++ How to draw stacked bar graphs with the `Pen`{:class="block3extensions"} extension blocks
 + How to turn real-world data (numbers) into an animated and interactive data visualisation
 
 --- /collapse ---
