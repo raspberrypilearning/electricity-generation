@@ -57,7 +57,7 @@ Click on the tickboxes next to each variable to hide them from view.
 
 Now you can input the resources data for your chosen country. Below is the table to help you identify the values.
 
-Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
+Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 **Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 |
 **Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 |
@@ -68,7 +68,7 @@ Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses South Africa as example data for the **3rd Country** sprite, but you'll input figures for your chosen country.
+Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The code below uses South Africa as example data for the **3rd Country** sprite, but you'll input figures for your chosen country.
 
 ```blocks3
 when flag clicked
