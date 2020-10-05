@@ -94,7 +94,7 @@ say [3rd Country]
 
 --- /task ---
 
-You now need to change the colours of each block in turn to represent the different colours you have chosen to represent the resources. 
+You now need to change the colours of each block to represent the different colours you have chosen for the resources. 
 
 --- task ---
 
