@@ -1,6 +1,6 @@
 ## Create the resource variables
 
-In this step you are going to create new resource variables for the **3rd Country** sprite. You will then add values to the variables and then use those values to draw the column for the **3rd Country** sprite. You need to use local variables so that updating the value for one sprite will not change it for the others.
+In this step, you are going to create new resource variables for the **3rd Country** sprite. You will then add values to the variables and then use those values to draw the column for the **3rd Country** sprite. You need to use local variables so that updating the value for one sprite will not change it for the others.
 
 First you will create a variable for non-renewable resources.
 
