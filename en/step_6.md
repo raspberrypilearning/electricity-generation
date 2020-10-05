@@ -45,7 +45,7 @@ Hide the variables from view.
 
 All the new energy variables are listed in the **Variables** menu. They are also automatically shown on the Stage, but you don't need them shown there for this project.
 
-Click on the tickboxes next to each variable to hide them from view.
+Click on the checkboxes next to each variable to hide them from view.
 
 --- no-print ---
 
