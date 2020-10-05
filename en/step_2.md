@@ -1,4 +1,4 @@
-## Set up the columns
+## Pick the colours
 
 For this project you will be making an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it's lots of numbers. That's why pie charts and graphs can be so informative. They help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project does both!
 
@@ -12,7 +12,7 @@ You'll create an animated and interactive data visualistation using a stacked co
 
 --- /task ---
 
-You should see a plain background titled "Electricity generation % 2019" and, below, it a horizontal line.
+You should see a background titled "Electricity generation % 2019" and, below, it a horizontal line.
 
 ![image of background](images/electricity-starter.png){:width="400px"}
 
@@ -26,11 +26,29 @@ New Zealand produces a lot of their electricity using hydro power which is why t
 
 --- /task ---
 
-You are now going to choose the colours that will represent each of the resources
+At the bottom of the Stage you'll see a key. The key will show all the colours even if they are not currently used in the graph. Some countries will have values for every resource but others will only have a couple of different sources - this doesn't mean the country will always stay that way as there is a drive towards using more renewable energy in future. 
+
+You are now going to choose the colours in the key that will represent each of the resources. 
 
 --- task ---
 
-Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the section of code where the colours of the bar graph are set:
+Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the Paint editor is a square that is not currently filled with colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation and Brightness sliders.
+
+![image of how to change colour](images/electricity-paint-editor-grey-square.png)
+
+--- /task ---
+
+--- task ---
+
+Select the **Paint can** tool and click inside the square costume. You'll see that the first square in the key changes to the new colour. 
+
+--- /task ---
+
+You have chosen a new colour to represent non-renewable energy in the graph. Next you need to change the resource in the **New Zealand** sprite.
+
+--- task ---
+
+Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block in the section of code where the colours of the bar graph are set. 
 
 ```blocks3
 
@@ -51,36 +69,57 @@ set pen color to [#00a42c]
 
 --- /task ---
 
-You will now choose your own colours to represent each resource. Think about how you want the visualisation to represent the data with colour. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
-
 --- task ---
 
-Go to the `set pen color to`{:class="block3extensions"} blocks and click on the colour for each resource, changing them to your choice of colour.
-
-![image of how to change pen colour](images/how-to-change-pen-colour.png)
-
-Do not change this block:
+Click on the coloured cirle of the `set pen colour`{:class="block3extensions"} block that sits above the `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block. Select the **Colour Picker** tool, which you will find below the three colour sliders and move the mouse pointer until you are hovering over the **Non-renewable** sprite in the key. Click the mouse button and your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
 
 ```blocks3
-+ set pen color to [#dadada]
-draw (1) ::custom
+
+set pen color to [#FF0000]
++draw (nonrenewable) ::custom
+set pen color to [#37e4db]
++draw (wind) ::custom
+set pen color to [#e4d748]
++draw (solar) ::custom
+set pen color to [#169bb0]
++draw (hydro) ::custom
+set pen color to [#ab7519]
++draw (geothermal) ::custom
+set pen color to [#00a42c]
++draw (bioenergy) ::custom
+
 ```
 
 --- /task ---
 
-You are now going to create a column for the UK. To do this you will copy the **New Zealand** sprite.  
+--- task ---
+
+Run your project again. You'll notice that the non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no non-renewable speech bubble when you hover over the new colour - it keeps the text from the last resource it hovered over. 
+
+--- /task ---
+
+To create the interactive label for the non-renewable resource change the colour in the **Pointer** sprite.
 
 --- task ---
 
-Click on the **New Zealand** sprite and right-click to select **duplicate**.
-
-![image of background](images/electricity-copy-sprite.png){:width="300px"}
+Click on the **Pointer** sprite and locate the `touching color` block above the `say Non-renewable` block. Click on the circle and use the **Color picker** tool to select the new colour from the key.
 
 --- /task ---
 
 --- task ---
 
-Rename the new sprite `UK`.
+Run your project again. The interactive label will say "Non-renewable" when you hover over the resource in your New Zealand column. 
+
+--- /task ---
+
+You will now choose your own colours to represent the other resources. Think about how you want the visualisation to represent the data with colour. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
+
+--- task ---
+
+Repeat the steps above for resources: Wind, Solar, Hydro, Geothermal and Bioenergy. Remember to change the colour in your resource sprite first then find that resource code in the **New Zealand** sprite and **Pointer** sprite to update it there too.
+
+![image of how to change pen colour](images/new-colours-chart.png)
+
 
 --- /task ---
 
