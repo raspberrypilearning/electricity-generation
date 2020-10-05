@@ -1,6 +1,22 @@
-## Add data to the UK column
+## Add a UK column
 
-In this step you are going to add data to the UK column so you can see a comparison of New Zealand and the UK.
+In this step you are going to add a UK column and populate it with data so you can see a comparison of New Zealand and the UK.
+
+You are now going to create a column for the UK. To do this you will copy the **New Zealand** sprite.  
+
+--- task ---
+
+Click on the **New Zealand** sprite and right-click to select **duplicate**.
+
+![image of background](images/electricity-copy-sprite.png){:width="300px"}
+
+--- /task ---
+
+--- task ---
+
+Rename the new sprite `UK`.
+
+--- /task ---
 
 Run the program. You will see that the **UK** sprite program will appear as if it's not running even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You will need to you move the position of where the **UK** sprite's column starts to draw on the Stage to be able to see the **UK** sprite.
 
@@ -13,6 +29,8 @@ Go to the **Code** tab of the **UK** sprite.
 --- task ---
 
 Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It will have the values x: `-200` and y: `-140`. Only change the x value to `-20`. The y value can stay at -140.:
+
+![image of UK sprite](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20)y: (-140)
@@ -33,6 +51,8 @@ It won't be clear that it is a column about the UK though because the title is s
 
 Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the x value to `-20`. The y value can stay at 70:
 
+![image of UK sprite](images/UK-sprite.png)
+
 ```blocks3
 go to x: (-20)y: (70)
 ```
@@ -51,7 +71,9 @@ You need to change the text in the `say`{:class="block3looks"} block so that it 
 
 --- task ---
 
-Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`. So that the title "UK" is in the centre of the speech bubble, press the spacebar on your keyboard four times first and then type 'UK'.
+Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`. So that the title "UK" is in the centre of the speech bubble, press the spacebar on your keyboard four times first and then type 'UK':
+
+![image of UK sprite](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20) y: (70)
@@ -73,7 +95,9 @@ The columns look the same because the **UK** sprite's column is still showing th
 
 --- task ---
 
-In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**.
+In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**:
+
+![image of UK sprite](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (18)
@@ -86,6 +110,8 @@ set [bioenergy v] to (1)
 --- /task ---
 
 In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the below table.
+
+![image of UK sprite](images/UK-sprite.png)
 
 Resource Type | UK |
 - | - |
@@ -100,7 +126,9 @@ Resource Type | UK |
 
 --- task ---
 
-In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64% of the resources used to generate electricity in the UK.
+In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64% of the resources used to generate electricity in the UK:
+
+![image of UK sprite](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -110,6 +138,8 @@ set [nonrenewable v] to (64)
 --- task ---
 
 Refer to the table above to complete the values for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
+
+![image of UK sprite](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -133,7 +163,7 @@ Run the program to compare what resources New Zealand and the UK use to generate
 
 ![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
 
-The grey shows you how much non-renewable energy each country uses to generate electricity. How do the countries compare on their use of non-renewable resources?
+Investigate how much non-renewable energy each country uses to generate electricity. How do the countries compare on their use of non-renewable resources?
 
 --- /task ---
 
