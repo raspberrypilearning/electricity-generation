@@ -159,7 +159,7 @@ Check you have inputted the values correctly. Add the values up to double-check:
 
 --- task ---
 
-Run the program to compare what resources New Zealand and the UK use to generate energy. You may notice the UK uses more bioenergy than New Zealand. You may also notice that New Zealand uses far more hydropower than the UK to generate electricity.
+Run the program to compare which resources New Zealand and the UK use to generate energy. You may notice the UK uses more bioenergy than New Zealand. You may also notice that New Zealand uses far more hydropower than the UK to generate electricity.
 
 ![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
 
