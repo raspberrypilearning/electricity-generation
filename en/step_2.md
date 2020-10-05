@@ -32,7 +32,7 @@ Choose the colours to represent each of the resources on your graph.
 
 --- task ---
 
-Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the **Paint editor**, is a square that has no fill colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation, and Brightness sliders.
+Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the Paint editor, is a square that has no fill colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation, and Brightness sliders.
 
 ![image of Non-renewable sprite](images/non-renewable-sprite.png)
 
