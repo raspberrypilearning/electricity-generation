@@ -1,8 +1,8 @@
 ## Create the resource variables
 
-In this step, you are going to create new resource variables for the **3rd Country** sprite. You will then add values to the variables and then use those values to draw the column for the **3rd Country** sprite. You need to use local variables so that updating the value for one sprite will not change it for the others.
+In this step, you are going to create new resource variables for the **3rd Country** sprite. You will add values to the variables, and then use those values to draw the column for the **3rd Country** sprite. You need to use local variables so that if you update the value for one sprite, it does not change it for the others.
 
-First you will create a variable for non-renewable resources.
+First, you will create a variable for non-renewable resources.
 
 --- task ---
 
@@ -12,15 +12,15 @@ Then click on the **Make a Variable** button.
 
 --- /task ---
 
-You will need to title the variable. In order to create a variable which contains a value specific to the country you have chosen, you will also need to ensure the variable you are creating is for this sprite only. Even though the other sprites also have a variable titled 'nonrenewable' they are also unique to those countries. The **3rd Country** nonrenewable variable will hold its own unique value for that resource for your chosen country.
+You need a title for the variable. In order to create a variable that contains a value specific to the country you have chosen, you also need to ensure the variable you create is for this sprite only. Even though the other sprites also have a variable titled `nonrenewable`{:class="block3variables"}, these variables are also unique to those countries. The **3rd Country** nonrenewable variable will hold its own unique value for that resource related to your chosen country.
 
 --- task ---
 
 Title this variable `nonrenewable`.
 
-**Important**: click **For this sprite only**.
+**Important**: Click **For this sprite only**.
 
-Then click **ok**. 
+Then click **OK**. 
 
 ![png of electricity naming variables](images/electricity-naming-variables.png){:width="400px"}
 
@@ -30,7 +30,7 @@ Create the remaining resource variables.
 
 --- task ---
 
-Create new variables in the same way remembering to select **For this sprite only** for each new variable:
+Create new variables in the same way. Remember to select **For this sprite only** for each new variable:
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
 + `hydro`{:class="block3variables"}
@@ -43,7 +43,7 @@ Hide the variables from view.
 
 --- task ---
 
-All the new energy variables are listed in the **Variables** menu. They are also automatically shown on the stage but you don't need them shown there for this project.
+All the new energy variables are listed in the **Variables** menu. They are also automatically shown on the Stage, but you don't need them shown there for this project.
 
 Click on the tickboxes next to each variable to hide them from view.
 
@@ -55,7 +55,7 @@ Click on the tickboxes next to each variable to hide them from view.
 
 --- /task ---
 
-You are now going to input the resources data for your chosen country. Below is the table again so you can easily identify the values.
+Now you can input the resources data for your chosen country. Below is the table to help you identify the values.
 
 Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -68,7 +68,7 @@ Resource Type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses South Africa as example data for the **3rd Country** but you'll input figures for your chosen country.
+Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The below code uses South Africa as example data for the **3rd Country** sprite, but you'll input figures for your chosen country.
 
 ```blocks3
 when flag clicked
@@ -101,7 +101,7 @@ say [3rd Country]
 
 --- task ---
 
-Double-check that the values for the resources all add up to 100.
+Double-check that the values for the resources add up to 100.
 
 --- /task ---
 
