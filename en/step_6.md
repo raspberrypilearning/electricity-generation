@@ -6,7 +6,7 @@ First, you will create a variable for non-renewable resources.
 
 --- task ---
 
-Create a new variable by clicking on the `Variables`{:class="block3variables"} block menu.
+Create a new variable by clicking on the `Variables`{:class="block3variables"} blocks menu.
 
 Then click on the **Make a Variable** button.
 
