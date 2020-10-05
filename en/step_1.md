@@ -1,8 +1,8 @@
 ## Introduction
 
-Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then compare the results using an animated data visualisation. Electricity is important. After all, it powers the computer you are using!
+Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then, compare the results using an animated data visualisation. Electricity is important. After all, it powers the computer you are using!
 
-Electricity is generated from various natural resources which impact on the environment in different ways. Non-renewable energy is produced using finite resources such as fossil fuels (coal, gas and oil) and nuclear energy. Renewable energy is produced from wind, solar (sun), hydro (water), geothermal (ground) and bioenergy (organic material including wood and crops).
+Electricity is generated from various natural resources which impact on the environment in different ways. Non-renewable energy is produced using finite resources, such as fossil fuels (coal, gas, and oil) and nuclear energy. Renewable energy is produced from the wind (wind power), sun (solar energy), water (hydropower), ground (geothermal energy), and organic materials like wood and crops (bioenergy).  
 
 This project engages with three of the United Nations Sustainable Development Goals:
 + [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
@@ -15,7 +15,7 @@ Using data compiled by the International Energy Agency, guidance was kindly give
 
 --- no-print ---
 
-Click on the green flag to start the animation. Once it has finished drawing a series of colours, use your mouse or touch screen to explore what resources the colours represent. Then compare the use of renewable and non-renewable energy across the three countries.
+Click on the green flag to start the animation. Once it has finished drawing a series of colours, use your mouse or touchscreen to explore the resources that the colours represent. Then compare the use of renewable and non-renewable energy across the three countries.
 
 <div class="scratch-preview">
 <iframe src="https://scratch.mit.edu/projects/427746039/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -52,7 +52,7 @@ title: What you will learn
 
 + How to organise your program using `my blocks`{:class="block3myblocks"}
 + How to draw stacked bar graphs with the `Pen`{:class="block3extensions"} extension block
-+ How to turn real world data (numbers) into an animated and interactive data visualisation
++ How to turn real-world data (numbers) into an animated and interactive data visualisation
 
 --- /collapse ---
 
