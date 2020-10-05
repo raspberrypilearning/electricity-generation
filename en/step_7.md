@@ -26,7 +26,7 @@ To create the first line in the column, move the **3rd Country** sprite with the
 
 --- task ---
 
-Add to your new `draw`{:class="block3extensions"} block three `Motion`{:class="block3motion"} blocks: `move 50 steps`{:class="block3motion"} block; `turn right 180 degrees`{:class="block3motion"} block; and `change y by 2`{:class="block3motion"}:
+Add three `Motion`{:class="block3motion"} blocks to your new `draw`{:class="block3extensions"} block: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"} block, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"} block, and `change y by`{:class="block3motion"} `2`:
 
 ```blocks3
 define draw (amount)
@@ -37,11 +37,11 @@ define draw (amount)
 
 --- /task ---
 
-Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct amount of lines for each resource.
+Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct number of lines for each resource.
 
 --- task ---
 
-From the **My Blocks** menu insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the draw blocks in the following order:
+From the **My Blocks** menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the draw blocks in the following order:
 + `nonrenewable`{:class="block3variables"}
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
@@ -49,7 +49,7 @@ From the **My Blocks** menu insert a `draw`{:class="block3myblocks"} block after
 + `geothermal`{:class="block3variables"}
 + `bioenergy`{:class="block3variables"}. 
 
-In the last remaining `draw`{:class="block3myblocks"} block type the value `1`. This will add a line the same colour as the backdrop and appear to clean up the end of the column:
+In the last remaining `draw`{:class="block3myblocks"} block, type the value `1`. This adds a line that is the same colour as the backdrop, to clean up the end of the column:
 
 ```blocks3
 when flag clicked
@@ -89,13 +89,13 @@ say [3rd Country]
 
 --- task ---
 
-Run your program. In the **3rd Country** sprite, you should see the pen draws just one thin line for each resource. In order for the pen to draw the correct amount for each resource you need to repeat the number of lines the pen is instructed to draw.
+Run your program. In the **3rd Country** sprite, you should see the pen draws just one thin line for each resource. To make sure the pen to draws the correct amount for each resource, you need to repeat the number of lines the pen is instructed to draw.
 
 --- /task ---
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block in to the repeat loop:
+Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block into the `repeat`{:class="block3control"} block:
 
 --- no-print ---
 
@@ -114,7 +114,7 @@ end
 
 --- /task ---
 
-So that the speech bubble only shows at the very end of the drawn column you need to hide the **3rd Country** sprite. The **3rd Country** sprite won't show because it's the same colour as the backdrop but its speech bubble will show unless you hide it until the pen has finished drawing the column. This will create a smooth animation.
+So that the speech bubble only shows at the very end of the drawn column, you need to hide the **3rd Country** sprite. The **3rd Country** sprite won't appear because it's the same colour as the backdrop, but you need to hide the speech bubble until the pen has finished drawing the column. This will create a smooth animation.
 
 --- task ---
 
@@ -160,7 +160,7 @@ say [3rd Country]
 
 --- task ---
 
-Test your project. The column for the **3rd Country** will now complete drawing, showing the values you have chosen. When you hover over each resource their label will show.
+Test your project. The column for the **3rd Country** should now complete drawing, and show the values you have chosen. When you hover over each resource, the label appears.
 
 --- /task ---
 
