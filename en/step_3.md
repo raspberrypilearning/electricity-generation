@@ -1,12 +1,12 @@
 ## Add a UK column
 
-In this step you are going to add a UK column and populate it with data so you can see a comparison of New Zealand and the UK.
+In this step, you are going to add a UK column and populate it with data so you can see a comparison of New Zealand and the UK.
 
-You are now going to create a column for the UK. To do this you will copy the **New Zealand** sprite.  
+You are going to create a column for the UK. To do this, you will copy the **New Zealand** sprite.  
 
 --- task ---
 
-Click on the **New Zealand** sprite and right-click to select **duplicate**.
+Click on the **New Zealand** sprite, and right-click to select **duplicate**.
 
 ![image of background](images/electricity-copy-sprite.png){:width="300px"}
 
@@ -18,7 +18,7 @@ Rename the new sprite `UK`.
 
 --- /task ---
 
-Run the program. You will see that the **UK** sprite program will appear as if it's not running even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You will need to you move the position of where the **UK** sprite's column starts to draw on the Stage to be able to see the **UK** sprite.
+Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You need to you move the position of where the **UK** sprite's column starts to draw on the Stage to be able to see the **UK** sprite.
 
 --- task ---
 
@@ -28,7 +28,7 @@ Go to the **Code** tab of the **UK** sprite.
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It will have the values x: `-200` and y: `-140`. Only change the x value to `-20`. The y value can stay at -140.:
+Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values x: `-200` and y: `-140`. Only change the x value to `-20`. The y value can stay at -140:
 
 ![image of UK sprite](images/UK-sprite.png)
 
@@ -45,11 +45,11 @@ Click the green flag. You should be able to see the **UK** sprite's column now o
 
 --- /task ---
 
-It won't be clear that it is a column about the UK though because the title is still hidden behind the **New Zealand** sprite's column. You now need to move the position of where the title appears on the stage so you can see it.
+However, it won't be clear that it is a column about the UK, because the title is still hidden behind the **New Zealand** sprite's column. You need to move the position of where the title appears on the Stage so you can see it.
 
 --- task ---
 
-Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the x value to `-20`. The y value can stay at 70:
+Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the x value to `-20`. The y value can stay at 70:
 
 ![image of UK sprite](images/UK-sprite.png)
 
@@ -126,7 +126,7 @@ Resource Type | UK |
 
 --- task ---
 
-In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64% of the resources used to generate electricity in the UK:
+In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64 percent of the resources used to generate electricity in the UK:
 
 ![image of UK sprite](images/UK-sprite.png)
 
@@ -153,13 +153,13 @@ set [bioenergy v] to (10)
 
 --- task ---
 
-Check you have inputted the values correctly? Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total which is 100%.
+Check you have inputted the values correctly. Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total which is 100 percent.
 
 --- /task ---
 
 --- task ---
 
-Run the program to compare what resources New Zealand and the UK use to generate energy. You will notice the UK uses more bioenergy than New Zealand. you will also notice that New Zealand uses far more hydro to generate electricity.
+Run the program to compare what resources New Zealand and the UK use to generate energy. You may notice the UK uses more bioenergy than New Zealand. You may also notice that New Zealand uses far more hydropower than the UK to generate electricity.
 
 ![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
 
