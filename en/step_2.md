@@ -148,7 +148,7 @@ Run your project again. The interactive label should say "Non-renewable" when yo
 
 --- /task ---
 
-Now choose your own colours to represent the other resources. Think about how you want the visualisation to represent the data. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
+Now choose your own colours to represent the other resources. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
 
 --- task ---
 
