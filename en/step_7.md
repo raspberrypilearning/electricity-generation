@@ -1,6 +1,6 @@
 ## Draw the third column
 
-Now it's time to use the resource variables that you created in the previous step to draw the column for your chosen **3rd Country** sprite.
+Now it's time to use the resource variables that you created in the previous step to draw the column for your chosen **Third Country** sprite.
 
 In Scratch, you can make a block that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
 
@@ -14,7 +14,7 @@ Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Mak
 
 --- /no-print ---
 
-You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **3rd Country** sprite:
+You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **Third Country** sprite:
 
 ```blocks3
 define draw (amount)
@@ -22,7 +22,7 @@ define draw (amount)
 
 --- /task ---
 
-To create the first line in the column, move the **3rd Country** sprite with the pen down, then turn it round, and move up the Stage slightly.
+To create the first line in the column, move the **Third Country** sprite with the pen down, then turn it round, and move up the Stage slightly.
 
 --- task ---
 
@@ -82,14 +82,14 @@ set pen color to [#dadada]
 +draw (1)
 pen up
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
 
 --- task ---
 
-Run your program. In the **3rd Country** sprite, you should see that the pen draws just one thin line for each resource. To make sure the pen draws the correct amount for each resource, you need to repeat the number of lines the pen is instructed to draw.
+Run your program. In the **Third Country** sprite, you should see that the pen draws just one thin line for each resource. To make sure the pen draws the correct amount for each resource, you need to repeat the number of lines the pen is instructed to draw.
 
 --- /task ---
 
@@ -114,7 +114,7 @@ end
 
 --- /task ---
 
-So that the speech bubble only shows at the very end of the drawn column, you need to hide the **3rd Country** sprite. The **3rd Country** sprite won't appear because it's the same colour as the backdrop, but you need to hide the speech bubble until the pen has finished drawing the column. This will create a smooth animation.
+So that the speech bubble only shows at the very end of the drawn column, you need to hide the **Third Country** sprite. The **Third Country** sprite won't appear because it's the same colour as the backdrop, but you need to hide the speech bubble until the pen has finished drawing the column. This will create a smooth animation.
 
 --- task ---
 
@@ -153,14 +153,14 @@ draw (1)
 pen up
 +show
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
 
 --- task ---
 
-Test your project. The column for the **3rd Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
+Test your project. The column for the **Third Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
 
 --- /task ---
 
