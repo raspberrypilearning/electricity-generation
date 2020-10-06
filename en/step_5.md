@@ -2,15 +2,7 @@
 
 In this step, you will learn how to use the `Pen`{:class="block3extensions"} extension blocks to draw on the Stage.
 
---- task ---
-
-Click on the **Code** tab for your **Third Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
-
-![png of pen extension block](images/pen-extension.png){:width="400px"}
-
---- /task ---
-
-Move the **Third Country** sprite to the bottom of the graph so it is in the right position to start drawing the column.
+First, move the **Third Country** sprite to the bottom of the graph so it is in the right position to start drawing the column.
 
 --- task ---
 
@@ -24,9 +16,19 @@ when flag clicked
 + go to x:(120) y: (-140)
 + set rotation style [don't rotate v]
 + point in direction (90)
-go to x: (160) y: (70)
+go to x: (200) y: (70)
 say [Third Country]
 ```
+
+--- /task ---
+
+Now add the `Pen`{:class="block3extensions"} extension blocks menu.
+
+--- task ---
+
+Click on the **Code** tab for your **Third Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
+
+![png of pen extension block](images/pen-extension.png){:width="400px"}
 
 --- /task ---
 
@@ -43,7 +45,7 @@ set rotation style [don't rotate v]
 point in direction (90)
 +set pen size to (2)
 +pen down
-go to x: (160) y: (70)
+go to x: (200) y: (70)
 say [Third Country]
 ```
 
@@ -64,7 +66,7 @@ set rotation style [don't rotate v]
 point in direction (90)
 set pen size to (2)
 pen down
-go to x: (160) y: (70)
+go to x: (200) y: (70)
 say [Third Country]
 ```
 
@@ -91,7 +93,7 @@ pen down
 + set pen color to []
 + set pen color to []
 + set pen color to []
-go to x: (160) y: (70)
+go to x: (200) y: (70)
 say [Third Country]
 ```
 
@@ -131,7 +133,7 @@ set pen color to [#ab7519]
 set pen color to [#00a42c]
 set pen color to [#dadada]
 +pen up
-go to x: (160) y: (70)
+go to x: (200) y: (70)
 say [Third Country]
 ```
 
