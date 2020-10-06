@@ -42,6 +42,10 @@ title: What you will need
 
 + Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
 
+### Downloads
+
++ If you are working offline, download the [project starter file](http://rpf.io/p/en/electricity-generation-go){:target="_blank"}
+
 --- /collapse ---
 
 --- collapse ---
