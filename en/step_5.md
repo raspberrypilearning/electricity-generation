@@ -105,7 +105,7 @@ Click on the first `set pen colour to`{:class="block3extensions"} block and sele
 
 Repeat this for each of the resources in turn, so you don't get the order of the resource colours muddled up. 
 
-Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere in the background of the Stage.
+Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere on the background of the Stage.
 
 --- /task ---
 
