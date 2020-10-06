@@ -1,6 +1,6 @@
 ## Create the resource variables
 
-In this step, you are going to create new resource variables for the **3rd Country** sprite. You will add values to the variables, and then use those values to draw the column for the **3rd Country** sprite. You need to use local variables so that if you update the value for one sprite, it does not change it for the others.
+In this step, you are going to create new resource variables for the **Third Country** sprite. You will add values to the variables, and then use those values to draw the column for the **Third Country** sprite. You need to use local variables so that if you update the value for one sprite, it does not change it for the others.
 
 First, you will create a variable for non-renewable resources.
 
@@ -12,7 +12,7 @@ Then click on the **Make a Variable** button.
 
 --- /task ---
 
-You need a title for the variable. To create a variable that contains a value specific to your chosen country, you also need to make sure that the variable is created for this sprite only. Even though the other sprites also have a variable titled `nonrenewable`{:class="block3variables"}, each variable holds a different value. The **3rd Country** `nonrenewable`{:class="block3variables"} variable will hold its own unique value for that resource related to your chosen country.
+You need a title for the variable. To create a variable that contains a value specific to your chosen country, you also need to make sure that the variable is created for this sprite only. Even though the other sprites also have a variable titled `nonrenewable`{:class="block3variables"}, each variable holds a different value. The **Third Country** `nonrenewable`{:class="block3variables"} variable will hold its own unique value for that resource related to your chosen country.
 
 --- task ---
 
@@ -43,7 +43,7 @@ Hide the variables from view.
 
 --- task ---
 
-All the new energy variables are listed in the **Variables** blocks menu. They are also automatically shown on the Stage, but you don't need them shown there for this project.
+All the new energy variables are listed in the `Variables`{:class="block3variables"} blocks menu. They are also automatically shown on the Stage, but you don't need them shown there for this project.
 
 Click on the checkboxes next to each variable to hide them from view.
 
@@ -68,7 +68,7 @@ Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The code below uses South Africa as example data for the **3rd Country** sprite, but you'll input figures for your chosen country.
+Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The code below uses South Africa as example data for the ** Third Country** sprite, but you'll input figures for your chosen country.
 
 ```blocks3
 when flag clicked
@@ -94,7 +94,7 @@ set pen color to [#00a42c]
 set pen color to [#dadada]
 pen up
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
