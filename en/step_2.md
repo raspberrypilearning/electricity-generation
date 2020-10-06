@@ -24,7 +24,7 @@ Run your project by clicking the green flag. An animation of a column is drawn b
 
 New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of blue in the column above.
 
-Once you have investigated the column, click on the red stop button above the Stage to end the program.  
+Once you have investigated the column, click on the red stop button above the Stage to stop the program.  
 
 --- /task ---
 
