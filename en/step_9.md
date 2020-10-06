@@ -2,7 +2,7 @@
 
 In this project, you have:
 
-+ Organised your program using `My Bocks`{:class="block3myblocks"}
++ Organised your program using `My Blocks`{:class="block3myblocks"}
 + Used the `Pen`{:class="block3extensions"} extension blocks to draw stacked bar graphs 
 + Turned data on natural resources into colourful graphs that show how different countries generate electricity 
 
