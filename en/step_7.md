@@ -6,7 +6,7 @@ In Scratch, you can make a block that starts a new script and can add any Scratc
 
 --- task ---
 
-Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Make a Block**. Call the block name `draw` and click on **Add an input number or text**. Change the value `number or text` to `amount`, then click **OK**.
+Go to the `My Blocks`{:class="block3myblocks"} menu and click on **Make a Block**. Call the block name `draw` and click on **Add an input number or text**. Change the value `number or text` to `amount`, then click **OK**.
 
 --- no-print ---
 
