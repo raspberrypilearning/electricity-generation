@@ -47,7 +47,7 @@ Go to the **Code** editor for the **Third Country** sprite.
 Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:`{:class="block3motion"} `200` `y:`{:class="block3motion"} `70`, and a `say`{:class="block3looks"} block to type in the name of the country you have chosen:
 
 ```blocks3
-when green flag clicked
+when flag clicked
 go to x: (200 )y: (70)
 say [Third Country] ::looks
 ```
