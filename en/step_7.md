@@ -89,7 +89,7 @@ say [Third Country]
 
 --- task ---
 
-Run your program. In the **Third Country** sprite, you should see that the pen draws just one thin line for each resource. To make sure the pen draws the correct amount for each resource, you need to repeat the number of lines the pen is instructed to draw.
+Run your program. In the **Third Country** sprite, you should see that the pen draws just one thin line for each resource. To make the pen draw the correct amount for each resource, you need to set the `repeat`{:class="block3control"} to the amount of each resource type.
 
 --- /task ---
 
@@ -110,50 +110,6 @@ move (50) steps
 turn right (180) degrees
 change y by (2)
 end
-```
-
---- /task ---
-
-So that the speech bubble only shows at the very end of the drawn column, you need to hide the **Third Country** sprite. The **Third Country** sprite won't appear because it's the same colour as the backdrop, but you need to hide the speech bubble until the pen has finished drawing the column. This will create a smooth animation.
-
---- task ---
-
-Add a `hide`{:class="block3looks"} block to the **Third Country** sprite before it draws the column. Add a `show`{:class="block3looks"} block to make the **Third Counry** sprite visible at the end of the drawn column:
-
-```blocks3
-when flag clicked
-erase all
-set (nonrenewable) to (17)
-set (wind) to (17)
-set (solar) to (17)
-set (hydro) to (17)
-set (geothermal) to (17)
-set (bioenergy) to (15)
-pen up
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-set pen size to (2)
-pen down
-+hide
-set pen color to [#5e6766]
-draw (nonrenewable)
-set pen color to [#37e4db]
-draw (wind)
-set pen color to [#e4d748]
-draw (solar)
-set pen color to [#169bb0]
-draw (hydro)
-set pen color to [#ab7519]
-draw (geothermal)
-set pen color to [#00a42c]
-draw (bioenergy)
-set pen color to [#dadada]
-draw (1)
-pen up
-+show
-go to x: (160) y: (70)
-say [Third Country]
 ```
 
 --- /task ---
