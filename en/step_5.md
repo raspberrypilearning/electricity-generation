@@ -4,7 +4,7 @@ In this step, you will learn how to use the `Pen`{:class="block3extensions"} ext
 
 --- task ---
 
-Click on the **Code** tab for your **3rd Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
+Click on the **Code** tab for your **Third Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
 
 ![png of pen extension block](images/pen-extension.png){:width="400px"}
 
@@ -25,7 +25,7 @@ when flag clicked
 + set rotation style [don't rotate v]
 + point in direction (90)
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
@@ -44,7 +44,7 @@ point in direction (90)
 +set pen size to (2)
 +pen down
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
@@ -65,7 +65,7 @@ point in direction (90)
 set pen size to (2)
 pen down
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
@@ -92,7 +92,7 @@ pen down
 + set pen color to []
 + set pen color to []
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
@@ -132,14 +132,14 @@ set pen color to [#00a42c]
 set pen color to [#dadada]
 +pen up
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
 
 --- task ---
 
-Although the 3rd Country sprite is set up, it doesn’t appear on the graph because you haven't inputted any resource data. You’ll have the chance to input data and check your code in the next step.
+Although the **Third Country** sprite is set up, it doesn’t appear on the graph because you haven't inputted any resource data. You’ll have the chance to input data and check your code in the next step.
 
 --- /task ---
 
