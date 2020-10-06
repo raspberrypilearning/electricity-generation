@@ -18,11 +18,13 @@ You should see a grey background with the title "Electricity generation % 2019".
 
 --- task ---
 
-Run your project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources to generate electricity. You can then investigate the interactive column using your mouse.
+Run your project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources to generate electricity. You can then investigate the interactive column using your mouse. 
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
 New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of blue in the column above.
+
+When you have finished investigating click the red stop sign to end your running project.
 
 --- /task ---
 
@@ -95,7 +97,7 @@ draw (nonrenewable) ::custom
 
 --- task ---
 
-Run your project again. The non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no "non-renewable" speech bubble when you touch your new colour. 
+Run your project again. The non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no "non-renewable" speech bubble when you touch your new colour. When you have finished testing click the red stop sign to end your running project.
 
 ![image of testing first colour](images/test-first-colour.png)
 
@@ -140,7 +142,7 @@ end
 
 --- task ---
 
-Run your project again. The interactive label should say "Non-renewable" when you hover over the resource in your New Zealand column. 
+Run your project again. The interactive label should say "Non-renewable" when you hover over the resource in your New Zealand column. When you have finished testing click the red stop sign to end your running project.
 
 --- /task ---
 
