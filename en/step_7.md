@@ -93,7 +93,7 @@ Run your program. In the **Third Country** sprite, you should see that the pen d
 
 --- /task ---
 
-Your `draw`{:class="block3myblocks"} blocks are set up to store the amount of electricity for each resource, but the code you defined still only runs once (each time it appears in your script). Use the stored `amount`{:class="block3myblocks"} to control how many times the `draw`{:class="block3myblocks"} block repeats itself.  
+Your `draw`{:class="block3myblocks"} blocks are set up to store the amount of electricity for each resource, but the code you defined still only runs once, each time it appears in your script. Use the stored `amount`{:class="block3myblocks"} to control how many times the `draw`{:class="block3myblocks"} block repeats itself.  
 
 --- task ---
 
