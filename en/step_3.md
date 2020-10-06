@@ -111,8 +111,6 @@ set [bioenergy v] to (1)
 
 In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the table below.
 
-![image of UK sprite](images/UK-sprite.png)
-
 Resource Type | UK |
 - | - |
 **Non-renewables** | 64 |
