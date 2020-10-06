@@ -49,7 +49,7 @@ say [Third Country]
 
 --- /task ---
 
-You need to make sure that the program clears the pen marks from the Stage and lifts the pen up `when green flag clicked`{:class="block3events"}.
+You need to make sure that the program clears the pen marks from the Stage and lifts the pen up when the green flag is clicked. 
 
 --- task ---
 
