@@ -118,7 +118,7 @@ So that the speech bubble only shows at the very end of the drawn column, you ne
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to the **3rd Country** sprite before it draws the column. Add a `show`{:class="block3looks"} block to make the **3rd Counry** sprite visible at the end of the drawn column:
+Add a `hide`{:class="block3looks"} block to the **Third Country** sprite before it draws the column. Add a `show`{:class="block3looks"} block to make the **Third Counry** sprite visible at the end of the drawn column:
 
 ```blocks3
 when flag clicked
