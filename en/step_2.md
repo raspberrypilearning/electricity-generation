@@ -60,17 +60,17 @@ Click on the **Code** tab of the **New Zealand** sprite to view the code. Find t
 
 ```blocks3
 
-+set pen color to [#5e6766]
++set pen color to [#FCB711]
 +draw (nonrenewable) ::custom
-set pen color to [#37e4db]
+set pen color to [#F37021]
 draw (wind) ::custom
-set pen color to [#e4d748]
+set pen color to [#CC004C]
 draw (solar) ::custom
-set pen color to [#169bb0]
+set pen color to [#6460AA]
 draw (hydro) ::custom
-set pen color to [#ab7519]
+set pen color to [#0089D0]
 draw (geothermal) ::custom
-set pen color to [#00a42c]
+set pen color to [#0DB14B]
 draw (bioenergy) ::custom
 
 ```
@@ -89,7 +89,7 @@ Your chosen **Non-renewable** resource colour should now be visible in the `set 
 
 ```blocks3
 
-set pen color to [#FF0000]
+set pen color to [#5e6766]
 draw (nonrenewable) ::custom
 ```
 
@@ -116,22 +116,22 @@ Click on the **Pointer** sprite and find the section of code when the colours ar
 +if {touching color (#5e6766)?} then
 say [Non-renewable]
 end
-if {touching color (#37e4db)?} then
+if {touching color (#F37021)?} then
 say [Wind]
 end
-if {touching color (#e4d748)?} then
+if {touching color (#CC004C)?} then
 say [Solar]
 end
-if {touching color (#169bb0)?} then
+if {touching color (#6460AA)?} then
 say [Hydro]
 end
-if {touching color (#ab7519)?} then
+if {touching color (#0089D0)?} then
 say [Geothermal]
 end
-if {touching color (#00a42c)?} then
+if {touching color (#0DB14B)?} then
 say [Bioenergy]
 end
-if {touching color ()?} then
+if {touching color (#dadada)?} then
 say ()
 end
 
