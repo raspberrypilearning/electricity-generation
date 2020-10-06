@@ -105,7 +105,7 @@ To create the interactive label for the non-renewable resource, change the colou
 
 --- task ---
 
-Click on the **Pointer** sprite and find section of code when the colours are set. In the `touching color`{:class="block3sensing"} block above the `say Non-renewable`{:class="block3looks"} block, click on the circle and use the **Colour picker** tool to select the new colour from the key:
+Click on the **Pointer** sprite and find the section of code when the colours are set. In the `touching color`{:class="block3sensing"} block above the `say Non-renewable`{:class="block3looks"} block, click on the circle and use the **Colour picker** tool to select the new colour from the key:
 
 ![image of the Pointer sprite](images/pointer-sprite.png)
 
@@ -140,11 +140,11 @@ end
 
 --- task ---
 
-Run your project again. The interactive label will say "Non-renewable" when you hover over the resource in your New Zealand column. 
+Run your project again. The interactive label should say "Non-renewable" when you hover over the resource in your New Zealand column. 
 
 --- /task ---
 
-Now choose your own colours to represent the other resources. Think about how you want the visualisation to represent the data with colour. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
+Now choose your own colours to represent the other resources. Think about how you want the visualisation to represent the data. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
 
 --- task ---
 
