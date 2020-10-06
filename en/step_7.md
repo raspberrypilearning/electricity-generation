@@ -93,6 +93,8 @@ Run your program. In the **Third Country** sprite, you should see that the pen d
 
 --- /task ---
 
+Your draw blocks are set up to store the amount of electricity for each resource but the code you defined still only runs once each time it appears in your script. Use the stored amount to control how many times the draw block repeats.  
+
 --- task ---
 
 Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block into the `repeat`{:class="block3control"} block:
