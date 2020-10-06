@@ -10,7 +10,7 @@ Click on the **Code** tab for your **Third Country** sprite, and then click the 
 
 --- /task ---
 
-Move your pen to the correct starting position.
+Move the **Third Country** sprite to the bottom of the graph so it is in the right position to start drawing the column.
 
 --- task ---
 
