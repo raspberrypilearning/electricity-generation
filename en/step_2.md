@@ -24,7 +24,7 @@ Run your project by clicking the green flag. An animation of a column is drawn b
 
 New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of blue in the column above.
 
-When you have finished, click the red stop sign to stop your project.
+Click on the red stop button above the Stage when you have finished investigating the column. 
 
 --- /task ---
 
@@ -97,7 +97,7 @@ draw (nonrenewable) ::custom
 
 --- task ---
 
-Run your project again. The non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no "non-renewable" speech bubble when you touch your new colour. When you have finished, click the red stop sign to stop your project.
+Run your project again. The non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no "non-renewable" speech bubble when you touch your new colour. Click on the red stop button above the Stage when you have finished your test.
 
 ![image of testing first colour](images/test-first-colour.png)
 
@@ -142,7 +142,7 @@ end
 
 --- task ---
 
-Run your project again. The interactive label should say "Non-renewable" when you hover over the resource in your New Zealand column. When you have finished, click the red stop sign to stop your project.
+Run your project again. The interactive label should say "Non-renewable" when you hover over the resource in your New Zealand column. Click on the red stop button above the Stage when you have finished your test.
 
 --- /task ---
 
