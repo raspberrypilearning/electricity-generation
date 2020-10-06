@@ -22,19 +22,19 @@ Run your project by clicking the green flag. An animation of a column is drawn b
 
 ![image of background](images/electricity-starter-green-flag.png){:width="400px"}
 
-New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of blue in the column above.
+New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of purple in the column above.
 
 Once you have investigated the column, click on the red stop button above the Stage to stop the program.  
 
 --- /task ---
 
-At the bottom of the Stage, you'll see an empty key. The key shows all the resources, even if they are not currently used in the graph. This is because countries are always changing how they produce electricity, and there has been a move towards renewable resources. 
+At the bottom of the Stage, you'll see an empty key with a square representing each resource: non-renewable, wind, solar, hydro, geothermal, and bioenergy. The key shows all the resources, even if they are not currently used in the graph. This is because countries are always changing how they produce electricity, and there has been a move towards renewable resources. 
 
-Choose the colours to represent each of the resources on your graph. 
+Next you'll choose the colours to represent each of the resources on your graph. 
 
 --- task ---
 
-Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the Paint editor, is a square that has no fill colour. Click on the **Fill** tool and choose a colour of your choice by altering the Color, Saturation, and Brightness sliders.
+Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the Paint editor, is a square that has no fill colour. Click on the **Fill** colour chooser and create a colour of your choice by altering the Color, Saturation, and Brightness sliders.
 
 ![image of Non-renewable sprite](images/non-renewable-sprite.png)
 
@@ -44,7 +44,7 @@ Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of 
 
 --- task ---
 
-Select the **Paint can** tool and click inside the square costume. You'll see on the Stage the first square in the key changes to the new colour. 
+Select the **Fill** tool (it looks like a paint can) and click inside the square costume. You'll see on the Stage the first square in the key changes to the new colour. 
 
 ![image of first colour](images/first-colour.png)
 
@@ -81,6 +81,8 @@ draw (bioenergy) ::custom
 
 Click on the coloured circle of the first `set pen colour`{:class="block3extensions"} block and select the **Colour picker** tool, which is below the three colour sliders. Move the mouse pointer until you hover over the **Non-renewable** sprite in the key to select that colour.
 
+![image of selecting colour](images/colour-picker.png)
+
 Your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
 
 ![image of selecting colour](images/selecting-colour.png)
@@ -103,7 +105,7 @@ Run your project again. The non-renewable resource for New Zealand is now drawn 
 
 --- /task ---
 
-To create the interactive label for the non-renewable resource, change the colour in the **Pointer** sprite.
+Next, create the interactive label for the non-renewable resource by changing the colour in the **Pointer** sprite.
 
 --- task ---
 
