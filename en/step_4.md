@@ -32,33 +32,33 @@ Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Rename **Sprite1** with the name of the country you have chosen. In this resource, this sprite will be referred to as the **3rd Country** sprite.
+Rename **Sprite1** with the name of the country you have chosen. In this resource, this sprite will be referred to as the **Third Country** sprite.
 
 ![Image showing rename Sprite1](images/electricity-rename-Sprite1.png){:width="300px"}
 
 --- /task ---
 
-When the program is run, you want the **3rd Country** sprite to go to a position on the Stage and, using a speech bubble, say its name, just like the **New Zealand** and the **UK** sprites do.
+When the program is run, you want the **Third Country** sprite to go to a position on the Stage and, using a speech bubble, say its name, just like the **New Zealand** and the **UK** sprites do.
 
 --- task ---
 
-Go to the **Code** editor for the **3rd Country** sprite.
+Go to the **Code** editor for the **Third Country** sprite.
 
 Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:`{:class="block3motion"} `200` `y:`{:class="block3motion"} `70`, and a `say`{:class="block3looks"} block to type in the name of the country you have chosen:
 
 ```blocks3
-when green flag clicked
+when flag clicked
 go to x: (200 )y: (70)
-say [3rd Country] ::looks
+say [Third Country] ::looks
 ```
 
 --- /task ---
 
 --- task ---
 
-Run your program. The sprite should be invisible and should say its title in the top right-hand side of the Stage. The example says "3rd Country".
+Run your program. The sprite should be invisible and should say its title in the top right-hand side of the Stage. The example says "Third Country".
 
-![Image showing say 3rd Country](images/electricity-say-3rdCountry.png){:width="300px"}
+![Image showing say Third Country](images/electricity-say-3rdCountry.png){:width="300px"}
 
 --- /task ---
 

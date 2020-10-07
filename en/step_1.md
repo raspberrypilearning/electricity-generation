@@ -2,7 +2,7 @@
 
 Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then, compare the results using an animated data visualisation. Electricity is important. After all, it powers the computer you are using!
 
-Electricity is generated from various natural resources which have an impact on the environment in different ways. Non-renewable energy is produced using finite resources, such as fossil fuels (coal, gas, and oil) and nuclear energy. Renewable energy can be produced by the wind (wind power), sun (solar energy), water (hydropower), ground (geothermal energy), and organic materials like wood and crops (bioenergy).  
+Electricity is generated from various natural resources which have an impact on the environment in different ways. Non-renewable energy is produced using resources that nature cannot replace, such as fossil fuels (coal, gas, and oil) and nuclear energy. Renewable energy can be produced by the wind (wind power), sun (solar energy), water (hydropower), ground (geothermal energy), and organic materials like wood and crops (bioenergy).  
 
 This project engages with three of the United Nations Sustainable Development Goals:
 + [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
@@ -42,6 +42,10 @@ title: What you will need
 
 + Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
 
+### Downloads
+
++ If you are working offline, download the [project starter file](http://rpf.io/p/en/electricity-generation-go){:target="_blank"}
+
 --- /collapse ---
 
 --- collapse ---
@@ -50,7 +54,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to organise your program using `my blocks`{:class="block3myblocks"}
++ How to organise your program using `My Blocks`{:class="block3myblocks"}
 + How to draw stacked bar graphs with the `Pen`{:class="block3extensions"} extension blocks
 + How to turn real-world data (numbers) into an animated and interactive data visualisation
 

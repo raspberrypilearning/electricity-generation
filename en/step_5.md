@@ -2,31 +2,33 @@
 
 In this step, you will learn how to use the `Pen`{:class="block3extensions"} extension blocks to draw on the Stage.
 
---- task ---
-
-Click on the **Code** tab for your **3rd Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
-
-![png of pen extension block](images/pen-extension.png){:width="400px"}
-
---- /task ---
-
-Move your pen to the correct starting position.
+First, move the **Third Country** sprite to the bottom of the graph so it is in the right position to start drawing the column.
 
 --- task ---
 
 Underneath your `when green flag clicked`{:class="block3events"} block, insert three `Motion`{:class="block3motion"} blocks: 
-+ A `go to x: y:`{:class="block3motion"} block, change the values to `x:`{:class="block3motion"} `120` and `y:`{:class="block3motion"} `-140`. 
++ A `go to x: y:`{:class="block3motion"} block, change the values to `x:`{:class="block3motion"} `120` and `y:`{:class="block3motion"} `-140` 
 + A `set rotation style`{:class="block3motion"} block, and select `don't rotate`{:class="block3motion"} from the drop-down menu
-+ A `point in direction 90`{:class="block3motion"} block.
++ A `point in direction 90`{:class="block3motion"} block
 
 ```blocks3
 when flag clicked
 + go to x:(120) y: (-140)
 + set rotation style [don't rotate v]
 + point in direction (90)
-go to x: (160) y: (70)
-say [3rd Country]
+go to x: (200) y: (70)
+say [Third Country]
 ```
+
+--- /task ---
+
+Now add the `Pen`{:class="block3extensions"} extension blocks menu.
+
+--- task ---
+
+Click on the **Code** tab for your **Third Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
+
+![png of pen extension block](images/pen-extension.png){:width="400px"}
 
 --- /task ---
 
@@ -43,13 +45,13 @@ set rotation style [don't rotate v]
 point in direction (90)
 +set pen size to (2)
 +pen down
-go to x: (160) y: (70)
-say [3rd Country]
+go to x: (200) y: (70)
+say [Third Country]
 ```
 
 --- /task ---
 
-You need to make sure that the program clears the pen marks from the Stage and lifts the pen up `when green flag clicked`{:class="block3events"}.
+You need to make sure that the program clears the pen marks from the Stage and lifts the pen up when the green flag is clicked. 
 
 --- task ---
 
@@ -64,8 +66,8 @@ set rotation style [don't rotate v]
 point in direction (90)
 set pen size to (2)
 pen down
-go to x: (160) y: (70)
-say [3rd Country]
+go to x: (200) y: (70)
+say [Third Country]
 ```
 
 --- /task ---
@@ -91,8 +93,8 @@ pen down
 + set pen color to []
 + set pen color to []
 + set pen color to []
-go to x: (160) y: (70)
-say [3rd Country]
+go to x: (200) y: (70)
+say [Third Country]
 ```
 
 --- /task ---
@@ -105,7 +107,7 @@ Click on the first `set pen colour to`{:class="block3extensions"} block and sele
 
 Repeat this for each of the resources in turn, so you don't get the order of the resource colours muddled up. 
 
-Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere in the background of the Stage.
+Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere on the background of the Stage.
 
 --- /task ---
 
@@ -131,15 +133,15 @@ set pen color to [#ab7519]
 set pen color to [#00a42c]
 set pen color to [#dadada]
 +pen up
-go to x: (160) y: (70)
-say [3rd Country]
+go to x: (200) y: (70)
+say [Third Country]
 ```
 
 --- /task ---
 
 --- task ---
 
-Although the 3rd Country sprite is set up, it doesn’t appear on the graph because you haven't inputted any resource data. You’ll have the chance to input data and check your code in the next step.
+Although the **Third Country** sprite is set up, it doesn’t appear on the graph because you haven't inputted any resource data. You’ll have the chance to input data and check your code in the next step.
 
 --- /task ---
 

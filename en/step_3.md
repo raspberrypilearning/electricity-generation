@@ -18,7 +18,7 @@ Rename the new sprite `UK`.
 
 --- /task ---
 
-Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. You need to move the position of where the **UK** sprite's column starts to draw on the Stage, to be able to see the **UK** sprite.
+Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. To be able to see the **UK** sprite, you need to move the position of where the **UK** sprite's column starts to draw on the Stage.
 
 --- task ---
 
@@ -28,7 +28,7 @@ Go to the **Code** tab of the **UK** sprite.
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values x: `-200` and y: `-140`. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at -140:
+Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values `x:`{:class="block3motion"} `-200` and `y:`{:class="block3motion"} `-140`. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `-140`:
 
 ![image of UK sprite](images/UK-sprite.png)
 
@@ -49,7 +49,7 @@ However, it won't be clear that it is a column about the UK, because the title i
 
 --- task ---
 
-Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at 70:
+Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `70`:
 
 ![image of UK sprite](images/UK-sprite.png)
 
@@ -111,8 +111,6 @@ set [bioenergy v] to (1)
 
 In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the table below.
 
-![image of UK sprite](images/UK-sprite.png)
-
 Resource Type | UK |
 - | - |
 **Non-renewables** | 64 |
@@ -126,7 +124,7 @@ Resource Type | UK |
 
 --- task ---
 
-In the first block `set non-renewables to`{:class="block3variables"} add the value `64`. This value indicates that non-renewables represent 64 percent of the resources used to generate electricity in the UK:
+In the first block `set non-renewables to`{:class="block3variables"}, add the value `64`. This value indicates that non-renewables represent 64 percent of the resources used to generate electricity in the UK:
 
 ![image of UK sprite](images/UK-sprite.png)
 

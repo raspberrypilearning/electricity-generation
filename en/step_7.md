@@ -1,12 +1,12 @@
 ## Draw the third column
 
-Now it's time to use the resource variables that you created in the previous step to draw the column for your chosen **3rd Country** sprite.
+Now it's time to use the resource variables that you created in the previous step to draw the column for the **Third Country** sprite.
 
 In Scratch, you can make a block that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
 
 --- task ---
 
-Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Make a Block**. Call the block name `draw` and click on **Add an input number or text**. Change the value `number or text` to `amount`, then click **OK**.
+Go to the `My Blocks`{:class="block3myblocks"} menu and click on **Make a Block**. Call the block name `draw` and click on **Add an input number or text**. Change the value `number or text` to `amount`, then click **OK**.
 
 --- no-print ---
 
@@ -14,7 +14,7 @@ Go to `My Blocks`{:class="block3myblocks"} in the blocks menu and click on **Mak
 
 --- /no-print ---
 
-You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **3rd Country** sprite:
+You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **Third Country** sprite:
 
 ```blocks3
 define draw (amount)
@@ -22,7 +22,7 @@ define draw (amount)
 
 --- /task ---
 
-To create the first line in the column, move the **3rd Country** sprite with the pen down, then turn it round, and move up the Stage slightly.
+To create the first line in the column, move the **Third Country** sprite with the pen down, then turn it round, and move up the Stage slightly.
 
 --- task ---
 
@@ -41,7 +41,7 @@ Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct
 
 --- task ---
 
-From the **My Blocks** menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the `draw`{:class="block3myblocks"} blocks in the following order:
+From the `My Blocks`{:class="block3myblocks"} menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the `draw`{:class="block3myblocks"} blocks in the following order:
 + `nonrenewable`{:class="block3variables"}
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
@@ -82,16 +82,18 @@ set pen color to [#dadada]
 +draw (1)
 pen up
 go to x: (160) y: (70)
-say [3rd Country]
+say [Third Country]
 ```
 
 --- /task ---
 
 --- task ---
 
-Run your program. In the **3rd Country** sprite, you should see that the pen draws just one thin line for each resource. To make sure the pen draws the correct amount for each resource, you need to repeat the number of lines the pen is instructed to draw.
+Run your program. In the **Third Country** sprite, you should see that the pen draws just one thin line for each resource. To make the pen draw the correct amount for each resource, you need to set the `repeat`{:class="block3control"} to the amount of each resource type.
 
 --- /task ---
+
+Your `draw`{:class="block3myblocks"} blocks are set up to store the amount of electricity for each resource, but the code you defined still only runs once, each time it appears in your script. Use the stored `amount`{:class="block3myblocks"} to control how many times the `draw`{:class="block3myblocks"} block repeats itself.  
 
 --- task ---
 
@@ -114,53 +116,9 @@ end
 
 --- /task ---
 
-So that the speech bubble only shows at the very end of the drawn column, you need to hide the **3rd Country** sprite. The **3rd Country** sprite won't appear because it's the same colour as the backdrop, but you need to hide the speech bubble until the pen has finished drawing the column. This will create a smooth animation.
-
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to the **3rd Country** sprite before it draws the column. Add a `show`{:class="block3looks"} block to make the **3rd Counry** sprite visible at the end of the drawn column:
-
-```blocks3
-when flag clicked
-erase all
-set (nonrenewable) to (17)
-set (wind) to (17)
-set (solar) to (17)
-set (hydro) to (17)
-set (geothermal) to (17)
-set (bioenergy) to (15)
-pen up
-go to x:(120) y: (-140)
-set rotation style [don't rotate v]
-point in direction (90)
-set pen size to (2)
-pen down
-+hide
-set pen color to [#5e6766]
-draw (nonrenewable)
-set pen color to [#37e4db]
-draw (wind)
-set pen color to [#e4d748]
-draw (solar)
-set pen color to [#169bb0]
-draw (hydro)
-set pen color to [#ab7519]
-draw (geothermal)
-set pen color to [#00a42c]
-draw (bioenergy)
-set pen color to [#dadada]
-draw (1)
-pen up
-+show
-go to x: (160) y: (70)
-say [3rd Country]
-```
-
---- /task ---
-
---- task ---
-
-Test your project. The column for the **3rd Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
+Test your project. The column for the **Third Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
 
 --- /task ---
 
