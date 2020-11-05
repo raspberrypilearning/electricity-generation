@@ -9,7 +9,7 @@ This project engages with three of the United Nations Sustainable Development Go
 + [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"}
 + [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}.
 
-It uses data compiled by the International Energy Agency, with guidance kindly given by the Renewable Energy Foundation.
+It uses data compiled by the International Energy Agency.
 
 ### What you will make
 
