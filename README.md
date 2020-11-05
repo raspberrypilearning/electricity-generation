@@ -1,6 +1,6 @@
 # energy-generation
 
-This project uses data compiled by the [International Energy Agency](https://www.iea.org) with guidance kindly given by the [Renewable Energy Foundation](https://www.ref.org.uk).
+This project uses data compiled by the [International Energy Agency](https://www.iea.org).
 
 ![energy-generation](banner.png)
 
