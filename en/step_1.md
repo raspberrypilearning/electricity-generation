@@ -5,9 +5,9 @@ Use Scratch to input real data on the type and amount of natural resources used 
 Electricity is generated from various natural resources which have an impact on the environment in different ways. Non-renewable energy is produced using resources that nature cannot replace, such as fossil fuels (coal, gas, and oil) and nuclear energy. Renewable energy can be produced by the wind (wind power), sun (solar energy), water (hydropower), ground (geothermal energy), and organic materials like wood and crops (bioenergy).  
 
 This project engages with three of the United Nations Sustainable Development Goals:
-+ [Affordable and Clean Energy](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-7-affordable-and-clean-energy.html){:target="_blank"}
-+ [Responsible Consumption and Production](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production.html){:target="\_blank"}
-+ [Climate Action](https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-13-climate-action.html){:target="_blank"}.
++ [Affordable and Clean Energy](https://www.undp.org/sustainable-development-goals#affordable-and-clean-energy){:target="_blank"}
++ [Responsible Consumption and Production](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}
++ [Climate Action](https://www.undp.org/sustainable-development-goals#climate-action){:target="_blank"}
 
 It uses data compiled by the International Energy Agency.
 
