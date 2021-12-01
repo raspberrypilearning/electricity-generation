@@ -35,6 +35,7 @@ Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the
 ```blocks3
 go to x: (-20)y: (-140)
 ```
+
 --- /task ---
 
 --- task ---
@@ -131,6 +132,7 @@ In the first block `set non-renewables to`{:class="block3variables"}, add the va
 ```blocks3
 set [nonrenewable v] to (64)
 ```
+
 --- /task ---
 
 --- task ---
@@ -147,6 +149,7 @@ set [hydro v] to (2)
 set [geothermal v] to (0)
 set [bioenergy v] to (10)
 ```
+
 --- /task ---
 
 --- task ---

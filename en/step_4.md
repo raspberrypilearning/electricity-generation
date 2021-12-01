@@ -28,6 +28,7 @@ Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 **Hydro** | 63 | 58 | 70 | 11 | 4 | 94 | 0 | 2 | 7 |
 **Geothermal** | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 | 0 |
 **Bioenergy** | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+
 --- /task ---
 
 --- task ---

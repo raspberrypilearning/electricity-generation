@@ -30,10 +30,10 @@ Click on the green flag to start the animation. Once it has finished drawing a s
 --- /print-only ---
 
 --- collapse ---
-
 ---
 title: What you will need
 ---
+
 #### Hardware
 
 + A computer or tablet capable of running Scratch
@@ -49,7 +49,6 @@ title: What you will need
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: What you will learn
 ---
@@ -61,7 +60,6 @@ title: What you will learn
 --- /collapse ---
 
 --- collapse ---
-
 ---
 title: Additional information for educators
 ---
