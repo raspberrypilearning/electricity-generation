@@ -1,15 +1,15 @@
-## Build a pen
+## ಪೆನ್‌ ನಿರ್ಮಿಸಿ
 
-In this step, you will learn how to use the `Pen`{:class="block3extensions"} extension blocks to draw on the Stage.
+ಈ ಹಂತದಲ್ಲಿ, Stage ಮೇಲೆ ಚಿತ್ರಿಸಲು `Pen`{:class="block3extensions"} ವಿಸ್ತರಿತ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಹೇಗೆ ಉಪಯೋಗಿಸುವುದು ಎನ್ನುವುದನ್ನು ಕಲಿಯುವಿರಿ.
 
-First, move the **Third Country** sprite to the bottom of the graph so it is in the right position to start drawing the column.
+ಮೊದಲಿಗೆ, **Third Country** ಸ್ಪ್ರೈಟ್‌ನ್ನು ರೇಖಾನಕ್ಷೆಯ ಕೆಳಕ್ಕೆ ಚಲಿಸಿ ಅದರಿಂದ ಅದು ಸ್ತಂಭವನ್ನು ಚಿತ್ರಿಸಲು ಪ್ರಾರಂಭಿಸಲು ಸರಿಯಾದ ಸ್ಥಾನದಲ್ಲಿರುತ್ತದೆ.
 
 --- task ---
 
-Underneath your `when green flag clicked`{:class="block3events"} block, insert three `Motion`{:class="block3motion"} blocks:
-+ A `go to x: y:`{:class="block3motion"} block, change the values to `x:`{:class="block3motion"} `120` and `y:`{:class="block3motion"} `-140`
-+ A `set rotation style`{:class="block3motion"} block, and select `don't rotate`{:class="block3motion"} from the drop-down menu
-+ A `point in direction 90`{:class="block3motion"} block
+ನಿಮ್ಮ `when green flag clicked`{:class="block3events"} ಬ್ಲಾಕ್‌ ಅಡಿಯಲ್ಲಿ, ಮೂರು `Motion`{:class="block3motion"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಒಳಕ್ಕೆ ಸೇರಿಸಿ:
++ `go to x: y:`{:class="block3motion"} ಬ್ಲಾಕ್‌ನಲ್ಲಿ, ಮೌಲ್ಯಗಳನ್ನು `x:`{:class="block3motion"} `120` and `y:`{:class="block3motion"} `-140` ಗೆ ಬದಲಾಯಿಸಿ
++ `set rotation style`{:class="block3motion"} ಬ್ಲಾಕ್, ಮತ್ತು `don't rotate`{:class="block3motion"}ನ್ನು ಡ್ರಾಪ್‌-ಡೌನ್‌ ಮೆನುನಿಂದ ಆಯ್ಕೆಮಾಡಿಕೊಳ್ಳಿ
++ `point in direction 90`{:class="block3motion"} ಬ್ಲಾಕ್
 
 ```blocks3
 when flag clicked
@@ -22,21 +22,21 @@ say [Third Country]
 
 --- /task ---
 
-Now add the `Pen`{:class="block3extensions"} extension blocks menu.
+ಈಗ `Pen`{:class="block3extensions"} ವಿಸ್ತರಿತ ಬ್ಲಾಕ್‌ಗಳ ಮೆನುವನ್ನು ಸೇರಿಸಿ.
 
 --- task ---
 
-Click on the **Code** tab for your **Third Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
+ನಿಮ್ಮ **Third Country** ಸ್ಪ್ರೈಟ್‌ನ **Code** ಟ್ಯಾಬ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ, ಮತ್ತು ನಂತರ `Pen`{:class="block3extensions"} ವಿಸ್ತರಿತ ಬ್ಲಾಕ್‌ನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ (ಪರದೆಯ ಕೆಳ ಎಡ ಮೂಲೆಯಲ್ಲಿದೆ).
 
-![png of pen extension block](images/pen-extension.png){:width="400px"}
+![pen extension ಬ್ಲಾಕ್‌ನ ಪಿಎನ್‌ಜಿ](images/pen-extension.png){:width="400px"}
 
 --- /task ---
 
-Prepare the pen and set its size.
+ಪೆನ್ನನ್ನು ಸಿದ್ಧಪಡಿಸಿ ಮತ್ತು ಅದರ ಗಾತ್ರವನ್ನು ಹೊಂದಿಸಿ.
 
 --- task ---
 
-Add a `set pen size to 1`{:class="block3extensions"} block, and change the value to `2` so the pen is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw.
+`set pen size to 1`{:class="block3extensions"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ, ಮತ್ತು ಮೌಲ್ಯವನ್ನು `2` ಕ್ಕೆ ಬದಲಾಯಿಸಿ ಅದರಿಂದ ಪೆನ್ನನ್ನು ಸ್ವಲ್ಪ ದಪ್ಪ ಮಾಡುತ್ತದೆ. ಚಿತ್ರಿಸಲು ಸಿದ್ಧವಾಗಲು `pen down`{:class="block3extensions"} ಬ್ಲಾಕ್‌ ಒಳಸೇರಿಸಿ.
 
 ```blocks3
 when flag clicked
@@ -51,11 +51,11 @@ say [Third Country]
 
 --- /task ---
 
-You need to make sure that the program clears the pen marks from the Stage and lifts the pen up when the green flag is clicked.
+ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿದಾಗ ಪ್ರೋಗ್ರಾಮ್‌ Stage ನಿಂದ ಪೆನ್ನಿನ ಗುರುತುಗಳನ್ನು ತೆರವುಗೊಳಿಸುವಂತೆ ಮಾಡುವುದನ್ನು ಮತ್ತು ಪೆನ್ನನ್ನು ಮೇಲೆತ್ತುವಂತೆ ಮಢುವುದನ್ನು ನೀವು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಬೇಕು.
 
 --- task ---
 
-Add an `erase all`{:class="block3extensions"} block and a `pen up`{:class="block3extensions"} block at the top of your code, underneath the `when green flag clicked`{:class="block3events"} block.
+`erase all`{:class="block3extensions"} ಬ್ಲಾಕ್‌ನ್ನು ಸೇರಿಸಿ ಮತ್ತು `pen up`{:class="block3extensions"} ಬ್ಲಾಕ್‌ನ್ನು ನಿಮ್ಮ ಕೋಡ್‌ ಮೇಲ್ಗಡೆ, `when green flag clicked`{:class="block3events"} ಬ್ಲಾಕ್‌ ಅಡಿಯಲ್ಲಿ ಸೇರಿಸಿ.
 
 ```blocks3
 when flag clicked
@@ -72,11 +72,11 @@ say [Third Country]
 
 --- /task ---
 
-The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour that represents each resource needs to be the same for each country. After the pen has finished drawing the categories, it will turn to the colour of the backdrop i.e. grey.
+ಪೆನ್ನು ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲವನ್ನು ಚಿತ್ರಿಸುವಾಗ ಅದರ ಬಣ್ಣ ಬದಲಾಗುತ್ತದೆ. ಬಹು ದೇಶಗಳಾದ್ಯಂತ ಉತ್ಪನ್ನವಾಗುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಹೋಲಿಸಲು, ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲವನ್ನು ಪ್ರತಿನಿಧಿಸುವ ಬಣ್ಣವು ಪ್ರತಿಯೊಂದು ದೇಶಕ್ಕೂ ಒಂದೇ ಆಗಿರಬೇಕು. ಪೆನ್ನು ವರ್ಗಗಳನ್ನು ಚಿತ್ರಿಸಿ ಮುಗಿಸಿದ ನಂತರ, ಅದು ಹಿನ್ನೆಲೆಯ ಬಣ್ಣಕ್ಕೆ ಪರಿವರ್ತನೆಯಾಗುತ್ತದೆ, ಅದು ಬೂದುಬಣ್ಣ.
 
 --- task ---
 
-Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories, plus an additional colour to represent the background.
+ನಿಮ್ಮ ಕೋಡ್‌ಗೆ ಏಳು `set pen colour to`{:class="block3extensions"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ. ಇವುಗಳು ಆರು ವರ್ಗಗಳನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತವೆ ಹಾಗೂ ಹಿನ್ನೆಲೆಯನ್ನು ಪ್ರತಿನಿಧಿಸಲು ಒಂದು ಹೆಚ್ಚುವರಿ ಬಣ್ಣ.
 
 ```blocks3
 when flag clicked
@@ -99,23 +99,23 @@ say [Third Country]
 
 --- /task ---
 
-You now need to change the colours of each block to represent the different colours you have chosen for the resources.
+ಸಂಪನ್ಮೂಲಗಳಿಗೆ ನೀವು ಆಯ್ಕೆಮಾಡಿಕೊಂಡ ಬೇರೆ ಬೇರೆ ಬಣ್ಣಗಳನ್ನು ಪ್ರತಿನಿಧಿಸಲು ನೀವು ಪ್ರತಿಯೊಂದು ಬ್ಲಾಕ್‌ನ ಬಣ್ಣಗಳನ್ನು ಬದಲಾಯಿಸಬೇಕು.
 
 --- task ---
 
-Click on the first `set pen colour to`{:class="block3extensions"} block and select the **Colour picker** tool. Click on the first resource in your key. The circle will then turn to your chosen colour.
+ಮೊದಲನೆಯ `set pen colour to`{:class="block3extensions"} ಬ್ಲಾಕ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ ಮತ್ತು **Colour picker** ಟೂಲ್‌ ಆಯ್ಕೆಮಾಡಿ. ನಿಮ್ಮ ಕೀಯಲ್ಲಿ ಮೊದಲನೆಯ ಸಂಪನ್ಮೂಲದ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ವೃತ್ತವು ನಂತರ ನೀವು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತದೆ.
 
-Repeat this for each of the resources in turn, so you don't get the order of the resource colours muddled up.
+ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲಕ್ಕೂ ಸರದಿಯಲ್ಲಿ ಇದನ್ನು ಪುರಾವರ್ತನೆ ಮಾಡಿ, ಆದರಿಂದ ನೀವು ಸಂಪನ್ಮೂಲ ಬಣ್ಣಗಳ ಕ್ರಮವನ್ನು ಗೊಂದಲಮಯವಾಗಿಸುವುದಿಲ್ಲ.
 
-Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere on the background of the Stage.
+ಏಳನೆಯ `set pen colour to`{:class="block3extensions"} ಬ್ಲಾಕ್‌ಗೆ ಹಿನ್ನೆಲೆಯ ಬಣ್ಣವನ್ನು ಉಪಯೋಗಿಸಲು ಮರೆಯಬೇಡಿ,ನೀವು ಇದನ್ನು Stage ನ ಹಿನ್ನೆಲೆಯ ಮೇಲೆ ಎಲ್ಲಿಯಾದರೂ ಸುಳಿದಾಡಿ ಪಡೆಯಬಹುದು.
 
 --- /task ---
 
-Lift the pen when the column has finished drawing.
+ಸ್ತಂಭವು ಚಿತ್ರಿಸುವುದನ್ನು ಮುಗಿಸಿದಾಗ ಪೆನ್ನನ್ನು ಮೇಲಕ್ಕೆತ್ತಿ.
 
 --- task ---
 
-Add a `pen up`{:class="block3extensions"} block to your code.
+ನಿಮ್ಮ ಕೋಡ್‌ಗೆ `pen up`{:class="block3extensions"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ.
 
 ```blocks3
 when flag clicked
@@ -141,7 +141,7 @@ say [Third Country]
 
 --- task ---
 
-Although the **Third Country** sprite is set up, it doesn’t appear on the graph because you haven't inputted any resource data. You’ll have the chance to input data and check your code in the next step.
+**Third Country** ಸ್ಪ್ರೈಟ್‌ ಸಿದ್ಧವಾಗಿದೆಯಾದರೂ, ಅದು ರೇಖಾನಕ್ಷೆಯ ಮೇಲೆ ಕಾಣಿಸುವುದಿಲ್ಲ ಏಕೆಂದರೆ ನೀವು ಯಾವುದೇ ಸಂಪನ್ಮೂಲ ದತ್ತಾಂಶವನ್ನು ಇನ್‌ಪುಟ್‌ ಮಾಡಿಲ್ಲ. ಮುಂದಿನ ಹಂತದಲ್ಲಿ ದತ್ತಾಂಶವನ್ನು ಇನ್‌ಪುಟ್‌ ಮಾಡಲು ಮತ್ತು ನಿಮ್ಮ ಕೋಡ್‌ ಪರಿಶೀಲಿಸಲು ನಿಮಗೆ ಅವಕಾಶ ಇರುತ್ತದೆ.
 
 --- /task ---
 
