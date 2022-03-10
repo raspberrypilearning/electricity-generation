@@ -1,7 +1,7 @@
-## Share your project
+## మీ ప్రాజెక్ట్‌ను షేర్ చేయండి
 
-You can share your completed Scratch project with your friends and family. To do this, follow the instructions below:
+మీరు పూర్తి చేసిన Scratch ప్రాజెక్ట్‌ను మీ స్నేహితులు మరియు కుటుంబ సభ్యులతో పంచుకోవచ్చు. దీన్ని చేయడానికి, క్రింది సూచనలను అనుసరించండి:
 
 [[[share-scratch]]]
 
-If you are in a club, why not demonstrate your project to friends and peers?
+మీరు క్లబ్‌లో ఉన్నట్లయితే, మీ ప్రాజెక్ట్‌ను స్నేహితులు మరియు సహచరులకు ఎందుకు ప్రదర్శించకూడదు?
