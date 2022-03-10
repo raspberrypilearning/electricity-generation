@@ -1,36 +1,36 @@
-## Add a UK column
+## UK కాలమ్‌ని జోడించండి
 
-In this step, you are going to add a UK column and populate it with data so you can compare the results from New Zealand with the UK.
+ఈ దశలో, మీరు UK కాలమ్‌ని జోడించి డేటాతో నింపబోతున్నారు, తద్వారా మీరు New Zealand నుండి UKతో ఫలితాలను పోల్చవచ్చు.
 
-You are going to create a column for the UK. To do this, you will copy the **New Zealand** sprite.
+మీరు UK కోసం ఒక నిలువు వరుసను సృష్టించబోతున్నారు. దీన్ని చేయడానికి, మీరు **New Zealand** sprite ను కాపీ చేస్తారు.
 
 --- task ---
 
-Click on the **New Zealand** sprite, and right-click to select **duplicate**.
+**New Zealand** sprite పై క్లిక్ చేసి, **duplicate**ని ఎంచుకోవడానికి రైట్-క్లిక్ చేయండి.
 
-![image of background](images/electricity-copy-sprite.png){:width="300px"}
+![నేపథ్య చిత్రం](images/electricity-copy-sprite.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-Rename the new sprite `UK`.
+కొత్త sprite `UK` పేరు మార్చండి.
 
 --- /task ---
 
-Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. To be able to see the **UK** sprite, you need to move the position of where the **UK** sprite's column starts to draw on the Stage.
+ప్రోగ్రామ్‌ని అమలు చేయండి. **UK** sprite ప్రోగ్రామ్ లో ఉన్నప్పటికీ, అది అమలులో లేనట్లు కనిపించడాన్ని మీరు చూస్తారు. ఎందుకంటే గ్రాఫ్‌లోని **New Zealand** sprite కాలమ్ కింద **UK** sprite కాలమ్ చేయబడింది. **UK** sprite చూడగలిగేలా, మీరు **UK** sprite యొక్క నిలువు వరుసను Stage పై డ్రా అవడం ప్రారంభించిన స్థానాన్ని తరలించాలి.
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite.
+**UK** sprite యొక్క **Code** ట్యాబ్‌కి వెళ్లండి.
 
 --- /task ---
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values `x:`{:class="block3motion"} `-200` and `y:`{:class="block3motion"} `-140`. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `-140`:
+స్క్రిప్టు పైభాగంలో `go to x: y: `{:class="block3motion"} బ్లాక్‌ కోసం వెదకండి. ఇది `x:`{:class="block3motion"} `-200` మరియు `y:`{:class="block3motion"} `-140` విలువలను కలిగి ఉంది. `x`{:class="block3motion"} విలువను `-20`కి మాత్రమే మార్చండి. `y`{:class="block3motion"} విలువ `-140` వద్ద ఉండగలదు:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK sprite యొక్క చిత్రం](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20)y: (-140)
@@ -40,19 +40,19 @@ go to x: (-20)y: (-140)
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite's column now on the right-hand side of the **New Zealand** sprite's column.
+ఆకుపచ్చ జెండాపై క్లిక్ చేయండి. మీరు ఇప్పుడు **New Zealand** sprite కాలమ్‌కు కుడి వైపున **UK** sprite కాలమ్‌ను చూడగలరు.
 
-![image of second column with no title](images/electricity-second-column-no-title.png){:width="400px"}
+![శీర్షిక లేని రెండవ నిలువు వరుస యొక్క చిత్రం](images/electricity-second-column-no-title.png){:width="400px"}
 
 --- /task ---
 
-However, it won't be clear that it is a column about the UK, because the title is still hidden behind the **New Zealand** sprite's column. You need to move the position of where the title appears on the Stage so you can see it.
+అయినప్పటికీ, ఇది UKకి సంబంధించిన కాలమ్ అని స్పష్టంగా తెలియదు, ఎందుకంటే టైటిల్ ఇప్పటికీ **New Zealand** sprite కాలమ్ వెనుక దాచబడింది. మీరు దానిని చూడగలిగేలా Stage పై టైటిల్ కనిపించే స్థానాన్ని మీరు తరలించాలి.
 
 --- task ---
 
-Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `70`:
+మళ్ళీ, **UK** sprite యొక్క **Code** ట్యాబ్‌కి వెళ్లండి. పొడవైన స్క్రిప్ట్ చివర `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` బ్లాకుని కనుగొనండి. `x`{:class="block3motion"} విలువను మాత్రమే `-20`కి మార్చండి. `y`{:class="block3motion"} విలువ `70` దగ్గరనే ఉండవచ్చు:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK sprite యొక్క చిత్రం](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -62,19 +62,19 @@ go to x: (-20)y: (70)
 
 --- task ---
 
-Click the green flag. You should now be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
+ఆకుపచ్చ జెండాపై క్లిక్ చేయండి. మీరు ఇప్పుడు కుడివైపు నిలువు వరుస పైన **UK** sprite శీర్షిక ను చూడగలరు. లేదు! ఇది ఇప్పటికీ "New Zealand" అని చెబుతోంది.
 
-![image of two columns with the same name](images/electricity-two-columns-same-name.png){:width="400px"}
+![ఒకే పేరుతో ఉన్న రెండు నిలువు వరుసల చిత్రం](images/electricity-two-columns-same-name.png){:width="400px"}
 
 --- /task ---
 
-You need to change the text in the `say`{:class="block3looks"} block so that it says "UK".
+మీరు `say`{:class="block3looks"} బ్లాక్‌లోని వచనాన్ని మార్చాలి, తద్వారా అది "UK" అని చెప్పబడుతుంది.
 
 --- task ---
 
-Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`. So that the title "UK" is in the centre of the speech bubble, press the space bar on your keyboard four times first and then type `UK`:
+`go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70` కింద, `say`{:class="block3looks"} బ్లాకును జోడించండి మరియు `UK` అని టైపు ఛేయండి. స్పీచ్ బబుల్ మధ్యలో "UK" అనే శీర్షిక ఉండేలా, ముందుగా మీ కీబోర్డ్‌లోని స్పేస్ బార్‌ను నాలుగు సార్లు నొక్కి, ఆపై `UK`అని టైప్ చేయండి:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK sprite యొక్క చిత్రం](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20) y: (70)
@@ -84,21 +84,21 @@ go to x: (-20) y: (70)
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title now in the centre of the speech bubble and above the right-hand column.
+ఆకుపచ్చ జెండాపై క్లిక్ చేయండి. మీరు ఇప్పుడు **UK** sprite శీర్షికను స్పీచ్ బబుల్ మధ్యలో మరియు కుడివైపు నిలువు వరుసకు ఎగువన చూడగలరు.
 
-![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
+![స్పీచ్ బబుల్ మధ్యలో UK టైటిల్ చిత్రం](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
 
 --- /task ---
 
-The columns look the same because the **UK** sprite's column is still showing the energy values for the **New Zealand** sprite.
+**UK** sprite యొక్క కాలమ్ ఇప్పటికీ **New Zealand** sprite యొక్క శక్తి విలువలను చూపుతున్నందున నిలువు వరుసలు ఒకే విధంగా ఉన్నాయి.
 
-![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
+![రెండు గ్రాఫ్‌ల చిత్రం ఒకేలా కనిపిస్తుంది](images/electricity-two-graphs-look-same.png){:width="400px"}
 
 --- task ---
 
-In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**:
+**UK** sprite యొక్క **Code** ట్యాబ్ లోపల, ప్రతి రిసోర్స్ వేరియబుల్ యొక్క విలువను చూపే ఆరు `set`{:class="block3variables"} బ్లాకుల శ్రేణి పరిశోధించండి. ప్రతి బ్లాక్‌లోని విలువ మొత్తం మీద (100%) వనరు యొక్క శాతాన్ని (%) సూచిస్తుంది. `set`{:class="block3variables"} బ్లాక్‌లు ఇప్పటికీ **New Zealand** కోసం డేటాను చూపుతున్నాయని గుర్తుంచుకోండి:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK sprite యొక్క చిత్రం](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (18)
@@ -110,17 +110,17 @@ set [bioenergy v] to (1)
 ```
 --- /task ---
 
-In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the table below.
-Resource Type | UK |
+**UK** sprite ప్రోగ్రామ్‌లో, మీరు `set`{:class="block3variables"} బ్లాక్ విలువలను దిగువ పట్టికలో ఇచ్చిన విలువలతో భర్తీ చేయాలి.
+వనరు రకం | UK |
 - | - | **Non-renewables** | 64 | **Wind** | 20 | **Solar** | 4 | **Hydro** | 2 | **Geothermal** | 0 | **Bioenergy** | 10 |
 
 <br/><br/>
 
 --- task ---
 
-In the first block `set non-renewables to`{:class="block3variables"}, add the value `64`. This value indicates that non-renewables represent 64 percent of the resources used to generate electricity in the UK:
+మొదటి బ్లాక్ `set non-renewable`{:class="block3variables"}కి సెట్ చేయండి, `64`విలువను జోడించండి. UK లో విద్యుత్తును ఉత్పత్తి చేయడానికి ఉపయోగించే వనరులలో 64 శాతం తరిగిపోయే వనరులు ప్రాతినిధ్యం వహిస్తాయని ఈ విలువ సూచిస్తుంది:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK sprite యొక్క చిత్రం](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -130,9 +130,9 @@ set [nonrenewable v] to (64)
 
 --- task ---
 
-Refer to the table above to complete the values for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
+మిగిలిన `set`{:class="block3variables"} బ్లాక్‌లను ఉపయోగించి అన్ని వనరుల కోసం విలువలను పూర్తి చేయడానికి పై పట్టికను చూడండి. మీ ప్రాజెక్ట్ ఇలా కనిపించాలి:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK sprite యొక్క చిత్రం](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -147,17 +147,17 @@ set [bioenergy v] to (10)
 
 --- task ---
 
-Check you have inputted the values correctly. Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total, which is 100 percent.
+మీరు విలువలను సరిగ్గా ఇన్‌పుట్ చేశారని తనిఖీ చేయండి. డబుల్ చెక్ చేసే వరకు విలువలను జోడించండి: 64 + 20 + 4 + 2 + 0 + 10 = 100. మొత్తం ఎల్లప్పుడూ 100 ఉండాలి ఎందుకంటే ప్రతి బ్లాక్‌లోని విలువ మొత్తం మీద వనరు యొక్క శాతం (%) సహకారాన్ని సూచిస్తుంది, ఇది 100 శాతం.
 
 --- /task ---
 
 --- task ---
 
-Run the program to compare what resources New Zealand and the UK use to generate energy. You may notice the UK uses more bioenergy than New Zealand. You may also notice that New Zealand uses far more hydropower than the UK to generate electricity.
+New Zealand మరియు UK శక్తిని ఉత్పత్తి చేయడానికి ఉపయోగించే వనరులను సరిపోల్చడానికి ప్రోగ్రామ్‌ను అమలు చేయండి. New Zealand కంటే UK ఎక్కువ బయోఎనర్జీని ఉపయోగిస్తుందని మీరు గమనించవచ్చు. New Zealand విద్యుత్తును ఉత్పత్తి చేయడానికి UK కంటే చాలా ఎక్కువ జలశక్తిని ఉపయోగిస్తుందని మీరు గమనించవచ్చు.
 
-![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
+![రెండు గ్రాఫ్‌లను పోల్చడానికి చిత్రం](images/electricity-compare-two-graphs.png){:width="400px"}
 
-Investigate how much non-renewable energy each country uses to generate electricity. How do the countries compare on their use of non-renewable resources?
+ప్రతి దేశం విద్యుత్తును ఉత్పత్తి చేయడానికి ఎంత పునరుత్పాదకం కాని శక్తిని ఉపయోగిస్తుందో పరిశోధించండి. పునరుత్పాదకం కాని వనరులను ఉపయోగించడాన్ని దేశాలు ఎలా పోల్చాయి?
 
 --- /task ---
 
