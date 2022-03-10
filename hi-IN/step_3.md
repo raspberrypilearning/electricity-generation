@@ -111,8 +111,15 @@ set [bioenergy v] to (1)
 --- /task ---
 
 **UK** स्प्राइट प्रोग्राम में, आपको `set`{:class="block3variables"} ब्लॉक मानों को नीचे दी गई तालिका में दिए गए आंकड़ों से बदलना होगा।
+
 संसाधन प्रकार | UK |
-- | - | **Non-renewables** | 64 | **Wind** | 20 | **Solar** | 4 | **Hydro** | 2 | **Geothermal** | 0 | **Bioenergy** | 10 |
+- | - |
+**Non-renewables** | 64 |
+**Wind** | 20 |
+**Solar** | 4 |
+**Hydro** | 2 |
+**Geothermal** | 0 |
+**Bioenergy** | 10 |
 
 <br/><br/>
 

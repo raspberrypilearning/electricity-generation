@@ -111,8 +111,15 @@ set [bioenergy v] to (1)
 --- /task ---
 
 **UK** स्प्राईट प्रोग्राम मध्ये, तुम्हाला `set`{:class="block3variables"} ब्लॉकच्या व्हॅल्यू खालील सारणीत दिलेल्या आकड्यांनी बदलण्याची आवश्यकता आहे.
+
 संसाधन प्रकार | UK |
-- | - | **Non-renewables** | 64 | **Wind** | 20 | **Solar** | 4 | **Hydro** | 2 | **Geothermal** | 0 | **Bioenergy** | 10 |
+- | - |
+**Non-renewables** | 64 |
+**Wind** | 20 |
+**Solar** | 4 |
+**Hydro** | 2 |
+**Geothermal** | 0 |
+**Bioenergy** | 10 |
 
 <br/><br/>
 

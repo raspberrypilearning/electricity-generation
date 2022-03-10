@@ -111,8 +111,15 @@ set [bioenergy v] to (1)
 --- /task ---
 
 **UK** sprite ప్రోగ్రామ్‌లో, మీరు `set`{:class="block3variables"} బ్లాక్ విలువలను దిగువ పట్టికలో ఇచ్చిన విలువలతో భర్తీ చేయాలి.
+
 వనరు రకం | UK |
-- | - | **Non-renewables** | 64 | **Wind** | 20 | **Solar** | 4 | **Hydro** | 2 | **Geothermal** | 0 | **Bioenergy** | 10 |
+- | - |
+**Non-renewables** | 64 |
+**Wind** | 20 |
+**Solar** | 4 |
+**Hydro** | 2 |
+**Geothermal** | 0 |
+**Bioenergy** | 10 |
 
 <br/><br/>
 

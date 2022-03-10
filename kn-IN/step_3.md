@@ -111,8 +111,15 @@ set [bioenergy v] to (1)
 --- /task ---
 
 **UK** ಸ್ಪ್ರೈಟ್‌ ಪ್ರೋಗ್ರಾಮ್‌ನಲ್ಲಿ, ನೀವು `set`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ ಮೌಲ್ಯಗಳನ್ನು ಕೆಳಗಿನ ಕೋಷ್ಟಕದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಅಂಕೆಗಳಿಂದ ಬದಲಾಯಿಸಬೇಕು.
+
 ಸಂಪನ್ಮೂಲ ವಿಧ | UK |
-- | - | **Non-renewables** | 64 | **Wind** | 20 | **Solar** | 4 | **Hydro** | 2 | **Geothermal** | 0 | **Bioenergy** | 10 |
+- | - |
+**Non-renewables** | 64 |
+**Wind** | 20 |
+**Solar** | 4 |
+**Hydro** | 2 |
+**Geothermal** | 0 |
+**Bioenergy** | 10 |
 
 <br/><br/>
 
