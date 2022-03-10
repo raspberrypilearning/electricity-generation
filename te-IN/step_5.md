@@ -1,15 +1,15 @@
-## Build a pen
+## పెన్ ని నిర్మించండి
 
-In this step, you will learn how to use the `Pen`{:class="block3extensions"} extension blocks to draw on the Stage.
+ఈ దశలో, మీరు Stage పై డ్రా చేయడానికి `Pen`{:class="block3extensions"} ఎక్సటెన్షన్ బ్లాక్‌లను ఎలా ఉపయోగించాలో నేర్చుకుంటారు.
 
-First, move the **Third Country** sprite to the bottom of the graph so it is in the right position to start drawing the column.
+ముందుగా, **Third Country** sprite ను గ్రాఫ్ దిగువకు తరలించండి, తద్వారా నిలువు వరుసను గీయడం ప్రారంభించడానికి ఇది సరైన స్థితిలో ఉంటుంది.
 
 --- task ---
 
-Underneath your `when green flag clicked`{:class="block3events"} block, insert three `Motion`{:class="block3motion"} blocks:
-+ A `go to x: y:`{:class="block3motion"} block, change the values to `x:`{:class="block3motion"} `120` and `y:`{:class="block3motion"} `-140`
-+ A `set rotation style`{:class="block3motion"} block, and select `don't rotate`{:class="block3motion"} from the drop-down menu
-+ A `point in direction 90`{:class="block3motion"} block
+`when green flag clicked`{:class="block3events"} బ్లాక్‌ కింద, మూడు `Motion`{:class="block3motion"} బ్లాక్‌లను చొప్పించండి:
++ `go to x: y:`{:class="block3motion"} బ్లాకులో, విలువలను `x:`{:class="block3motion"} `120` మరియు `y:`{:class="block3motion"} `-140` కి మార్చండి
++ `set rotation style`{:class="block3motion"} బ్లాకు, మరియు డ్రాప్ డౌన్ మెను నుంచి, `don't rotate`{:class="block3motion"} ను ఎంచుకోండి
++ `point in direction 90`{:class="block3motion"} బ్లాకు
 
 ```blocks3
 when flag clicked
@@ -22,21 +22,21 @@ say [Third Country]
 
 --- /task ---
 
-Now add the `Pen`{:class="block3extensions"} extension blocks menu.
+ఇప్పుడు, ఎక్స్‌టెన్షన్ బ్లాక్స్ మెను నుండి, `Pen`{:class="block3extensions"} ను జోడించండి.
 
 --- task ---
 
-Click on the **Code** tab for your **Third Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
+మీ **Third Country** sprite కోసం **Code** ట్యాబ్‌పై క్లిక్ చేసి, ఆపై `Pen`{:class="block3extensions"} ఎక్స్‌టెన్షన్ బ్లాకుని క్లిక్ చేయండి (స్క్రీన్ దిగువ ఎడమవైపు మూలలో).
 
-![png of pen extension block](images/pen-extension.png){:width="400px"}
+![పెన్ ఎక్స్‌టెన్షన్ బ్లాక్ యొక్క png](images/pen-extension.png){:width="400px"}
 
 --- /task ---
 
-Prepare the pen and set its size.
+పెన్ ను సిద్ధం చేసి దాని పరిమాణాన్ని సెట్ చేయండి.
 
 --- task ---
 
-Add a `set pen size to 1`{:class="block3extensions"} block, and change the value to `2` so the pen is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw.
+`set pen size to 1`{:class="block3extensions"} బ్లాక్‌ ని జోడించి, విలువను `2` కి మార్చండి, తద్వారా పెన్ కొద్దిగా మందంగా ఉంటుంది. డ్రా చేయడానికి సిద్ధంగా ఉండటానికి `pen down`{:class="block3extensions"} బ్లాక్‌ని చొప్పించండి.
 
 ```blocks3
 when flag clicked
@@ -51,11 +51,11 @@ say [Third Country]
 
 --- /task ---
 
-You need to make sure that the program clears the pen marks from the Stage and lifts the pen up when the green flag is clicked.
+ప్రోగ్రామ్ Stage నుండి పెన్ మార్కులను క్లియర్ చేస్తుందని మరియు ఆకుపచ్చ జెండాను క్లిక్ చేసినప్పుడు పెన్ ని పైకి లేపుతుందని మీరు నిర్ధారించుకోవాలి.
 
 --- task ---
 
-Add an `erase all`{:class="block3extensions"} block and a `pen up`{:class="block3extensions"} block at the top of your code, underneath the `when green flag clicked`{:class="block3events"} block.
+`erase all`{:class="block3extensions"} బ్లాకుని జోడించండి మరియు మీ కోడ్ పైన `pen up`{:class="block3extensions"} బ్లాకు, కింద `when green flag clicked`{:class="block3events"} బ్లాకు.
 
 ```blocks3
 when flag clicked
@@ -72,11 +72,11 @@ say [Third Country]
 
 --- /task ---
 
-The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour that represents each resource needs to be the same for each country. After the pen has finished drawing the categories, it will turn to the colour of the backdrop i.e. grey.
+ప్రతి వనరును గీసినప్పుడు పెన్ రంగు మారుతుంది. బహుళ దేశాలలో ఉత్పత్తి చేయబడిన వనరులను పోల్చడానికి, ప్రతి వనరును సూచించే రంగు ప్రతి దేశానికి ఒకేలా ఉండాలి. పెన్ విభాగాలను గీయడం పూర్తయిన తర్వాత, అది బ్యాక్‌డ్రాప్ రంగుకు అంటే బూడిద రంగులోకి మారుతుంది.
 
 --- task ---
 
-Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories, plus an additional colour to represent the background.
+మీ కోడ్‌లో ఏడు `set pen colour to`{:class="block3extensions"} బ్లాక్‌లను జోడించండి. ఇవి ఆరు వర్గాలను సూచిస్తాయి మరియు నేపథ్యాన్ని సూచించడానికి అదనపు రంగును సూచిస్తాయి.
 
 ```blocks3
 when flag clicked
@@ -99,23 +99,23 @@ say [Third Country]
 
 --- /task ---
 
-You now need to change the colours of each block to represent the different colours you have chosen for the resources.
+వనరుల కోసం మీరు ఎంచుకున్న విభిన్న రంగులను సూచించడానికి మీరు ఇప్పుడు ప్రతి బ్లాక్ యొక్క రంగులను మార్చాలి.
 
 --- task ---
 
-Click on the first `set pen colour to`{:class="block3extensions"} block and select the **Colour picker** tool. Click on the first resource in your key. The circle will then turn to your chosen colour.
+మొదటి `set pen colour to`{:class="block3extensions"} బ్లాక్‌పై క్లిక్ చేసి, **Colour picker** సాధనాన్ని ఎంచుకోండి. మీ కీ లోని మొదటి వనరుపై క్లిక్ చేయండి. సర్కిల్ మీరు ఎంచుకున్న రంగుకు మారుతుంది.
 
-Repeat this for each of the resources in turn, so you don't get the order of the resource colours muddled up.
+ప్రతి వనరుల కోసం దీన్ని పునరావృతం చేయండి, తద్వారా మీరు వనరుల రంగుల క్రమాన్ని గజిబిజిగా పొందరు.
 
-Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere on the background of the Stage.
+ఏడవ `set pen colour to`{:class="block3extensions"} బ్లాక్ కోసం బ్యాక్‌డ్రాప్ కలర్‌ని ఉపయోగించడం మర్చిపోవద్దు, మీరు Stage బ్యాక్‌గ్రౌండ్‌లో ఎక్కడైనా హోవర్ చేయడం ద్వారా దీన్ని పొందవచ్చు.
 
 --- /task ---
 
-Lift the pen when the column has finished drawing.
+కాలమ్ డ్రాయింగ్ పూర్తయిన తర్వాత పెన్ ను లిఫ్ట్ చేయండి.
 
 --- task ---
 
-Add a `pen up`{:class="block3extensions"} block to your code.
+మీ కోడ్‌కి `pen up`{:class="block3extensions"} బ్లాక్‌ను జోడించండి.
 
 ```blocks3
 when flag clicked
@@ -141,7 +141,7 @@ say [Third Country]
 
 --- task ---
 
-Although the **Third Country** sprite is set up, it doesn’t appear on the graph because you haven't inputted any resource data. You’ll have the chance to input data and check your code in the next step.
+**Third Country** sprite సెటప్ చేయబడినప్పటికీ, మీరు ఏ రిసోర్స్ డేటాను ఇన్‌పుట్ చేయనందున ఇది గ్రాఫ్‌లో కనిపించదు. మీరు తదుపరి దశలో డేటాను ఇన్‌పుట్ చేసి, మీ కోడ్‌ని తనిఖీ చేసే అవకాశం ఉంటుంది.
 
 --- /task ---
 
