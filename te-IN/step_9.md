@@ -1,11 +1,11 @@
-## What next?
+## తర్వాత ఏంటి?
 
-In this project, you have:
+ఈ ప్రాజెక్ట్‌లో, మీరు కలిగి ఉన్నవి:
 
-+ Organised your program using `My Blocks`{:class="block3myblocks"}
-+ Used the `Pen`{:class="block3extensions"} extension blocks to draw stacked bar graphs
-+ Turned data on natural resources into colourful graphs that show how different countries generate electricity
++ `My Blocks`{:class="block3myblocks"}ని ఉపయోగించి మీ ప్రోగ్రామ్‌ని నిర్వహించారు
++ పేర్చబడిన బార్ గ్రాఫ్‌లను గీయడానికి `Pen`{:class="block3extensions"} ఎక్స్‌టెన్షన్ బ్లాకులను ఉపయోగించారు
++ వివిధ దేశాలు విద్యుత్తును ఎలా ఉత్పత్తి చేస్తాయో చూపించే సహజ వనరులపై డేటాను రంగుల గ్రాఫ్‌లుగా మార్చారు
 
-If you are following the [Protect our planet](https://projects.raspberrypi.org/en/raspberrypi/protect-our-planet) pathway, you can move on to the [Turtle tracker](https://projects.raspberrypi.org/en/projects/turtle-tracker) project. In this project, you will draw the routes of sea turtles using real data.
+మీరు [Protect your planet](https://projects.raspberrypi.org/en/raspberrypi/protect-our-planet) అనుసరిస్తుంటే, మీరు [Turtle tracker](https://projects.raspberrypi.org/en/projects/turtle-tracker) ప్రాజెక్ట్‌కి వెళ్లవచ్చు. ఈ ప్రాజెక్ట్‌లో, మీరు నిజమైన డేటాను ఉపయోగించి సముద్ర తాబేళ్ల మార్గాలను గీస్తారు.
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+మీరు ప్రాజెక్ట్‌ను ఆస్వాదించారా? మీరు ఏదైనా పొరపాటును గుర్తించారా? **Send feedback** బటన్‌ను క్లిక్ చేసి, మాకు తెలియజేయండి!
