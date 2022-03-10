@@ -1,27 +1,29 @@
 ---
-title: Electricity generation
+title: ವಿದ್ಯುತ್ ಉತ್ಪಾದನೆ
 hero_image: images/banner.png
-description: Create a data visualisation and input real data to compare the natural resources used by countries to generate electricity
+description: ವಿದ್ಯುತ್‌ ಉತ್ಪಾದನೆಗೆ ದೇಶಗಳಿಂದ ಉಪಯೋಗಿಸಲ್ಪಡುವ ನೈಸರ್ಗಿಕ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಹೋಲಿಸಲು ದತ್ತಾಂಶ ದೃಶ್ಯೀಕರಣ ಮತ್ತು ಇನ್‌ಪುಟ್‌ ನೈಜ ದತ್ತಾಂಶವನ್ನು ರಚಿಸಿ
 version: 4
 listed: true
 copyedit: false
-last_tested: "2020-09-16"
+last_tested: '2020-09-16'
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
+    completion: engaged
   - 
-    title: Pick the colours
+    title: ಬಣ್ಣಗಳನ್ನು ಆಯ್ದುಕೊಳ್ಳಿ
   - 
-    title: Add a UK column
+    title: ಯುಕೆ ಕಾಲಮ್‌ ಸೇರಿಸಿ
   - 
-    title: Choose a third country
+    title: ಮೂರನೆಯ ದೇಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಿ
   - 
-    title: Build a pen
+    title: ಪೆನ್‌ ನಿರ್ಮಿಸಿ
   - 
-    title: Create the resource variables
+    title: ಸಂಪನ್ಮೂಲ ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ರಚಿಸಿ
   - 
-    title: Draw the third column
+    title: ಮೂರನೆಯ ಕಾಲಮ್‌ ಚಿತ್ರಿಸಿ
+    completion: internal
   - 
-    title: Share your project
+    title: ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ನ್ನು ಹಂಚಿಕೊಳ್ಳಿ
   - 
-    title: What next?
+    title: ಮುಂದೆ ಏನು?
