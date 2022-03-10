@@ -1,36 +1,36 @@
-## Create the resource variables
+## रिसोर्स व्हेरिएबल्स तयार करा
 
-In this step, you are going to create new resource variables for the **Third Country** sprite. You will add values to the variables, and then use those values to draw the column for the **Third Country** sprite.
+या टप्प्यात, तुम्ही **Third Country** स्प्राईटसाठी नवीन रिसोर्स व्हेरिएबल तयार करणार आहात. तुम्ही व्हेरिएबल्स ला व्हॅल्यू जोडाल, आणि त्यानंतर **Third Country** स्प्राईटसाठी कॉलम काढण्यास त्या व्हॅल्यूंचा वापर कराल.
 
-First, you will create a variable for non-renewable resources.
+प्रथम, तुम्ही अनवीकरणयोग्य संसाधनांसाठी व्हेरिएबल तयार कराल.
 
 --- task ---
 
-Create a new variable by clicking on the `Variables`{:class="block3variables"} blocks menu.
+`Variables`{:class="block3variables"} ब्लॉक्स मेनूवर क्लिक करून नवीन व्हेरिएबल तयार करा.
 
-Then click on the **Make a Variable** button.
+त्यानंतर **Make a Variable** बटनावर क्लिक करा.
 
 --- /task ---
 
-You need a title for the variable. You also need to make sure that the variable is created for this sprite only so that if you update the value for this sprite, it does not change it for the others. Even though the other sprites also have a variable titled `nonrenewable`{:class="block3variables"}, each variable holds a different value for each country.
+तुम्हाला व्हेरिएबल साठी शीर्षकाची आवश्यकता आहे. व्हेरिएबल केवळ याच स्प्राईटसाठी तयार झाल्याची तुम्ही खात्री करायला हवी जेणेकरून तुम्ही या स्प्राईटसाठी व्हॅल्यू अपडेट केल्यावर, तो इतरांसाठी ती बदलणार नाही. इतर स्प्राईट्सला शीर्षक `nonrenewable`{:class="block3variables"} असलेले व्हेरिएबल असले तरीही, प्रत्येक व्हेरिएबलला प्रत्येक देशासाठी वेगवेगळी व्हॅल्यू असते.
 
 --- task ---
 
-Call this variable `nonrenewable`.
+या व्हेरिएबल ला म्हणा `nonrenewable`.
 
-**Important**: Click **For this sprite only**.
+**महत्वाचे**: **For this sprite only** क्लिक करा.
 
-Then click **OK**.
+त्यानंतर **OK** वर क्लिक करा.
 
-![png of electricity naming variables](images/electricity-naming-variables.png){:width="400px"}
+![electricity naming व्हेरिएबलची png](images/electricity-naming-variables.png){:width="400px"}
 
 --- /task ---
 
-Create the remaining resource variables.
+उर्वरीत resource व्हेरिएबल तयार करा.
 
 --- task ---
 
-Create new variables in the same way. Remember to select **For this sprite only** for each new variable:
+त्याचप्रकारे नवीन व्हेरिएबल तयार करा. प्रत्येक नवीन व्हेरिएबल साठी **For this sprite only** निवडण्याचे लक्षात ठेवा:
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
 + `hydro`{:class="block3variables"}
@@ -39,29 +39,29 @@ Create new variables in the same way. Remember to select **For this sprite only*
 
 --- /task ---
 
-Hide the variables from view.
+व्हेरिएबल्स दिसण्यापासून लपवा.
 
 --- task ---
 
-All the new energy variables are listed in the `Variables`{:class="block3variables"} blocks menu. They are also automatically shown on the Stage, but you don't need them shown there for this project.
+सर्व नवीन ऊर्जा व्हेरिएबल्स `Variables`{:class="block3variables"} ब्लॉक्स मेनूमध्ये सूचीबद्ध केलेले आहेत. ते Stage वर आपोआप दाखवते जातात, परंतु तुम्हाला या प्रोजेक्टसाठी ते दाखवण्याची आवश्यकता नाही.
 
-Click on the checkboxes next to each variable to hide them from view.
+व्हेरिएबल दिसण्यापासून लपवण्यासाठी प्रत्येक व्हेरिएबलच्या पुढे असलेल्या चेकबॉक्स वर क्लिक करा.
 
 --- no-print ---
 
-![gif of hiding variables](images/hiding-variables.gif)
+![hiding व्हेरिएबलची png](images/hiding-variables.gif)
 
 --- /no-print ---
 
 --- /task ---
 
-Now you can input the resources data for your chosen country. Below is the table again to help you input the data.
+आता, तुम्ही निवडलेल्या देशासाठी तुम्ही संसाधन डेटा इनपुट करू शकता. तुम्हाला डेटा इनपुट करण्यास मदत करण्यासाठी खाली पुन्हा सारणी आहे.
 
-Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA | | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | **Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 | **Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 | **Solar** | 1 | 1 | 0 | 3 | 0 | 0 | 1 | 1 | 2 | **Hydro** | 63 | 58 | 70 | 11 | 4 | 94 | 0 | 2 | 7 | **Geothermal** | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 | 0 | **Bioenergy** | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+संसाधन प्रकार | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA | | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | **Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 | **Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 | **Solar** | 1 | 1 | 0 | 3 | 0 | 0 | 1 | 1 | 2 | **Hydro** | 63 | 58 | 70 | 11 | 4 | 94 | 0 | 2 | 7 | **Geothermal** | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 | 0 | **Bioenergy** | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The code below uses South Africa as example data for the **Third Country** sprite, but you'll input figures for your chosen country.
+प्रत्येक संसाधनासाठी एक याप्रमाणे सहा `set my variable to`{:class="block3variables"} ब्लॉक्स जोडा. उदाहरणार्थ खालील कोड **Third Country** स्प्राईट साठी South Africa निवडतो, परंतु तुम्ही तुमच्या निवडलेल्या देशासाठी आकडे इनपुट कराल.
 
 ```blocks3
 when flag clicked
@@ -94,7 +94,7 @@ say [Third Country]
 
 --- task ---
 
-Double-check that the values for the resources add up to 100.
+संसाधनांची मूल्ये 100 पर्यंत जोडली जातात हे दोनदा तपासा.
 
 --- /task ---
 
