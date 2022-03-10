@@ -1,24 +1,24 @@
-## Choose a third country
+## तीसरा देश चुनें
 
-In this step, you are going to start to create your own column.
+इस चरण में, आप अपना खुद का कॉलम बनाना शुरू करने जा रहे हैं।
 
-You may have noticed that the country sprites do not have a graphic. This is because when the sprites moves in the program, you only need to see their related actions of the `Pen`{:class="block3extensions"} and the speech bubble, not the sprite itself.
+आपने देखा होगा कि देशीय स्प्राइट्स में ग्राफिक नहीं होता है। ऐसा इसलिए है क्योंकि जब प्रोग्राम में स्प्राइट्स चलते हैं, तो आपको केवल `Pen`{:class="block3extensions"} और स्पीच बबल की उनकी संबंधित क्रियाओं को देखने की आवश्यकता होती है, स्प्राइट को नहीं।
 
-Now you need to create a new sprite with no costume.
+अब आपको बिना पोशाक के एक नया स्प्राइट बनाने की जरूरत है।
 
 --- task ---
 
-Go to **Choose a Sprite** and select the **Paint** editor.
+**Choose a Sprite** पर जाएँ और **Paint** संपादक चुनें।
 
-![Image showing sprite paint tool](images/electricity-paint-editor.png){:width="300px"}
+![स्प्राइट पेंट टूल दिखाती हुई छवि](images/electricity-paint-editor.png){:width="300px"}
 
 --- /task ---
 
-Give your new sprite a name. Below is a table that lists a number of countries and the percentage contribution of resources they use to generate electricity. Choose any one of the listed countries. It could be one you are from (if it's not already represented), a neighbouring country, somewhere you've visited, or even a country that uses a large amount of one of the resources.
+अपने नए स्प्राइट को एक नाम दें। नीचे एक तालिका है जो कई देशों और बिजली पैदा करने के लिए उनके द्वारा उपयोग किए जाने वाले संसाधनों के प्रतिशत योगदान को सूचीबद्ध करती है। सूचीबद्ध देशों में से कोई एक चुनें। यह वह हो सकता है जिससे आप हैं (यदि यह पहले से प्रतिनिधित्व नहीं है), एक पड़ोसी देश, कहीं आप गए हैं, या यहां तक कि एक देश जो संसाधनों में से एक का बड़ी मात्रा में उपयोग करता है।
 
 --- task ---
 
-Investigate the table below and decide on which country you want to use for the graph.
+नीचे दी गई तालिका की जांच करें और तय करें कि आप ग्राफ़ के लिए किस देश का उपयोग करना चाहते हैं।
 
 Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA | | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | **Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 | **Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 | **Solar** | 1 | 1 | 0 | 3 | 0 | 0 | 1 | 1 | 2 | **Hydro** | 63 | 58 | 70 | 11 | 4 | 94 | 0 | 2 | 7 | **Geothermal** | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 | 0 | **Bioenergy** | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 
@@ -26,19 +26,19 @@ Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore
 
 --- task ---
 
-Rename **Sprite1** with the name of the country you have chosen. In this resource, this sprite will be referred to as the **Third Country** sprite.
+आपके द्वारा चुने गए देश के नाम के साथ **Sprite1** का नाम बदलें। इस संसाधन में, इस स्प्राइट को **Third Country** स्प्राइट कहा जाएगा।
 
-![Image showing rename Sprite1](images/electricity-rename-Sprite1.png){:width="300px"}
+![नाम बदलें Sprite1 दिखाती हुई छवि](images/electricity-rename-Sprite1.png){:width="300px"}
 
 --- /task ---
 
-When the program is run, you want the **Third Country** sprite to go to a position on the Stage and, using a speech bubble, say its name, just like the **New Zealand** and the **UK** sprites do.
+जब प्रोग्राम चलाया जाता है, तो आप चाहते हैं कि **Third Country** स्प्राइट मंच पर एक जगह में जाए और स्पीच बबल का उपयोग करके उसका नाम कहें, ठीक उसी तरह जैसे **New Zealand** और **UK** स्प्राइट करते हैं।
 
 --- task ---
 
-Go to the **Code** editor for the **Third Country** sprite.
+**Third Country** स्प्राइट के**Code** संपादक पर जाएं।
 
-Add the following blocks: `when green flag clicked`{:class="block3events"}, `go to x:`{:class="block3motion"} `200` `y:`{:class="block3motion"} `70`, and a `say`{:class="block3looks"} block to type in the name of the country you have chosen:
+आपके द्वारा चुने गए देश का नाम टाइप करने के लिए निम्नलिखित ब्लॉक जोड़ें: `when green flag clicked`{:class="block3events"}, `go to x:`{:class="block3motion"} `200` `y:`{:class="block3motion"} `70`, और एक `say`{:class="block3looks"} ब्लॉक।
 
 ```blocks3
 when flag clicked
@@ -50,9 +50,9 @@ say [Third Country] ::looks
 
 --- task ---
 
-Run your program. The sprite should be invisible and should say its title in the top right-hand side of the Stage. The example says "Third Country".
+अपना प्रोग्राम चलाएं। स्प्राइट अदृश्य होना चाहिए और मंच के ऊपर दाईं ओर अपना शीर्षक कहना चाहिए। उदाहरण "Third Country" कहता है।
 
-![Image showing say Third Country](images/electricity-say-3rdCountry.png){:width="300px"}
+![Third Country बोलो दिखाती हुई छवि](images/electricity-say-3rdCountry.png){:width="300px"}
 
 --- /task ---
 
