@@ -1,21 +1,21 @@
-## Introduction
+## పరిచయం
 
-Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then, compare the results using an animated data visualisation. Electricity is important. After all, it powers the computer you are using!
+ప్రపంచవ్యాప్తంగా ఉన్న దేశాలు విద్యుత్తును ఉత్పత్తి చేయడానికి ఉపయోగించే సహజ వనరుల రకం మరియు పరిమాణంపై నిజమైన డేటాను ఇన్‌పుట్ చేయడానికి Scratch ని ఉపయోగించండి. ఆపై, యానిమేటెడ్ డేటా విజువలైజేషన్ ఉపయోగించి ఫలితాలను సరిపోల్చండి. విద్యుత్ చాలా ముఖ్యమైనది. ఎంతైనా, మీరు ఉపయోగిస్తున్న కంప్యూటర్‌కు ఇది శక్తినిస్తుంది!
 
-Electricity is generated from various natural resources which have an impact on the environment in different ways. Non-renewable energy is produced using resources that nature cannot replace, such as fossil fuels (coal, gas, and oil) and nuclear energy. Renewable energy can be produced by the wind (wind power), sun (solar energy), water (hydropower), ground (geothermal energy), and organic materials like wood and crops (bioenergy).
+పర్యావరణంపై వివిధ మార్గాల్లో ప్రభావం చూపే వివిధ సహజ వనరుల నుంచి విద్యుత్తు ఉత్పత్తి అవుతుంది. శిలాజ ఇంధనాలు (fossil fuels) (బొగ్గు, గ్యాస్ మరియు చమురు) (coal, gas, and oil) మరియు అణుశక్తి (nuclear energy) వంటి ప్రకృతి భర్తీ చేయలేని వనరులను ఉపయోగించి పునరుత్పాదకం కాని శక్తి ఉత్పత్తి చేయబడుతుంది. పునరుత్పాదక శక్తిని గాలి (పవన శక్తి), సూర్యుడు (సౌరశక్తి), నీరు (జలశక్తి), భూమి (భూఉష్ణ శక్తి) మరియు కలప మరియు పంటలు (బయోఎనర్జీ) వంటి సేంద్రియ పదార్థాల ద్వారా ఉత్పత్తి చేయవచ్చు.
 
-This project engages with three of the United Nations Sustainable Development Goals:
-+ [Affordable and Clean Energy](https://www.undp.org/sustainable-development-goals#affordable-and-clean-energy){:target="_blank"}
-+ [Responsible Consumption and Production](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}
-+ [Climate Action](https://www.undp.org/sustainable-development-goals#climate-action){:target="_blank"}
+ఈ ప్రాజెక్ట్ యునైటెడ్ నేషన్స్ సస్టైనబుల్ డెవలప్‌మెంట్ గోల్స్‌లో మూడింటిపై దృష్టి పెడుతుంది:
++ [ Affordable and Clean Energy](https://www.undp.org/sustainable-development-goals#affordable-and-clean-energy){:target="_blank"}
++ [ Responsible Consumption and Production](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}
++ [ Climate Action](https://www.undp.org/sustainable-development-goals#climate-action){:target="_blank"}
 
-It uses data compiled by the International Energy Agency.
+ఇది ఇంటర్నేషనల్ ఎనర్జీ ఏజెన్సీ ద్వారా సంకలనం చేయబడిన డేటాను ఉపయోగిస్తుంది.
 
-### What you will make
+### మీరు ఏమి చేయబోతున్నారు
 
 --- no-print ---
 
-Click on the green flag to start the animation. Once it has finished drawing a series of colours, use your mouse or touchscreen to explore the resources that the colours represent. Then compare the use of renewable and non-renewable energy across the three countries.
+యానిమేషన్‌ను ప్రారంభించడానికి ఆకుపచ్చ జెండాపై క్లిక్ చేయండి. ఇది రంగుల శ్రేణిని గీయడం పూర్తయిన తర్వాత, రంగులు సూచించే వనరులను అన్వేషించడానికి మీ మౌస్ లేదా టచ్‌స్క్రీన్‌ని ఉపయోగించండి. మూడు దేశాలలో పునరుత్పాదక మరియు పునరుత్పాదకం కాని శక్తి వినియోగాన్ని సరిపోల్చండి.
 
 <div class="scratch-preview">
 <iframe src="https://scratch.mit.edu/projects/427746039/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,47 +25,47 @@ Click on the green flag to start the animation. Once it has finished drawing a s
 
 --- print-only ---
 
-![Complete project](images/complete.png){:width="450px"}
+![పూర్తి ప్రాజెక్ట్](images/complete.png){:width="450px"}
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: మీకు కావల్సినవి
 ---
 
-#### Hardware
+#### హార్డ్‌వేర్
 
-+ A computer or tablet capable of running Scratch
++ Scratch ని అమలు చేయగల సామర్థ్యం ఉన్న కంప్యూటర్ లేదా టాబ్లెట్
 
-#### Software
+#### సాఫ్ట్‌వేర్
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Scratch 3 ( [online](https://scratch.mit.edu/){:target="_blank"} లేదా [offline](https://scratch.mit.edu/download){:target="_blank"})
 
-### Downloads
+### డౌన్‌లోడ్‌లు
 
-+ If you are working offline, download the [project starter file](https://rpf.io/p/en/electricity-generation-go){:target="_blank"}
++ మీరు ఆఫ్‌లైన్‌లో పని చేస్తుంటే, [ప్రాజెక్ట్ స్టార్టర్ ఫైల్](https://rpf.io/p/en/electricity-generation-go){:target="_blank"}ని డౌన్‌లోడ్ చేయండి
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: మీరు నేర్చుకోబోయేది
 ---
 
-+ How to organise your program using `My Blocks`{:class="block3myblocks"}
-+ How to draw stacked bar graphs with the `Pen`{:class="block3extensions"} extension blocks
-+ How to turn real-world data (numbers) into an animated and interactive data visualisation
++ `My Blocks`{:class="block3myblocks"}ని ఉపయోగించి మీ ప్రోగ్రామ్‌ని ఎలా నిర్వహించాలి
++ `Pen`{:class="block3extensions"} ఎక్స్ టెన్షన్ బ్లాక్‌లతో పేర్చబడిన బార్ గ్రాఫ్‌లను ఎలా గీయాలి
++ వాస్తవ ప్రపంచ డేటాను (సంఖ్యలు) యానిమేటెడ్ మరియు ఇంటరాక్టివ్ డేటా విజువలైజేషన్‌గా ఎలా మార్చాలి
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: అధ్యాపకులకు అదనపు సమాచారం
 ---
 
-You can [find the completed project here](https://rpf.io/p/en/electricity-generation-get){:target="_blank"}.
+మీరు [పూర్తయిన ప్రాజెక్ట్‌ను ఇక్కడ](https://rpf.io/p/en/electricity-generation-get){:target="_blank"} వీక్షించవచ్చు.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/electricity-generation/print){:target="_blank"}.
+మీరు ఈ ప్రాజెక్ట్‌ను ప్రింట్ చేయాలనుకుంటే, దయచేసి [ప్రింటర్ అనుకూల వెర్షన్](https://projects.raspberrypi.org/en/projects/electricity-generation/print){:target="_blank"}ని ఉపయోగించండి.
 
 --- /collapse ---
