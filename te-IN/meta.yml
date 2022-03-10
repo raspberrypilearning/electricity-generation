@@ -1,27 +1,29 @@
 ---
-title: Electricity generation
+title: విద్యుదుత్పత్తి
 hero_image: images/banner.png
-description: Create a data visualisation and input real data to compare the natural resources used by countries to generate electricity
+description: విద్యుత్తును ఉత్పత్తి చేయడానికి దేశాలు ఉపయోగించే సహజ వనరులను, నిజ సమాచారాన్ని ఉపయోగించి సరిపోల్చండి డేటా విజువలైజేషన్ తయారు చేయండీ
 version: 4
 listed: true
 copyedit: false
-last_tested: "2020-09-16"
+last_tested: '2020-09-16'
 steps:
   - 
-    title: Introduction
+    title: పరిచయం
+    completion: engaged
   - 
-    title: Pick the colours
+    title: రంగులు ఎంచుకోండి
   - 
-    title: Add a UK column
+    title: UK కాలమ్‌ని జోడించండి
   - 
-    title: Choose a third country
+    title: మూడవ దేశాన్ని ఎంచుకోండి
   - 
-    title: Build a pen
+    title: పెన్ ని నిర్మించండి
   - 
-    title: Create the resource variables
+    title: రిసోర్స్ వేరియబుల్స్ సృష్టించండి
   - 
-    title: Draw the third column
+    title: మూడవ నిలువు వరుసను గీయండి
+    completion: internal
   - 
-    title: Share your project
+    title: మీ ప్రాజెక్ట్‌ను షేర్ చేయండి
   - 
-    title: What next?
+    title: తర్వాత ఏంటి?
