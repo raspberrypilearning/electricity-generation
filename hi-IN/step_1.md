@@ -1,21 +1,21 @@
-## Introduction
+## परिचय
 
-Use Scratch to input real data on the type and amount of natural resources used by countries across the world to generate electricity. Then, compare the results using an animated data visualisation. Electricity is important. After all, it powers the computer you are using!
+बिजली पैदा करने के लिए दुनिया भर के देशों द्वारा उपयोग किए जाने वाले प्राकृतिक संसाधनों के प्रकार और मात्रा पर वास्तविक डेटा इनपुट करने के लिए Scratch का उपयोग करें। फिर, आप एनिमेटेड और इंटरैक्टिव डेटा विज़ुअलाइज़ेशन का उपयोग करके परिणामों की तुलना करेंगे। बिजली महत्वपूर्ण है। आखिरकार, यह आपके द्वारा उपयोग किए जा रहे कंप्यूटर को विद्युत शक्ति प्रदान करता है!
 
-Electricity is generated from various natural resources which have an impact on the environment in different ways. Non-renewable energy is produced using resources that nature cannot replace, such as fossil fuels (coal, gas, and oil) and nuclear energy. Renewable energy can be produced by the wind (wind power), sun (solar energy), water (hydropower), ground (geothermal energy), and organic materials like wood and crops (bioenergy).
+बिजली विभिन्न प्राकृतिक संसाधनों से उत्पन्न होती है जिसका पर्यावरण पर अलग-अलग प्रभाव पड़ता है। गैर-नवीकरणीय ऊर्जा का उत्पादन उन संसाधनों का उपयोग करके किया जाता है जिन्हें प्रकृति प्रतिस्थापित नहीं कर सकती है, जैसे कि जीवाश्म ईंधन (कोयला, गैस और तेल) और परमाणु ऊर्जा। अक्षय ऊर्जा का उत्पादन हवा (पवन ऊर्जा), सूर्य (सौर ऊर्जा), पानी (पनबिजली), जमीन (भूतापीय ऊर्जा), और जैविक सामग्री जैसे लकड़ी और फसलों (बायोएनेर्जी) द्वारा किया जा सकता है।
 
-This project engages with three of the United Nations Sustainable Development Goals:
-+ [Affordable and Clean Energy](https://www.undp.org/sustainable-development-goals#affordable-and-clean-energy){:target="_blank"}
-+ [Responsible Consumption and Production](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}
-+ [Climate Action](https://www.undp.org/sustainable-development-goals#climate-action){:target="_blank"}
+यह परियोजना संयुक्त राष्ट्र संधारणीय विकास लक्ष्यों में से तीन पर केंद्रित है:
++ [सस्ती और स्वच्छ ऊर्जा](https://www.undp.org/sustainable-development-goals#affordable-and-clean-energy){:target="_blank"}
++ [सतत उपभोग और उत्पादन](https://www.undp.org/sustainable-development-goals#responsible-consumption-and-production){:target="_blank"}
++ [जलवायु कार्यवाही](https://www.undp.org/sustainable-development-goals#climate-action){:target="_blank"}
 
-It uses data compiled by the International Energy Agency.
+यह अंतर्राष्ट्रीय ऊर्जा एजेंसी द्वारा संकलित डेटा का उपयोग करता है।
 
-### What you will make
+### आप क्या बनाएँगे
 
 --- no-print ---
 
-Click on the green flag to start the animation. Once it has finished drawing a series of colours, use your mouse or touchscreen to explore the resources that the colours represent. Then compare the use of renewable and non-renewable energy across the three countries.
+एनीमेशन शुरू करने के लिए हरे झंडे पर क्लिक करें। एक बार जब यह रंगों की एक श्रृंखला बनाना समाप्त कर लेता है, तो अपने माउस या टचस्क्रीन का उपयोग उन संसाधनों का पता लगाने के लिए करें जो रंग दर्शाते हैं। फिर तीनों देशों में अक्षय और गैर-नवीकरणीय ऊर्जा के उपयोग की तुलना करें।
 
 <div class="scratch-preview">
 <iframe src="https://scratch.mit.edu/projects/427746039/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -25,47 +25,47 @@ Click on the green flag to start the animation. Once it has finished drawing a s
 
 --- print-only ---
 
-![Complete project](images/complete.png){:width="450px"}
+![पूरा प्रोजेक्ट](images/complete.png){:width="450px"}
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: आपको किन चीजों की आवश्यकता होगी
 ---
 
-#### Hardware
+#### हार्डवेयर
 
-+ A computer or tablet capable of running Scratch
++ Scratch चलाने में सक्षम कंप्यूटर या टैबलेट
 
-#### Software
+#### सॉफ्टवेयर
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
++ Scratch 3 (या तो [ऑनलाइन](https://scratch.mit.edu/){:target="_blank"} या [ऑफलाइन](https://scratch.mit.edu/download){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
-+ If you are working offline, download the [project starter file](https://rpf.io/p/en/electricity-generation-go){:target="_blank"}
++ यदि आप ऑफ़लाइन काम कर रहे हैं, तो [प्रोजेक्ट स्टार्टर फ़ाइल](https://rpf.io/p/en/electricity-generation-go){:target="_blank"} डाउनलोड करें
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: आप क्या सीखेंगे
 ---
 
-+ How to organise your program using `My Blocks`{:class="block3myblocks"}
-+ How to draw stacked bar graphs with the `Pen`{:class="block3extensions"} extension blocks
-+ How to turn real-world data (numbers) into an animated and interactive data visualisation
++ `My Blocks`{:class="block3myblocks"} का उपयोग करके अपने प्रोग्राम को कैसे व्यवस्थित करें
++ `Pen`{:class="block3extensions"} एक्सटेंशन ब्लॉक के साथ स्टैक्ड बार ग्राफ़ कैसे बनाएं
++ वास्तविक दुनिया के डेटा (संख्याओं) को एनिमेटेड और इंटरैक्टिव डेटा विज़ुअलाइज़ेशन में कैसे बदलें
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: शिक्षकों के लिए अतिरिक्त जानकारी
 ---
 
-You can [find the completed project here](https://rpf.io/p/en/electricity-generation-get){:target="_blank"}.
+आप [ पूर्ण प्रोजेक्ट यहां से प्राप्त कर सकते हैं ](https://rpf.io/p/en/electricity-generation-get) {: target = "_ blank"}
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/electricity-generation/print){:target="_blank"}.
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृपया [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/electricity-generation/print){:target="_blank"} का उपयोग करें।
 
 --- /collapse ---
