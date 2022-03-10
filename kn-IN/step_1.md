@@ -44,7 +44,7 @@ title: ನಿಮಗೆ ಬೇಕಾಗಿರುವುದು
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-+ ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದರೆ, [project starter file](https://rpf.io/p/en/electricity-generation-go){:target="_blank"} ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಳ್ಳಿ
++ ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದರೆ, [ಪ್ರಾಜೆಕ್ಟ್‌ ಪ್ರಾರಂಭಿಕ ಫೈಲ್](https://rpf.io/p/en/electricity-generation-go){:target="_blank"} ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಳ್ಳಿ
 
 --- /collapse ---
 
