@@ -1,15 +1,15 @@
-## Build a pen
+## एक कलम बनाएँ
 
-In this step, you will learn how to use the `Pen`{:class="block3extensions"} extension blocks to draw on the Stage.
+इस चरण में, आप सीखेंगे कि `Pen`{:class="block3extensions"} एक्सटेंशन ब्लॉक का उपयोग मंच पर कुछ बनाने के लिए कैसे करें।
 
-First, move the **Third Country** sprite to the bottom of the graph so it is in the right position to start drawing the column.
+सबसे पहले, **Third Country** स्प्राइट को ग्राफ़ के निचले भाग में ले जाएँ ताकि यह कॉलम बनाना शुरू करने के लिए सही स्थिति में हो।
 
 --- task ---
 
-Underneath your `when green flag clicked`{:class="block3events"} block, insert three `Motion`{:class="block3motion"} blocks:
-+ A `go to x: y:`{:class="block3motion"} block, change the values to `x:`{:class="block3motion"} `120` and `y:`{:class="block3motion"} `-140`
-+ A `set rotation style`{:class="block3motion"} block, and select `don't rotate`{:class="block3motion"} from the drop-down menu
-+ A `point in direction 90`{:class="block3motion"} block
+अपने `when green flag clicked`{:class="block3events"} ब्लॉक के नीचे,, तो तीन `Motion`{:class="block3motion"} ब्लॉक डालें:
++ `go to x: y:`{:class="block3motion"} ब्लॉक में, मानों को `x:`{:class="block3motion"} `120` और `120` and `y:`{:class="block3motion"} <0>-140</0> में बदलें
++ `set rotation style`{:class="block3motion"} ब्लॉक में, और ड्रॉप डाउन मेन्यू में से `don't rotate`{:class="block3motion"} चुनें
++ एक `point in direction 90`{:class="block3motion"} ब्लॉक
 
 ```blocks3
 when flag clicked
@@ -22,21 +22,21 @@ say [Third Country]
 
 --- /task ---
 
-Now add the `Pen`{:class="block3extensions"} extension blocks menu.
+अब `Pen`{:class="block3extensions"} एक्सटेंशन ब्लॉक मेन्यू जोड़ें।
 
 --- task ---
 
-Click on the **Code** tab for your **Third Country** sprite, and then click the `Pen`{:class="block3extensions"} extension block (in the bottom left-hand corner of the screen).
+अपने **Third Country** स्प्राइट के लिए **Code** टैब पर क्लिक करें, और फिर `Pen`{:class="block3extensions"} एक्सटेंशन ब्लॉक (स्क्रीन के निचले बाएं कोने में) पर क्लिक करें।
 
-![png of pen extension block](images/pen-extension.png){:width="400px"}
+![पेन एक्सटेंशन ब्लॉक का पीएनजी](images/pen-extension.png){:width="400px"}
 
 --- /task ---
 
-Prepare the pen and set its size.
+कलम तैयार करें और उसका आकार निर्धारित करें।
 
 --- task ---
 
-Add a `set pen size to 1`{:class="block3extensions"} block, and change the value to `2` so the pen is slightly thicker. Insert a `pen down`{:class="block3extensions"} block to get ready to draw.
+`set pen size to 1`{:class="block3extensions"} ब्लॉक जोड़ें, और मान को `2` में बदलें ताकि पेन थोड़ा मोटा हो। ड्रा करने के लिए तैयार होने के लिए एक `pen down`{:class="block3extensions"} ब्लॉक डालें।
 
 ```blocks3
 when flag clicked
@@ -51,11 +51,11 @@ say [Third Country]
 
 --- /task ---
 
-You need to make sure that the program clears the pen marks from the Stage and lifts the pen up when the green flag is clicked.
+आपको यह सुनिश्चित करने की आवश्यकता है कि प्रोग्राम मंच से पेन के निशान को हटाता है और हरे झंडे पर क्लिक करने पर पेन को ऊपर उठाता है।
 
 --- task ---
 
-Add an `erase all`{:class="block3extensions"} block and a `pen up`{:class="block3extensions"} block at the top of your code, underneath the `when green flag clicked`{:class="block3events"} block.
+`when green flag clicked`{:class="block3events"} ब्लॉक के नीचे अपने कोड के शीर्ष पर एक `erase all`{:class="block3extensions"} ब्लॉक और एक `pen up`{:class="block3extensions"} ब्लॉक जोड़ें।
 
 ```blocks3
 when flag clicked
@@ -72,11 +72,11 @@ say [Third Country]
 
 --- /task ---
 
-The pen colour will change as it draws each resource. In order to compare the resources generated across multiple countries, the colour that represents each resource needs to be the same for each country. After the pen has finished drawing the categories, it will turn to the colour of the backdrop i.e. grey.
+पेन का रंग बदल जाएगा क्योंकि यह प्रत्येक संसाधन को खींचता है। अनेक देशों में उत्पन्न संसाधनों की तुलना करने के लिए, प्रत्येक संसाधन का प्रतिनिधित्व करने वाला रंग प्रत्येक देश के लिए समान होना चाहिए। पेन द्वारा श्रेणियों को चित्रित करना समाप्त करने के बाद, यह पृष्ठभूमि के रंग यानी ग्रे में बदल जाएगा।
 
 --- task ---
 
-Add seven `set pen colour to`{:class="block3extensions"} blocks into your code. These will represent the six categories, plus an additional colour to represent the background.
+अपने कोड में सात `set pen colour to`{:class="block3extensions"} ब्लॉक जोड़ें। ये छह श्रेणियों का प्रतिनिधित्व करेंगे, साथ ही पृष्ठभूमि का प्रतिनिधित्व करने के लिए एक अतिरिक्त रंग भी।
 
 ```blocks3
 when flag clicked
@@ -99,23 +99,23 @@ say [Third Country]
 
 --- /task ---
 
-You now need to change the colours of each block to represent the different colours you have chosen for the resources.
+संसाधनों के लिए आपके द्वारा चुने गए विभिन्न रंगों का प्रतिनिधित्व करने के लिए अब आपको प्रत्येक ब्लॉक के रंगों को बदलने की जरूरत है।
 
 --- task ---
 
-Click on the first `set pen colour to`{:class="block3extensions"} block and select the **Colour picker** tool. Click on the first resource in your key. The circle will then turn to your chosen colour.
+पहले `set pen colour to`{:class="block3extensions"} ब्लॉक पर क्लिक करें और **Colour picker**टूल चुनें। अपनी कुंजी में पहले संसाधन पर क्लिक करें। फिर गोला आपके चुने हुए रंग में बदल जाएगा।
 
-Repeat this for each of the resources in turn, so you don't get the order of the resource colours muddled up.
+प्रत्येक संसाधन के लिए इसे बारी-बारी से दोहराएं, ताकि आप संसाधन रंगों के क्रम गड़बड़ी न करें ।
 
-Don't forget to use the backdrop colour for the seventh `set pen colour to`{:class="block3extensions"} block, you can get this by hovering anywhere on the background of the Stage.
+सांतवे `set pen colour to`{:class="block3extensions"} ब्लॉक के लिए बैकड्रॉप कलर का उपयोग करना न भूलें, आप इसे मंच की पृष्ठभूमि पर कहीं भी होवर करके प्राप्त कर सकते हैं।
 
 --- /task ---
 
-Lift the pen when the column has finished drawing.
+जब कॉलम का ड्राइंग समाप्त हो जाए तो पेन उठाएं।
 
 --- task ---
 
-Add a `pen up`{:class="block3extensions"} block to your code.
+अपने कोड में `pen up`{:class="block3extensions"} ब्लॉक जोड़ें।
 
 ```blocks3
 when flag clicked
@@ -141,7 +141,7 @@ say [Third Country]
 
 --- task ---
 
-Although the **Third Country** sprite is set up, it doesn’t appear on the graph because you haven't inputted any resource data. You’ll have the chance to input data and check your code in the next step.
+हालांकि **Third Country** स्प्राइट सेट किया गया है, यह ग्राफ़ पर दिखाई नहीं देता क्योंकि आपने कोई संसाधन डेटा इनपुट नहीं किया है। आपके पास अगले चरण में डेटा इनपुट करने और अपना कोड जांचने का मौका होगा।
 
 --- /task ---
 
