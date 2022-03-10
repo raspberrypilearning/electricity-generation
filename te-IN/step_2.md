@@ -1,62 +1,62 @@
-## Pick the colours
+## రంగులు ఎంచుకోండి
 
-For this project, you will make an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it involves lots of numbers. That's why pie charts and graphs can be so informative. They can help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project does both!
+ఈ ప్రాజెక్ట్ కోసం, మీరు యానిమేటెడ్ మరియు ఇంటరాక్టివ్ డేటా విజువలైజేషన్ చేస్తారు. సమాచారం దృశ్యమానంగా సూచించబడినప్పుడు, ప్రత్యేకించి అది చాలా సంఖ్యలను కలిగి ఉన్నప్పుడు తరచుగా అర్థం చేసుకోవడం సులభం. అందుకే పై చార్ట్‌లు మరియు గ్రాఫ్‌లు చాలా సమాచారాన్ని అందిస్తాయి. సమాచారాన్ని ఒకదానితో ఒకటి పోల్చడానికి అవి మీకు సహాయపడతాయి. కంప్యూటర్‌లతో, మీరు యానిమేటెడ్ లేదా ఇంటరాక్టివ్‌గా ఉండే ఉత్తేజకరమైన డేటా విజువలైజేషన్‌లను సృష్టించవచ్చు. ఈ ప్రాజెక్ట్ రెండింటినీ చేస్తుంది!
 
-You'll use a stacked column graph to create an animated and interactive data visualistation that compares the resources used by three countries to generate electricity.
+విద్యుత్‌ను ఉత్పత్తి చేయడానికి మూడు దేశాలు ఉపయోగించే వనరులను పోల్చి చూసే యానిమేటెడ్ మరియు ఇంటరాక్టివ్ డేటా విజువలైజేషన్‌ను రూపొందించడానికి మీరు పేర్చబడిన కాలమ్ గ్రాఫ్‌ని ఉపయోగిస్తారు.
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/electricity-generation-on){:target="_blank"} in Scratch.
+**Online:** Scratch లో [స్టార్టర్ ప్రాజెక్ట్ ](http://rpf.io/electricity-generation-on){:target="_blank"} ని తెరవండి.
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/electricity-generation-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** Scratch యొక్క ఆఫ్ లైన్ ఎడిటర్ లో [ప్రాజెక్టు స్టార్టర్ ఫైల్](http://rpf.io/p/en/electricity-generation-go){:target="_blank"} ని తెరవండి. మీకు అవసరమైతే, మీరు [ఇక్కడ Scratch ను డౌన్ లోడ్ చేసి ఇన్‌స్టాల్ చేయవచ్చు.](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
 
-You should see a grey background with the title "Electricity generation % 2019". At the bottom of the page is a horizontal line.
+మీరు "Electricity generation % 2019" శీర్షికతో బూడిదరంగు నేపథ్యాన్ని చూడాలి. పేజీ దిగువన ఒక క్షితిజ సమాంతర రేఖ ఉంది.
 
-![image of background](images/electricity-starter.png){:width="400px"}
+![నేపథ్య చిత్రం](images/electricity-starter.png){:width="400px"}
 
 --- task ---
 
-Run your project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources to generate electricity. You can then investigate the interactive column using your mouse.
+ఆకుపచ్చ జెండాను క్లిక్ చేయడం ద్వారా మీ ప్రాజెక్ట్ను అమలు చేయండి. కాలమ్ యొక్క యానిమేషన్ అదృశ్య పెన్ ద్వారా డ్రా చేయబడింది. ఇది విద్యుత్తును ఉత్పత్తి చేయడానికి New Zealand వనరుల వినియోగాన్ని చూపుతుంది. మీరు మీ మౌస్‌ని ఉపయోగించి ఇంటరాక్టివ్ కాలమ్‌ను పరిశోధించవచ్చు.
 
-![image of background](images/electricity-starter-green-flag.png){:width="400px"}
+![నేపథ్య చిత్రం](images/electricity-starter-green-flag.png){:width="400px"}
 
-New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of purple in the column above.
+New Zealand తమ విద్యుత్తును చాలావరకు జలవిద్యుత్‌ని ఉపయోగించి ఉత్పత్తి చేస్తుంది, అందుకే పైన ఉన్న కాలమ్‌లో చాలా వరకు ఊదా రంగు ఉంది.
 
-Once you have investigated the column, click on the red stop button above the Stage to stop the program.
+మీరు కాలమ్‌ను పరిశోధించిన తర్వాత, ప్రోగ్రామ్‌ను ఆపివేయడానికి Stage పైన ఉన్న రెడ్ స్టాప్ బటన్‌పై క్లిక్ చేయండి.
 
 --- /task ---
 
-At the bottom of the Stage, you'll see an empty key with a square representing each resource: non-renewable, wind, solar, hydro, geothermal, and bioenergy. The key shows all the resources, even if they are not currently used in the graph. This is because countries are always changing how they produce electricity, and there has been a move towards renewable resources.
+Stage దిగువన, మీరు ప్రతి వనరును సూచించే చతురస్రంతో ఖాళీ కీ ని చూస్తారు: తరిగిపోయే వనరులు, గాలి, సౌర, జల, భూఉష్ణ మరియు బయో ఎనర్జీ. ప్రస్తుతం గ్రాఫ్‌లో ఉపయోగించనప్పటికీ, కీ అన్ని వనరులను చూపుతుంది. ఎందుకంటే దేశాలు విద్యుత్‌ను ఉత్పత్తి చేసే విధానాన్ని ఎప్పటికప్పుడు మారుస్తూ ఉంటాయి మరియు పునరుత్పాదక వనరుల వైపు మొగ్గు చూపుతాయి.
 
-Next you'll choose the colours to represent each of the resources on your graph.
+తర్వాత మీరు మీ గ్రాఫ్‌లోని ప్రతి వనరులను సూచించడానికి రంగులను ఎంచుకుంటారు.
 
 --- task ---
 
-Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the Paint editor, is a square that has no fill colour. Click on the **Fill** colour chooser and create a colour of your choice by altering the Color, Saturation, and Brightness sliders.
+**Non-renewable** sprite లో **Costumes** ట్యాబ్‌పై క్లిక్ చేయండి. Paint editor మధ్యలో, ఏ రంగు లేని చతురస్రం ఉంది. **Fill** కలర్ చూజర్ పై క్లిక్ చేసి, Color, Saturation మరియు Brightness స్లయిడర్‌లను మార్చడం ద్వారా మీకు నచ్చిన రంగును సృష్టించండి.
 
-![image of Non-renewable sprite](images/non-renewable-sprite.png)
+![Non-renewable sprite యొక్క చిత్రం](images/non-renewable-sprite.png)
 
-![image of no fill colour](images/no-fill-colour.png)
+![no fill colour యొక్క చిత్రం](images/no-fill-colour.png)
 
 --- /task ---
 
 --- task ---
 
-Select the **Fill** tool (it looks like a paint can) and click inside the square costume. You'll see on the Stage the first square in the key changes to the new colour.
+**Fill** టూల్‌ని ఎంచుకుని (ఇది పెయింట్ డబ్బాలా కనిపిస్తోంది) మరియు square costume లోపల క్లిక్ చేయండి. Stage పై కీ లోని మొదటి చతురస్రం కొత్త రంగుకి మారడం మీరు చూస్తారు.
 
-![image of first colour](images/first-colour.png)
+![మొదటి రంగు యొక్క చిత్రం](images/first-colour.png)
 
 --- /task ---
 
-You have chosen a new colour to represent non-renewable energy in the graph. Next, you need to change the resource in the **New Zealand** sprite.
+మీరు గ్రాఫ్‌లో తరిగిపోయే శక్తిని సూచించడానికి కొత్త రంగును ఎంచుకున్నారు. తర్వాత, మీరు **New Zealand** sprite లో వనరును మార్చాలి.
 
 --- task ---
 
-Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the first `set pen color to`{:class="block3extensions"} block and `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block in the section of code where the colours of the bar graph are set.
+కోడ్‌ను వీక్షించడానికి **New Zealand** sprite యొక్క **Code** ట్యాబ్‌పై క్లిక్ చేయండి. మొదట `set pen color to`{:class="block3extensions"} బ్లాకుని కనుగొనండి మరియు `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} బ్లాకుని బార్ గ్రాఫ్ రంగులు కల కోడ్ యొక్క విభాగం లో సెట్ చేయండి.
 
-![image of the New-Zealand sprite](images/new-zealand-sprite.png)
+![New-Zealand sprite యొక్క చిత్రం](images/new-zealand-sprite.png)
 
 ```blocks3
 
@@ -79,15 +79,15 @@ draw (bioenergy) ::custom
 
 --- task ---
 
-Click on the coloured circle of the first `set pen colour`{:class="block3extensions"} block and select the **Colour picker** tool, which is below the three colour sliders. Move the mouse pointer until you hover over the **Non-renewable** sprite in the key to select that colour.
+మొదటి `set pen colour`{:class="block3extensions"} బ్లాక్ యొక్క రంగుల సర్కిల్‌పై క్లిక్ చేసి, మూడు రంగుల స్లయిడర్‌ల క్రింద ఉన్న **Colour picker** tool ని ఎంచుకోండి. మీరు ఆ రంగును ఎంచుకోవడానికి కీ లో **Non-renewable** sprite పై హోవర్ చేసే వరకు మౌస్ పాయింటర్‌ను తరలించండి.
 
-![image of selecting colour](images/colour-picker.png)
+![ఎంచుకోబడిన రంగు యొక్క చిత్రం](images/colour-picker.png)
 
-Your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
+మీరు ఎంచుకున్న **Non-renewable** వనరు రంగు ఇప్పుడు `set pen colour`{:class="block3extensions"} బ్లాక్‌లో కనిపించాలి:
 
-![image of selecting colour](images/selecting-colour.png)
+![ఎంచుకోబడిన రంగు యొక్క చిత్రం](images/selecting-colour.png)
 
-![image of the New-Zealand sprite](images/new-zealand-sprite.png)
+![New-Zealand sprite యొక్క చిత్రం](images/new-zealand-sprite.png)
 
 ```blocks3
 
@@ -99,19 +99,19 @@ draw (nonrenewable) ::custom
 
 --- task ---
 
-Run your project again. The non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no "non-renewable" speech bubble when you touch your new colour. Click on the red stop button above the Stage when you have finished your test.
+మీ ప్రాజెక్ట్‌ను మళ్లీ పరీక్షించండి. తరిగి పోయే వనరు New Zealand కోసం ఇప్పుడు మీ కొత్త రంగులో డ్రా చేయబడింది. మీ కాలమ్‌పై కర్సర్ ఉంచండి మరియు మీరు మీ కొత్త రంగును తాకినప్పుడు "non-renewable" స్పీచ్ బబుల్ లేదని మీరు గమనించవచ్చు. మీరు మీ పరీక్షను పూర్తి చేసిన తర్వాత Stage పైన ఉన్న ఎరుపు రంగు స్టాప్ బటన్‌పై క్లిక్ చేయండి.
 
-![image of testing first colour](images/test-first-colour.png)
+![మొదటి రంగును పరీక్షిస్తున్న చిత్రం](images/test-first-colour.png)
 
 --- /task ---
 
-Next, create the interactive label for the non-renewable resource by changing the colour in the **Pointer** sprite.
+తరువాత, **Pointer** spriteలో రంగును మార్చడం ద్వారా తరిగి పోయే వనరు కోసం ఇంటరాక్టివ్ లేబుల్‌ను సృష్టించండి.
 
 --- task ---
 
-Click on the **Pointer** sprite and find the section of code when the colours are set. In the `touching color`{:class="block3sensing"} block above the `say Non-renewable`{:class="block3looks"} block, click on the circle and use the **Colour picker** tool to select the new colour from the key:
+**Pointer** sprite పై క్లిక్ చేసి, రంగులు సెట్ చేయబడినప్పుడు కోడ్ విభాగాన్ని కనుగొనండి. `say Non-renewable`{:class="block3looks"} బ్లాకు పైన I`touching color`{:class="block3sensing"} బ్లాకులో, సర్కిల్ పైన క్లిక్ చేయండి మరియు **Colour picker** సాధనాన్ని ఉపయోగించి, కీ నుంచి కొత్త కలర్ ను ఎంచుకోండి:
 
-![image of the Pointer sprite](images/pointer-sprite.png)
+![Pointer sprite యొక్క చిత్రం](images/pointer-sprite.png)
 
 
 ```blocks3
@@ -144,24 +144,24 @@ end
 
 --- task ---
 
-Run your project again. The interactive label should say "Non-renewable" when you hover over the resource in your New Zealand column. Click on the red stop button above the Stage when you have finished your test.
+మీ ప్రాజెక్ట్‌ను మళ్లీ పరీక్షించండి. మీరు మీ New Zealand కాలమ్‌లోని రిసోర్స్‌పై హోవర్ చేసినప్పుడు ఇంటరాక్టివ్ లేబుల్ "Non-renewable" అని చెప్పాలి. మీరు మీ పరీక్షను పూర్తి చేసిన తర్వాత Stage పైన ఉన్న ఎరుపు రంగు స్టాప్ బటన్‌పై క్లిక్ చేయండి.
 
 --- /task ---
 
-Now choose your own colours to represent the other resources. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
+ఇప్పుడు ఇతర వనరులను సూచించడానికి మీ స్వంత రంగులను ఎంచుకోండి. ఉదాహరణకు, అవి ఎలా మారతాయో చూపించడానికి ప్రతి వనరు వేరే రంగులో ఉండాలని మీరు అనుకుంటున్నారా? లేదా పునరుత్పాదక ఇంధన వనరులన్నీ ఒకే రంగు యొక్క వివిధ ఛాయల్లో ఉండేలా మరియు తరిగి పోయే వనరులు వేరొక రంగులో ఉండాలని మీరు అనుకుంటున్నారా?
 
 --- task ---
 
-Repeat the steps above for resource sprites: **Wind**, **Solar**, **Hydro**, **Geothermal**, and **Bioenergy**. Remember to change the colour in your resource sprite first, then find that resource code in the **New Zealand** sprite and **Pointer** sprite to update it there too.
+రిసోర్స్ sprite ల కోసం పై దశలను పునరావృతం చేయండి: **Wind**, **Solar**, **Hydro**, **Geothermal**, మరియు **Bioenergy**. ముందుగా మీ resource sprite లో రంగును మార్చాలని గుర్తుంచుకోండి, ఆపై దానిని కూడా అప్‌డేట్ చేయడానికి **New Zealand** sprite మరియు **Pointer** sprite లో ఆ రిసోర్స్ కోడ్‌ను కనుగొనండి.
 
-![image of how to change pen colour](images/new-colours-chart.png)
+![పెన్ రంగును ఎలా మార్చాలో చిత్రం](images/new-colours-chart.png)
 
 
 --- /task ---
 
 --- task ---
 
-Run your project again. Check that the graph looks and interacts as you expected for all the resources.
+మీ ప్రాజెక్ట్‌ను మళ్లీ పరీక్షించండి. మీరు అన్ని వనరుల కోసం ఊహించిన విధంగా గ్రాఫ్ కనిపిస్తోంది మరియు ఇంటరాక్టివ్ ఉందో లేదో తనిఖీ చేయండి.
 
 --- /task ---
 
