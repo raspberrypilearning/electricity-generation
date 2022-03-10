@@ -1,62 +1,62 @@
-## Pick the colours
+## रंग चुनें
 
-For this project, you will make an animated and interactive data visualisation. It's often easier to understand data when it is represented visually, especially when it involves lots of numbers. That's why pie charts and graphs can be so informative. They can help you compare pieces of information to one another. With computers, you can create exciting data visualisations which are animated or interactive. This project does both!
+इस प्रोजेक्ट के लिए, आप एक एनिमेटेड और इंटरैक्टिव डेटा विज़ुअलाइज़ेशन बनाएंगे। जब डेटा को दृष्टिगत रूप से दर्शाया जाता है, तो इसे समझना अक्सर आसान होता है, खासकर जब इसमें बहुत सारी संख्याएँ शामिल हों। इसलिए पाई चार्ट और ग्राफ़ इतने जानकारीपूर्ण हो सकते हैं। वे जानकारी के टुकड़ों की एक दूसरे से तुलना करने में आपकी सहायता कर सकते हैं। कंप्यूटर के साथ, आप रोमांचक डेटा विज़ुअलाइज़ेशन बना सकते हैं जो एनिमेटेड या इंटरैक्टिव हैं। यह प्रोजेक्ट दोनों करता है!
 
-You'll use a stacked column graph to create an animated and interactive data visualistation that compares the resources used by three countries to generate electricity.
+आप एक एनिमेटेड और इंटरैक्टिव डेटा विज़ुअलाइज़ेशन बनाने के लिए स्टैक्ड कॉलम ग्राफ़ का उपयोग करेंगे जो बिजली उत्पन्न करने के लिए तीन देशों द्वारा उपयोग किए गए संसाधनों की तुलना करता है।
 
 --- task ---
 
-**Online:** open the [starter project](http://rpf.io/electricity-generation-on){:target="_blank"} in Scratch.
+**ऑनलाइन **: Scratch में [स्टार्टर प्रोजेक्ट](http://rpf.io/electricity-generation-on){:target="_blank"} खोलें |
 
-**Offline:** open the [project starter file](http://rpf.io/p/en/electricity-generation-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**ऑफ़लाइन:** Scratch के ऑफ़लाइन संपादक में [प्रोजेक्ट स्टार्टर फ़ाइल](http://rpf.io/p/en/electricity-generation-go){:target="_blank"} खोलें। यदि आपको ज़रूरत है तो, आप [यहां Scratch डाउनलोड और इंस्टॉल ](https://scratch.mit.edu/download){:target="_blank"} कर सकते हैं
 
 --- /task ---
 
-You should see a grey background with the title "Electricity generation % 2019". At the bottom of the page is a horizontal line.
+आपको "इलेक्ट्रिसिटी जनरेशन % 2019" शीर्षक के साथ एक ग्रे पृष्ठभूमि दिखाई देनी चाहिए। पृष्ठ के निचले भाग में एक क्षैतिज रेखा है।
 
-![image of background](images/electricity-starter.png){:width="400px"}
+![पृष्ठभूमि की छवि](images/electricity-starter.png){:width="400px"}
 
 --- task ---
 
-Run your project by clicking the green flag. An animation of a column is drawn by an invisible pen. It shows New Zealand's use of resources to generate electricity. You can then investigate the interactive column using your mouse.
+हरी झंडी पर क्लिक करके अपना प्रोजेक्ट चलाएँ। एक कॉलम का एनिमेशन एक अदृश्य पेन द्वारा खींचा जाता है। यह बिजली पैदा करने के लिए न्यूजीलैंड के संसाधनों के उपयोग को दर्शाता है। फिर आप अपने माउस का उपयोग करके इंटरेक्टिव कॉलम की जांच कर सकते हैं।
 
-![image of background](images/electricity-starter-green-flag.png){:width="400px"}
+![पृष्ठभूमि की छवि](images/electricity-starter-green-flag.png){:width="400px"}
 
-New Zealand produces a lot of their electricity using hydropower, which is why there's a lot of purple in the column above.
+न्यूजीलैंड जलविद्युत का उपयोग करके अपनी बहुत सारी बिजली का उत्पादन करता है, यही कारण है कि ऊपर के कॉलम में बहुत अधिक बैंगनी रंग है।
 
-Once you have investigated the column, click on the red stop button above the Stage to stop the program.
+एक बार जब आप कॉलम की जांच कर लेते हैं, तो प्रोग्राम को रोकने के लिए मंच के ऊपर लाल स्टॉप बटन पर क्लिक करें।
 
 --- /task ---
 
-At the bottom of the Stage, you'll see an empty key with a square representing each resource: non-renewable, wind, solar, hydro, geothermal, and bioenergy. The key shows all the resources, even if they are not currently used in the graph. This is because countries are always changing how they produce electricity, and there has been a move towards renewable resources.
+Stage के निचले भाग में, आपको प्रत्येक संसाधन का प्रतिनिधित्व करने वाले वर्ग के साथ एक खाली कुंजी दिखाई देगी: गैर-नवीकरणीय, पवन, सौर, हाइड्रो, भूतापीय और बायोएनेर्जी। कुंजी सभी संसाधनों को दिखाती है, भले ही वे वर्तमान में ग्राफ़ में उपयोग न किए गए हों। ऐसा इसलिए है क्योंकि देश अपने बिजली उप्तादन के तरीकों को हमेशा बदलते रहते हैं, और अक्षय संसाधनों की ओर एक कदम बढ़ा है।
 
-Next you'll choose the colours to represent each of the resources on your graph.
+इसके बाद आप अपने ग्राफ़ पर प्रत्येक संसाधन का प्रतिनिधित्व करने के लिए रंग चुनेंगे।
 
 --- task ---
 
-Click on the **Costumes** tab of the **Non-renewable** sprite. In the centre of the Paint editor, is a square that has no fill colour. Click on the **Fill** colour chooser and create a colour of your choice by altering the Color, Saturation, and Brightness sliders.
+**Non-renewable** स्प्राइट के **Costumes** टैब पर क्लिक करें। Paint एडिटर के केंद्र में, एक वर्ग है जिसमें कोई रंग नहीं है। **Fill** रंग चयनकर्ता पर क्लिक करें और Color, Saturation और Brightness स्लाइडर को बदलकर अपनी पसंद का रंग बनाएं।
 
-![image of Non-renewable sprite](images/non-renewable-sprite.png)
+![Non-renewable स्प्राइट की छवि](images/non-renewable-sprite.png)
 
-![image of no fill colour](images/no-fill-colour.png)
+![कोई रंग नहीं भरने की छवि](images/no-fill-colour.png)
 
 --- /task ---
 
 --- task ---
 
-Select the **Fill** tool (it looks like a paint can) and click inside the square costume. You'll see on the Stage the first square in the key changes to the new colour.
+**Fill** टूल चुनें (यह पेंट कैन जैसा दिखता है) और चौकोर पोशाक के अंदर क्लिक करें। आप Stage पर नए रंग के मुख्य परिवर्तनों में पहला वर्ग देखेंगे।
 
-![image of first colour](images/first-colour.png)
+![पहले रंग की छवि](images/first-colour.png)
 
 --- /task ---
 
-You have chosen a new colour to represent non-renewable energy in the graph. Next, you need to change the resource in the **New Zealand** sprite.
+आपने ग्राफ़ में गैर-नवीकरणीय ऊर्जा का प्रतिनिधित्व करने के लिए एक नया रंग चुना है। इसके बाद आपको **New Zealand** स्प्राइट में संसाधन बदलने की ज़रुरत है।
 
 --- task ---
 
-Click on the **Code** tab of the **New Zealand** sprite to view the code. Find the first `set pen color to`{:class="block3extensions"} block and `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"} block in the section of code where the colours of the bar graph are set.
+कोड देखने के लिए **New Zealand** स्प्राइट के **Code** टैब पर क्लिक करें। कोड के जिस भाग में बार ग्राफ के कलर सेट किए गये हैं उसमे `set pen color to`{:class="block3extensions"} ब्लॉक खोजें और `draw`{:class="block3myblocks"} `nonrenewable`{:class="block3variables"}।
 
-![image of the New-Zealand sprite](images/new-zealand-sprite.png)
+![Non-renewable स्प्राइट की छवि](images/new-zealand-sprite.png)
 
 ```blocks3
 
@@ -79,15 +79,15 @@ draw (bioenergy) ::custom
 
 --- task ---
 
-Click on the coloured circle of the first `set pen colour`{:class="block3extensions"} block and select the **Colour picker** tool, which is below the three colour sliders. Move the mouse pointer until you hover over the **Non-renewable** sprite in the key to select that colour.
+`set pen colour`{:class="block3extensions"} ब्लॉक के रंगीन सर्कल पर क्लिक करें और **Colour picker**टूल चुनें, जो तीन कलर स्लाइडर के नीचे है। माउस पॉइंटर को तब तक हिलाएं जब तक कि आप उस रंग का चयन करने के लिए कुंजी में **Non-renewable** स्प्राइट के आस पास पहुंच जाएँ ।
 
-![image of selecting colour](images/colour-picker.png)
+![रंग चुनने की छवि](images/colour-picker.png)
 
-Your chosen **Non-renewable** resource colour should now be visible in the `set pen colour`{:class="block3extensions"} block:
+आपका चुना हुआ **Non-renewable** संसाधन रंग अब `set pen colour`{:class="block3extensions"} ब्लॉक में दिखाई देना चाहिए:
 
-![image of selecting colour](images/selecting-colour.png)
+![रंग चुनने की छवि](images/selecting-colour.png)
 
-![image of the New-Zealand sprite](images/new-zealand-sprite.png)
+![Non-renewable स्प्राइट की छवि](images/new-zealand-sprite.png)
 
 ```blocks3
 
@@ -99,19 +99,19 @@ draw (nonrenewable) ::custom
 
 --- task ---
 
-Run your project again. The non-renewable resource for New Zealand is now drawn in your new colour. Hover over your column and you'll notice there is no "non-renewable" speech bubble when you touch your new colour. Click on the red stop button above the Stage when you have finished your test.
+अपना प्रोजेक्ट फिर से चलाएँ। न्यूजीलैंड के लिए गैर-नवीकरणीय संसाधन अब आपके नए रंग में आ गया है। अपने कॉलम पर होवर करें और जब आप अपने नए रंग को स्पर्श करेंगे तो आप देखेंगे कि कोई "गैर-नवीकरणीय" स्पीच बबल नहीं है। जब आप अपनी परिक्षण समाप्त कर लें तो Stage के ऊपर लाल स्टॉप बटन पर क्लिक करें।
 
-![image of testing first colour](images/test-first-colour.png)
+![पहले रंग के परीक्षण की छवि](images/test-first-colour.png)
 
 --- /task ---
 
-Next, create the interactive label for the non-renewable resource by changing the colour in the **Pointer** sprite.
+इसके बाद **Pointer** स्प्राइट में रंग बदलकर गैर-नवीकरणीय संसाधन के लिए इंटरैक्टिव लेबल बनाएं।
 
 --- task ---
 
-Click on the **Pointer** sprite and find the section of code when the colours are set. In the `touching color`{:class="block3sensing"} block above the `say Non-renewable`{:class="block3looks"} block, click on the circle and use the **Colour picker** tool to select the new colour from the key:
+**Pointer** स्प्राइट पर क्लिक करें और रंग सेट होने पर कोड का सेक्शन ढूंढें। `say Non-renewable`{:class="block3looks"} ब्लॉक के ऊपर `touching color`{:class="block3sensing"} ब्लॉक में, गोले पर और नया कलर चुनने के लिए कुंजी से **Colour picker** का उपयोग करें:
 
-![image of the Pointer sprite](images/pointer-sprite.png)
+![Pointer स्प्राइट की छवि](images/pointer-sprite.png)
 
 
 ```blocks3
@@ -144,24 +144,24 @@ end
 
 --- task ---
 
-Run your project again. The interactive label should say "Non-renewable" when you hover over the resource in your New Zealand column. Click on the red stop button above the Stage when you have finished your test.
+अपना प्रोजेक्ट फिर से चलाएँ। जब आप अपने न्यूज़ीलैंड कॉलम में संसाधन पर होवर करते हैं तो इंटरैक्टिव लेबल में "Non-renewable" लिखा होना चाहिए। जब आप अपनी परिक्षण समाप्त कर लें तो Stage के ऊपर लाल स्टॉप बटन पर क्लिक करें।
 
 --- /task ---
 
-Now choose your own colours to represent the other resources. For example, do you want each resource to be a different colour to show how they vary? Or do you want all the renewable energy resources to be different shades of one colour and the non-renewable resource to be a different colour?
+अब अन्य संसाधनों का प्रतिनिधित्व करने के लिए अपने स्वयं के रंग चुनें। उदाहरण के लिए, क्या आप चाहते हैं कि प्रत्येक संसाधन एक अलग रंग का हो, यह दिखाने के लिए कि वे कैसे भिन्न हैं? या क्या आप चाहते हैं कि सभी अक्षय ऊर्जा संसाधन एक रंग के अलग-अलग रंग हों और गैर-नवीकरणीय संसाधन एक अलग रंग के हों?
 
 --- task ---
 
-Repeat the steps above for resource sprites: **Wind**, **Solar**, **Hydro**, **Geothermal**, and **Bioenergy**. Remember to change the colour in your resource sprite first, then find that resource code in the **New Zealand** sprite and **Pointer** sprite to update it there too.
+संसाधन स्प्राइट के लिए उपरोक्त चरणों को दोहराएं: **Wind**, **Solar**, **Hydro**, **Geothermal**, और **Bioenergy**। पहले अपने संसाधन स्प्राइट में रंग बदलना याद रखें, फिर उस संसाधन कोड को **New Zealand** स्प्राइट और **Pointer** स्प्राइट में भी अपडेट करने के लिए ढूंढें।
 
-![image of how to change pen colour](images/new-colours-chart.png)
+![कलम का रंग कैसे बदलें की छवि](images/new-colours-chart.png)
 
 
 --- /task ---
 
 --- task ---
 
-Run your project again. Check that the graph looks and interacts as you expected for all the resources.
+अपना प्रोजेक्ट फिर से चलाएँ। जांचें कि ग्राफ़ सभी संसाधनों के लिए आपकी अपेक्षा के अनुरूप दिखता है और इंटरैक्ट करता है।
 
 --- /task ---
 
