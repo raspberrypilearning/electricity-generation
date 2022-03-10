@@ -1,7 +1,7 @@
-## Share your project
+## अपना प्रॉजेक्ट साझा करें
 
-You can share your completed Scratch project with your friends and family. To do this, follow the instructions below:
+आप अपने पूर्ण Scratch प्रोजेक्ट को अपने दोस्तों और परिवार के साथ साझा कर सकते हैं। ऐसा करने के लिए, नीचे दिए गए निर्देशों का पालन करें:
 
 [[[share-scratch]]]
 
-If you are in a club, why not demonstrate your project to friends and peers?
+यदि आप किसी क्लब में हैं, तो क्यों न अपने प्रोजेक्ट को मित्रों और साथियों के सामने प्रदर्शित करें?
