@@ -1,36 +1,36 @@
-## Add a UK column
+## UK कॉलम जोड़ें
 
-In this step, you are going to add a UK column and populate it with data so you can compare the results from New Zealand with the UK.
+इस चरण में, आप एक UK कॉलम जोड़ने जा रहे हैं और इसे डेटा से भरने जा रहे हैं ताकि आप यूके के साथ न्यूजीलैंड के परिणामों की तुलना कर सकें।
 
-You are going to create a column for the UK. To do this, you will copy the **New Zealand** sprite.
+आप UK के लिए एक कॉलम बनाने जा रहे हैं। ऐसा करने के लिए, आप **New Zealand** स्प्राइट को कॉपी करेंगे।
 
 --- task ---
 
-Click on the **New Zealand** sprite, and right-click to select **duplicate**.
+**New Zealand** स्प्राइट पर क्लिक करें और **duplicate** चुनने के लिए राइट-क्लिक करें।
 
-![image of background](images/electricity-copy-sprite.png){:width="300px"}
+![पृष्ठभूमि की छवि](images/electricity-copy-sprite.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-Rename the new sprite `UK`.
+नए स्प्राइट का नाम <`UK` में बदलें।
 
 --- /task ---
 
-Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. To be able to see the **UK** sprite, you need to move the position of where the **UK** sprite's column starts to draw on the Stage.
+प्रोग्राम चलाएँ। आप देखेंगे कि **UK** स्प्राइट प्रोग्राम ऐसा प्रतीत होता है जैसे कि यह नहीं चल रहा है, यद्यपि वह चल रहा है। ऐसा इसलिए है क्योंकि **UK** **New Zealand** स्प्राइट के कॉलम के नीचे बनाया गया है। **UK** स्प्राइट को देखने में सक्षम होने के लिए, आपको उस स्थिति को स्थानांतरित करने की आवश्यकता है जहां **UK** स्प्राइट का कॉलम मंच पर बनना शुरू होता है।
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite.
+**Code** स्प्राइट के **Code** टैब पर जाएं।
 
 --- /task ---
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values `x:`{:class="block3motion"} `-200` and `y:`{:class="block3motion"} `-140`. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `-140`:
+स्क्रिप्ट के ऊपरी आधे भाग में `go to x: y:`{:class="block3motion"} ब्लॉक खोजें। इसमें मान `x:`{:class="block3motion"} `-200` और `y:`{:class="block3motion"} `-140` हैं । केवल `x`{:class="block3motion"} मान को `-20` में बदलें। `y`{:class="block3motion"} का मान `-140`पर रह सकता है:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK स्प्राइट की छवि](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20)y: (-140)
@@ -40,19 +40,19 @@ go to x: (-20)y: (-140)
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite's column now on the right-hand side of the **New Zealand** sprite's column.
+हरे झंडे पर क्लिक करें । आपको अब **New Zealand** स्प्राइट के कॉलम के दाईं ओर **UK** स्प्राइट का कॉलम दिखना चाहिए।
 
-![image of second column with no title](images/electricity-second-column-no-title.png){:width="400px"}
+![बिना शीर्षक वाले दूसरे कॉलम की छवि](images/electricity-second-column-no-title.png){:width="400px"}
 
 --- /task ---
 
-However, it won't be clear that it is a column about the UK, because the title is still hidden behind the **New Zealand** sprite's column. You need to move the position of where the title appears on the Stage so you can see it.
+हालांकि, यह स्पष्ट नहीं होगा कि यह UK के बारे में एक कॉलम है, क्योंकि शीर्षक अभी भी **New Zealand** स्प्राइट के कॉलम के पीछे छिपा हुआ है। आपको उस स्थान को स्थानांतरित करने की आवश्यकता है जहां शीर्षक Stage पर दिखाई देता है ताकि आप इसे देख सकें।
 
 --- task ---
 
-Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `70`:
+दोबारा, **UK** स्प्राइट के **कोड** टैब पर जाएं। लंबी स्क्रिप्ट के बिल्कुल अंत में, `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` ब्लॉक खोजें। केवल `x`{:class="block3motion"} मान को `-20` बदलें। `y`{:class="block3motion"} मान `70` पर रह सकता है:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK स्प्राइट की छवि](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -62,19 +62,19 @@ go to x: (-20)y: (70)
 
 --- task ---
 
-Click the green flag. You should now be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
+हरे झंडे पर क्लिक करें । अब आप दाहिने हाथ के कॉलम के ऊपर **UK** स्प्राइट शीर्षक दिखना चाहिए। ओह, नहीं! यह अभी भी " "New Zealand" कहता है।
 
-![image of two columns with the same name](images/electricity-two-columns-same-name.png){:width="400px"}
+![एक ही नाम के दो कॉलम की छवि](images/electricity-two-columns-same-name.png){:width="400px"}
 
 --- /task ---
 
-You need to change the text in the `say`{:class="block3looks"} block so that it says "UK".
+`say`{:class="block3looks"} ब्लॉक में टेक्स्ट को बदलना होगा ताकि वह "UK" कहे।
 
 --- task ---
 
-Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`. So that the title "UK" is in the centre of the speech bubble, press the space bar on your keyboard four times first and then type `UK`:
+`go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70` कोड के नीचे, एक `say`{:class="block3looks"} ब्लॉक जोड़ें और `UK` टाइप करें। ताकि "UK" शीर्षक स्पीच बबल के केंद्र में हो, अपने कीबोर्ड पर स्पेस बार को पहले चार बार दबाएं और फिर `UK`टाइप करें:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK स्प्राइट की छवि](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20) y: (70)
@@ -84,21 +84,21 @@ go to x: (-20) y: (70)
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title now in the centre of the speech bubble and above the right-hand column.
+हरे झंडे पर क्लिक करें । अब आपको स्पीच बबल के केंद्र में और दाहिने हाथ के कॉलम के ऊपर **UK** स्प्राइट शीर्षक दिखना चाहिए।
 
-![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
+![स्पीच बबल के केंद्र में UK शीर्षक की छवि](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
 
 --- /task ---
 
-The columns look the same because the **UK** sprite's column is still showing the energy values for the **New Zealand** sprite.
+कॉलम समान दिखते हैं क्योंकि **UK** स्प्राइट का कॉलम अभी भी **New Zealand** स्प्राइट के लिए ऊर्जा मान दिखा रहा है।
 
-![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
+![दो ग्राफ की छवि समान दिखती है](images/electricity-two-graphs-look-same.png){:width="400px"}
 
 --- task ---
 
-In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**:
+**UK** स्प्राइट के **Code** टैब में, छह `set`{:class="block3variables"} वेरिएबल ब्लॉक की श्रृंखला की जांच करें जो प्रत्येक संसाधन वेरिएबल के लिए एक मान दिखाते हैं। प्रत्येक ब्लॉक में मान समग्र कुल (100%) में संसाधन के प्रतिशत (%) योगदान का प्रतिनिधित्व करता है। याद रखें कि `set`{:class="block3variables"} ब्लॉक अभी भी **New Zealand** लिए डेटा दिखा रहे हैं:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK स्प्राइट की छवि](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (18)
@@ -110,17 +110,17 @@ set [bioenergy v] to (1)
 ```
 --- /task ---
 
-In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the table below.
-Resource Type | UK |
+**UK** स्प्राइट प्रोग्राम में, आपको `set`{:class="block3variables"} ब्लॉक मानों को नीचे दी गई तालिका में दिए गए आंकड़ों से बदलना होगा।
+संसाधन प्रकार | UK |
 - | - | **Non-renewables** | 64 | **Wind** | 20 | **Solar** | 4 | **Hydro** | 2 | **Geothermal** | 0 | **Bioenergy** | 10 |
 
 <br/><br/>
 
 --- task ---
 
-In the first block `set non-renewables to`{:class="block3variables"}, add the value `64`. This value indicates that non-renewables represent 64 percent of the resources used to generate electricity in the UK:
+पहले ब्लॉक `set non-renewables to`{:class="block3variables"} पर मान `64` जोड़ें। यह मान इंगित करता है कि UK में बिजली उत्पन्न करने के लिए उपयोग किए जाने वाले संसाधनों का 64 प्रतिशत गैर-नवीकरणीय है:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK स्प्राइट की छवि](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -130,9 +130,9 @@ set [nonrenewable v] to (64)
 
 --- task ---
 
-Refer to the table above to complete the values for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
+बचे हुए `set`{:class="block3variables"} ब्लॉक का उपयोग करके सभी संसाधनों के मानों को पूरा करने के लिए ऊपर दी गई तालिका देखें। आपका प्रोग्राम अब इस तरह दिखना चाहिए:
 
-![image of UK sprite](images/UK-sprite.png)
+![UK स्प्राइट की छवि](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -147,17 +147,17 @@ set [bioenergy v] to (10)
 
 --- task ---
 
-Check you have inputted the values correctly. Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total, which is 100 percent.
+जांचें कि आपने मानों को सही ढंग से इनपुट किया है। दोबारा जांचने के लिए मान जोड़ें: 64 + 20 + 4 + 2 + 0 + 10 = 100। कुल हमेशा 100 ही होना चाहिए क्योंकि प्रत्येक ब्लॉक में मूल्य समग्र कुल में संसाधन के प्रतिशत (%) योगदान का प्रतिनिधित्व करता है, जो 100 प्रतिशत है।
 
 --- /task ---
 
 --- task ---
 
-Run the program to compare what resources New Zealand and the UK use to generate energy. You may notice the UK uses more bioenergy than New Zealand. You may also notice that New Zealand uses far more hydropower than the UK to generate electricity.
+ऊर्जा उत्पन्न करने के लिए न्यूजीलैंड और यूके द्वारा उपयोग किए जाने वाले संसाधनों की तुलना करने के लिए प्रोग्राम चलाएं। आप देख सकते हैं कि यूके न्यूजीलैंड की तुलना में अधिक बायोएनेर्जी का उपयोग करता है। आप यह भी देख सकते हैं कि न्यूजीलैंड बिजली पैदा करने के लिए ब्रिटेन की तुलना में कहीं अधिक जल विद्युत का उपयोग करता है।
 
-![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
+![दो ग्राफ की तुलना करने के लिए छवि](images/electricity-compare-two-graphs.png){:width="400px"}
 
-Investigate how much non-renewable energy each country uses to generate electricity. How do the countries compare on their use of non-renewable resources?
+जांच करें कि प्रत्येक देश बिजली पैदा करने के लिए कितनी गैर-नवीकरणीय ऊर्जा का उपयोग करता है। गैर-नवीकरणीय संसाधनों के उपयोग पर देश कैसे तुलना करते हैं?
 
 --- /task ---
 
