@@ -1,11 +1,11 @@
-## What next?
+## पुढे काय?
 
-In this project, you have:
+प्रोजेक्टमध्ये, तुमच्याकडे आहे:
 
-+ Organised your program using `My Blocks`{:class="block3myblocks"}
-+ Used the `Pen`{:class="block3extensions"} extension blocks to draw stacked bar graphs
-+ Turned data on natural resources into colourful graphs that show how different countries generate electricity
++ `My Blocks`{:class="block3myblocks"} चा वापर करून तुमचा प्रोग्राम तयार करा
++ स्टॅक केलेले स्तंभालेख काढण्यासाठी `Pen`{:class="block3extensions"} एक्सटेंशन ब्लॉक्सचा वापर करा
++ नैसर्गिक संसाधनांवरील डेटाला रंगीत आलेखांमध्ये रूपांतरित केले जे विविध देश वीज कशी निर्माण करतात हे दर्शवतात
 
-If you are following the [Protect our planet](https://projects.raspberrypi.org/en/raspberrypi/protect-our-planet) pathway, you can move on to the [Turtle tracker](https://projects.raspberrypi.org/en/projects/turtle-tracker) project. In this project, you will draw the routes of sea turtles using real data.
+तुम्ही [Protect our planet](https://projects.raspberrypi.org/en/raspberrypi/protect-our-planet) मार्गाचे अनुसरण करत असल्यास, तुम्ही [Turtle tracker](https://projects.raspberrypi.org/en/projects/turtle-tracker) प्रोजेक्टवर जाऊ शकता. या प्रोजेक्टमध्ये, तुम्ही वास्तविक डेटा वापरून समुद्री कासवांचे मार्ग काढाल.
 
-Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below and let us know!
+तुम्ही प्रोजेक्टचा आनंद घेतला का? तुमची चूक लक्षात आली आहे का? कृपया खालील **Send feedback** बटनावर क्लिक करा आणि आम्हाला कळवा!
