@@ -1,20 +1,20 @@
-## Draw the third column
+## ಮೂರನೆಯ ಸ್ತಂಭ ಚಿತ್ರಿಸಿ
 
-Now it's time to use the resource variables that you created in the previous step to draw the column for the **Third Country** sprite.
+ನೀವು ಹಿಂದಿನ ಹಂತದಲ್ಲಿ ರಚಿಸಿದ ಸಂಪನ್ಮೂಲ ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ಈಗ **Third Country** ಸ್ಪ್ರೈಟ್‌ಗೆ ಸ್ತಂಭ ಚಿತ್ರಿಸಲು ಉಪಯೋಗಿಸುವ ಸಮಯ.
 
-In Scratch, you can make a block that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
+Scratch ನಲ್ಲಿ, ನೀವು ಹೊಸ ಬರಹವನ್ನು ಪ್ರಾರಂಭಿಸುವ ಬ್ಲಾಕ್‌ನ್ನು ಮಾಡಬಹುದು ಮತ್ತು ನೀವು ಯಾವುದೇ Scratch ಬ್ಲಾಕ್‌ಗಳನ್ನು ಈ ಹೊಸ ಬರಹಕ್ಕೆ ಸೇರಿಸಬಹುದು. ನೀವು ನಂತರ ಬರಹವನ್ನು ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ನಲ್ಲಿ ಎಲ್ಲಿಯಾದರೂ ಮರುಬಳಕೆ ಮಾಡಬಹುದು.
 
 --- task ---
 
-Go to the `My Blocks`{:class="block3myblocks"} menu and click on **Make a Block**. Call the block name `draw` and click on **Add an input number or text**. Change the value `number or text` to `amount`, then click **OK**.
+`My Blocks`{:class="block3myblocks"} ಮೆನುಗೆ ಹೋಗಿ ಮತ್ತು **Make a Block** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಬ್ಲಾಕ್‌ ಹೆಸರನ್ನು `draw` ಎಂದು ಕರೆಯಿರಿ ಮತ್ತು **Add an input number or text** ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ. ಮೌಲ್ಯವನ್ನು`number or text` `amount`ಗೆ ಬದಲಾಯಿಸಿ, ನಂತರ **OK** ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 --- no-print ---
 
-![gif of make a block with input](images/electricity-make-a-block-add-input.gif)
+![ಇನ್‌ಪುಟ್‌ನೊಂದಿಗೆ ಬ್ಲಾಕ್‌ ಮಾಡುವುದರ ಜಿಐಎಫ್](images/electricity-make-a-block-add-input.gif)
 
 --- /no-print ---
 
-You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **Third Country** sprite:
+**Third Country** ಸ್ಪ್ರೈಟ್‌ನ Code ಪ್ರದೇಶದಲ್ಲಿ ಹೊಸ `define`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ ರಚನೆಯಾಗಿರುವುದನ್ನು ನೀವು ನೋಡುವಿರಿ:
 
 ```blocks3
 define draw (amount)
@@ -22,11 +22,11 @@ define draw (amount)
 
 --- /task ---
 
-To create the first line in the column, move the **Third Country** sprite with the pen down, then turn it round, and move up the Stage slightly.
+ಸ್ತಂಭದಲ್ಲಿ ಮೊದಲನೆಯ ಗೆರೆಯನ್ನು ರಚಿಸಲು, ಪೆನ್ನನ್ನು ಕೆಳಗೆ ಮಾಡಿ **Third Country** ಸ್ಪ್ರೈಟ್‌ ಚಲಿಸಿ, ನಂತರ ಅದನ್ನು ಸುತ್ತಲೂ ತಿರುಗಿಸಿ, ಮತ್ತು Stage ನ ಸ್ವಲ್ಪ ಮೇಲ್ಗಡೆಗೆ ಚಲಿಸಿ.
 
 --- task ---
 
-Add three `Motion`{:class="block3motion"} blocks to your new `draw`{:class="block3extensions"} block: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"}, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"}, and `change y by`{:class="block3motion"} `2`:
+ಮೂರು `Motion`{:class="block3motion"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ನಿಮ್ಮ ಹೊಸ `draw`{:class="block3extensions"} ಬ್ಲಾಕ್‌ಗೆ ಸೇರಿಸಿ: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"}, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"}, ಮತ್ತು `change y by`{:class="block3motion"} `2`:
 
 ```blocks3
 define draw (amount)
@@ -37,11 +37,11 @@ define draw (amount)
 
 --- /task ---
 
-Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct number of lines for each resource.
+ಹೊಸದಾಗಿ ವ್ಯಾಖ್ಯಾನಿಸಿದ ನಿಮ್ಮ `draw`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ನ್ನು ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲಕ್ಕೆ ಸರಿಯಾದ ಗೆರೆಗಳನ್ನು ಚಿತ್ರಿಸಲು ಉಪಯೋಗಿಸಿ.
 
 --- task ---
 
-From the `My Blocks`{:class="block3myblocks"} menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the `draw`{:class="block3myblocks"} blocks in the following order:
+`My Blocks`{:class="block3myblocks"} ಮೆನುನಿಂದ, `draw`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ನ್ನು ಪ್ರತಿಯೊಂದು `set pen color to`{:class="block3extensions"} ಬ್ಲಾಕ್‌ಗಳ ನಂತರ ಸೇರಿಸಿ. ಪ್ರತಿಯೊಂದು ವೇರಿಯೇಬಲ್‌ನ್ನು `draw`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ಗಳಿಗೆ ಈ ಕೆಳಗಿನ ಕ್ರಮದಲ್ಲಿ ಎಳೆಯಿರಿ:
 + `nonrenewable`{:class="block3variables"}
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
@@ -49,7 +49,7 @@ From the `My Blocks`{:class="block3myblocks"} menu, insert a `draw`{:class="bloc
 + `geothermal`{:class="block3variables"}
 + `bioenergy`{:class="block3variables"}.
 
-In the last remaining `draw`{:class="block3myblocks"} block, type the value `1`. This adds a line that is the same colour as the backdrop, to clean up the end of the column:
+ಉಳಿದಿರುವ ಕೊನೆಯ `draw`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ನಲ್ಲಿ, ಮೌಲ್ಯ `1` ನ್ನು ಟೈಪ್‌ ಮಾಡಿ. ಸ್ತಂಭದ ತುದಿಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲು, ಇದು ಹಿನ್ನೆಲೆಯ ಬಣ್ಣದ ಗೆರೆಯನ್ನು ಸೇರಿಸುತ್ತದೆ:
 
 ```blocks3
 when flag clicked
@@ -89,19 +89,19 @@ say [Third Country]
 
 --- task ---
 
-Run your program. In the **Third Country** sprite, you should see that the pen draws just one thin line for each resource. To make the pen draw the correct amount for each resource, you need to set the `repeat`{:class="block3control"} to the amount of each resource type.
+‌ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ ರನ್‌ ಮಾಡಿ. **Third Country** ಸ್ಪ್ರೈಟ್‌ನಲ್ಲಿ, ಪೆನ್ನು ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲಕ್ಕೆ ಒಂದು ತೇಳು ಗೆರೆಯನ್ನಷ್ಟೆ ಚಿತ್ರಿಸುವುದನ್ನು ನೀವು ನೋಡಬೇಕು. ಪೆನ್ನು ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲಕ್ಕೆ ಸರಿಯಾದ ಪ್ರಮಾಣವನ್ನು ಚಿತ್ರಿಸುವಂತೆ ಮಾಡಲು, ನೀವು `repeat`{:class="block3control"} ನ್ನು ಪ್ರತಿಯೊಂದು ವಿಧದ ಸಂಪನ್ಮೂಲದ ಪ್ರಮಾಣಕ್ಕೆ ಹೊಂದಿಸಬೇಕು.
 
 --- /task ---
 
-Your `draw`{:class="block3myblocks"} blocks are set up to store the amount of electricity for each resource, but the code you defined still only runs once, each time it appears in your script. Use the stored `amount`{:class="block3myblocks"} to control how many times the `draw`{:class="block3myblocks"} block repeats itself.
+ನಿಮ್ಮ `draw`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ಗಳು ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲಕ್ಕೆ ವಿದ್ಯುತ್ತಿನ ಪ್ರಮಾಣವನ್ನು ಸಂಗ್ರಹಿಸಲು ಹೊಂದಿಕೆಯಾಗಿವೆ, ಆದರೆ ನೀವು ವ್ಯಾಖ್ಯಾನಿಸಿದ ಕೋಡ್‌ ನಿಮ್ಮ ಬರಹದಲ್ಲಿ ಅದು ಪ್ರತಿಬಾಋಇ ಕಾಣಿಸಿಕೊಂಡಾಗ, ಇನ್ನೂ ಒಂದು ಬಾರಿ ಮಾತ್ರ ರನ್‌ ಆಗುತ್ತದೆ. ಸಂಗ್ರಹವಾದ `amount`{:class="block3myblocks"} ನ್ನು `draw`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ ಸ್ವತಃ ಎಷ್ಪುಬಾರಿ ಪುನರಾವರ್ತನೆಯಾಗುತ್ತದೆ ಎಂಬುವುದನ್ನು ನಿಯಂತ್ರಿಸಲು ಉಪಯೋಗಿಸಿ.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block into the `repeat`{:class="block3control"} block:
+`repeat`{:class="block3control"} ಬ್ಲಾಕ್‌ನ್ನು `define`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ ಅಡಿಯಲ್ಲಿ ಸೇರಿಸಿ. `define`{:class="block3myblocks"} ಬ್ಲಾಕ್‌ನಿಂದ `repeat`{:class="block3control"} ಬ್ಲಾಕ್‌ ಒಳಕ್ಕೆ ಪೂರ್ಣವಾದ ಬ್ಲಾಕ್ `amount`{:class="block3myblocks"} ನ್ನು ಎಳೆಯಿರಿ:
 
 --- no-print ---
 
-![gif of dragging amount](images/electricity-drag-amount.gif)
+![ಪ್ರಮಾಣವನ್ನು ಎಳೆಯುತ್ತಿರುವುದರ ಜಿಐಎಫ್](images/electricity-drag-amount.gif)
 
 --- /no-print ---
 
@@ -118,7 +118,7 @@ end
 
 --- task ---
 
-Test your project. The column for the **Third Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
+ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟನ್ನು ಪರೀಕ್ಷಿಸಿ. **Third Country** ಸ್ಪ್ರೈಟ್‌ನ ಸ್ತಂಭವು ಈಗ ಪೂರ್ಣಗೊಂಡಿರಬೇಕು, ಮತ್ತು ನೀವು ಆಯ್ಕೆ ಮಾಡಿಕೊಂಡ ಮೌಲ್ಯಗಳನ್ನು ತೋರಿಸಬೇಕು. ನೀವು ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲದ ಮೇಲೆ ಸುಳಿದಾಡಿದಾಗ, ಗುರುತಿನ ಚೀಟಿ ಕಾಣಿಸಿಕೊಳ್ಳಬೇಕು.
 
 --- /task ---
 
