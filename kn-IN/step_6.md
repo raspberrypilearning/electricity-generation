@@ -1,36 +1,36 @@
-## Create the resource variables
+## ಸಂಪನ್ಮೂಲ ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ರಚಿಸಿ
 
-In this step, you are going to create new resource variables for the **Third Country** sprite. You will add values to the variables, and then use those values to draw the column for the **Third Country** sprite.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು **Third Country** ಸ್ಪ್ರೈಟ್‌ಗೆ ಹೊಸ ಸಂಪನ್ಮೂಲ ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ರಚಿಸುತ್ತೀರಿ. ನೀವು ವೇರಿಯೇಬಲ್‌ಗಳಿಗೆ ಮೌಲ್ಯಗಳನ್ನು ಸೇರಿಸುವಿರಿ, ಮತ್ತು ನಂತರ ಆ ಮೌಲ್ಯಗಳನ್ನು **Third Country** ಸ್ಪ್ರೈಟ್‌ಗೆ ಸ್ತಂಭ ಚಿತ್ರಿಸಲು ಉಪಯೋಗಿಸುವಿರಿ.
 
-First, you will create a variable for non-renewable resources.
+ಮೊದಲಿಗೆ, ನೀವು ನವೀಕರಿಸಲಾಗದ ಸಂಪನ್ಮೂಲಗಳಿಗೆ ವೇರಿಯೇಬಲ್‌ ರಚಿಸುತ್ತೀರಿ.
 
 --- task ---
 
-Create a new variable by clicking on the `Variables`{:class="block3variables"} blocks menu.
+`Variables`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನು ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡುವುದರ ಮೂಲಕ ಹೊಸ ವೇರಿಯೇಬಲ್‌ ರಚಿಸಿ.
 
-Then click on the **Make a Variable** button.
+ನಂತರ **Make a Variable** ಬಟನ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
 --- /task ---
 
-You need a title for the variable. You also need to make sure that the variable is created for this sprite only so that if you update the value for this sprite, it does not change it for the others. Even though the other sprites also have a variable titled `nonrenewable`{:class="block3variables"}, each variable holds a different value for each country.
+ನಿಮಗೆ ವೇರಿಯೇಬಲ್‌ಗೆ ಶೀರ್ಷಿಕೆ ಬೇಕು. ವೇರಿಯೇಬಲ್‌ ಈ ಸ್ಪ್ರೈಟ್‌ಗೆ ಮಾತ್ರ ರಚಿಸಲ್ಪಟ್ಟಿದೆ, ಆದುದರಿಂದ ನೀವು ಈ ಸ್ಪ್ರೈಟ್‌ಗೆ ಮೌಲ್ಯವನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿದಾಗ, ಅದು ಉಳಿದವುಗಳನ್ನು ಬದಲಾಯಿಸುವುದಿಲ್ಲ ಎಂಬುವುದನ್ನೂ ಸಹ ನೀವು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಬೇಕು. ಉಳಿದ ಸ್ಪ್ರೈಟ್‌ಗಳೂ `nonrenewable`{:class="block3variables"} ಶೀರ್ಷಿಕೆಯುಳ್ಳ ವೇರಿಯೇಬಲ್‌ ಹೊಂದಿವೆಯಾದರೂ, ಪ್ರತಿಯೊಂದು ವೇರಿಯೇಬಲ್‌ ಪ್ರತಿಯೊಂದು ದೇಶಕ್ಕೆ ಬೇರೆ ಬೇರೆ ಮೌಲ್ಯವನ್ನು ಇಟ್ಟುಕೊಳ್ಳುತ್ತದೆ.
 
 --- task ---
 
-Call this variable `nonrenewable`.
+ಈ ವೇರಿಯೇಬಲ್‌ನ್ನು `nonrenewable` ಎಂದು ಕರೆಯಿರಿ.
 
-**Important**: Click **For this sprite only**.
+**ಮಹತ್ವವಾದುದು**: **For this sprite only** ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-Then click **OK**.
+ನಂತರ **OK** ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-![png of electricity naming variables](images/electricity-naming-variables.png){:width="400px"}
+![ವಿದ್ಯುತ್‌ ಹೆಸರಿಸುವ ವೇರಿಯೇಬಲ್‌ಗಳ ಪಿಎನ್‌ಜಿ](images/electricity-naming-variables.png){:width="400px"}
 
 --- /task ---
 
-Create the remaining resource variables.
+ಉಳಿದಿರುವ ಸಂಪನ್ಮೂಲ ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ರಚಿಸಿ.
 
 --- task ---
 
-Create new variables in the same way. Remember to select **For this sprite only** for each new variable:
+ಅದೇ ರೀತಿಯಲ್ಲಿ ಹೊಸ ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ರಚಿಸಿ. ಪ್ರತಿಯೊಂದು ಹೊಸ ವೇರಿಯೇಬಲ್‌ಗೆ **For this sprite only** ಆಯ್ಕೆ ಮಾಡುವುದು ನೆನಪಿರಲಿ:
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
 + `hydro`{:class="block3variables"}
@@ -39,29 +39,29 @@ Create new variables in the same way. Remember to select **For this sprite only*
 
 --- /task ---
 
-Hide the variables from view.
+ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ವೀಕ್ಷಣೆಯಿಂದ ಮರೆಮಾಡಿ.
 
 --- task ---
 
-All the new energy variables are listed in the `Variables`{:class="block3variables"} blocks menu. They are also automatically shown on the Stage, but you don't need them shown there for this project.
+ಶಕ್ತಿಯ ಎಲ್ಲಾ ಹೊಸ ವೇರಿಯೇಬಲ್‌ಗಳೂ `Variables`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳ ಮೆನುನಲ್ಲಿ ಪಟ್ಟಿಯಾಗಿವೆ. ಅವುಗಳು ಸಹ ಸ್ವಯಂಚಾಲಿತವಾಗಿ Stage ಮೇಲೆ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ, ಆದರೆ ಈ ಪ್ರಾಜೆಕ್ಟ್‌ಗೆ ನಿಮಗೆ ಅವುಗಳು ಅಲ್ಲಿ ಕಾಣಿಸುವುದು ಬೇಡ.
 
-Click on the checkboxes next to each variable to hide them from view.
+ಪ್ರತಿಯೊಂದು ವೇರಿಯೇಬಲ್‌ ಮುಂದಿನ ಚೆಕ್‌ಬಾಕ್ಸ್‌ಗಳನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ ಅವುಗಳು ಕಾಣದಂತೆ ಮರೆಯಾಗುವಂತೆ ಮಾಡಿ.
 
 --- no-print ---
 
-![gif of hiding variables](images/hiding-variables.gif)
+![ವೇರಿಯೇಬಲ್‌ಗಳನ್ನು ಮರೆಮಾಡುತ್ತಿರುವುದರ ಜಿಐಎಫ್](images/hiding-variables.gif)
 
 --- /no-print ---
 
 --- /task ---
 
-Now you can input the resources data for your chosen country. Below is the table again to help you input the data.
+ಈಗ ನೀವು ನಿಮ್ಮ ಆಯ್ಕೆಯ ದೇಶಕ್ಕೆ ಸಂಪನ್ಮೂಲಗಳ ದತ್ತಾಂಶವನ್ನು ಇನ್‌ಪುಟ್‌ ಮಾಡಬಹುದು. ನಿಮಗೆ ದತ್ತಾಂಶ ಇನ್‌ಪುಟ್‌ ಮಾಡಲು ಸಹಾಯವಾಗಲು ಮತ್ತೆ ಈ ಕೆಳಗಿನ ಕೋಷ್ಟಕವಿದೆ.
 
 Resource type | Brazil | Canada | Iceland | India | Ireland | Norway | Singapore | S.Africa | USA | | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | **Non-renewable** | 18 | 34 | 0 | 81 | 64 | 2 | 99 | 94 | 83 | **Wind** | 9 | 5 | 0 | 5 | 32 | 4 | 0 | 3 | 7 | **Solar** | 1 | 1 | 0 | 3 | 0 | 0 | 1 | 1 | 2 | **Hydro** | 63 | 58 | 70 | 11 | 4 | 94 | 0 | 2 | 7 | **Geothermal** | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 | 0 | **Bioenergy** | 9 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 
 --- task ---
 
-Add in six `set my variable to`{:class="block3variables"} blocks, one for each type of resource. The code below uses South Africa as example data for the **Third Country** sprite, but you'll input figures for your chosen country.
+ಪ್ರತಿಯೊಂದು ವಿಧದ ಸಂಪನ್ಮೂಲಕ್ಕೆ ಒಂದರಂತೆ, ಆರು `set my variable to`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿ. ಈ ಕೆಳಗಿನ ಕೋಡ್‌ ಸೌತ್‌ ಆಫ್ರಿಕಾವನ್ನು **Third Country** ಸ್ಪ್ರೈಟ್‌ಗೆ ಉದಾಹರಣೆಯ ದತ್ತಾಂಶವಾಗಿ ಉಪಯೋಗಿಸುತ್ತದೆ, ಆದರೆ ನೀವು ನಿಮ್ಮ ಆಯ್ಕೆಯ ದೇಶಕ್ಕೆ ಅಂಕಿಗಳನ್ನು ಇನ್‌ಪುಟ್‌ ಮಾಡುತ್ತೀರಿ.
 
 ```blocks3
 when flag clicked
@@ -94,7 +94,7 @@ say [Third Country]
 
 --- task ---
 
-Double-check that the values for the resources add up to 100.
+ಸಂಪನ್ಮೂಲಗಳ ಮೌಲ್ಯಗಳನ್ನು ಕೂಡಿದರೆ ಅದು 100 ಆಗುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
 
 --- /task ---
 
