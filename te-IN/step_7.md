@@ -1,20 +1,20 @@
-## Draw the third column
+## మూడవ నిలువు వరుసను గీయండి
 
-Now it's time to use the resource variables that you created in the previous step to draw the column for the **Third Country** sprite.
+ఇప్పుడు మీరు **Third Country** sprite కోసం నిలువు వరుసను గీయడానికి మునుపటి దశలో సృష్టించిన రిసోర్స్ వేరియబుల్‌లను ఉపయోగించాల్సిన సమయం వచ్చింది.
 
-In Scratch, you can make a block that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
+Scratchలో, మీరు కొత్త స్క్రిప్ట్‌ను ప్రారంభించే బ్లాక్‌ను తయారు చేయవచ్చు మరియు ఈ కొత్త స్క్రిప్ట్‌లో ఏవైనా Scratch బ్లాక్‌లను జోడించవచ్చు. మీరు మీ ప్రోగ్రామ్‌లో ఎక్కడైనా స్క్రిప్ట్‌ని మళ్లీ ఉపయోగించుకోవచ్చు.
 
 --- task ---
 
-Go to the `My Blocks`{:class="block3myblocks"} menu and click on **Make a Block**. Call the block name `draw` and click on **Add an input number or text**. Change the value `number or text` to `amount`, then click **OK**.
+`My Blocks`{:class="block3myblocks"} మెనుకి వెళ్లి **Make a Block**పై క్లిక్ చేయండి. బ్లాక్ పేరును `draw` అనండి, మరియు **Add an input number or text** పై క్లిక్ చేయండి. విలువను `number or text` నుండి `amount` కి మార్చండి, ఆపై **OK** క్లిక్ చేయండి.
 
 --- no-print ---
 
-![gif of make a block with input](images/electricity-make-a-block-add-input.gif)
+![gif ఇన్‌పుట్‌తో కల బ్లాక్‌ను రూపొందించండి](images/electricity-make-a-block-add-input.gif)
 
 --- /no-print ---
 
-You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **Third Country** sprite:
+**Third Country** sprite కోడ్ ఏరియాలో కొత్త `define`{:class="block3myblocks"} బ్లాక్ సృష్టించబడిందని మీరు చూస్తారు:
 
 ```blocks3
 define draw (amount)
@@ -22,11 +22,11 @@ define draw (amount)
 
 --- /task ---
 
-To create the first line in the column, move the **Third Country** sprite with the pen down, then turn it round, and move up the Stage slightly.
+నిలువు వరుసలో మొదటి పంక్తిని సృష్టించడానికి, **Third Country** sprite ని పెన్ డౌన్ తో తరలించి, ఆపై దాన్ని గుండ్రంగా తిప్పి, Stage పైకి కొద్దిగా తరలించండి.
 
 --- task ---
 
-Add three `Motion`{:class="block3motion"} blocks to your new `draw`{:class="block3extensions"} block: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"}, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"}, and `change y by`{:class="block3motion"} `2`:
+ఈ మూడు `Motion`{:class="block3motion"} బ్లాకులను మీ కొత్త `draw`{:class="block3extensions"} బ్లాకు: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"}, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"}, మరియు `change y by`{:class="block3motion"} `2`:
 
 ```blocks3
 define draw (amount)
@@ -37,11 +37,11 @@ define draw (amount)
 
 --- /task ---
 
-Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct number of lines for each resource.
+ప్రతి వనరు కోసం సరైన సంఖ్యలో లైన్లను గీయడానికి మీ కొత్తగా నిర్వచించిన `draw`{:class="block3myblocks"} బ్లాక్‌ని ఉపయోగించండి.
 
 --- task ---
 
-From the `My Blocks`{:class="block3myblocks"} menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the `draw`{:class="block3myblocks"} blocks in the following order:
+`My Blocks`{:class="block3myblocks"} మెను నుండి, ప్రతి `set pen color to`{:class="block3extensions"} బ్లాకుల తర్వాత, ఒక `draw`{:class="block3myblocks"} బ్లాకుని చొప్పించండి. కింది క్రమంలో ప్రతి వేరియబుల్‌ను `draw`{:class="block3myblocks"} బ్లాక్‌లకు లాగండి:
 + `nonrenewable`{:class="block3variables"}
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
@@ -49,7 +49,7 @@ From the `My Blocks`{:class="block3myblocks"} menu, insert a `draw`{:class="bloc
 + `geothermal`{:class="block3variables"}
 + `bioenergy`{:class="block3variables"}.
 
-In the last remaining `draw`{:class="block3myblocks"} block, type the value `1`. This adds a line that is the same colour as the backdrop, to clean up the end of the column:
+చివరిగా మిగిలిన `draw`{:class="block3myblocks"} బ్లాక్‌లో, `1`విలువను టైప్ చేయండి. ఇది నిలువు వరుస చివరను క్లీన్ అప్ చేయడానికి బ్యాక్‌డ్రాప్‌కు సమానమైన రంగులో ఉండే లైన్‌ను జోడిస్తుంది:
 
 ```blocks3
 when flag clicked
@@ -89,19 +89,19 @@ say [Third Country]
 
 --- task ---
 
-Run your program. In the **Third Country** sprite, you should see that the pen draws just one thin line for each resource. To make the pen draw the correct amount for each resource, you need to set the `repeat`{:class="block3control"} to the amount of each resource type.
+ప్రోగ్రామ్‌ని అమలు చేయండి. **Third Country** sprite లో, ప్రతి వనరు కోసం పెన్ కేవలం ఒక సన్నని గీతను గీస్తుందని మీరు చూడాలి. ప్రతి వనరు కోసం పెన్ సరైన మొత్తాన్ని డ్రా చేయడానికి, మీరు `repeat`{:class="block3control"} ని ప్రతి వనరు రకం యొక్క మొత్తానికి సెట్ చేయాలి.
 
 --- /task ---
 
-Your `draw`{:class="block3myblocks"} blocks are set up to store the amount of electricity for each resource, but the code you defined still only runs once, each time it appears in your script. Use the stored `amount`{:class="block3myblocks"} to control how many times the `draw`{:class="block3myblocks"} block repeats itself.
+మీ `draw`{:class="block3myblocks"} బ్లాక్‌లు ప్రతి వనరు కోసం విద్యుత్ మొత్తాన్ని నిల్వ చేయడానికి సెటప్ చేయబడ్డాయి, అయితే మీరు నిర్వచించిన కోడ్ ఇప్పటికీ మీ స్క్రిప్ట్‌లో కనిపించిన ప్రతిసారీ ఒకసారి మాత్రమే నడుస్తుంది. `draw`{:class="block3myblocks"} బ్లాక్ ఎన్నిసార్లు పునరావృతం అవుతుందో నియంత్రించడానికి నిల్వ చేయబడిన `amount`{:class="block3myblocks"}ని ఉపయోగించండి.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block into the `repeat`{:class="block3control"} block:
+`define`{:class="block3myblocks"} బ్లాక్ కింద `repeat`{:class="block3control"} బ్లాక్‌ను జోడించండి. రౌండెడ్ బ్లాకు `amount`{:class="block3myblocks"} ను `define`{:class="block3myblocks"} నుండి `repeat`{:class="block3control"} block లోనికి డ్రాగ్ చేయండి:
 
 --- no-print ---
 
-![gif of dragging amount](images/electricity-drag-amount.gif)
+![డ్రాగ్ చేసిన మొత్తం యొక్క gif](images/electricity-drag-amount.gif)
 
 --- /no-print ---
 
@@ -118,7 +118,7 @@ end
 
 --- task ---
 
-Test your project. The column for the **Third Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
+మీ ప్రాజెక్ట్‌ను పరీక్షించండి. **Third Country** sprite కోసం నిలువు వరుస ఇప్పుడు పూర్తి కావాలి మరియు మీరు ఎంచుకున్న విలువలను చూపాలి. మీరు ప్రతి వనరుపై హోవర్ చేసినప్పుడు, లేబుల్ కనిపించాలి.
 
 --- /task ---
 
