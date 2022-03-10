@@ -1,36 +1,36 @@
-## Add a UK column
+## ಯುಕೆ ಕಾಲಮ್‌ ಸೇರಿಸಿ
 
-In this step, you are going to add a UK column and populate it with data so you can compare the results from New Zealand with the UK.
+ಈ ಹಂತದಲ್ಲಿ, ನೀವು ಯುಕೆ ಸ್ತಂಭವನ್ನು ಸೇರಿಸುತ್ತೀರಿ ಮತ್ತು ಅದನ್ನು ದತ್ತಾಶದಿಂದ ತುಂಬಿಸಿ, ಆಗ ನೀವು ನ್ಯೂಜಿಲೆಂಡ್‌ನ ಫಲಿತಾಂಶವನ್ನು ಯುಕೆ ಜೊತೆ ಹೋಲಿಸಬಹುದು.
 
-You are going to create a column for the UK. To do this, you will copy the **New Zealand** sprite.
+ನೀವು ಯುಕೆಗೆ ಸ್ತಂಭ ರಚಿಸುತ್ತೀರಿ. ಇದನ್ನು ಮಾಡಲು, ನೀವು **New Zealand** ಸ್ಪ್ರೈಟ್‌ನ ನಕಲು ಮಾಡುತ್ತೀರಿ.
 
 --- task ---
 
-Click on the **New Zealand** sprite, and right-click to select **duplicate**.
+**New Zealand** ಸ್ಪ್ರೈಟ್‌ ಮೇಲೆ ಕ್ಲಿಕ್‌ ಮಾಡಿ, ಮತ್ತು **duplicate** ಆಯ್ಕೆ ಮಾಡಲು ರೈಟ್-ಕ್ಲಿಕ್‌ ಮಾಡಿ.
 
-![image of background](images/electricity-copy-sprite.png){:width="300px"}
+![ಹಿನ್ನೆಲೆಯ ಚಿತ್ರ](images/electricity-copy-sprite.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-Rename the new sprite `UK`.
+ಹೊಸ ಸ್ಪ್ರೈಟ್‌ನ್ನು `UK` ಎಂದು ಮರುನಾಮಕರಣ ಮಾಡಿ.
 
 --- /task ---
 
-Run the program. You will see that the **UK** sprite program appears as if it's not running, even though it is. This is because the **UK** sprite's column is drawn underneath the **New Zealand** sprite's column on the graph. To be able to see the **UK** sprite, you need to move the position of where the **UK** sprite's column starts to draw on the Stage.
+ಪ್ರೋಗ್ರಾಮ್‌ ರನ್‌ ಮಾಡಿ. **UK** ಸ್ಪ್ರೈಟ್‌ ಪ್ರೋಗ್ರಾಮ್‌ ರನ್‌ ಆಗುತ್ತಿದ್ದರೂ ಅದು ಆಗುತ್ತಿಲ್ಲದಂತೆ ಕಾಣಿಸುತ್ತದೆ. ಅದು ಏಕೆಂದರೆ **UK** ಸ್ಪ್ರೈಟ್‌ನ ಸ್ತಂಭವನ್ನು ರೇಖಾನಕ್ಷೆಯಲ್ಲಿ **New Zealand** ಸ್ಪ್ರೈಟ್‌ನ ಅಡಿಯಲ್ಲಿ ಚಿತ್ರಿಸಲಾಗಿದೆ. **UK** ಸ್ಪ್ರೈಟ್‌ನ್ನು ನೋಡಲು ಸಾಧ್ಯವಾಗಲು, ನೀವು Stage ಮೇಲೆ **UK** ಸ್ಪ್ರೈಟ್‌ನ ಸ್ತಂಭವನ್ನು ಚಿತ್ರಿಸಲು ಪ್ರಾರಂಭಿಸುವ ಸ್ಥಾನವನ್ನು ಚಲಿಸಬೇಕು.
 
 --- task ---
 
-Go to the **Code** tab of the **UK** sprite.
+**UK** ಸ್ಪ್ರೈಟ್‌ನ **Code** ಟ್ಯಾಬ್‌ಗೆ ಹೋಗಿ.
 
 --- /task ---
 
 --- task ---
 
-Search for the `go to x: y:`{:class="block3motion"} block at the top-half of the script. It has the values `x:`{:class="block3motion"} `-200` and `y:`{:class="block3motion"} `-140`. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `-140`:
+ಬರಹದ ಮೇಲಿನ ಅರ್ಧ ಭಾಗದಲ್ಲಿ `go to x: y:`{:class="block3motion"} ಬ್ಲಾಕ್‌ನ್ನು ಹುಡುಕಿ. ಅದು `x:`{:class="block3motion"} `-200` ಮತ್ತು `y:`{:class="block3motion"} `-140` ಮೌಲ್ಯಗಳನ್ನು ಹೊಂದಿದೆ. `x`{:class="block3motion"} ಮೌಲ್ಯವನ್ನು ಮಾತ್ರ `-20` ಕ್ಕೆ ಬದಲಾಯಿಸಿ. `y`{:class="block3motion"} ಮೌಲ್ಯವು `-140`ರಲ್ಲಿಯೇ ಇರಬಹುದು:
 
-![image of UK sprite](images/UK-sprite.png)
+![ಯುಕೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20)y: (-140)
@@ -40,19 +40,19 @@ go to x: (-20)y: (-140)
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite's column now on the right-hand side of the **New Zealand** sprite's column.
+ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ. **UK** ಸ್ಪ್ರೈಟ್‌ನ ಸ್ತಂಭವನ್ನು ನೀವು ಈಗ **New Zealand** ಸ್ಪ್ರೈಟ್‌ನ ಸ್ತಂಭದ ಬಲಭಾಗದಲ್ಲಿ ನೋಡಲು ಸಾಧ್ಯವಾಗಬೇಕು.
 
-![image of second column with no title](images/electricity-second-column-no-title.png){:width="400px"}
+![ಶೀರ್ಷಿಕೆಯಿಲ್ಲದ ಎರಡನೆಯ ಸ್ತಂಭದ ಚಿತ್ರ](images/electricity-second-column-no-title.png){:width="400px"}
 
 --- /task ---
 
-However, it won't be clear that it is a column about the UK, because the title is still hidden behind the **New Zealand** sprite's column. You need to move the position of where the title appears on the Stage so you can see it.
+ಆದರೆ, ಈ ಸ್ತಂಭವು UK ಬಗೆಗ ಎಂಬುವುದು ಸ್ಪಷ್ಟವಾಗುವುದಿಲ್ಲ, ಏಕೆಂದರೆ ಶೀರ್ಷಿಕೆಯು ಇನ್ನೂ **New Zealand** ಸ್ಪ್ರೈಟ್‌ನ ಸ್ತಂಭದ ಹಿಂದೆ ಮರೆಯಾಗಿದೆ. ನೀವು ನೋಡಲು ಸಾಧ್ಯವಾಗುವಂತೆ Stage ಮೇಲೆ ಶೀರ್ಷಿಕೆಯು ಎಲ್ಲಿ ಕಾಣುತ್ತದೆ ಅಲ್ಲಿಗೆ ಸ್ತಾನವನ್ನು ಚಲಿಸಬೇಕು.
 
 --- task ---
 
-Again, go to the **Code** tab of the **UK** sprite. At the very end of the long script, find the `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` block. Only change the `x`{:class="block3motion"} value to `-20`. The `y`{:class="block3motion"} value can stay at `70`:
+ಮತ್ತೆ, **UK** ಸ್ಪ್ರೈಟ್‌ನ **Code** ಟ್ಯಾಬ್‌ಗೆ ಹೋಗಿ. ಉದ್ದ ಬರಹದ ಅತ್ಯಂತ ಕೊನೆಯಲ್ಲಿ, `go to x:`{:class="block3motion"} `-200` `y:`{:class="block3motion"} `70` ಬ್ಲಾಕ್‌ನ್ನು ಪತ್ತೆಮಾಡಿ. `x`{:class="block3motion"} ಮೌಲ್ಯವನ್ನು ಮಾತ್ರ `-20` ಕ್ಕೆ ಬದಲಾಯಿಸಿ. `y`{:class="block3motion"} ಮೌಲ್ಯವು `70` ರಲ್ಲಿಯೇ ಉಳಿಯಬಹುದು:
 
-![image of UK sprite](images/UK-sprite.png)
+![ಯುಕೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20)y: (70)
@@ -62,19 +62,19 @@ go to x: (-20)y: (70)
 
 --- task ---
 
-Click the green flag. You should now be able to see the **UK** sprite title above the right-hand column. On no! It still says "New Zealand".
+ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ. ನೀವು ಈಗ **UK** ಸ್ಪ್ರೈಟ್‌ನ ಶೀರ್ಷಿಕೆಯನ್ನು ಬಲಭಾಗದ ಸ್ತಂಭದ ಮೇಲೆ ನೋಡಲು ಸಾಧ್ಯವಾಗಬೇಕು. ಅಯ್ಯೋ! ಅದು ಇನ್ನೂ "New Zealand" ಹೇಳುತ್ತಿದೆ.
 
-![image of two columns with the same name](images/electricity-two-columns-same-name.png){:width="400px"}
+![ಒಂದೇ ಹೆಸರಿರುವ ಎರಡು ಸ್ತಂಭಗಳ ಚಿತ್ರ](images/electricity-two-columns-same-name.png){:width="400px"}
 
 --- /task ---
 
-You need to change the text in the `say`{:class="block3looks"} block so that it says "UK".
+ಅದು "UK" ಹೇಳಲು ನೀವು `say`{:class="block3looks"} ಬ್ಲಾಕ್‌ನಲ್ಲಿ ಪಠ್ಯವನ್ನು ಬದಲಾಯಿಸಬೇಕು.
 
 --- task ---
 
-Below the `go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70`, add a `say`{:class="block3looks"} block and type in `UK`. So that the title "UK" is in the centre of the speech bubble, press the space bar on your keyboard four times first and then type `UK`:
+`go to x:`{:class="block3motion"} `-20` `y:`{:class="block3motion"} `70` ಕೆಳಗೆ, `say`{:class="block3looks"} ಬ್ಲಾಕ್‌ ಸೇರಿಸಿ ಮತ್ತು `UK` ಎಂದು ಟೈಪ್‌ ಮಾಡಿ. ಶೀರ್ಷಿಕೆ "UK" ಎನ್ನುವುದು ಮಾತಿನ ಗುಳ್ಳೆಯ ಮಧ್ಯದಲ್ಲಿ ಇರಲು, ಮೊದಲಿಗೆ ನಿಮ್ಮ ಕೀಬೋರ್ಡ್‌ನಲ್ಲಿ ಸ್ಪೇಸ್‌ ಬಾರ್‌ನ್ನು ನಾಲ್ಕು ಬಾರಿ ಒತ್ತಿ ಮತ್ತು ನಂತರ `UK` ಎಂದು ಟೈಪ್‌ ಮಾಡಿ:
 
-![image of UK sprite](images/UK-sprite.png)
+![ಯುಕೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/UK-sprite.png)
 
 ```blocks3
 go to x: (-20) y: (70)
@@ -84,21 +84,21 @@ go to x: (-20) y: (70)
 
 --- task ---
 
-Click the green flag. You should be able to see the **UK** sprite title now in the centre of the speech bubble and above the right-hand column.
+ಹಸಿರು ಬಾವುಟವನ್ನು ಕ್ಲಿಕ್‌ ಮಾಡಿ. ನೀವು ಈಗ **UK** ಸ್ಪ್ರೈಟ್‌ನ ಶೀರ್ಷಿಕೆಯನ್ನು ಮಾತಿನ ಗುಳ್ಳೆಯ ಮಧ್ಯದಲ್ಲಿ ಮತ್ತು ಬಲಭಾಗದ ಸ್ತಂಭದ ಮೇಲ್ಗಡೆ ನೋಡಲು ಸಾಧ್ಯವಾಗಬೇಕು.
 
-![image of UK title in centre of speech bubble](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
+![ಮಾತಿನ ಗುಳ್ಳೆಯ ಮಧ್ಯದಲ್ಲಿರುವ ಯುಕೆ ಶೀರ್ಷಿಕೆಯ ಚಿತ್ರ](images/electricity-title-in-centre-of-bubble.png){:width="300px"}
 
 --- /task ---
 
-The columns look the same because the **UK** sprite's column is still showing the energy values for the **New Zealand** sprite.
+ಸ್ತಂಭವು ಒಂದೇ ರೀತಿ ಕಾಣಿಸುತ್ತದೆ ಏಕೆಂದರೆ **UK** ಸ್ಪ್ರೈಟ್‌ನ ಸ್ತಂಭವು ಇನ್ನೂ **New Zealand** ಸ್ಪ್ರೈಟ್‌ನ ಶಕ್ತಿಯ ಮೌಲ್ಯಗಳನ್ನು ತೋರಿಸುತ್ತಿದೆ.
 
-![image of two graphs look the same](images/electricity-two-graphs-look-same.png){:width="400px"}
+![ಒಂದೇ ರೀತಿ ಕಾಣುವ ಎರಡು ರೇಖಾನಕ್ಷೆಗಳ ಚಿತ್ರ](images/electricity-two-graphs-look-same.png){:width="400px"}
 
 --- task ---
 
-In the **Code** tab of the **UK** sprite, investigate the series of six `set`{:class="block3variables"} variable blocks which show a value for each resource variable. The value in each block represents the percentage (%) contribution of the resource to the overall total (100%). Remember the `set`{:class="block3variables"} blocks are still showing the data for **New Zealand**:
+**UK** ಸ್ಪ್ರೈಟ್‌ನ **Code** ಟ್ಯಾಬ್‌ನಲ್ಲಿ, ಪ್ರತಿಯೊಂದು ಸಂಪನ್ಮೂಲ ವೇರಿಯೇಬಲ್‌ನ ಮೌಲ್ಯ ತೋರಿಸುವ ಆರು `set`{:class="block3variables"} ವೇರಿಯೇಬಲ್‌ ಬ್ಲಾಕ್‌ಗಳ ಸರಣಿಯನ್ನು ಪರಿಶೀಲಿಸಿ. ಪ್ರತಿಯೊಂದು ಬ್ಲಾಕ್‌ನಲ್ಲಿನ ಮೌಲ್ಯವು ಒಟ್ಟಾರೆ ಮೊತ್ತ (100%) ಗೆ ಸಂಪನ್ಮೂಲದ ಶೇಕಡಾವಾರು (%) ಕೊಡುಗೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ. `set`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳು ಇನ್ನೂ **New Zealand**ನ ದತ್ತಾಂಶವನ್ನು ತೋರಿಸುತ್ತಿವೆ ಎಂಬುವುದು ನೆನಪಿರಲಿ:
 
-![image of UK sprite](images/UK-sprite.png)
+![ಯುಕೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (18)
@@ -110,17 +110,17 @@ set [bioenergy v] to (1)
 ```
 --- /task ---
 
-In the **UK** sprite program, you need to replace the `set`{:class="block3variables"} block values with the figures given in the table below.
-Resource Type | UK |
+**UK** ಸ್ಪ್ರೈಟ್‌ ಪ್ರೋಗ್ರಾಮ್‌ನಲ್ಲಿ, ನೀವು `set`{:class="block3variables"} ಬ್ಲಾಕ್‌ನ ಮೌಲ್ಯಗಳನ್ನು ಕೆಳಗಿನ ಕೋಷ್ಟಕದಲ್ಲಿ ಕೊಟ್ಟಿರುವ ಅಂಕೆಗಳಿಂದ ಬದಲಾಯಿಸಬೇಕು.
+ಸಂಪನ್ಮೂಲ ವಿಧ | UK |
 - | - | **Non-renewables** | 64 | **Wind** | 20 | **Solar** | 4 | **Hydro** | 2 | **Geothermal** | 0 | **Bioenergy** | 10 |
 
 <br/><br/>
 
 --- task ---
 
-In the first block `set non-renewables to`{:class="block3variables"}, add the value `64`. This value indicates that non-renewables represent 64 percent of the resources used to generate electricity in the UK:
+ಮೊದಲನೆಯ `set non-renewables to`{:class="block3variables"}ಬ್ಲಾಕ್‌ನಲ್ಲಿ, ಮೌಲ್ಯ `64` ನ್ನು ಸೇರಿಸಿ. ಮೌಲ್ಯವು ಯುಕೆಯಲ್ಲಿ ವಿದ್ಯತ್‌ ಉತ್ಪಾದಿಸಲು ಉಪಯೋಗಿಸುವ ಸಂಪನ್ಮೂಲಗಳ ಶೇಕಡಾ 64 ನ್ನು ನವೀಕರಿಸಲಾಗದ ಪ್ರತಿನಿಧಿಸುತ್ತದೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ:
 
-![image of UK sprite](images/UK-sprite.png)
+![ಯುಕೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -130,9 +130,9 @@ set [nonrenewable v] to (64)
 
 --- task ---
 
-Refer to the table above to complete the values for all the resources using the rest of the `set`{:class="block3variables"} blocks. Your program should now look like this:
+ಉಳಿದ `set`{:class="block3variables"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿಕೊಂಡು ಎಲ್ಲಾ ಸಂಪನ್ಮೂಲಗಳಿಗೆ ಮೌಲ್ಯಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಮೇಲಿನ ಕೋಷ್ಟಕವನ್ನು ನೋಡಿ. ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಮ್‌ ಈಗ ಈ ರೀತಿ ಕಾಣಬೇಕು:
 
-![image of UK sprite](images/UK-sprite.png)
+![ಯುಕೆ ಸ್ಪ್ರೈಟ್‌ ಚಿತ್ರ](images/UK-sprite.png)
 
 ```blocks3
 set [nonrenewable v] to (64)
@@ -147,17 +147,17 @@ set [bioenergy v] to (10)
 
 --- task ---
 
-Check you have inputted the values correctly. Add the values up to double-check: 64 + 20 + 4 + 2 + 0 + 10 = 100. The total always has to be 100 because the value in each block represents the percentage (%) contribution of the resource to the overall total, which is 100 percent.
+ನೀವು ಮೌಲ್ಯಗಳನ್ನು ಸರಿಯಾಗಿ ಇನ್‌ಪುಟ್‌ ಮಾಡಿದ್ದೀರೆಂಬುವುದನ್ನು ಪರಿಶೀಲಿಸಿ. ಖಾತ್ರಿಪಡಿಸಿಕೊಳ್ಳಲು ಮೌಲ್ಯಗಳನ್ನು ಕೂಡಿಸಿ: 64 + 20 + 4 + 2 + 0 + 10 = 100. ಮೊತ್ತವು ಯಾವಾಗಲೂ 100 ಇರಬೇಕು ಏಕೆಂದರೆ ಪ್ರತಿಯೊಂದು ಬ್ಲಾಕ್‌ನಲ್ಲಿರುವ ಮೌಲ್ಯವು ಒಟ್ಟಾರೆ ಮೊತ್ತ, ಅದು ಶೇಕಡಾ 100ಗೆ ಸಂಪನ್ಮೂಲದ ಶೇಕಡಾ (%) ಕೊಡುಗೆಯನ್ನು ಪ್ರತಿನಿಧಿಸುತ್ತದೆ.
 
 --- /task ---
 
 --- task ---
 
-Run the program to compare what resources New Zealand and the UK use to generate energy. You may notice the UK uses more bioenergy than New Zealand. You may also notice that New Zealand uses far more hydropower than the UK to generate electricity.
+ಶಕ್ತಿಯ ಉತ್ಪಾದನೆಗೆ ನ್ಯೂಜಿಲೆಂಡ್‌ ಮತ್ತು ಯುಕೆ ಯಾವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಉಪಯೋಗಿಸುತ್ತವೆ ಎಂಬುವುದನ್ನು ಹೋಲಿಕೆ ಮಾಡಲು ಪ್ರೋಗ್ರಾಮ್‌ ರನ್‌ ಮಾಡಿ. ಯುಕೆ ನ್ಯೂಜಿಲೆಂಡ್‌ಗಿಂತ ಹೆಚ್ಚು ಜೈವಿಕ ಶಕ್ತಿಯನ್ನು ಉಪಯೋಗಿಸುವುದನ್ನು ನೀವು ಗಮನಿಸಬಹುದು. ವಿದ್ಯುತ್‌ ಉತ್ಪಾದಿಸಲು ನ್ಯೂಜಿಲೆಂಡ್‌ ಯುಕೆಗಿಂತ ಬಹಳ ಹೆಚ್ಚು ಜಲಶಕ್ತಿಯನ್ನು ಉಪಯೋಗಿಸುತ್ತದೆ ಎಂಬುವುದನ್ನು ನೀವು ಗಮನಿಸಬಹುದು.
 
-![image to compare two graphs](images/electricity-compare-two-graphs.png){:width="400px"}
+![ಎರಡು ರೇಖಾನಕ್ಷೆಗಳನ್ನು ಹೋಲಿಸುವ ಚಿತ್ರ](images/electricity-compare-two-graphs.png){:width="400px"}
 
-Investigate how much non-renewable energy each country uses to generate electricity. How do the countries compare on their use of non-renewable resources?
+ಪ್ರತಿ ದೇಶವು ವಿದ್ಯುತ್ ಉತ್ಪಾದಿಸಲು ಎಷ್ಟು ನವೀಕರಿಸಲಾಗದ ಶಕ್ತಿಯನ್ನು ಉಪಯೋಗಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ. ದೇಶಗಳು ತಮ್ಮ ನವೀಕರಿಸಲಾಗದ ಸಂಪನ್ಮೂಲಗಳ ಬಳಕೆಯನ್ನು ಹೇಗೆ ಹೋಲಿಸುತ್ತವೆ?
 
 --- /task ---
 
