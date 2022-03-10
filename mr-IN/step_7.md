@@ -1,20 +1,20 @@
-## Draw the third column
+## तीसरा कॉलम काढा
 
-Now it's time to use the resource variables that you created in the previous step to draw the column for the **Third Country** sprite.
+आता, **Third Country** साठी कॉलम काढण्यास आधीच्या टप्प्यात तुम्ही तयार केलेल्या रिसोर्स व्हेरिएबलचा वापर करण्याची वेळ आहे.
 
-In Scratch, you can make a block that starts a new script and can add any Scratch blocks into this new script. You can then reuse the script elsewhere in your program.
+Scratch मध्ये, तुम्ही ब्लॉक्स तयार करू शकता जो नवीन स्क्रिप्ट चालू करतो आणि या नवीन स्क्रिप्ट मध्ये कोणताही Scratch ब्लॉक्स जोडा. त्यानंतर तुम्ही तुमच्या प्रोग्राम मध्ये कोठेही स्क्रिप्टचा पुन्हा वापर करू शकता.
 
 --- task ---
 
-Go to the `My Blocks`{:class="block3myblocks"} menu and click on **Make a Block**. Call the block name `draw` and click on **Add an input number or text**. Change the value `number or text` to `amount`, then click **OK**.
+`My Blocks`{:class="block3myblocks"} मेनू वर जा आणि **Make a Block** वर क्लिक करा. ब्लॉकला `draw` नाव द्या आणि **Add an input number or text** वर क्लिक करा. व्हॅल्यू `number or text` ही `amount` ला बदला, त्यानंतर **OK** वर क्लिक करा.
 
 --- no-print ---
 
-![gif of make a block with input](images/electricity-make-a-block-add-input.gif)
+![इनपुट सह ब्लॉक तयार करण्याचे gif](images/electricity-make-a-block-add-input.gif)
 
 --- /no-print ---
 
-You'll see a new `define`{:class="block3myblocks"} block has been created in the Code area of the **Third Country** sprite:
+तुम्ही `define`{:class="block3myblocks"} ब्लॉक बघाल जो **Third Country** स्प्राईटच्या Code एरियात तयार करण्यात आला आहे:
 
 ```blocks3
 define draw (amount)
@@ -22,11 +22,11 @@ define draw (amount)
 
 --- /task ---
 
-To create the first line in the column, move the **Third Country** sprite with the pen down, then turn it round, and move up the Stage slightly.
+कॉलम मध्ये पहिली लाईन तयार करा, पेन डाऊन करून **Third Country** स्प्राईटवर जा, त्यानंतर तो गोल फिरवा, आणि Stage वर हळूवार जा.
 
 --- task ---
 
-Add three `Motion`{:class="block3motion"} blocks to your new `draw`{:class="block3extensions"} block: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"}, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"}, and `change y by`{:class="block3motion"} `2`:
+तीन `Motion`{:class="block3motion"} ब्लॉक्स तुमच्या नवीन`draw`{:class="block3extensions"} ब्लॉकला जोडा: `move`{:class="block3motion"} `50` `steps`{:class="block3motion"}, `turn right`{:class="block3motion"} `180` `degrees`{:class="block3motion"}, आणि `change y by`{:class="block3motion"} `2`:
 
 ```blocks3
 define draw (amount)
@@ -37,11 +37,11 @@ define draw (amount)
 
 --- /task ---
 
-Use your newly defined `draw`{:class="block3myblocks"} block to draw the correct number of lines for each resource.
+प्रत्येक संसाधनासाठी योग्य संख्या काढण्यासाठी नवीन ठरवलेला `draw`{:class="block3myblocks"} ब्लॉक वापरा.
 
 --- task ---
 
-From the `My Blocks`{:class="block3myblocks"} menu, insert a `draw`{:class="block3myblocks"} block after each of the `set pen color to`{:class="block3extensions"} blocks. Drag each variable across to the `draw`{:class="block3myblocks"} blocks in the following order:
+`My Blocks`{:class="block3myblocks"} मेनू मधून, `draw`{:class="block3myblocks"} ब्लॉक इंसर्ट करा प्रत्येक `set pen color to`{:class="block3extensions"} ब्लॉक्सच्या नंतर. खालील क्रमात `draw`{:class="block3myblocks"} ब्लॉक्समध्ये प्रत्येक व्हेरिएबल ड्रॅग करा:
 + `nonrenewable`{:class="block3variables"}
 + `wind`{:class="block3variables"}
 + `solar`{:class="block3variables"}
@@ -49,7 +49,7 @@ From the `My Blocks`{:class="block3myblocks"} menu, insert a `draw`{:class="bloc
 + `geothermal`{:class="block3variables"}
 + `bioenergy`{:class="block3variables"}.
 
-In the last remaining `draw`{:class="block3myblocks"} block, type the value `1`. This adds a line that is the same colour as the backdrop, to clean up the end of the column:
+अंतिम उर्वरीत `draw`{:class="block3myblocks"} ब्लॉकमध्ये, व्हॅल्यू `1` टाईप करा. कॉलमचा शेवट पुसण्यासाठी हे लाईन म्हणजेच बॅकड्रॉपसाठी सारखा रंग जोडते:
 
 ```blocks3
 when flag clicked
@@ -89,19 +89,19 @@ say [Third Country]
 
 --- task ---
 
-Run your program. In the **Third Country** sprite, you should see that the pen draws just one thin line for each resource. To make the pen draw the correct amount for each resource, you need to set the `repeat`{:class="block3control"} to the amount of each resource type.
+तुमचा प्रोग्राम रन करा. **Third Country** स्प्राईटमध्ये, तुम्हाला पेन प्रत्येक संसाधनासाठी केवळ एक बारीक लाईन काढत असल्याचे दिसायला हवे. प्रत्येक संसाधनासाठी पेन ने योग्य प्रमाण काढण्यासाठी, तुम्हाला प्रत्येक संसाधन प्रकाराच्या प्रमाणासाठी तुम्ही `repeat`{:class="block3control"} सेट करण्याची आवश्यकता आहे.
 
 --- /task ---
 
-Your `draw`{:class="block3myblocks"} blocks are set up to store the amount of electricity for each resource, but the code you defined still only runs once, each time it appears in your script. Use the stored `amount`{:class="block3myblocks"} to control how many times the `draw`{:class="block3myblocks"} block repeats itself.
+तुमचा `draw`{:class="block3myblocks"} ब्लॉक्स प्रत्येक संसाधनासाठी विद्युतचे प्रमाण स्टोअर करण्यासाठी सेट केलेला आहे, परंतु तुम्ही ठरवलेला कोड अजुनही केवळ एकदाच रन होतो, प्रत्येक वेळी तो तुमच्या स्क्रिप्ट मध्ये दिसतो. स्टोअर केलेल्या `amount`{:class="block3myblocks"} चा कितीवेळा `draw`{:class="block3myblocks"} ब्लॉक स्वतः रीपीट होईल हे नियंत्रीत करण्यासाठी वापर करा.
 
 --- task ---
 
-Add a `repeat`{:class="block3control"} block underneath the `define`{:class="block3myblocks"} block. Drag the rounded block `amount`{:class="block3myblocks"} from the `define`{:class="block3myblocks"} block into the `repeat`{:class="block3control"} block:
+`define`{:class="block3myblocks"} ब्लॉकच्या खाली `repeat`{:class="block3control"} ब्लॉक जोडा. गोलाकार ब्लॉक `amount`{:class="block3myblocks"} `define`{:class="block3myblocks"} ब्लॉक मधून `repeat`{:class="block3control"} ब्लॉक मध्ये ड्रॅग करा:
 
 --- no-print ---
 
-![gif of dragging amount](images/electricity-drag-amount.gif)
+![प्रमाण ड्रॅग करण्याचे gif](images/electricity-drag-amount.gif)
 
 --- /no-print ---
 
@@ -118,7 +118,7 @@ end
 
 --- task ---
 
-Test your project. The column for the **Third Country** sprite should now be complete, and show the values you have chosen. When you hover over each resource, the label should appear.
+तुमच्या प्रोजेक्टची तपासणी करा. **Third Country** स्प्राईट साठीचा कॉलम आता पूर्ण व्हायला हवा, आणि तुम्ही निवडलेल्या व्हॅल्यू दाखवायला हव्या. तुम्ही प्रत्येक संसाधनावर फिरता तेव्हा, लेबल दिसले पाहिजे.
 
 --- /task ---
 
