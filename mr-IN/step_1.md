@@ -61,7 +61,7 @@ title: तुम्ही काय शिकणार
 
 --- collapse ---
 ---
-title:: शिक्षकांसाठी अतिरिक्त माहिती
+title: शिक्षकांसाठी अतिरिक्त माहिती
 ---
 
 तुम्ही [येथे पूर्ण केलेला प्रोजेक्ट शोधू शकता](https://rpf.io/p/mr-IN/electricity-generation-get){:target="_blank"}.
