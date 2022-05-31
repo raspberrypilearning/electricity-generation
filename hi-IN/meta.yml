@@ -1,20 +1,23 @@
 ---
 title: इलेक्ट्रिसिटी जनरेशन (विद्युत उत्पादन)
 hero_image: images/banner.png
-description: बिजली उत्पन्न करने के लिए देशों द्वारा उपयोग किए जाने वाले प्राकृतिक संसाधनों की तुलना करने के लिए डेटा विज़ुअलाइज़ेशन बनाएं और वास्तविक डेटा इनपुट करें
+description: बिजली उत्पन्न करने के लिए देशों द्वारा उपयोग किए जाने वाले प्राकृतिक
+  संसाधनों की तुलना करने के लिए डेटा विज़ुअलाइज़ेशन बनाएं और वास्तविक डेटा इनपुट करें
 version: 4
 listed: true
 copyedit: false
 last_tested: '2020-09-16'
 steps:
-  - title: परिचय
-    completion: engaged
-  - title: रंग चुनें
-  - title: UK कॉलम जोड़ें
-  - title: तीसरा देश चुनें
-  - title: एक कलम बनाएँ
-  - title: Resource वेरिएबल बनाएं
-  - title: तीसरा कॉलम ड्रा करें
-    completion: internal
-  - title: अपना प्रॉजेक्ट साझा करें
-  - title: आगे क्या?
+- title: परिचय
+- title: रंग चुनें
+- title: UK कॉलम जोड़ें
+  completion:
+  - engaged
+- title: तीसरा देश चुनें
+- title: एक कलम बनाएँ
+- title: Resource वेरिएबल बनाएं
+- title: तीसरा कॉलम ड्रा करें
+  completion:
+  - internal
+- title: अपना प्रॉजेक्ट साझा करें
+- title: आगे क्या?
