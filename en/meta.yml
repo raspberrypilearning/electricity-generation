@@ -9,13 +9,15 @@ copyedit: false
 last_tested: '2020-09-16'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Pick the colours
 - title: Add a UK column
+  completion:
+  - engaged
 - title: Choose a third country
 - title: Build a pen
 - title: Create the resource variables
 - title: Draw the third column
-  completion: internal
+  completion:
+  - internal
 - title: Share your project
 - title: What next?
