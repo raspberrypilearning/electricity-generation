@@ -21,3 +21,5 @@ steps:
   - internal
 - title: Share your project
 - title: What next?
+  completion:
+  - external
